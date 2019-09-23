@@ -1,7 +1,6 @@
 import React from "react"
 import List from "@material-ui/core/List"
 import { makeStyles } from "@material-ui/core/styles"
-import MailIcon from "@material-ui/icons/Mail"
 import InfoOutlinedIcon from "@material-ui/icons/InfoOutlined"
 import AccountTreeOutlinedIcon from "@material-ui/icons/AccountTreeOutlined"
 import DescriptionOutlinedIcon from "@material-ui/icons/DescriptionOutlined"

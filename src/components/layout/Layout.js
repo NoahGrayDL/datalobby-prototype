@@ -1,7 +1,7 @@
 import React from "react"
 import { makeStyles, useTheme } from "@material-ui/core/styles"
 import Typography from "@material-ui/core/Typography"
-
+import ToolBar from "./ToolBar"
 import { Header, Sidebar } from "../layout"
 
 const useStyles = makeStyles(theme => ({
@@ -54,6 +54,8 @@ const Layout = props => {
           <div className={classes.toolbar}>
             <Typography variant="h6">{menuTitle}</Typography>
           </div>
+          <ToolBar />
+
           <div className={classes.content}>{children}</div>
         </main>
       </div>
