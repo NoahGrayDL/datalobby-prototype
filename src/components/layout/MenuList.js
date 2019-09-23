@@ -16,35 +16,43 @@ import PrintIcon from "@material-ui/icons/Print"
 const MENUS = [
   {
     title: "Company Information",
-    icon: <InfoOutlinedIcon />
+    icon: <InfoOutlinedIcon />,
+    url: "/company-inforamtion"
   },
   {
     title: "Chart of Account",
-    icon: <AccountTreeOutlinedIcon />
+    icon: <AccountTreeOutlinedIcon />,
+    url: "/chart-of-account"
   },
   {
     title: "Ledgers",
-    icon: <DescriptionOutlinedIcon />
+    icon: <DescriptionOutlinedIcon />,
+    url: "/ledgers"
   },
   {
     title: "Trial Balance",
-    icon: <AccountBalanceWalletIcon />
+    icon: <AccountBalanceWalletIcon />,
+    url: "/trial-balance"
   },
   {
     title: "Adjustments",
-    icon: <EditIcon />
+    icon: <EditIcon />,
+    url: "/adjustments"
   },
   {
     title: "Lead Sheet",
-    icon: <ViewWeekIcon />
+    icon: <ViewWeekIcon />,
+    url: "/lead-sheet"
   },
   {
     title: "Financial Statements",
-    icon: <AttachMoneyIcon />
+    icon: <AttachMoneyIcon />,
+    url: "/financial-statements"
   },
   {
     title: "Report",
-    icon: <PrintIcon />
+    icon: <PrintIcon />,
+    url: "/report"
   }
 ]
 
@@ -52,8 +60,8 @@ const MenuList = () => {
   return (
     <List>
       {MENUS.map((item, index) => {
-        const { title, icon } = item
-        return <Menu title={title} index={index} icon={icon} />
+        const { title, icon, url } = item
+        return <Menu title={title} index={index} icon={icon} url={url} />
       })}
     </List>
   )

@@ -8,21 +8,23 @@ const useStyles = makeStyles(theme => ({
   root: {
     display: "flex"
   },
+  contentContainer: {
+    flexGrow: 1,
+    padding: theme.spacing(2, 3)
+  },
   toolbar: {
     display: "flex",
-    alignItems: "center",
-    justifyContent: "flex-end",
-    padding: theme.spacing(0, 1),
-    ...theme.mixins.toolbar
+    alignItems: "left",
+    justifyContent: "flex-start",
+    padding: theme.spacing(0, 0, 1)
   },
   content: {
-    flexGrow: 1,
-    padding: theme.spacing(3)
+    flexGrow: 1
   }
 }))
 
 const Layout = props => {
-  const { children } = props
+  const { children, menuTitle } = props
   const classes = useStyles()
   const theme = useTheme()
   const [open, setOpen] = React.useState(false)
@@ -48,10 +50,11 @@ const Layout = props => {
       />
       <div style={{ width: "100%" }}>
         <Header open={open} />
-
-        <main className={classes.content}>
-          <div className={classes.toolbar} />
-          <Typography paragraph>{children}</Typography>
+        <main className={classes.contentContainer}>
+          <div className={classes.toolbar}>
+            <Typography variant="h6">{menuTitle}</Typography>
+          </div>
+          <div className={classes.content}>{children}</div>
         </main>
       </div>
     </div>
