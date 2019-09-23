@@ -3,8 +3,8 @@ import React from "react"
 import { Layout } from "../../components/layout"
 //-----*-----*-----*-----*-----*-----//
 
-const Leadsheet = () => {
-  return <Layout menuTitle="Leadsheet">Leadsheet</Layout>
+const Ledgers = () => {
+  return <Layout menuTitle="Ledgers">Ledgers</Layout>
 }
 
-export default Leadsheet
+export default Ledgers

@@ -17,7 +17,7 @@ const MENUS = [
   {
     title: "Company Information",
     icon: <InfoOutlinedIcon />,
-    url: "/company-inforamtion"
+    url: "/company-information"
   },
   {
     title: "Chart of Account",
