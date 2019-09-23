@@ -12,6 +12,17 @@ import AttachMoneyIcon from "@material-ui/icons/AttachMoney"
 import PrintIcon from "@material-ui/icons/Print"
 //-----*-----*-----*-----*-----*-----//
 
+const MenuList = () => {
+  return (
+    <List>
+      {MENUS.map((item, index) => {
+        const { title, icon, url } = item
+        return <Menu title={title} index={index} icon={icon} url={url} />
+      })}
+    </List>
+  )
+}
+
 const MENUS = [
   {
     title: "Company Information",
@@ -54,16 +65,5 @@ const MENUS = [
     url: "/report"
   }
 ]
-
-const MenuList = () => {
-  return (
-    <List>
-      {MENUS.map((item, index) => {
-        const { title, icon, url } = item
-        return <Menu title={title} index={index} icon={icon} url={url} />
-      })}
-    </List>
-  )
-}
 
 export default MenuList

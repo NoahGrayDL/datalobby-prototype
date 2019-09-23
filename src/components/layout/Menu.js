@@ -22,7 +22,8 @@ const useStyles = makeStyles(theme => ({
     }
   },
   menuIcon: {
-    minWidth: 40
+    minWidth: 40,
+    marginRight: 2
   }
 }))
 

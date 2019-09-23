@@ -11,6 +11,35 @@ import MenuList from "./MenuList"
 
 const drawerWidth = 240
 
+const Sidebar = props => {
+  const { open, handleDrawerClose, handleDrawerOpen } = props
+  const classes = useStyles()
+
+  return (
+    <Drawer
+      variant="permanent"
+      className={clsx(classes.drawer, {
+        [classes.drawerOpen]: open,
+        [classes.drawerClose]: !open
+      })}
+      classes={{
+        paper: clsx({
+          [classes.drawerOpen]: open,
+          [classes.drawerClose]: !open
+        })
+      }}
+      open={open}
+    >
+      <div className={classes.toolbar}>
+        <IconButton onClick={open ? handleDrawerClose : handleDrawerOpen}>
+          {open ? <ChevronLeftIcon /> : <ChevronRightIcon />}
+        </IconButton>
+      </div>
+      <MenuList />
+    </Drawer>
+  )
+}
+
 const useStyles = makeStyles(theme => ({
   drawer: {
     width: drawerWidth,
@@ -46,34 +75,5 @@ const useStyles = makeStyles(theme => ({
     padding: 0
   }
 }))
-
-const Sidebar = props => {
-  const { open, handleDrawerClose, handleDrawerOpen } = props
-  const classes = useStyles()
-
-  return (
-    <Drawer
-      variant="permanent"
-      className={clsx(classes.drawer, {
-        [classes.drawerOpen]: open,
-        [classes.drawerClose]: !open
-      })}
-      classes={{
-        paper: clsx({
-          [classes.drawerOpen]: open,
-          [classes.drawerClose]: !open
-        })
-      }}
-      open={open}
-    >
-      <div className={classes.toolbar}>
-        <IconButton onClick={open ? handleDrawerClose : handleDrawerOpen}>
-          {open ? <ChevronLeftIcon /> : <ChevronRightIcon />}
-        </IconButton>
-      </div>
-      <MenuList />
-    </Drawer>
-  )
-}
 
 export default Sidebar

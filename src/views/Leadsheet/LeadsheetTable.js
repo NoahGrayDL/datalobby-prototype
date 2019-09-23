@@ -1,72 +1,15 @@
 import React from "react"
 import ReactTable from "react-table"
 import "react-table/react-table.css"
-
+import DUMMY from "./dummy.json"
 //-----*-----*-----*-----*-----*-----//
-
-const data = [
-  {
-    firstName: "b",
-    lastName: "a",
-    age: 324,
-    visits: 12,
-    progress: 123
-  },
-  {
-    firstName: "b",
-    lastName: "a",
-    age: 324,
-    visits: 12,
-    progress: 123
-  },
-  {
-    firstName: "b",
-    lastName: "a",
-    age: 324,
-    visits: 12,
-    progress: 123
-  }
-]
 
 const LeadsheetTable = () => {
   return (
     <div>
       <ReactTable
         data={data}
-        columns={[
-          {
-            Header: "Caption",
-            columns: [
-              {
-                Header: "First Name",
-                accessor: "firstName"
-              }
-            ]
-          },
-          {
-            Header: "General Ledger Account",
-            columns: [
-              {
-                Header: "First Name",
-                accessor: "firstName"
-              },
-              {
-                Header: "Last Name",
-                id: "lastName",
-                accessor: d => d.lastName
-              }
-            ]
-          },
-          {
-            Header: "Info",
-            columns: [
-              {
-                Header: "Age",
-                accessor: "age"
-              }
-            ]
-          }
-        ]}
+        columns={columnStructure}
         defaultPageSize={20}
         style={{
           height: "400px" // This will force the table body to overflow and scroll, since there is not enough room
@@ -76,5 +19,111 @@ const LeadsheetTable = () => {
     </div>
   )
 }
+
+const data = DUMMY
+
+const columnStructure = [
+  {
+    Header: "Caption",
+    columns: [
+      {
+        Header: "",
+        accessor: "caption"
+      }
+    ]
+  },
+  {
+    Header: "General Ledger Account",
+    columns: [
+      {
+        Header: "Code",
+        accessor: "accountCode"
+      },
+      {
+        Header: "Account Title",
+        id: "accountTitle",
+        accessor: d => d.accountTitle
+      }
+    ]
+  },
+  {
+    Header: "Trial Balance",
+    columns: [
+      {
+        Header: "Debit",
+        accessor: "debit"
+      },
+      {
+        Header: "Credit",
+        accessor: "credit"
+      }
+    ]
+  },
+  {
+    Header: "Cumulated AJE",
+    columns: [
+      {
+        Header: "Debit",
+        accessor: "debit"
+      },
+      {
+        Header: "Credit",
+        accessor: "credit"
+      }
+    ]
+  },
+  {
+    Header: "Adjusted TB",
+    columns: [
+      {
+        Header: "Debit",
+        accessor: "debit"
+      },
+      {
+        Header: "Credit",
+        accessor: "credit"
+      }
+    ]
+  },
+  {
+    Header: "Subsidiary A",
+    columns: [
+      {
+        Header: "Debit",
+        accessor: "debit"
+      },
+      {
+        Header: "Credit",
+        accessor: "credit"
+      }
+    ]
+  },
+  {
+    Header: "Subsidiary B",
+    columns: [
+      {
+        Header: "Debit",
+        accessor: "debit"
+      },
+      {
+        Header: "Credit",
+        accessor: "credit"
+      }
+    ]
+  },
+  {
+    Header: "Consolidated TB",
+    columns: [
+      {
+        Header: "Debit",
+        accessor: "debit"
+      },
+      {
+        Header: "Credit",
+        accessor: "credit"
+      }
+    ]
+  }
+]
 
 export default LeadsheetTable

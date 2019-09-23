@@ -14,70 +14,13 @@ const ToolBar = props => {
   const classes = useStyles()
   return (
     <div>
-      <InfoOutlinedIcon className={classes.icon} />
-      <Filter filterName="Leadsheet View" filterItems={leadsheetFilter} />
-      <Filter filterName="Entity" filterItems={entityFilter} />
-      <Filter filterName="Unit" filterItems={unitFilter} />
-      <Filter filterName="Date" filterItems={dateFilter} />
+      {/* <InfoOutlinedIcon className={classes.icon} /> */}
+      {filters.map(item => {
+        const { filterName, filterItems } = item
+        return <Filter filterName={filterName} filterItems={filterItems} />
+      })}
     </div>
   )
 }
 
-const leadsheetFilter = [
-  {
-    value: 1,
-    title: "Lead sheet view 1"
-  },
-  {
-    value: 2,
-    title: "Lead sheet view 2"
-  },
-  {
-    value: 3,
-    title: "Lead sheet view 3"
-  }
-]
-
-const entityFilter = [
-  {
-    value: 1,
-    title: "filter value 1"
-  },
-  {
-    value: 2,
-    title: "filter value 2"
-  },
-  {
-    value: 3,
-    title: "filter value 3"
-  }
-]
-const unitFilter = [
-  {
-    value: 1,
-    title: "filter value 1"
-  },
-  {
-    value: 2,
-    title: "filter value 2"
-  },
-  {
-    value: 3,
-    title: "filter value 3"
-  }
-]
-const dateFilter = [
-  {
-    value: 1,
-    title: "filter value 1"
-  },
-  {
-    value: 2,
-    title: "filter value 2"
-  },
-  {
-    value: 3,
-    title: "filter value 3"
-  }
-]
 export default ToolBar

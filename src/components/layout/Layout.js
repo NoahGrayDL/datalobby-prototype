@@ -4,27 +4,10 @@ import Typography from "@material-ui/core/Typography"
 import ToolBar from "./ToolBar"
 import { Header, Sidebar } from "../layout"
 
-const useStyles = makeStyles(theme => ({
-  root: {
-    display: "flex"
-  },
-  contentContainer: {
-    flexGrow: 1,
-    padding: theme.spacing(2, 3)
-  },
-  toolbar: {
-    display: "flex",
-    alignItems: "left",
-    justifyContent: "flex-start",
-    padding: theme.spacing(0, 0, 1)
-  },
-  content: {
-    flexGrow: 1
-  }
-}))
+//-----*-----*-----*-----*-----*-----//
 
 const Layout = props => {
-  const { children, menuTitle } = props
+  const { children, menuTitle, filters } = props
   const classes = useStyles()
   const theme = useTheme()
   const [open, setOpen] = React.useState(false)
@@ -54,7 +37,7 @@ const Layout = props => {
           <div className={classes.toolbar}>
             <Typography variant="h6">{menuTitle}</Typography>
           </div>
-          <ToolBar />
+          {filters && <ToolBar filters={filters} />}
 
           <div className={classes.content}>{children}</div>
         </main>
@@ -62,5 +45,24 @@ const Layout = props => {
     </div>
   )
 }
+
+const useStyles = makeStyles(theme => ({
+  root: {
+    display: "flex"
+  },
+  contentContainer: {
+    flexGrow: 1,
+    padding: theme.spacing(2, 3)
+  },
+  toolbar: {
+    display: "flex",
+    alignItems: "left",
+    justifyContent: "flex-start",
+    padding: theme.spacing(0, 0, 1)
+  },
+  content: {
+    flexGrow: 1
+  }
+}))
 
 export default Layout
