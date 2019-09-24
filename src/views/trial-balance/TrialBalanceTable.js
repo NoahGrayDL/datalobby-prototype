@@ -1,119 +1,62 @@
 import React from "react"
 import { BasicTable } from "../../components/tables"
-
-import DUMMY from "./dummy.json"
+import styled from "styled-components"
+import generalLedgerAccounts from "../../assets/dummy-data/generalLedgerAccounts.json"
+import captions from "../../assets/dummy-data/captions.json"
+import {
+  generalLedgerAccountsColumn,
+  captionColumn,
+  trialBalanceOpeningColumn,
+  trialBalanceCurrentPeriodColumn,
+  trialBalanceNetChangeColumn,
+  trialBalanceEndingColumn
+} from "../../assets/dummy-data/columnStructure"
 //-----*-----*-----*-----*-----*-----//
 
 const TrialBalanceTable = () => {
-  return <BasicTable data={DUMMY} columnStructure={columnStructure} />
+  return (
+    <StyledTBContainer>
+      {dataSet.map(item => {
+        const { data, columnStructure } = item
+        return <BasicTable data={data} columnStructure={columnStructure} />
+      })}
+    </StyledTBContainer>
+  )
 }
 
-const columnStructure = [
+const dataSet = [
   {
-    Header: "General Ledger Account",
-    columns: [
-      {
-        Header: "Code",
-        accessor: "caption"
-      },
-      {
-        Header: "Title",
-        accessor: "caption"
-      }
-    ]
+    data: generalLedgerAccounts,
+    columnStructure: generalLedgerAccountsColumn
   },
   {
-    Header: "General Ledger Account",
-    columns: [
-      {
-        Header: "Code",
-        accessor: "accountCode"
-      },
-      {
-        Header: "Account Title",
-        id: "accountTitle",
-        accessor: d => d.accountTitle
-      }
-    ]
+    data: captions,
+    columnStructure: captionColumn
   },
   {
-    Header: "Trial Balance",
-    columns: [
-      {
-        Header: "Debit",
-        accessor: "debit"
-      },
-      {
-        Header: "Credit",
-        accessor: "credit"
-      }
-    ]
+    data: generalLedgerAccounts,
+    columnStructure: trialBalanceOpeningColumn
   },
   {
-    Header: "Cumulated AJE",
-    columns: [
-      {
-        Header: "Debit",
-        accessor: "debit"
-      },
-      {
-        Header: "Credit",
-        accessor: "credit"
-      }
-    ]
+    data: generalLedgerAccounts,
+    columnStructure: trialBalanceCurrentPeriodColumn
   },
   {
-    Header: "Adjusted TB",
-    columns: [
-      {
-        Header: "Debit",
-        accessor: "debit"
-      },
-      {
-        Header: "Credit",
-        accessor: "credit"
-      }
-    ]
+    data: generalLedgerAccounts,
+    columnStructure: trialBalanceNetChangeColumn
   },
   {
-    Header: "Subsidiary A",
-    columns: [
-      {
-        Header: "Debit",
-        accessor: "debit"
-      },
-      {
-        Header: "Credit",
-        accessor: "credit"
-      }
-    ]
-  },
-  {
-    Header: "Subsidiary B",
-    columns: [
-      {
-        Header: "Debit",
-        accessor: "debit"
-      },
-      {
-        Header: "Credit",
-        accessor: "credit"
-      }
-    ]
-  },
-  {
-    Header: "Consolidated TB",
-    columns: [
-      {
-        Header: "Debit",
-        accessor: "debit"
-      },
-      {
-        Header: "Credit",
-        accessor: "credit"
-      }
-    ]
+    data: generalLedgerAccounts,
+    columnStructure: trialBalanceEndingColumn
   }
 ]
+
+const StyledTBContainer = styled.div`
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  width: 100%;
+  overflow-x: scroll;
+`
 
 export default TrialBalanceTable

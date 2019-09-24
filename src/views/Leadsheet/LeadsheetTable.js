@@ -16,7 +16,7 @@ import balanceSheet from "../../assets/dummy-data/balanceSheet.json"
 
 import {
   captionColumn,
-  generalLedgerAccountColumn,
+  generalLedgerAccountsColumn,
   tbColumn,
   cumulatedAdjustmentsColumn,
   adjustedTBColumn,
@@ -50,7 +50,7 @@ const dataSet = [
   },
   {
     data: generalLedgerAccounts,
-    columnStructure: generalLedgerAccountColumn,
+    columnStructure: generalLedgerAccountsColumn,
     isFoldable: false
   },
   {

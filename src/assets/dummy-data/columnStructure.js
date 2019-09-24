@@ -15,7 +15,7 @@ const captionColumn = [
   }
 ]
 
-const generalLedgerAccountColumn = [
+const generalLedgerAccountsColumn = [
   {
     Header: "General Ledger Account",
     foldable: true,
@@ -35,6 +35,70 @@ const generalLedgerAccountColumn = [
 const tbColumn = [
   {
     Header: "Trial Balance",
+    columns: [
+      {
+        Header: "Debit",
+        accessor: "tbDebit"
+      },
+      {
+        Header: "Credit",
+        accessor: "tbCredit"
+      }
+    ]
+  }
+]
+
+const trialBalanceOpeningColumn = [
+  {
+    Header: "TB Opening Balance",
+    columns: [
+      {
+        Header: "Debit",
+        accessor: "tbDebit"
+      },
+      {
+        Header: "Credit",
+        accessor: "tbCredit"
+      }
+    ]
+  }
+]
+
+const trialBalanceCurrentPeriodColumn = [
+  {
+    Header: "TB Current Period",
+    columns: [
+      {
+        Header: "Debit",
+        accessor: "tbDebit"
+      },
+      {
+        Header: "Credit",
+        accessor: "tbCredit"
+      }
+    ]
+  }
+]
+
+const trialBalanceNetChangeColumn = [
+  {
+    Header: "TB Net Change",
+    columns: [
+      {
+        Header: "Debit",
+        accessor: "tbDebit"
+      },
+      {
+        Header: "Credit",
+        accessor: "tbCredit"
+      }
+    ]
+  }
+]
+
+const trialBalanceEndingColumn = [
+  {
+    Header: "TB Ending Balance",
     columns: [
       {
         Header: "Debit",
@@ -194,8 +258,12 @@ const balanceSheetColumn = [
 
 export {
   captionColumn,
-  generalLedgerAccountColumn,
+  generalLedgerAccountsColumn,
   tbColumn,
+  trialBalanceOpeningColumn,
+  trialBalanceCurrentPeriodColumn,
+  trialBalanceNetChangeColumn,
+  trialBalanceEndingColumn,
   cumulatedAdjustmentsColumn,
   adjustedTBColumn,
   subsidiaryAColumn,
