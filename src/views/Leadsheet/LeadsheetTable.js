@@ -1,18 +1,18 @@
 import React from "react"
 import { BasicTable, FoldableTable } from "../../components/tables"
 import styled from "styled-components"
-import captions from "./dummy-data/captions.json"
-import generalLedgerAccounts from "./dummy-data/generalLedgerAccounts.json"
-import trialBalance from "./dummy-data/trialBalance.json"
-import cumulatedAdjustments from "./dummy-data/cumulatedAdjustments.json"
-import adjustedTB from "./dummy-data/adjustedTB.json"
-import subsidiaryA from "./dummy-data/subsidiaryA.json"
-import subsidiaryB from "./dummy-data/subsidiaryB.json"
-import combinedTB from "./dummy-data/combinedTB.json"
-import cumulativeEliminatingEntries from "./dummy-data/cumulativeEliminatingEntries.json"
-import consolidatedTB from "./dummy-data/consolidatedTB.json"
-import incomeStatement from "./dummy-data/incomeStatement.json"
-import balanceSheet from "./dummy-data/balanceSheet.json"
+import captions from "../../assets/dummy-data/captions.json"
+import generalLedgerAccounts from "../../assets/dummy-data/generalLedgerAccounts.json"
+import trialBalance from "../../assets/dummy-data/trialBalance.json"
+import cumulatedAdjustments from "../../assets/dummy-data/cumulatedAdjustments.json"
+import adjustedTB from "../../assets/dummy-data/adjustedTB.json"
+import subsidiaryA from "../../assets/dummy-data/subsidiaryA.json"
+import subsidiaryB from "../../assets/dummy-data/subsidiaryB.json"
+import combinedTB from "../../assets/dummy-data/combinedTB.json"
+import cumulativeEliminatingEntries from "../../assets/dummy-data/cumulativeEliminatingEntries.json"
+import consolidatedTB from "../../assets/dummy-data/consolidatedTB.json"
+import incomeStatement from "../../assets/dummy-data/incomeStatement.json"
+import balanceSheet from "../../assets/dummy-data/balanceSheet.json"
 
 import {
   captionColumn,
@@ -27,7 +27,7 @@ import {
   consolidatedTBColumn,
   incomeStatementColumn,
   balanceSheetColumn
-} from "./dummy-data/columnStructure"
+} from "../../assets/dummy-data/columnStructure"
 //-----*-----*-----*-----*-----*-----//
 
 const LeadsheetTable = () => {
