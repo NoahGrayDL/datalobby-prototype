@@ -35,6 +35,7 @@ export default function CompanyCard(props) {
           {currency} {timeZone}
         </Typography>
       </CardContent>
+      {/* ----- actions ----- */}
       <CardActions className={classes.actions}>
         <Button size="small">Chart of Account</Button>
         <Button size="small">Edit</Button>

@@ -1,8 +1,8 @@
 [
   {
     "caption": "captionA",
-    "accountCode": "b",
-    "accountTitle": "a",
+    "accountCode": "5480",
+    "accountTitle": "account title A",
     "debit": 1234,
     "credit": 234,
     "age": 324,
@@ -11,8 +11,8 @@
   },
   {
     "caption": "captionB",
-    "accountCode": "b",
-    "accountTitle": "a",
+    "accountCode": "3301-120",
+    "accountTitle": "account title B",
     "debit": 1234,
     "credit": 234,
     "age": 324,
@@ -21,8 +21,8 @@
   },
   {
     "caption": "captionC",
-    "accountCode": "b",
-    "accountTitle": "a",
+    "accountCode": "1200-1",
+    "accountTitle": "account title C",
     "debit": 1234,
     "credit": 234,
     "age": 324,

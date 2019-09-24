@@ -30,6 +30,7 @@ const useStyles = makeStyles(theme => ({
   },
   search: {
     position: "relative",
+    justifyContent: "flex-end",
     borderRadius: theme.shape.borderRadius,
     backgroundColor: fade(theme.palette.common.white, 0.15),
     "&:hover": {
@@ -76,6 +77,8 @@ const useStyles = makeStyles(theme => ({
     }
   }
 }))
+
+//! Mobile 처리 손 봐야 함. 기본 Appbar를 수정하면서 모바일 부분이 헝클어졌을 듯
 
 const Header = props => {
   const { open } = props

@@ -1,115 +1,84 @@
 import React from "react"
-import { BasicTable } from "../../components/tables"
-import DUMMY from "./dummy.json"
+import {
+  BasicTable,
+  FoldableTable,
+  SearchableTable
+} from "../../components/tables"
+import DUMMY from "./dummy-data/dummy.json"
+import generalLedgerAccounts from "./dummy-data/generalLedgerAccounts.json"
+import captionSet1 from "./dummy-data/captionSet1.json"
+import captionSet2 from "./dummy-data/captionSet2.json"
+import styled from "styled-components"
 
 //-----*-----*-----*-----*-----*-----//
 
 const CoATable = () => {
-  return <BasicTable data={DUMMY} columnStructure={columnStructure} />
+  return (
+    <StyledCoAContainer>
+      <SearchableTable
+        data={generalLedgerAccounts}
+        columnStructure={generalLedgerAccountsColumn}
+      />
+      <SearchableTable data={captionSet1} columnStructure={captionSet1Column} />
+      <SearchableTable data={captionSet2} columnStructure={captionSet2Column} />
+    </StyledCoAContainer>
+  )
 }
 
-const columnStructure = [
-  {
-    Header: "Caption",
-    columns: [
-      {
-        Header: "",
-        accessor: "caption"
-      }
-    ]
-  },
+const generalLedgerAccountsColumn = [
   {
     Header: "General Ledger Account",
     columns: [
       {
+        Header: "Title",
+        accessor: "accountTitle"
+      },
+      {
         Header: "Code",
         accessor: "accountCode"
-      },
-      {
-        Header: "Account Title",
-        id: "accountTitle",
-        accessor: d => d.accountTitle
-      }
-    ]
-  },
-  {
-    Header: "Trial Balance",
-    columns: [
-      {
-        Header: "Debit",
-        accessor: "debit"
-      },
-      {
-        Header: "Credit",
-        accessor: "credit"
-      }
-    ]
-  },
-  {
-    Header: "Cumulated AJE",
-    columns: [
-      {
-        Header: "Debit",
-        accessor: "debit"
-      },
-      {
-        Header: "Credit",
-        accessor: "credit"
-      }
-    ]
-  },
-  {
-    Header: "Adjusted TB",
-    columns: [
-      {
-        Header: "Debit",
-        accessor: "debit"
-      },
-      {
-        Header: "Credit",
-        accessor: "credit"
-      }
-    ]
-  },
-  {
-    Header: "Subsidiary A",
-    columns: [
-      {
-        Header: "Debit",
-        accessor: "debit"
-      },
-      {
-        Header: "Credit",
-        accessor: "credit"
-      }
-    ]
-  },
-  {
-    Header: "Subsidiary B",
-    columns: [
-      {
-        Header: "Debit",
-        accessor: "debit"
-      },
-      {
-        Header: "Credit",
-        accessor: "credit"
-      }
-    ]
-  },
-  {
-    Header: "Consolidated TB",
-    columns: [
-      {
-        Header: "Debit",
-        accessor: "debit"
-      },
-      {
-        Header: "Credit",
-        accessor: "credit"
       }
     ]
   }
 ]
+
+const captionSet1Column = [
+  {
+    Header: "Caption Set for SEC",
+    columns: [
+      {
+        Header: "Captions",
+        accessor: "caption"
+      },
+      {
+        Header: "Description",
+        accessor: "description"
+      }
+    ]
+  }
+]
+
+const captionSet2Column = [
+  {
+    Header: "Caption Set for non GAAP",
+    columns: [
+      {
+        Header: "Captions",
+        accessor: "caption"
+      },
+      {
+        Header: "Description",
+        accessor: "description"
+      }
+    ]
+  }
+]
+
+const StyledCoAContainer = styled.div`
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  width: 100%;
+  overflow-x: scroll;
+`
 
 export default CoATable

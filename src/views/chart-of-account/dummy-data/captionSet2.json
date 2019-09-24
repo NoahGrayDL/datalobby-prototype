@@ -1,0 +1,17 @@
+[
+  {
+    "caption": "captionA",
+    "description": "This is Description...",
+    "accountCode": "5480"
+  },
+  {
+    "caption": "captionB",
+    "description": "This is Description...",
+    "accountCode": "3301-120"
+  },
+  {
+    "caption": "captionC",
+    "description": "This is Description...",
+    "accountCode": "1200-1"
+  }
+]

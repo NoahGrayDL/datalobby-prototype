@@ -10,6 +10,24 @@ import { primaryColor } from "../standard"
 
 //-----*-----*-----*-----*-----*-----//
 
+const SidebarMenu = props => {
+  const { title, icon, url } = props
+  const classes = useStyles()
+
+  return (
+    <NavLink
+      to={url}
+      className={classes.link}
+      activeClassName={classes.activeMenu}
+    >
+      <ListItem button key={title} className={classes.menu}>
+        <ListItemIcon className={classes.menuIcon}>{icon}</ListItemIcon>
+        <ListItemText primary={title} />
+      </ListItem>
+    </NavLink>
+  )
+}
+
 const useStyles = makeStyles(theme => ({
   link: {
     textDecoration: "none",
@@ -28,23 +46,5 @@ const useStyles = makeStyles(theme => ({
     marginRight: 2
   }
 }))
-
-const SidebarMenu = props => {
-  const { title, icon, url } = props
-  const classes = useStyles()
-
-  return (
-    <NavLink
-      to={url}
-      className={classes.link}
-      activeClassName={classes.activeMenu}
-    >
-      <ListItem button key={title} className={classes.menu}>
-        <ListItemIcon className={classes.menuIcon}>{icon}</ListItemIcon>
-        <ListItemText primary={title} />
-      </ListItem>
-    </NavLink>
-  )
-}
 
 export default SidebarMenu
