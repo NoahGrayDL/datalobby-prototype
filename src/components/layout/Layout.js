@@ -44,7 +44,9 @@ const Layout = props => {
         <main className={classes.container}>
           <AppBar
             position="relative"
-            className={clsx(classes.appBar, { [classes.appBarShift]: open })}
+            className={clsx(classes.menuTitleBar, {
+              [classes.menuTitleBarShift]: open
+            })}
           >
             <Typography variant="h6">{menuTitle}</Typography>
             <Button size="small">{menuButton}</Button>
@@ -73,12 +75,10 @@ const useStyles = makeStyles(theme => ({
   container: {
     padding: theme.spacing(2, 3)
   },
-  // this appbar for sub header which has menu title
-  appBar: {
-    width: `calc(100vw - ${collapsedDrawerWidth}px)`,
+  // this menuTitleBar for sub header which has menu title. origin=appBar
+  menuTitleBar: {
     display: "flex",
     flexDirection: "row",
-    alignItems: "left",
     justifyContent: "space-between",
     padding: theme.spacing(0, 0, 1),
     color: "#000000",
@@ -89,9 +89,7 @@ const useStyles = makeStyles(theme => ({
       duration: theme.transitions.duration.leavingScreen
     })
   },
-  appBarShift: {
-    marginLeft: collapsedDrawerWidth,
-    width: `calc(100% - ${collapsedDrawerWidth}px)`,
+  menuTitleBarShift: {
     transition: theme.transitions.create(["width", "margin"], {
       easing: theme.transitions.easing.sharp,
       duration: theme.transitions.duration.enteringScreen
