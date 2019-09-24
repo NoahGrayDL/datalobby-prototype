@@ -5,7 +5,7 @@ import { Layout } from "../../components/layout"
 
 const CompanyInformation = () => {
   return (
-    <Layout menuTitle="Company Information">
+    <Layout menuTitle="Company Information" menuButton="Add Company">
       <CompanyList />
     </Layout>
   )

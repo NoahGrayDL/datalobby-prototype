@@ -7,13 +7,13 @@ import LeadsheetTable from "./LeadsheetTable"
 
 const Leadsheet = () => {
   return (
-    <Layout menuTitle="Leadsheet" filters={leadsheetFilters}>
+    <Layout menuTitle="Leadsheet" filters={LeadsheetFilters}>
       <LeadsheetTable />
     </Layout>
   )
 }
 
-const leadsheetFilters = [
+const LeadsheetFilters = [
   {
     filterName: "Leadsheet View",
     filterItems: [

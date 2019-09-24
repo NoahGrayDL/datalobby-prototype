@@ -17,7 +17,13 @@ const ToolBar = props => {
       {/* <InfoOutlinedIcon className={classes.icon} /> */}
       {filters.map(item => {
         const { filterName, filterItems } = item
-        return <Filter filterName={filterName} filterItems={filterItems} />
+        return (
+          <Filter
+            filterName={filterName}
+            filterItems={filterItems}
+            key={filterName}
+          />
+        )
       })}
     </div>
   )

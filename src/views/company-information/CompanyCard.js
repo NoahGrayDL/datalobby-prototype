@@ -49,7 +49,7 @@ const useStyles = makeStyles(theme => ({
     marginBottom: theme.spacing(2),
     transition: "0.4s",
     "&:hover": {
-      backgroundColor: "pink"
+      backgroundColor: "#e5e5e5"
     }
   },
   title: {

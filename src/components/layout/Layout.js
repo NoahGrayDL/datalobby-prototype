@@ -1,13 +1,15 @@
 import React from "react"
 import { makeStyles, useTheme } from "@material-ui/core/styles"
 import Typography from "@material-ui/core/Typography"
+import Button from "@material-ui/core/Button"
+
 import ToolBar from "./ToolBar"
 import { Header, Sidebar } from "../layout"
 
 //-----*-----*-----*-----*-----*-----//
 
 const Layout = props => {
-  const { children, menuTitle, filters } = props
+  const { children, menuTitle, menuButton, filters } = props
   const classes = useStyles()
   const theme = useTheme()
   const [open, setOpen] = React.useState(false)
@@ -36,6 +38,7 @@ const Layout = props => {
         <main className={classes.contentContainer}>
           <div className={classes.toolbar}>
             <Typography variant="h6">{menuTitle}</Typography>
+            <Button size="small">{menuButton}</Button>
           </div>
           {filters && <ToolBar filters={filters} />}
 
@@ -57,8 +60,9 @@ const useStyles = makeStyles(theme => ({
   toolbar: {
     display: "flex",
     alignItems: "left",
-    justifyContent: "flex-start",
-    padding: theme.spacing(0, 0, 1)
+    justifyContent: "space-between",
+    padding: theme.spacing(0, 0, 1),
+    maxWidth: "calc(100vw - 200px)"
   },
   content: {
     flexGrow: 1

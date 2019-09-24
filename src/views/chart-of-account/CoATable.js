@@ -1,10 +1,10 @@
 import React from "react"
 import { BasicTable } from "../../components/tables"
-
 import DUMMY from "./dummy.json"
+
 //-----*-----*-----*-----*-----*-----//
 
-const LeadsheetTable = () => {
+const CoATable = () => {
   return <BasicTable data={DUMMY} columnStructure={columnStructure} />
 }
 
@@ -112,4 +112,4 @@ const columnStructure = [
   }
 ]
 
-export default LeadsheetTable
+export default CoATable

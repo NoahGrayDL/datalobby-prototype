@@ -17,7 +17,9 @@ const MenuList = () => {
     <List>
       {MENUS.map((item, index) => {
         const { title, icon, url } = item
-        return <Menu title={title} index={index} icon={icon} url={url} />
+        return (
+          <Menu title={title} index={index} icon={icon} url={url} key={title} />
+        )
       })}
     </List>
   )

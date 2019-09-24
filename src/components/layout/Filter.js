@@ -52,7 +52,11 @@ const Filter = props => {
       >
         {filterItems.map(item => {
           const { value, title } = item
-          return <MenuItem value={value}>{title}</MenuItem>
+          return (
+            <MenuItem value={value} key={value}>
+              {title}
+            </MenuItem>
+          )
         })}
       </Select>
     </FormControl>
