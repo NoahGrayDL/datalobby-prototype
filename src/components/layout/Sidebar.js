@@ -2,14 +2,12 @@ import React from "react"
 import clsx from "clsx"
 import { makeStyles } from "@material-ui/core/styles"
 import Drawer from "@material-ui/core/Drawer"
-import Divider from "@material-ui/core/Divider"
 
 import IconButton from "@material-ui/core/IconButton"
 import ChevronLeftIcon from "@material-ui/icons/ChevronLeft"
 import ChevronRightIcon from "@material-ui/icons/ChevronRight"
 import MenuList from "./MenuList"
-
-const drawerWidth = 240
+import { drawerWidth, collapsedDrawerWidth } from "../standard"
 
 const Sidebar = props => {
   const { open, handleDrawerClose, handleDrawerOpen } = props
@@ -59,7 +57,7 @@ const useStyles = makeStyles(theme => ({
       duration: theme.transitions.duration.leavingScreen
     }),
     overflowX: "hidden",
-    width: theme.spacing(7) + 1,
+    width: collapsedDrawerWidth,
     [theme.breakpoints.up("sm")]: {
       width: theme.spacing(7) + 1
     }

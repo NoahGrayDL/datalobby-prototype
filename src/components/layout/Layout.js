@@ -4,7 +4,7 @@ import Typography from "@material-ui/core/Typography"
 import Button from "@material-ui/core/Button"
 import clsx from "clsx"
 import AppBar from "@material-ui/core/AppBar"
-
+import { drawerWidth, collapsedDrawerWidth } from "../standard"
 import ToolBar from "./ToolBar"
 import { Header, Sidebar } from "../layout"
 
@@ -35,9 +35,13 @@ const Layout = props => {
         open={open}
         classes={classes}
       />
-      <div style={{ width: "100%" }}>
+      <div
+        className={
+          open ? classes.contentContainer : classes.contentContainerShift
+        }
+      >
         <Header open={open} />
-        <main className={classes.contentContainer}>
+        <main className={classes.container}>
           <AppBar
             position="relative"
             className={clsx(classes.appBar, { [classes.appBarShift]: open })}
@@ -59,10 +63,19 @@ const useStyles = makeStyles(theme => ({
     display: "flex"
   },
   contentContainer: {
-    flexGrow: 1,
+    width: `calc(100vw - ${collapsedDrawerWidth}px)`,
+    overflow: "hidden"
+  },
+  contentContainerShift: {
+    width: `calc(100vw - ${collapsedDrawerWidth}px)`,
+    overflow: "hidden"
+  },
+  container: {
     padding: theme.spacing(2, 3)
   },
+  // this appbar for sub header which has menu title
   appBar: {
+    width: `calc(100vw - ${collapsedDrawerWidth}px)`,
     display: "flex",
     flexDirection: "row",
     alignItems: "left",
@@ -70,7 +83,19 @@ const useStyles = makeStyles(theme => ({
     padding: theme.spacing(0, 0, 1),
     color: "#000000",
     boxShadow: "none",
-    backgroundColor: "transparent"
+    backgroundColor: "transparent",
+    transition: theme.transitions.create(["width", "margin"], {
+      easing: theme.transitions.easing.sharp,
+      duration: theme.transitions.duration.leavingScreen
+    })
+  },
+  appBarShift: {
+    marginLeft: collapsedDrawerWidth,
+    width: `calc(100% - ${collapsedDrawerWidth}px)`,
+    transition: theme.transitions.create(["width", "margin"], {
+      easing: theme.transitions.easing.sharp,
+      duration: theme.transitions.duration.enteringScreen
+    })
   },
   content: {
     flexGrow: 1

@@ -43,47 +43,58 @@ const LeadsheetTable = () => {
 const dataSet = [
   {
     data: captions,
-    columnStructure: captionColumn
+    columnStructure: captionColumn,
+    isFoldable: false
   },
   {
     data: trialBalance,
-    columnStructure: tbColumn
+    columnStructure: tbColumn,
+    isFoldable: false
   },
   {
     data: cumulatedAdjustments,
-    columnStructure: cumulatedAdjustmentsColumn
+    columnStructure: cumulatedAdjustmentsColumn,
+    isFoldable: false
   },
   {
     data: adjustedTB,
-    columnStructure: adjustedTBColumn
+    columnStructure: adjustedTBColumn,
+    isFoldable: false
   },
   {
     data: subsidiaryA,
-    columnStructure: subsidiaryAColumn
+    columnStructure: subsidiaryAColumn,
+    isFoldable: false
   },
   {
     data: subsidiaryB,
-    columnStructure: subsidiaryBColumn
+    columnStructure: subsidiaryBColumn,
+    isFoldable: false
   },
   {
     data: combinedTB,
-    columnStructure: combinedTBColumn
+    columnStructure: combinedTBColumn,
+    isFoldable: false
   },
   {
     data: cumulativeEliminatingEntries,
-    columnStructure: cumulativeEliminatingEntriesColumn
+    columnStructure: cumulativeEliminatingEntriesColumn,
+    isFoldable: false
   },
   {
     data: consolidatedTB,
-    columnStructure: consolidatedTBColumn
+    columnStructure: consolidatedTBColumn,
+    isFoldable: false
   },
   {
     data: incomeStatement,
-    columnStructure: incomeStatementColumn
+    columnStructure: incomeStatementColumn,
+    isFoldable: false
   },
   {
     data: balanceSheet,
-    columnStructure: balanceSheetColumn
+    columnStructure: balanceSheetColumn,
+    isFoldable: false
   }
 ]
 
@@ -93,11 +104,6 @@ const StyledLeadsheetContainer = styled.div`
   justify-content: flex-start;
   width: 100%;
   overflow-x: scroll;
-  & .partition {
-    width: 8px;
-    height: 100%;
-    flex-shrink: 0;
-  }
 `
 
 export default LeadsheetTable
