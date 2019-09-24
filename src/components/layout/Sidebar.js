@@ -6,11 +6,11 @@ import Drawer from "@material-ui/core/Drawer"
 import IconButton from "@material-ui/core/IconButton"
 import ChevronLeftIcon from "@material-ui/icons/ChevronLeft"
 import ChevronRightIcon from "@material-ui/icons/ChevronRight"
-import MenuList from "./MenuList"
+import MenuList from "./SidebarMenuList"
 import { drawerWidth, collapsedDrawerWidth } from "../standard"
 
 const Sidebar = props => {
-  const { open, handleDrawerClose, handleDrawerOpen } = props
+  const { open, handleDrawer } = props
   const classes = useStyles()
 
   return (
@@ -29,7 +29,7 @@ const Sidebar = props => {
       open={open}
     >
       <div className={classes.toolbar}>
-        <IconButton onClick={open ? handleDrawerClose : handleDrawerOpen}>
+        <IconButton onClick={handleDrawer}>
           {open ? <ChevronLeftIcon /> : <ChevronRightIcon />}
         </IconButton>
       </div>

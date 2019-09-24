@@ -16,21 +16,15 @@ const Layout = props => {
   const theme = useTheme()
   const [open, setOpen] = React.useState(false)
 
-  const handleDrawerOpen = () => {
-    setOpen(true)
-    console.log("open")
-  }
-
-  const handleDrawerClose = () => {
-    setOpen(false)
-    console.log("close")
+  const handleDrawer = () => {
+    setOpen(!open)
+    console.log("drawer on/off")
   }
 
   return (
     <div className={classes.root}>
       <Sidebar
-        handleDrawerClose={handleDrawerClose}
-        handleDrawerOpen={handleDrawerOpen}
+        handleDrawer={handleDrawer}
         theme={theme}
         open={open}
         classes={classes}
