@@ -1,23 +1,91 @@
 import React from "react"
 import { BasicTable, FoldableTable } from "../../components/tables"
 import styled from "styled-components"
-import DUMMY from "./dummy.json"
-import CAPTIONS from "./captions.json"
-import TB from "./TB.json"
+import captions from "./dummy-data/captions.json"
+import trialBalance from "./dummy-data/trialBalance.json"
+import cumulatedAdjustments from "./dummy-data/cumulatedAdjustments.json"
+import adjustedTB from "./dummy-data/adjustedTB.json"
+import subsidiaryA from "./dummy-data/subsidiaryA.json"
+import subsidiaryB from "./dummy-data/subsidiaryB.json"
+import combinedTB from "./dummy-data/combinedTB.json"
+import cumulativeEliminatingEntries from "./dummy-data/cumulativeEliminatingEntries.json"
+import consolidatedTB from "./dummy-data/consolidatedTB.json"
+import incomeStatement from "./dummy-data/incomeStatement.json"
+import balanceSheet from "./dummy-data/balanceSheet.json"
+
+import {
+  captionColumn,
+  tbColumn,
+  cumulatedAdjustmentsColumn,
+  adjustedTBColumn,
+  subsidiaryAColumn,
+  subsidiaryBColumn,
+  combinedTBColumn,
+  cumulativeEliminatingEntriesColumn,
+  consolidatedTBColumn,
+  incomeStatementColumn,
+  balanceSheetColumn
+} from "./dummy-data/columnStructure"
 //-----*-----*-----*-----*-----*-----//
 
 const LeadsheetTable = () => {
   return (
     <StyledLeadsheetContainer>
-      {/* <FoldableTable data={CAPTIONS} columnStructure={captionColumn} /> */}
-      <FoldableTable data={CAPTIONS} columnStructure={captionColumn} />
-      <div className="partition" />
-      <BasicTable data={TB} columnStructure={tbColumn} />
-      <div className="partition" />
-      <BasicTable data={DUMMY} columnStructure={columnStructure} />
+      {/* <FoldableTable data={captions} columnStructure={captionColumn} /> */}
+      {dataSet.map(item => {
+        const { data, columnStructure } = item
+        return <BasicTable data={data} columnStructure={columnStructure} />
+      })}
     </StyledLeadsheetContainer>
   )
 }
+
+const dataSet = [
+  {
+    data: captions,
+    columnStructure: captionColumn
+  },
+  {
+    data: trialBalance,
+    columnStructure: tbColumn
+  },
+  {
+    data: cumulatedAdjustments,
+    columnStructure: cumulatedAdjustmentsColumn
+  },
+  {
+    data: adjustedTB,
+    columnStructure: adjustedTBColumn
+  },
+  {
+    data: subsidiaryA,
+    columnStructure: subsidiaryAColumn
+  },
+  {
+    data: subsidiaryB,
+    columnStructure: subsidiaryBColumn
+  },
+  {
+    data: combinedTB,
+    columnStructure: combinedTBColumn
+  },
+  {
+    data: cumulativeEliminatingEntries,
+    columnStructure: cumulativeEliminatingEntriesColumn
+  },
+  {
+    data: consolidatedTB,
+    columnStructure: consolidatedTBColumn
+  },
+  {
+    data: incomeStatement,
+    columnStructure: incomeStatementColumn
+  },
+  {
+    data: balanceSheet,
+    columnStructure: balanceSheetColumn
+  }
+]
 
 const StyledLeadsheetContainer = styled.div`
   display: flex;
@@ -31,168 +99,5 @@ const StyledLeadsheetContainer = styled.div`
     flex-shrink: 0;
   }
 `
-
-const captionColumn = [
-  {
-    Header: "Caption",
-    foldable: true,
-    columns: [
-      {
-        Header: "",
-        accessor: "caption"
-      }
-    ]
-  },
-  {
-    Header: "General Ledger Account",
-    foldable: true,
-    columns: [
-      {
-        Header: "Code",
-        accessor: "accountCode"
-      },
-      {
-        Header: "Account Title",
-        accessor: "accountTitle"
-      }
-    ]
-  }
-]
-
-const tbColumn = [
-  {
-    Header: "Trial Balance",
-    columns: [
-      {
-        Header: "Debit",
-        accessor: "tbDebit"
-      },
-      {
-        Header: "Credit",
-        accessor: "tbCredit"
-      }
-    ]
-  }
-]
-
-const columnStructure = [
-  {
-    Header: "Cumulated AJE",
-    columns: [
-      {
-        Header: "Debit",
-        accessor: "ajeDebit"
-      },
-      {
-        Header: "Credit",
-        accessor: "ajeCredit"
-      }
-    ]
-  },
-  {
-    Header: "Adjusted TB",
-    columns: [
-      {
-        Header: "Debit",
-        accessor: "ajtbDebit"
-      },
-      {
-        Header: "Credit",
-        accessor: "ajtbCredit"
-      }
-    ]
-  },
-  {
-    Header: "Subsidiary A",
-    columns: [
-      {
-        Header: "Debit",
-        accessor: "subADebit"
-      },
-      {
-        Header: "Credit",
-        accessor: "subACredit"
-      }
-    ]
-  },
-  {
-    Header: "Subsidiary B",
-    columns: [
-      {
-        Header: "Debit",
-        accessor: "subBDebit"
-      },
-      {
-        Header: "Credit",
-        accessor: "subBCredit"
-      }
-    ]
-  },
-  {
-    Header: "Combined TB",
-    columns: [
-      {
-        Header: "Debit",
-        accessor: "comtbDebit"
-      },
-      {
-        Header: "Credit",
-        accessor: "comtbCredit"
-      }
-    ]
-  },
-  {
-    Header: "Cumulative Eliminating Entries",
-    columns: [
-      {
-        Header: "Debit",
-        accessor: "cumElDebit"
-      },
-      {
-        Header: "Credit",
-        accessor: "cumElCredit"
-      }
-    ]
-  },
-  {
-    Header: "Consolidated TB",
-    columns: [
-      {
-        Header: "Debit",
-        accessor: "contbDebit"
-      },
-      {
-        Header: "Credit",
-        accessor: "contbCredit"
-      }
-    ]
-  },
-  {
-    Header: "Income Statement",
-    columns: [
-      {
-        Header: "Debit",
-        accessor: "iSDebit"
-      },
-      {
-        Header: "Credit",
-        accessor: "iSCredit"
-      }
-    ]
-  },
-  {
-    Header: "Balance Sheet",
-    columns: [
-      {
-        Header: "Debit",
-        accessor: "bsDebit"
-      },
-      {
-        Header: "Credit",
-        accessor: "bsCredit"
-      }
-    ]
-  }
-]
 
 export default LeadsheetTable
