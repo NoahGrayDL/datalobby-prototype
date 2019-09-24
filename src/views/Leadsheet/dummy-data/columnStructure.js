@@ -4,8 +4,12 @@ const captionColumn = [
     foldable: true,
     columns: [
       {
-        Header: "",
-        accessor: "caption"
+        Header: "Caption Set 1",
+        accessor: "caption1"
+      },
+      {
+        Header: "Caption Set 2",
+        accessor: "caption2"
       }
     ]
   },
