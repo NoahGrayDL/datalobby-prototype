@@ -1,16 +1,41 @@
 import React from "react"
-import { BasicTable } from "../../components/tables"
-
+import { BasicTable, FoldableTable } from "../../components/tables"
+import styled from "styled-components"
 import DUMMY from "./dummy.json"
+import CAPTIONS from "./captions.json"
+import TB from "./TB.json"
 //-----*-----*-----*-----*-----*-----//
 
 const LeadsheetTable = () => {
-  return <BasicTable data={DUMMY} columnStructure={columnStructure} />
+  return (
+    <StyledLeadsheetContainer>
+      {/* <FoldableTable data={CAPTIONS} columnStructure={captionColumn} /> */}
+      <FoldableTable data={CAPTIONS} columnStructure={captionColumn} />
+      <div className="partition" />
+      <BasicTable data={TB} columnStructure={tbColumn} />
+      <div className="partition" />
+      <BasicTable data={DUMMY} columnStructure={columnStructure} />
+    </StyledLeadsheetContainer>
+  )
 }
 
-const columnStructure = [
+const StyledLeadsheetContainer = styled.div`
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  width: 100%;
+  overflow-x: scroll;
+  & .partition {
+    width: 8px;
+    height: 100%;
+    flex-shrink: 0;
+  }
+`
+
+const captionColumn = [
   {
     Header: "Caption",
+    foldable: true,
     columns: [
       {
         Header: "",
@@ -20,6 +45,7 @@ const columnStructure = [
   },
   {
     Header: "General Ledger Account",
+    foldable: true,
     columns: [
       {
         Header: "Code",
@@ -27,34 +53,39 @@ const columnStructure = [
       },
       {
         Header: "Account Title",
-        id: "accountTitle",
-        accessor: d => d.accountTitle
+        accessor: "accountTitle"
       }
     ]
-  },
+  }
+]
+
+const tbColumn = [
   {
     Header: "Trial Balance",
     columns: [
       {
         Header: "Debit",
-        accessor: "debit"
+        accessor: "tbDebit"
       },
       {
         Header: "Credit",
-        accessor: "credit"
+        accessor: "tbCredit"
       }
     ]
-  },
+  }
+]
+
+const columnStructure = [
   {
     Header: "Cumulated AJE",
     columns: [
       {
         Header: "Debit",
-        accessor: "debit"
+        accessor: "ajeDebit"
       },
       {
         Header: "Credit",
-        accessor: "credit"
+        accessor: "ajeCredit"
       }
     ]
   },
@@ -63,11 +94,11 @@ const columnStructure = [
     columns: [
       {
         Header: "Debit",
-        accessor: "debit"
+        accessor: "ajtbDebit"
       },
       {
         Header: "Credit",
-        accessor: "credit"
+        accessor: "ajtbCredit"
       }
     ]
   },
@@ -76,11 +107,11 @@ const columnStructure = [
     columns: [
       {
         Header: "Debit",
-        accessor: "debit"
+        accessor: "subADebit"
       },
       {
         Header: "Credit",
-        accessor: "credit"
+        accessor: "subACredit"
       }
     ]
   },
@@ -89,11 +120,37 @@ const columnStructure = [
     columns: [
       {
         Header: "Debit",
-        accessor: "debit"
+        accessor: "subBDebit"
       },
       {
         Header: "Credit",
-        accessor: "credit"
+        accessor: "subBCredit"
+      }
+    ]
+  },
+  {
+    Header: "Combined TB",
+    columns: [
+      {
+        Header: "Debit",
+        accessor: "comtbDebit"
+      },
+      {
+        Header: "Credit",
+        accessor: "comtbCredit"
+      }
+    ]
+  },
+  {
+    Header: "Cumulative Eliminating Entries",
+    columns: [
+      {
+        Header: "Debit",
+        accessor: "cumElDebit"
+      },
+      {
+        Header: "Credit",
+        accessor: "cumElCredit"
       }
     ]
   },
@@ -102,11 +159,37 @@ const columnStructure = [
     columns: [
       {
         Header: "Debit",
-        accessor: "debit"
+        accessor: "contbDebit"
       },
       {
         Header: "Credit",
-        accessor: "credit"
+        accessor: "contbCredit"
+      }
+    ]
+  },
+  {
+    Header: "Income Statement",
+    columns: [
+      {
+        Header: "Debit",
+        accessor: "iSDebit"
+      },
+      {
+        Header: "Credit",
+        accessor: "iSCredit"
+      }
+    ]
+  },
+  {
+    Header: "Balance Sheet",
+    columns: [
+      {
+        Header: "Debit",
+        accessor: "bsDebit"
+      },
+      {
+        Header: "Credit",
+        accessor: "bsCredit"
       }
     ]
   }

@@ -2,6 +2,8 @@ import React from "react"
 import { makeStyles, useTheme } from "@material-ui/core/styles"
 import Typography from "@material-ui/core/Typography"
 import Button from "@material-ui/core/Button"
+import clsx from "clsx"
+import AppBar from "@material-ui/core/AppBar"
 
 import ToolBar from "./ToolBar"
 import { Header, Sidebar } from "../layout"
@@ -36,10 +38,13 @@ const Layout = props => {
       <div style={{ width: "100%" }}>
         <Header open={open} />
         <main className={classes.contentContainer}>
-          <div className={classes.toolbar}>
+          <AppBar
+            position="relative"
+            className={clsx(classes.appBar, { [classes.appBarShift]: open })}
+          >
             <Typography variant="h6">{menuTitle}</Typography>
             <Button size="small">{menuButton}</Button>
-          </div>
+          </AppBar>
           {filters && <ToolBar filters={filters} />}
 
           <div className={classes.content}>{children}</div>
@@ -57,12 +62,15 @@ const useStyles = makeStyles(theme => ({
     flexGrow: 1,
     padding: theme.spacing(2, 3)
   },
-  toolbar: {
+  appBar: {
     display: "flex",
+    flexDirection: "row",
     alignItems: "left",
     justifyContent: "space-between",
     padding: theme.spacing(0, 0, 1),
-    maxWidth: "calc(100vw - 200px)"
+    color: "#000000",
+    boxShadow: "none",
+    backgroundColor: "transparent"
   },
   content: {
     flexGrow: 1
