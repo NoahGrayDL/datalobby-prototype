@@ -7,7 +7,11 @@ import IconButton from "@material-ui/core/IconButton"
 import ChevronLeftIcon from "@material-ui/icons/ChevronLeft"
 import ChevronRightIcon from "@material-ui/icons/ChevronRight"
 import MenuList from "./SidebarMenuList"
-import { drawerWidth, collapsedDrawerWidth } from "../standard"
+import {
+  drawerWidth,
+  collapsedDrawerWidth,
+  sidebarBackgroundColor
+} from "../standard"
 
 const Sidebar = props => {
   const { open, handleDrawer } = props
@@ -49,7 +53,8 @@ const useStyles = makeStyles(theme => ({
     transition: theme.transitions.create("width", {
       easing: theme.transitions.easing.sharp,
       duration: theme.transitions.duration.enteringScreen
-    })
+    }),
+    backgroundColor: sidebarBackgroundColor
   },
   drawerClose: {
     transition: theme.transitions.create("width", {
@@ -60,7 +65,8 @@ const useStyles = makeStyles(theme => ({
     width: collapsedDrawerWidth,
     [theme.breakpoints.up("sm")]: {
       width: theme.spacing(7) + 1
-    }
+    },
+    backgroundColor: sidebarBackgroundColor
   },
   toolbar: {
     display: "flex",

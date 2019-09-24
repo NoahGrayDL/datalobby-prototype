@@ -15,14 +15,34 @@ function App() {
     <Router>
       <div>
         <Route exact path="/" component={Home} />
-        <Route path="/company-information" component={CompanyInformation} />
-        <Route path="/chart-of-account" component={ChartOfAccount} />
-        <Route path="/ledgers" component={Ledgers} />
-        <Route path="/trial-balance" component={TrialBalance} />
-        <Route path="/adjustments" component={Adjustments} />
-        <Route path="/lead-sheet" component={Leadsheet} />
-        <Route path="/financial-statements" component={FinancialStatements} />
-        <Route path="/report" component={Report} />
+        <Route
+          exact
+          path="/financial-statements"
+          component={FinancialStatements}
+        />
+        <Route
+          path="/financial-statements/company-information"
+          component={CompanyInformation}
+        />
+        <Route
+          path="/financial-statements/chart-of-account"
+          component={ChartOfAccount}
+        />
+        <Route path="/financial-statements/ledgers" component={Ledgers} />
+        <Route
+          path="/financial-statements/trial-balance"
+          component={TrialBalance}
+        />
+        <Route
+          path="/financial-statements/adjustments"
+          component={Adjustments}
+        />
+        <Route path="/financial-statements/lead-sheet" component={Leadsheet} />
+        <Route
+          path="/financial-statements/financial-statements"
+          component={FinancialStatements}
+        />
+        <Route path="/financial-statements/report" component={Report} />
       </div>
     </Router>
   )
