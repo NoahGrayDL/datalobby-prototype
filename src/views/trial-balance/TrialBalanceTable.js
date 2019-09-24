@@ -10,10 +10,14 @@ const TrialBalanceTable = () => {
 
 const columnStructure = [
   {
-    Header: "Caption",
+    Header: "General Ledger Account",
     columns: [
       {
-        Header: "",
+        Header: "Code",
+        accessor: "caption"
+      },
+      {
+        Header: "Title",
         accessor: "caption"
       }
     ]

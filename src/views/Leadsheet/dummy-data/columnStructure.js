@@ -12,7 +12,10 @@ const captionColumn = [
         accessor: "caption2"
       }
     ]
-  },
+  }
+]
+
+const generalLedgerAccountColumn = [
   {
     Header: "General Ledger Account",
     foldable: true,
@@ -191,6 +194,7 @@ const balanceSheetColumn = [
 
 export {
   captionColumn,
+  generalLedgerAccountColumn,
   tbColumn,
   cumulatedAdjustmentsColumn,
   adjustedTBColumn,

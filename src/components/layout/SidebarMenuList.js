@@ -93,16 +93,7 @@ const MENUS = [
         icon: <AccountTreeOutlinedIcon />,
         url: "/financial-statements/chart-of-account"
       },
-      {
-        title: "Ledgers",
-        icon: <DescriptionOutlinedIcon />,
-        url: "/financial-statements/ledgers"
-      },
-      {
-        title: "Chart of Account",
-        icon: <AccountTreeOutlinedIcon />,
-        url: "/financial-statements/chart-of-account"
-      },
+
       {
         title: "Ledgers",
         icon: <DescriptionOutlinedIcon />,

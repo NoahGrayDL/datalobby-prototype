@@ -14,7 +14,7 @@ const TrialBalance = () => {
 
 const TrialBalanceFilters = [
   {
-    filterName: "Leadsheet View",
+    filterName: "Trial Balance View",
     filterItems: [
       { value: 1, title: "filter item 1" },
       { value: 2, title: "filter item 2" },
@@ -31,14 +31,6 @@ const TrialBalanceFilters = [
   },
   {
     filterName: "Unit",
-    filterItems: [
-      { value: 1, title: "filter item 1" },
-      { value: 2, title: "filter item 2" },
-      { value: 3, title: "filter item 3" }
-    ]
-  },
-  {
-    filterName: "Date",
     filterItems: [
       { value: 1, title: "filter item 1" },
       { value: 2, title: "filter item 2" },

@@ -2,6 +2,7 @@ import React from "react"
 import { BasicTable, FoldableTable } from "../../components/tables"
 import styled from "styled-components"
 import captions from "./dummy-data/captions.json"
+import generalLedgerAccounts from "./dummy-data/generalLedgerAccounts.json"
 import trialBalance from "./dummy-data/trialBalance.json"
 import cumulatedAdjustments from "./dummy-data/cumulatedAdjustments.json"
 import adjustedTB from "./dummy-data/adjustedTB.json"
@@ -15,6 +16,7 @@ import balanceSheet from "./dummy-data/balanceSheet.json"
 
 import {
   captionColumn,
+  generalLedgerAccountColumn,
   tbColumn,
   cumulatedAdjustmentsColumn,
   adjustedTBColumn,
@@ -44,6 +46,11 @@ const dataSet = [
   {
     data: captions,
     columnStructure: captionColumn,
+    isFoldable: false
+  },
+  {
+    data: generalLedgerAccounts,
+    columnStructure: generalLedgerAccountColumn,
     isFoldable: false
   },
   {
