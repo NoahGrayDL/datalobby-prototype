@@ -110,6 +110,7 @@ const StyledLeadsheetContainer = styled.div`
   flex-direction: row;
   justify-content: flex-start;
   width: 100%;
+  margin-top: 0.5rem;
   overflow-x: scroll;
 `
 

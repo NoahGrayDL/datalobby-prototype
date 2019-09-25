@@ -242,7 +242,7 @@ const incomeStatementColumn = [
 
 const balanceSheetColumn = [
   {
-    Header: "Income Statement",
+    Header: "Balance Sheet",
     columns: [
       {
         Header: "Debit",

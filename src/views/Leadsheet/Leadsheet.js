@@ -5,8 +5,10 @@ import {
   MuiPickersUtilsProvider,
   KeyboardDatePicker
 } from "@material-ui/pickers"
+import Button from "@material-ui/core/Button"
+
 import { Layout } from "../../components/layout"
-import LeadsheetTable from "./LeadsheetTable"
+import { LeadsheetTable, ColumnControl } from "../leadsheet"
 
 //-----*-----*-----*-----*-----*-----//
 
@@ -15,8 +17,11 @@ const Leadsheet = () => {
     <Layout
       menuTitle="Leadsheet"
       filters={LeadsheetFilters}
-      button={DatePicker}
+      // Need to layout update
+      // buttons={DatePicker}
+      buttons={<Button size="medium">Save View</Button>}
     >
+      <ColumnControl />
       <LeadsheetTable />
     </Layout>
   )
