@@ -7,7 +7,8 @@ import ReactTable from "react-table"
 import "react-table/react-table.css"
 import {
   CaptionWithoutGLAColumn,
-  TBColumn
+  TBColumn,
+  curPeriodColumn
 } from "../../assets/dummy-data/LS-without-GLA/leadsheetColumnStructure"
 //-----*-----*-----*-----*-----*-----//
 
@@ -72,6 +73,7 @@ const LeadsheetTable2 = () => {
         onExpandedChange={expanded => setTableState({ expanded })}
         onFilteredChange={filtered => setTableState({ filtered })}
         style={{ marginRight: 8 }}
+        showPagination={false}
       />
       <ReactTable
         data={prevTB}
@@ -85,10 +87,11 @@ const LeadsheetTable2 = () => {
         onExpandedChange={expanded => setTableState({ expanded })}
         onFilteredChange={filtered => setTableState({ filtered })}
         style={{ marginRight: 8 }}
+        showPagination={false}
       />
       <ReactTable
         data={curPeriod}
-        columns={TBColumn}
+        columns={curPeriodColumn}
         pivotBy={["captionGroup1", "captionGroup2", "captionGroup3"]}
         className="-striped -highlight"
         sorted={tableState.sorted}
@@ -97,6 +100,7 @@ const LeadsheetTable2 = () => {
         onSortedChange={sorted => setTableState({ sorted })}
         onExpandedChange={expanded => setTableState({ expanded })}
         onFilteredChange={filtered => setTableState({ filtered })}
+        showPagination={false}
       />
     </StyledLeadsheetContainer>
   )
