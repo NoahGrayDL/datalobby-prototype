@@ -9,10 +9,19 @@ import Button from "@material-ui/core/Button"
 
 import { Layout } from "../../components/layout"
 import { LeadsheetTable, LeadsheetTable2, ColumnControl } from "../leadsheet"
+import Checkbox from "@material-ui/core/Checkbox"
+import FormControlLabel from "@material-ui/core/FormControlLabel"
 
 //-----*-----*-----*-----*-----*-----//
 
 const Leadsheet = () => {
+  const [state, setState] = React.useState({
+    isPivot: true
+  })
+
+  const handleChange = name => event => {
+    setState({ ...state, [name]: event.target.checked })
+  }
   return (
     <Layout
       menuTitle="Leadsheet"
@@ -21,8 +30,21 @@ const Leadsheet = () => {
       // buttons={DatePicker}
       buttons={<Button size="medium">Save View</Button>}
     >
+      <FormControlLabel
+        control={
+          <Checkbox
+            checked={state.isPivot}
+            onChange={handleChange("isPivot")}
+            value="isPivot"
+            inputProps={{
+              "aria-label": "primary checkbox"
+            }}
+          />
+        }
+        label="Pivot by Caption Group"
+      />
       <ColumnControl />
-      <LeadsheetTable2 />
+      <LeadsheetTable2 isPivot={state.isPivot} />
     </Layout>
   )
 }

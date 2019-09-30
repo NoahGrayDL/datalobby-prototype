@@ -6,13 +6,17 @@ import curPeriod from "../../assets/dummy-data/LS-without-GLA/curPeriod.json"
 import ReactTable from "react-table"
 import "react-table/react-table.css"
 import {
+  CaptionOnlyColumn,
   CaptionWithoutGLAColumn,
   TBColumn,
   curPeriodColumn
 } from "../../assets/dummy-data/LS-without-GLA/leadsheetColumnStructure"
+
 //-----*-----*-----*-----*-----*-----//
 
-const LeadsheetTable2 = () => {
+const LeadsheetTable2 = props => {
+  const { isPivot } = props
+  // ! data에 맞게 자동생성되게 수정 필요
   const defaultTalbeState = () => ({
     sorted: [],
     expanded: {
@@ -54,6 +58,7 @@ const LeadsheetTable2 = () => {
     filtered: []
   })
   const [tableState, setTableState] = useState(defaultTalbeState)
+  const [pivot, setPivot] = useState("")
   return (
     <StyledLeadsheetContainer>
       {/* <pre>
@@ -61,10 +66,13 @@ const LeadsheetTable2 = () => {
           <strong>this.state ===</strong> {JSON.stringify(tableState, null, 2)}
         </code>
       </pre> */}
+      <pivotToggleButton />
       <ReactTable
         data={captionsWithoutGLA}
-        columns={CaptionWithoutGLAColumn}
-        pivotBy={["captionGroup1", "captionGroup2", "captionGroup3"]}
+        columns={isPivot ? CaptionWithoutGLAColumn : CaptionOnlyColumn}
+        pivotBy={
+          isPivot ? ["captionGroup1", "captionGroup2", "captionGroup3"] : ""
+        }
         className="-striped -highlight"
         sorted={tableState.sorted}
         expanded={tableState.expanded}
@@ -78,7 +86,9 @@ const LeadsheetTable2 = () => {
       <ReactTable
         data={prevTB}
         columns={TBColumn}
-        pivotBy={["captionGroup1", "captionGroup2", "captionGroup3"]}
+        pivotBy={
+          isPivot ? ["captionGroup1", "captionGroup2", "captionGroup3"] : ""
+        }
         className="-striped -highlight"
         sorted={tableState.sorted}
         expanded={tableState.expanded}
@@ -92,7 +102,9 @@ const LeadsheetTable2 = () => {
       <ReactTable
         data={curPeriod}
         columns={curPeriodColumn}
-        pivotBy={["captionGroup1", "captionGroup2", "captionGroup3"]}
+        pivotBy={
+          isPivot ? ["captionGroup1", "captionGroup2", "captionGroup3"] : ""
+        }
         className="-striped -highlight"
         sorted={tableState.sorted}
         expanded={tableState.expanded}

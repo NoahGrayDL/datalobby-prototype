@@ -1,5 +1,15 @@
 import React from "react"
 import _ from "lodash"
+
+const CaptionOnlyColumn = [
+  {
+    Header: "Caption Set A",
+    accessor: "caption",
+    headerStyle: { height: 56 },
+    minWidth: 200
+  }
+]
+
 const CaptionWithoutGLAColumn = [
   {
     Header: "Caption Set",
@@ -235,4 +245,4 @@ const curPeriodColumn = [
   }
 ]
 
-export { CaptionWithoutGLAColumn, TBColumn, curPeriodColumn }
+export { CaptionOnlyColumn, CaptionWithoutGLAColumn, TBColumn, curPeriodColumn }
