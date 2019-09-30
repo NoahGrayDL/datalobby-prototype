@@ -1,3 +1,4 @@
+import _ from "lodash"
 const captionColumn = [
   {
     Header: "Caption",
@@ -10,6 +11,35 @@ const captionColumn = [
       {
         Header: "Caption Set 2",
         accessor: "caption2"
+      }
+    ]
+  }
+]
+
+const captionsWithGroupColumn = [
+  {
+    Header: "Caption",
+    foldable: true,
+    columns: [
+      {
+        Header: "Caption Set 1",
+        accessor: "captionGroup1"
+        // aggregate: vals => _.round(_.mean(vals)),
+        // Aggregated: row => {
+        //   return <span>{row.value}</span>
+        // }
+      },
+      {
+        Header: "Caption Set 2",
+        accessor: "captionGroup2"
+      },
+      {
+        Header: "Caption Set 3",
+        accessor: "captionGroup3"
+      },
+      {
+        Header: "Caption",
+        accessor: "caption"
       }
     ]
   }
@@ -258,6 +288,7 @@ const balanceSheetColumn = [
 
 export {
   captionColumn,
+  captionsWithGroupColumn,
   generalLedgerAccountsColumn,
   tbColumn,
   trialBalanceOpeningColumn,

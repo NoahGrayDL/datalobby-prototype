@@ -1,7 +1,12 @@
 import React from "react"
-import { BasicTable, FoldableTable } from "../../components/tables"
+import {
+  BasicTable,
+  FoldableTable,
+  PivotAndAggregateTable
+} from "../../components/tables"
 import styled from "styled-components"
 import captions from "../../assets/dummy-data/captions.json"
+import captionsWithGroup from "../../assets/dummy-data/captionsWithGroup.json"
 import generalLedgerAccounts from "../../assets/dummy-data/generalLedgerAccounts.json"
 import trialBalance from "../../assets/dummy-data/trialBalance.json"
 import cumulatedAdjustments from "../../assets/dummy-data/cumulatedAdjustments.json"
@@ -16,7 +21,7 @@ import balanceSheet from "../../assets/dummy-data/balanceSheet.json"
 
 import {
   captionColumn,
-  generalLedgerAccountsColumn,
+  captionsWithGroupColumn,
   tbColumn,
   cumulatedAdjustmentsColumn,
   adjustedTBColumn,
@@ -33,10 +38,20 @@ import {
 const LeadsheetTable = () => {
   return (
     <StyledLeadsheetContainer>
-      {/* <FoldableTable data={captions} columnStructure={captionColumn} /> */}
+      <PivotAndAggregateTable
+        data={captions}
+        columnStructure={captionColumn}
+        pivotTargets={["caption1", "caption2"]}
+      />
       {dataSet.map(item => {
         const { data, columnStructure } = item
-        return <BasicTable data={data} columnStructure={columnStructure} />
+        return (
+          <BasicTable
+            data={data}
+            columnStructure={columnStructure}
+            length={data.length}
+          />
+        )
       })}
     </StyledLeadsheetContainer>
   )
@@ -44,13 +59,8 @@ const LeadsheetTable = () => {
 
 const dataSet = [
   {
-    data: captions,
-    columnStructure: captionColumn,
-    isFoldable: false
-  },
-  {
-    data: generalLedgerAccounts,
-    columnStructure: generalLedgerAccountsColumn,
+    data: captionsWithGroup,
+    columnStructure: captionsWithGroupColumn,
     isFoldable: false
   },
   {

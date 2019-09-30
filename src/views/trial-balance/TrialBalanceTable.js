@@ -1,5 +1,5 @@
 import React from "react"
-import { BasicTable } from "../../components/tables"
+import { BasicTable, PivotAndAggregateTable } from "../../components/tables"
 import styled from "styled-components"
 import generalLedgerAccounts from "../../assets/dummy-data/generalLedgerAccounts.json"
 import captions from "../../assets/dummy-data/captions.json"
