@@ -3,7 +3,7 @@ import ReactTable from "react-table"
 import "react-table/react-table.css"
 
 const SearchableTable = props => {
-  const { data, columnStructure } = props
+  const { data, columnStructure, length } = props
   const [filter, setFilter] = useState({ filtered: [] })
 
   return (
@@ -11,8 +11,10 @@ const SearchableTable = props => {
       <ReactTable
         data={data}
         columns={columnStructure}
+        defaultPageSize={length}
         className="-striped -highlight"
         filterable
+        showPagination={false}
         filtered={filter.filtered}
         onFilteredChange={filtered => setFilter({ filtered })}
       />

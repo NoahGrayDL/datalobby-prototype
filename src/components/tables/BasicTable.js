@@ -12,6 +12,7 @@ const BasicTable = props => {
         data={data}
         columns={columnStructure}
         defaultPageSize={length}
+        showPagination={false}
         // style={{
         //   height: "400px" // This will force the table body to overflow and scroll, since there is not enough room
         // }}

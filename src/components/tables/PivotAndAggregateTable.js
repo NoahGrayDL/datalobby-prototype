@@ -13,6 +13,8 @@ const PivotAndAggregateTable = props => {
         data={data}
         columns={columnStructure}
         defaultPageSize={length}
+        showPagination={false}
+        defaultPageSize={length}
         pivotBy={pivotTargets}
         className="-striped -highlight"
       />
