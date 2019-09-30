@@ -16,6 +16,40 @@ const captionColumn = [
   }
 ]
 
+const leadsheetCaptionColumn = [
+  {
+    Header: "Caption",
+    foldable: true,
+    columns: [
+      {
+        Header: "Caption Set 1",
+        accessor: "caption"
+      }
+    ]
+  }
+]
+
+const leadsheetCaptionGLAColumn = [
+  {
+    Header: "General Ledger Account",
+    foldable: true,
+    columns: [
+      {
+        Header: "Caption",
+        accessor: "caption"
+      },
+      {
+        Header: "Code",
+        accessor: "accountCode"
+      },
+      {
+        Header: "Title",
+        accessor: "accountTitle"
+      }
+    ]
+  }
+]
+
 const captionsWithGroupColumn = [
   {
     Header: "Caption",
@@ -288,6 +322,8 @@ const balanceSheetColumn = [
 
 export {
   captionColumn,
+  leadsheetCaptionColumn,
+  leadsheetCaptionGLAColumn,
   captionsWithGroupColumn,
   generalLedgerAccountsColumn,
   tbColumn,

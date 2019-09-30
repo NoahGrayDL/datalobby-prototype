@@ -1,10 +1,11 @@
-import React from "react"
+import React, { useState } from "react"
 import {
   BasicTable,
   FoldableTable,
   PivotAndAggregateTable
 } from "../../components/tables"
 import styled from "styled-components"
+import leadsheetCaptions from "../../assets/dummy-data/leadsheetCaptions.json"
 import captions from "../../assets/dummy-data/captions.json"
 import captionsWithGroup from "../../assets/dummy-data/captionsWithGroup.json"
 import generalLedgerAccounts from "../../assets/dummy-data/generalLedgerAccounts.json"
@@ -22,6 +23,8 @@ import balanceSheet from "../../assets/dummy-data/balanceSheet.json"
 import {
   captionColumn,
   captionsWithGroupColumn,
+  leadsheetCaptionColumn,
+  leadsheetCaptionGLAColumn,
   tbColumn,
   cumulatedAdjustmentsColumn,
   adjustedTBColumn,
@@ -36,20 +39,22 @@ import {
 //-----*-----*-----*-----*-----*-----//
 
 const LeadsheetTable = () => {
+  const [pivot, setPivot] = useState(["caption"])
   return (
     <StyledLeadsheetContainer>
-      <PivotAndAggregateTable
+      {/* <PivotAndAggregateTable
         data={captions}
         columnStructure={captionColumn}
         pivotTargets={["caption1", "caption2"]}
-      />
+      /> */}
       {dataSet.map(item => {
         const { data, columnStructure } = item
         return (
-          <BasicTable
+          <PivotAndAggregateTable
             data={data}
             columnStructure={columnStructure}
             length={data.length}
+            pivotTargets={pivot}
           />
         )
       })}
@@ -59,60 +64,65 @@ const LeadsheetTable = () => {
 
 const dataSet = [
   {
-    data: captionsWithGroup,
-    columnStructure: captionsWithGroupColumn,
+    data: leadsheetCaptions,
+    columnStructure: leadsheetCaptionColumn,
     isFoldable: false
   },
   {
-    data: trialBalance,
-    columnStructure: tbColumn,
-    isFoldable: false
-  },
-  {
-    data: cumulatedAdjustments,
-    columnStructure: cumulatedAdjustmentsColumn,
-    isFoldable: false
-  },
-  {
-    data: adjustedTB,
-    columnStructure: adjustedTBColumn,
-    isFoldable: false
-  },
-  {
-    data: subsidiaryA,
-    columnStructure: subsidiaryAColumn,
-    isFoldable: false
-  },
-  {
-    data: subsidiaryB,
-    columnStructure: subsidiaryBColumn,
-    isFoldable: false
-  },
-  {
-    data: combinedTB,
-    columnStructure: combinedTBColumn,
-    isFoldable: false
-  },
-  {
-    data: cumulativeEliminatingEntries,
-    columnStructure: cumulativeEliminatingEntriesColumn,
-    isFoldable: false
-  },
-  {
-    data: consolidatedTB,
-    columnStructure: consolidatedTBColumn,
-    isFoldable: false
-  },
-  {
-    data: incomeStatement,
-    columnStructure: incomeStatementColumn,
-    isFoldable: false
-  },
-  {
-    data: balanceSheet,
-    columnStructure: balanceSheetColumn,
+    data: leadsheetCaptions,
+    columnStructure: leadsheetCaptionGLAColumn,
     isFoldable: false
   }
+  // {
+  //   data: trialBalance,
+  //   columnStructure: tbColumn,
+  //   isFoldable: false
+  // },
+  // {
+  //   data: cumulatedAdjustments,
+  //   columnStructure: cumulatedAdjustmentsColumn,
+  //   isFoldable: false
+  // }
+  // {
+  //   data: adjustedTB,
+  //   columnStructure: adjustedTBColumn,
+  //   isFoldable: false
+  // },
+  // {
+  //   data: subsidiaryA,
+  //   columnStructure: subsidiaryAColumn,
+  //   isFoldable: false
+  // },
+  // {
+  //   data: subsidiaryB,
+  //   columnStructure: subsidiaryBColumn,
+  //   isFoldable: false
+  // },
+  // {
+  //   data: combinedTB,
+  //   columnStructure: combinedTBColumn,
+  //   isFoldable: false
+  // },
+  // {
+  //   data: cumulativeEliminatingEntries,
+  //   columnStructure: cumulativeEliminatingEntriesColumn,
+  //   isFoldable: false
+  // },
+  // {
+  //   data: consolidatedTB,
+  //   columnStructure: consolidatedTBColumn,
+  //   isFoldable: false
+  // },
+  // {
+  //   data: incomeStatement,
+  //   columnStructure: incomeStatementColumn,
+  //   isFoldable: false
+  // },
+  // {
+  //   data: balanceSheet,
+  //   columnStructure: balanceSheetColumn,
+  //   isFoldable: false
+  // }
 ]
 
 const StyledLeadsheetContainer = styled.div`
