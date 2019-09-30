@@ -8,7 +8,7 @@ import {
 import Button from "@material-ui/core/Button"
 
 import { Layout } from "../../components/layout"
-import { LeadsheetTable, ColumnControl } from "../leadsheet"
+import { LeadsheetTable, LeadsheetTable2, ColumnControl } from "../leadsheet"
 
 //-----*-----*-----*-----*-----*-----//
 
@@ -22,7 +22,7 @@ const Leadsheet = () => {
       buttons={<Button size="medium">Save View</Button>}
     >
       <ColumnControl />
-      <LeadsheetTable />
+      <LeadsheetTable2 />
     </Layout>
   )
 }

@@ -24,6 +24,14 @@ const leadsheetCaptionColumn = [
       {
         Header: "Caption Set 1",
         accessor: "caption"
+      },
+      {
+        Header: "Code",
+        accessor: "accountCode"
+      },
+      {
+        Header: "Title",
+        accessor: "accountTitle"
       }
     ]
   }
@@ -38,7 +46,7 @@ const leadsheetCaptionGLAColumn = [
         Header: "Caption",
         accessor: "caption",
         show: false,
-        style: { width: 0 }
+        style: { width: 0, display: "none" }
       },
       {
         Header: "Code",

@@ -1,0 +1,314 @@
+[
+  {
+    "captionGroup1": "자산",
+    "captionGroup2": "유동자산",
+    "captionGroup3": "-",
+    "caption": "현금및예금"
+  },
+  {
+    "captionGroup1": "자산",
+    "captionGroup2": "유동자산",
+    "captionGroup3": "-",
+    "caption": "매출채권"
+  },
+  {
+    "captionGroup1": "자산",
+    "captionGroup2": "유동자산",
+    "captionGroup3": "-",
+    "caption": "상품"
+  },
+  {
+    "captionGroup1": "자산",
+    "captionGroup2": "유동자산",
+    "captionGroup3": "-",
+    "caption": "선급비용"
+  },
+  {
+    "captionGroup1": "자산",
+    "captionGroup2": "유동자산",
+    "captionGroup3": "-",
+    "caption": "미수금"
+  },
+  {
+    "captionGroup1": "자산",
+    "captionGroup2": "유동자산",
+    "captionGroup3": "-",
+    "caption": "이연법인세자산"
+  },
+  {
+    "captionGroup1": "자산",
+    "captionGroup2": "유동자산",
+    "captionGroup3": "-",
+    "caption": "기타"
+  },
+  {
+    "captionGroup1": "자산",
+    "captionGroup2": "유동자산",
+    "captionGroup3": "-",
+    "caption": "대손충당금"
+  },
+  {
+    "captionGroup1": "자산",
+    "captionGroup2": "비유동자산",
+    "captionGroup3": "유형자산",
+    "caption": "건물및구축물"
+  },
+  {
+    "captionGroup1": "자산",
+    "captionGroup2": "비유동자산",
+    "captionGroup3": "유형자산",
+    "caption": "감가상각누계액"
+  },
+  {
+    "captionGroup1": "자산",
+    "captionGroup2": "비유동자산",
+    "captionGroup3": "유형자산",
+    "caption": "차량운반구및공구기구비품"
+  },
+  {
+    "captionGroup1": "자산",
+    "captionGroup2": "비유동자산",
+    "captionGroup3": "유형자산",
+    "caption": "감가상각누계액"
+  },
+  {
+    "captionGroup1": "자산",
+    "captionGroup2": "비유동자산",
+    "captionGroup3": "유형자산",
+    "caption": "토지"
+  },
+  {
+    "captionGroup1": "자산",
+    "captionGroup2": "비유동자산",
+    "captionGroup3": "유형자산",
+    "caption": "리스자산"
+  },
+  {
+    "captionGroup1": "자산",
+    "captionGroup2": "비유동자산",
+    "captionGroup3": "유형자산",
+    "caption": "감가상각누계액"
+  },
+  {
+    "captionGroup1": "자산",
+    "captionGroup2": "비유동자산",
+    "captionGroup3": "유형자산",
+    "caption": "건설가계정"
+  },
+  {
+    "captionGroup1": "자산",
+    "captionGroup2": "비유동자산",
+    "captionGroup3": "무형자산",
+    "caption": "소프트웨어"
+  },
+  {
+    "captionGroup1": "자산",
+    "captionGroup2": "비유동자산",
+    "captionGroup3": "무형자산",
+    "caption": "소프트웨어가계정"
+  },
+  {
+    "captionGroup1": "자산",
+    "captionGroup2": "비유동자산",
+    "captionGroup3": "무형자산",
+    "caption": "영업권"
+  },
+  {
+    "captionGroup1": "자산",
+    "captionGroup2": "비유동자산",
+    "captionGroup3": "무형자산",
+    "caption": "기타무형자산"
+  },
+  {
+    "captionGroup1": "자산",
+    "captionGroup2": "비유동자산",
+    "captionGroup3": "투자자산",
+    "caption": "투자증권"
+  },
+  {
+    "captionGroup1": "자산",
+    "captionGroup2": "비유동자산",
+    "captionGroup3": "투자자산",
+    "caption": "장기대여금"
+  },
+  {
+    "captionGroup1": "자산",
+    "captionGroup2": "비유동자산",
+    "captionGroup3": "투자자산",
+    "caption": "장기선급비용"
+  },
+  {
+    "captionGroup1": "자산",
+    "captionGroup2": "비유동자산",
+    "captionGroup3": "투자자산",
+    "caption": "차입보증금"
+  },
+  {
+    "captionGroup1": "자산",
+    "captionGroup2": "비유동자산",
+    "captionGroup3": "투자자산",
+    "caption": "이연법인세자산"
+  },
+  {
+    "captionGroup1": "자산",
+    "captionGroup2": "비유동자산",
+    "captionGroup3": "투자자산",
+    "caption": "기타"
+  },
+  {
+    "captionGroup1": "자산",
+    "captionGroup2": "비유동자산",
+    "captionGroup3": "투자자산",
+    "caption": "대손충당금"
+  },
+  {
+    "captionGroup1": "부채",
+    "captionGroup2": "유동부채",
+    "captionGroup3": "-",
+    "caption": "외상매입금"
+  },
+  {
+    "captionGroup1": "부채",
+    "captionGroup2": "유동부채",
+    "captionGroup3": "-",
+    "caption": "단기차입금"
+  },
+  {
+    "captionGroup1": "부채",
+    "captionGroup2": "유동부채",
+    "captionGroup3": "-",
+    "caption": "리스채무"
+  },
+  {
+    "captionGroup1": "부채",
+    "captionGroup2": "유동부채",
+    "captionGroup3": "-",
+    "caption": "미지급금"
+  },
+  {
+    "captionGroup1": "부채",
+    "captionGroup2": "유동부채",
+    "captionGroup3": "-",
+    "caption": "미지급법인세"
+  },
+  {
+    "captionGroup1": "부채",
+    "captionGroup2": "유동부채",
+    "captionGroup3": "-",
+    "caption": "예수금"
+  },
+  {
+    "captionGroup1": "부채",
+    "captionGroup2": "유동부채",
+    "captionGroup3": "-",
+    "caption": "상여충당부채"
+  },
+  {
+    "captionGroup1": "부채",
+    "captionGroup2": "유동부채",
+    "captionGroup3": "-",
+    "caption": "포인트충당부채"
+  },
+  {
+    "captionGroup1": "부채",
+    "captionGroup2": "유동부채",
+    "captionGroup3": "-",
+    "caption": "기타 유동부채 "
+  },
+  {
+    "captionGroup1": "부채",
+    "captionGroup2": "비유동부채",
+    "captionGroup3": "-",
+    "caption": "장기차입금"
+  },
+  {
+    "captionGroup1": "부채",
+    "captionGroup2": "비유동부채",
+    "captionGroup3": "-",
+    "caption": "리스채무"
+  },
+  {
+    "captionGroup1": "부채",
+    "captionGroup2": "비유동부채",
+    "captionGroup3": "-",
+    "caption": "퇴직급여충당부채"
+  },
+  {
+    "captionGroup1": "부채",
+    "captionGroup2": "비유동부채",
+    "captionGroup3": "-",
+    "caption": "임원퇴직위로충당부채"
+  },
+  {
+    "captionGroup1": "부채",
+    "captionGroup2": "비유동부채",
+    "captionGroup3": "-",
+    "caption": "장기예수보증금"
+  },
+  {
+    "captionGroup1": "부채",
+    "captionGroup2": "비유동부채",
+    "captionGroup3": "-",
+    "caption": "복구충당부채"
+  },
+  {
+    "captionGroup1": "부채",
+    "captionGroup2": "비유동부채",
+    "captionGroup3": "-",
+    "caption": "기타"
+  },
+  {
+    "captionGroup1": "자본",
+    "captionGroup2": "주주자본",
+    "captionGroup3": "-",
+    "caption": "자본금"
+  },
+  {
+    "captionGroup1": "자본",
+    "captionGroup2": "주주자본",
+    "captionGroup3": "-",
+    "caption": "자본잉여금"
+  },
+  {
+    "captionGroup1": "자본",
+    "captionGroup2": "주주자본",
+    "captionGroup3": "-",
+    "caption": "이익잉여금"
+  },
+  {
+    "captionGroup1": "자본",
+    "captionGroup2": "주주자본",
+    "captionGroup3": "-",
+    "caption": "자기주식"
+  },
+  {
+    "captionGroup1": "자본",
+    "captionGroup2": "기타포괄손익누계액",
+    "captionGroup3": "-",
+    "caption": "매도가능증권평가이익(손실)"
+  },
+  {
+    "captionGroup1": "자본",
+    "captionGroup2": "기타포괄손익누계액",
+    "captionGroup3": "-",
+    "caption": "토지재평가차익(손실)"
+  },
+  {
+    "captionGroup1": "자본",
+    "captionGroup2": "기타포괄손익누계액",
+    "captionGroup3": "-",
+    "caption": "해외사업환산손익"
+  },
+  {
+    "captionGroup1": "자본",
+    "captionGroup2": "신주예약권",
+    "captionGroup3": "-",
+    "caption": "-"
+  },
+  {
+    "captionGroup1": "자본",
+    "captionGroup2": "비지배지분",
+    "captionGroup3": "-",
+    "caption": "-"
+  }
+]
