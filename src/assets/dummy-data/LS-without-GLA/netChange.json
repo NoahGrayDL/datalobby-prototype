@@ -1,0 +1,418 @@
+[
+  {
+    "captionGroup1": "자산",
+    "captionGroup2": "유동자산",
+    "captionGroup3": "-",
+    "caption": "현금및예금",
+    "debit": 0,
+    "credit": 9012
+  },
+  {
+    "captionGroup1": "자산",
+    "captionGroup2": "유동자산",
+    "captionGroup3": "-",
+    "caption": "매출채권",
+    "debit": 7667,
+    "credit": 0
+  },
+  {
+    "captionGroup1": "자산",
+    "captionGroup2": "유동자산",
+    "captionGroup3": "-",
+    "caption": "상품",
+    "debit": 712,
+    "credit": 0
+  },
+  {
+    "captionGroup1": "자산",
+    "captionGroup2": "유동자산",
+    "captionGroup3": "-",
+    "caption": "선급비용",
+    "debit": 2165,
+    "credit": 0
+  },
+  {
+    "captionGroup1": "자산",
+    "captionGroup2": "유동자산",
+    "captionGroup3": "-",
+    "caption": "미수금",
+    "debit": 9212,
+    "credit": 0
+  },
+  {
+    "captionGroup1": "자산",
+    "captionGroup2": "유동자산",
+    "captionGroup3": "-",
+    "caption": "이연법인세자산",
+    "debit": 0,
+    "credit": 197
+  },
+  {
+    "captionGroup1": "자산",
+    "captionGroup2": "유동자산",
+    "captionGroup3": "-",
+    "caption": "기타",
+    "debit": 8136,
+    "credit": 0
+  },
+  {
+    "captionGroup1": "자산",
+    "captionGroup2": "유동자산",
+    "captionGroup3": "-",
+    "caption": "대손충당금",
+    "debit": 0,
+    "credit": 1251
+  },
+  {
+    "captionGroup1": "자산",
+    "captionGroup2": "비유동자산",
+    "captionGroup3": "유형자산",
+    "caption": "건물및구축물",
+    "debit": 25907,
+    "credit": 0
+  },
+  {
+    "captionGroup1": "자산",
+    "captionGroup2": "비유동자산",
+    "captionGroup3": "유형자산",
+    "caption": "감가상각누계액",
+    "debit": 0,
+    "credit": 14130
+  },
+  {
+    "captionGroup1": "자산",
+    "captionGroup2": "비유동자산",
+    "captionGroup3": "유형자산",
+    "caption": "차량운반구및공구기구비품",
+    "debit": 0,
+    "credit": 1637
+  },
+  {
+    "captionGroup1": "자산",
+    "captionGroup2": "비유동자산",
+    "captionGroup3": "유형자산",
+    "caption": "감가상각누계액",
+    "debit": 0,
+    "credit": 119861
+  },
+  {
+    "captionGroup1": "자산",
+    "captionGroup2": "비유동자산",
+    "captionGroup3": "유형자산",
+    "caption": "토지",
+    "debit": 538,
+    "credit": 0
+  },
+  {
+    "captionGroup1": "자산",
+    "captionGroup2": "비유동자산",
+    "captionGroup3": "유형자산",
+    "caption": "리스자산",
+    "debit": 33545,
+    "credit": 0
+  },
+  {
+    "captionGroup1": "자산",
+    "captionGroup2": "비유동자산",
+    "captionGroup3": "유형자산",
+    "caption": "감가상각누계액",
+    "debit": 0,
+    "credit": 85245
+  },
+  {
+    "captionGroup1": "자산",
+    "captionGroup2": "비유동자산",
+    "captionGroup3": "유형자산",
+    "caption": "건설가계정",
+    "debit": 1201,
+    "credit": 0
+  },
+  {
+    "captionGroup1": "자산",
+    "captionGroup2": "비유동자산",
+    "captionGroup3": "무형자산",
+    "caption": "소프트웨어",
+    "debit": 0,
+    "credit": 8326
+  },
+  {
+    "captionGroup1": "자산",
+    "captionGroup2": "비유동자산",
+    "captionGroup3": "무형자산",
+    "caption": "소프트웨어가계정",
+    "debit": 1915,
+    "credit": 0
+  },
+  {
+    "captionGroup1": "자산",
+    "captionGroup2": "비유동자산",
+    "captionGroup3": "무형자산",
+    "caption": "영업권",
+    "debit": 41,
+    "credit": 0
+  },
+  {
+    "captionGroup1": "자산",
+    "captionGroup2": "비유동자산",
+    "captionGroup3": "무형자산",
+    "caption": "기타무형자산",
+    "debit": 6,
+    "credit": 0
+  },
+  {
+    "captionGroup1": "자산",
+    "captionGroup2": "비유동자산",
+    "captionGroup3": "투자자산",
+    "caption": "투자증권",
+    "debit": 3065,
+    "credit": 0
+  },
+  {
+    "captionGroup1": "자산",
+    "captionGroup2": "비유동자산",
+    "captionGroup3": "투자자산",
+    "caption": "장기대여금",
+    "debit": 0,
+    "credit": 960
+  },
+  {
+    "captionGroup1": "자산",
+    "captionGroup2": "비유동자산",
+    "captionGroup3": "투자자산",
+    "caption": "장기선급비용",
+    "debit": 0,
+    "credit": 980
+  },
+  {
+    "captionGroup1": "자산",
+    "captionGroup2": "비유동자산",
+    "captionGroup3": "투자자산",
+    "caption": "차입보증금",
+    "debit": 46,
+    "credit": 0
+  },
+  {
+    "captionGroup1": "자산",
+    "captionGroup2": "비유동자산",
+    "captionGroup3": "투자자산",
+    "caption": "이연법인세자산",
+    "debit": 6091,
+    "credit": 0
+  },
+  {
+    "captionGroup1": "자산",
+    "captionGroup2": "비유동자산",
+    "captionGroup3": "투자자산",
+    "caption": "기타",
+    "debit": 338,
+    "credit": 0
+  },
+  {
+    "captionGroup1": "자산",
+    "captionGroup2": "비유동자산",
+    "captionGroup3": "투자자산",
+    "caption": "대손충당금",
+    "debit": 284,
+    "credit": 0
+  },
+  {
+    "captionGroup1": "부채",
+    "captionGroup2": "유동부채",
+    "captionGroup3": "-",
+    "caption": "외상매입금",
+    "debit": 0,
+    "credit": 1624
+  },
+  {
+    "captionGroup1": "부채",
+    "captionGroup2": "유동부채",
+    "captionGroup3": "-",
+    "caption": "단기차입금",
+    "debit": 3013,
+    "credit": 0
+  },
+  {
+    "captionGroup1": "부채",
+    "captionGroup2": "유동부채",
+    "captionGroup3": "-",
+    "caption": "리스채무",
+    "debit": 2359,
+    "credit": 0
+  },
+  {
+    "captionGroup1": "부채",
+    "captionGroup2": "유동부채",
+    "captionGroup3": "-",
+    "caption": "미지급금",
+    "debit": 3645,
+    "credit": 0
+  },
+  {
+    "captionGroup1": "부채",
+    "captionGroup2": "유동부채",
+    "captionGroup3": "-",
+    "caption": "미지급법인세",
+    "debit": 0,
+    "credit": 162
+  },
+  {
+    "captionGroup1": "부채",
+    "captionGroup2": "유동부채",
+    "captionGroup3": "-",
+    "caption": "예수금",
+    "debit": 63,
+    "credit": 0
+  },
+  {
+    "captionGroup1": "부채",
+    "captionGroup2": "유동부채",
+    "captionGroup3": "-",
+    "caption": "상여충당부채",
+    "debit": 0,
+    "credit": 193
+  },
+  {
+    "captionGroup1": "부채",
+    "captionGroup2": "유동부채",
+    "captionGroup3": "-",
+    "caption": "포인트충당부채",
+    "debit": 0,
+    "credit": 93
+  },
+  {
+    "captionGroup1": "부채",
+    "captionGroup2": "유동부채",
+    "captionGroup3": "-",
+    "caption": "기타 유동부채 ",
+    "debit": 774,
+    "credit": 0
+  },
+  {
+    "captionGroup1": "부채",
+    "captionGroup2": "비유동부채",
+    "captionGroup3": "-",
+    "caption": "장기차입금",
+    "debit": 0,
+    "credit": 167
+  },
+  {
+    "captionGroup1": "부채",
+    "captionGroup2": "비유동부채",
+    "captionGroup3": "-",
+    "caption": "리스채무",
+    "debit": 14273,
+    "credit": 0
+  },
+  {
+    "captionGroup1": "부채",
+    "captionGroup2": "비유동부채",
+    "captionGroup3": "-",
+    "caption": "퇴직급여충당부채",
+    "debit": 1333,
+    "credit": 0
+  },
+  {
+    "captionGroup1": "부채",
+    "captionGroup2": "비유동부채",
+    "captionGroup3": "-",
+    "caption": "임원퇴직위로충당부채",
+    "debit": 85,
+    "credit": 0
+  },
+  {
+    "captionGroup1": "부채",
+    "captionGroup2": "비유동부채",
+    "captionGroup3": "-",
+    "caption": "장기예수보증금",
+    "debit": 0,
+    "credit": 2872
+  },
+  {
+    "captionGroup1": "부채",
+    "captionGroup2": "비유동부채",
+    "captionGroup3": "-",
+    "caption": "복구충당부채",
+    "debit": 1342,
+    "credit": 0
+  },
+  {
+    "captionGroup1": "부채",
+    "captionGroup2": "비유동부채",
+    "captionGroup3": "-",
+    "caption": "기타",
+    "debit": 0,
+    "credit": 288
+  },
+  {
+    "captionGroup1": "자본",
+    "captionGroup2": "주주자본",
+    "captionGroup3": "-",
+    "caption": "자본금",
+    "debit": 0,
+    "credit": 0
+  },
+  {
+    "captionGroup1": "자본",
+    "captionGroup2": "주주자본",
+    "captionGroup3": "-",
+    "caption": "자본잉여금",
+    "debit": 26,
+    "credit": 0
+  },
+  {
+    "captionGroup1": "자본",
+    "captionGroup2": "주주자본",
+    "captionGroup3": "-",
+    "caption": "이익잉여금",
+    "debit": 19119,
+    "credit": 0
+  },
+  {
+    "captionGroup1": "자본",
+    "captionGroup2": "주주자본",
+    "captionGroup3": "-",
+    "caption": "자기주식",
+    "debit": 42,
+    "credit": 0
+  },
+  {
+    "captionGroup1": "자본",
+    "captionGroup2": "기타포괄손익누계액",
+    "captionGroup3": "-",
+    "caption": "매도가능증권평가이익(손실)",
+    "debit": 0,
+    "credit": 193
+  },
+  {
+    "captionGroup1": "자본",
+    "captionGroup2": "기타포괄손익누계액",
+    "captionGroup3": "-",
+    "caption": "토지재평가차익(손실)",
+    "debit": 0,
+    "credit": 0
+  },
+  {
+    "captionGroup1": "자본",
+    "captionGroup2": "기타포괄손익누계액",
+    "captionGroup3": "-",
+    "caption": "해외사업환산손익",
+    "debit": 2182,
+    "credit": 0
+  },
+  {
+    "captionGroup1": "자본",
+    "captionGroup2": "신주예약권",
+    "captionGroup3": null,
+    "caption": null,
+    "debit": 146,
+    "credit": 0
+  },
+  {
+    "captionGroup1": "자본",
+    "captionGroup2": "비지배지분",
+    "captionGroup3": null,
+    "caption": null,
+    "debit": 1543,
+    "credit": 0
+  }
+]

@@ -18,10 +18,24 @@ const Leadsheet = () => {
   const [state, setState] = React.useState({
     isPivot: true
   })
+  const [columnState, setColumnState] = useState({
+    captionSetA: true,
+    GLA: true,
+    TB: true,
+    CumulatedAJE: true,
+    AdjustedTB: true
+  })
 
   const handleChange = name => event => {
     setState({ ...state, [name]: event.target.checked })
   }
+
+  const columnOnOff = column => event => {
+    setColumnState({ ...columnState, [column]: !columnState[column] })
+    console.log("column on off:", column, columnState[column])
+    console.log("captionSetA: ", columnState.captionSetA)
+  }
+
   return (
     <Layout
       menuTitle="Leadsheet"
@@ -43,8 +57,12 @@ const Leadsheet = () => {
         }
         label="Pivot by Caption Group"
       />
-      <ColumnControl />
-      <LeadsheetTable2 isPivot={state.isPivot} />
+      <ColumnControl columnState={columnState} columnOnOff={columnOnOff} />
+      <LeadsheetTable2
+        isPivot={state.isPivot}
+        columnOnOff={columnOnOff}
+        columnState={columnState}
+      />
     </Layout>
   )
 }

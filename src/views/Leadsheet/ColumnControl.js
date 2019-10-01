@@ -10,13 +10,26 @@ import IconButton from "@material-ui/core/IconButton"
 import AddCircleOutlineIcon from "@material-ui/icons/AddCircleOutline"
 //-----*-----*-----*-----*-----*-----//
 
-const ColumnControl = () => {
+const ColumnControl = props => {
+  const { columnState, columnOnOff } = props
+  const { captionSetA, GLA, TB, CumulatedAJE, AdjustedTB } = columnState
   const classes = useStyles()
   const handleDelete = () => {
     alert("Do you want to exclude this column?")
   }
   return (
     <div className={classes.root}>
+      <Chip
+        // onDelete={columnOnOff("captionSetA")}
+        deleteIcon={<CloseIcon />}
+        label="Caption Set A"
+        size="small"
+        color="primary"
+        className={classes.chip}
+        variant={captionSetA ? "default" : "outlined"}
+        onClick={columnOnOff("captionSetA")}
+      />
+
       {currentColumnList.map(item => {
         const { title, icon, onFocus } = item
         return (
@@ -28,6 +41,7 @@ const ColumnControl = () => {
             size="small"
             color={onFocus ? "primary" : "default"}
             className={classes.chip}
+            // variant={isOn ? "" : "outlined"}
           />
         )
       })}
@@ -42,7 +56,8 @@ const currentColumnList = [
   {
     title: "Caption Set A",
     icon: <ListIcon />,
-    onFocus: true
+    onFocus: true,
+    columnControl: "captionSetA"
   },
   {
     title: "General Ledger Account",

@@ -3,6 +3,7 @@ import styled from "styled-components"
 import captionsWithoutGLA from "../../assets/dummy-data/LS-without-GLA/captionsWithoutGLA.json"
 import prevTB from "../../assets/dummy-data/LS-without-GLA/prevTB.json"
 import curPeriod from "../../assets/dummy-data/LS-without-GLA/curPeriod.json"
+import netChange from "../../assets/dummy-data/LS-without-GLA/netChange.json"
 import ReactTable from "react-table"
 import "react-table/react-table.css"
 import {
@@ -15,7 +16,9 @@ import {
 //-----*-----*-----*-----*-----*-----//
 
 const LeadsheetTable2 = props => {
-  const { isPivot } = props
+  const { isPivot, columnOnOff, columnState } = props
+  const { captionSetA } = columnState
+
   // ! data에 맞게 자동생성되게 수정 필요
   const defaultTalbeState = () => ({
     sorted: [],
@@ -80,7 +83,7 @@ const LeadsheetTable2 = props => {
         onSortedChange={sorted => setTableState({ sorted })}
         onExpandedChange={expanded => setTableState({ expanded })}
         onFilteredChange={filtered => setTableState({ filtered })}
-        style={{ marginRight: 8 }}
+        style={{ marginRight: 8, display: captionSetA ? "block" : "none" }}
         showPagination={false}
       />
       <ReactTable
@@ -112,6 +115,23 @@ const LeadsheetTable2 = props => {
         onSortedChange={sorted => setTableState({ sorted })}
         onExpandedChange={expanded => setTableState({ expanded })}
         onFilteredChange={filtered => setTableState({ filtered })}
+        style={{ marginRight: 8 }}
+        showPagination={false}
+      />
+      <ReactTable
+        data={netChange}
+        columns={curPeriodColumn}
+        pivotBy={
+          isPivot ? ["captionGroup1", "captionGroup2", "captionGroup3"] : ""
+        }
+        className="-striped -highlight"
+        sorted={tableState.sorted}
+        expanded={tableState.expanded}
+        filtered={tableState.filtered}
+        onSortedChange={sorted => setTableState({ sorted })}
+        onExpandedChange={expanded => setTableState({ expanded })}
+        onFilteredChange={filtered => setTableState({ filtered })}
+        style={{ marginRight: 8 }}
         showPagination={false}
       />
     </StyledLeadsheetContainer>
