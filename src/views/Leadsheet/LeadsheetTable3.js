@@ -15,7 +15,7 @@ import {
 
 //-----*-----*-----*-----*-----*-----//
 
-const LeadsheetTable2 = props => {
+const LeadsheetTable3 = props => {
   const { isPivot, columnOnOff, columnState } = props
   const { captionSetA, TB } = columnState
 
@@ -64,11 +64,6 @@ const LeadsheetTable2 = props => {
   const [pivot, setPivot] = useState("")
   return (
     <StyledLeadsheetContainer>
-      {/* <pre>
-        <code>
-          <strong>this.state ===</strong> {JSON.stringify(tableState, null, 2)}
-        </code>
-      </pre> */}
       <pivotToggleButton />
       <ReactTable
         data={captionsWithoutGLA}
@@ -150,4 +145,4 @@ const StyledLeadsheetContainer = styled.div`
   }
 `
 
-export default LeadsheetTable2
+export default LeadsheetTable3

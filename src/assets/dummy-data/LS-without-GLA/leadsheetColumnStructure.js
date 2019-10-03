@@ -1,6 +1,31 @@
 import React from "react"
 import _ from "lodash"
 
+const FormattedCell = {
+  Cell: row => {
+    const number = row.value.toLocaleString()
+
+    return (
+      <div
+        style={{
+          width: "100%",
+          height: "100%",
+          color:
+            row.original.captionGroup1 === "자산"
+              ? "coral"
+              : row.original.captionGroup1 === "부채"
+              ? "orange"
+              : row.original.captionGroup1 === "자본"
+              ? "Green"
+              : null
+        }}
+      >
+        {number}
+      </div>
+    )
+  }
+}
+
 const CaptionOnlyColumn = [
   {
     Header: "Caption Set A",
@@ -123,24 +148,7 @@ const TBColumn = [
             </span>
           )
         },
-        Cell: row => (
-          <div
-            style={{
-              width: "100%",
-              height: "100%",
-              color:
-                row.original.captionGroup1 === "자산"
-                  ? "coral"
-                  : row.original.captionGroup1 === "부채"
-                  ? "orange"
-                  : row.original.captionGroup1 === "자본"
-                  ? "Green"
-                  : null
-            }}
-          >
-            {row.value}
-          </div>
-        )
+        Cell: FormattedCell.Cell
       },
       {
         Header: "Credit",
@@ -154,24 +162,7 @@ const TBColumn = [
             </span>
           )
         },
-        Cell: row => (
-          <div
-            style={{
-              width: "100%",
-              height: "100%",
-              color:
-                row.original.captionGroup1 === "자산"
-                  ? "coral"
-                  : row.original.captionGroup1 === "부채"
-                  ? "orange"
-                  : row.original.captionGroup1 === "자본"
-                  ? "Green"
-                  : null
-            }}
-          >
-            {row.value}
-          </div>
-        )
+        Cell: FormattedCell.Cell
       }
     ]
   }
@@ -227,7 +218,8 @@ const curPeriodColumn = [
               ({row.row._pivotVal}) {row.value}
             </span>
           )
-        }
+        },
+        Cell: FormattedCell.Cell
       },
       {
         Header: "Credit",
@@ -240,7 +232,8 @@ const curPeriodColumn = [
               ({row.row._pivotVal}) {row.value}
             </span>
           )
-        }
+        },
+        Cell: FormattedCell.Cell
       }
     ]
   }
@@ -296,7 +289,8 @@ const netChangeColumn = [
               ({row.row._pivotVal}) {row.value}
             </span>
           )
-        }
+        },
+        Cell: FormattedCell.Cell
       },
       {
         Header: "Credit",
@@ -309,7 +303,8 @@ const netChangeColumn = [
               ({row.row._pivotVal}) {row.value}
             </span>
           )
-        }
+        },
+        Cell: FormattedCell.Cell
       }
     ]
   }

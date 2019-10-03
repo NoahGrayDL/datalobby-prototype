@@ -8,42 +8,39 @@ import {
 import Button from "@material-ui/core/Button"
 
 import { Layout } from "../../components/layout"
-import { LeadsheetTable, LeadsheetTable2, ColumnControl } from "../leadsheet"
+import {
+  LeadsheetTable3,
+  ColumnControl,
+  LeadsheetViewControls
+} from "../leadsheet"
 import Checkbox from "@material-ui/core/Checkbox"
 import FormControlLabel from "@material-ui/core/FormControlLabel"
 
+// import View setting information
+import defaultView from "./viewSetA"
 //-----*-----*-----*-----*-----*-----//
 
-const Leadsheet = () => {
-  const [state, setState] = React.useState({
-    isPivot: true
-  })
-  const [columnState, setColumnState] = useState({
-    captionSetA: true,
-    GLA: true,
-    TB: true,
-    CumulatedAJE: true,
-    AdjustedTB: true
-  })
+export default function Leadsheet() {
+  const viewList = [defaultView, "forClosing", "forIndividualFS", "forSOX"]
+  const [selectedView, setSelectedView] = useState(viewList[0])
+
+  const [state, setState] = useState(selectedView.pivotState.isPivot)
+  const [columnState, setColumnState] = useState(selectedView.columnsState)
 
   const handleChange = name => event => {
     setState({ ...state, [name]: event.target.checked })
   }
 
-  const columnOnOff = column => event => {
-    setColumnState({ ...columnState, [column]: !columnState[column] })
-    console.log("column on off:", column, columnState[column])
-    console.log("captionSetA: ", columnState.captionSetA)
+  const columnOnOff = columnId => event => {
+    setColumnState({
+      ...columnState,
+      [columnId]: !columnState[columnId].isDisplayed
+    })
   }
 
   return (
-    <Layout
-      menuTitle="Leadsheet"
-      filters={LeadsheetFilters}
-      // Need to layout update
-      // buttons={DatePicker}
-      buttons={<Button size="medium">Save View</Button>}
-    >
+    <Layout menuTitle="Leadsheet">
+      <LeadsheetViewControls />
       <FormControlLabel
         control={
           <Checkbox
@@ -58,7 +55,7 @@ const Leadsheet = () => {
         label="Pivot by Caption Group"
       />
       <ColumnControl columnState={columnState} columnOnOff={columnOnOff} />
-      <LeadsheetTable2
+      <LeadsheetTable3
         isPivot={state.isPivot}
         columnOnOff={columnOnOff}
         columnState={columnState}
@@ -66,61 +63,3 @@ const Leadsheet = () => {
     </Layout>
   )
 }
-
-const DatePicker = () => {
-  const [selectedDate, setSelectedDate] = useState(new Date())
-  const handleDateChange = date => {
-    setSelectedDate(date)
-  }
-  return (
-    <MuiPickersUtilsProvider utils={DateFnsUtils}>
-      <KeyboardDatePicker
-        margin="normal"
-        id="date-picker-dialog"
-        label="Date picker dialog"
-        format="MM/dd/yyyy"
-        value={selectedDate}
-        onChange={handleDateChange}
-        KeyboardButtonProps={{
-          "aria-label": "change date"
-        }}
-      />
-    </MuiPickersUtilsProvider>
-  )
-}
-
-const LeadsheetFilters = [
-  {
-    filterName: "Leadsheet View",
-    filterItems: [
-      { value: 1, title: "filter item 1" },
-      { value: 2, title: "filter item 2" },
-      { value: 3, title: "filter item 3" }
-    ]
-  },
-  {
-    filterName: "Entity",
-    filterItems: [
-      { value: 1, title: "filter item 1" },
-      { value: 2, title: "filter item 2" },
-      { value: 3, title: "filter item 3" }
-    ]
-  },
-  {
-    filterName: "Unit",
-    filterItems: [
-      { value: 1, title: "filter item 1" },
-      { value: 2, title: "filter item 2" },
-      { value: 3, title: "filter item 3" }
-    ]
-  },
-  {
-    filterName: "Date",
-    filterItems: [
-      { value: 1, title: "filter item 1" },
-      { value: 2, title: "filter item 2" },
-      { value: 3, title: "filter item 3" }
-    ]
-  }
-]
-export default Leadsheet

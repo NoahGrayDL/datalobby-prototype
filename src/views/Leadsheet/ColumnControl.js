@@ -29,7 +29,16 @@ const ColumnControl = props => {
         variant={captionSetA ? "default" : "outlined"}
         onClick={columnOnOff("captionSetA")}
       />
-
+      <Chip
+        // onDelete={columnOnOff("captionSetA")}
+        deleteIcon={<CloseIcon />}
+        label="Trial Balance"
+        size="small"
+        color="primary"
+        className={classes.chip}
+        variant={TB ? "default" : "outlined"}
+        onClick={columnOnOff("TB")}
+      />
       {currentColumnList.map(item => {
         const { title, icon, onFocus } = item
         return (
@@ -53,12 +62,6 @@ const ColumnControl = props => {
 }
 
 const currentColumnList = [
-  {
-    title: "Caption Set A",
-    icon: <ListIcon />,
-    onFocus: true,
-    columnControl: "captionSetA"
-  },
   {
     title: "General Ledger Account",
     icon: <AccountBalanceWalletIcon />,
