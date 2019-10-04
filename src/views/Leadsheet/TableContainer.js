@@ -11,14 +11,23 @@ import {
 import styled from "styled-components"
 
 export default function TableContainer(props) {
-  const { selectedView, columns } = props
+  const { selectedView, columns, tableState, setTableState } = props
   const { isPivot } = selectedView
 
   return (
     <StyledTableContainer>
       {columns.map(column => {
         const { isDisplayed } = column
-        return isDisplayed && <TableColumn isPivot={isPivot} data={column} />
+        return (
+          isDisplayed && (
+            <TableColumn
+              isPivot={isPivot}
+              data={column}
+              tableState={tableState}
+              setTableState={setTableState}
+            />
+          )
+        )
       })}
     </StyledTableContainer>
   )
@@ -30,7 +39,7 @@ const StyledTableContainer = styled.div`
 `
 
 const TableColumn = props => {
-  const { data, isPivot } = props
+  const { data, isPivot, tableState, setTableState } = props
   const { columnTitle } = data
 
   return (
@@ -42,6 +51,12 @@ const TableColumn = props => {
         pivotBy={
           isPivot ? ["captionGroup1", "captionGroup2", "captionGroup3"] : ""
         }
+        sorted={tableState.sorted}
+        expanded={tableState.expanded}
+        filtered={tableState.filtered}
+        onSortedChange={sorted => setTableState({ sorted })}
+        onExpandedChange={expanded => setTableState({ expanded })}
+        onFilteredChange={filtered => setTableState({ filtered })}
       />
       {/* <ReactTable
         data={captionsWithoutGLA}

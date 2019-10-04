@@ -12,6 +12,9 @@ export default function Leadsheet() {
   const [columns, setColumns] = useState(currentViewObject.displayedColumns)
 
   const [columnUpdate, setColumnUpdate] = useState(false)
+  const [tableState, setTableState] = useState(
+    currentViewObject.sharedTableState
+  )
 
   const handleSelectedView = select => {
     setCurrentViewObject(_.filter(viewList, _.matches({ viewId: select }))[0])
@@ -44,7 +47,12 @@ export default function Leadsheet() {
         columnOnOff={columnOnOff}
         pivotOnOff={pivotOnOff}
       />
-      <TableContainer selectedView={currentViewObject} columns={columns} />
+      <TableContainer
+        selectedView={currentViewObject}
+        columns={columns}
+        tableState={tableState}
+        setTableState={setTableState}
+      />
     </Layout>
   )
 }
@@ -56,6 +64,46 @@ const viewList = [
     isDefault: true,
     viewTitle: "Default View",
     isPivot: false,
+    sharedTableState: {
+      sorted: [],
+      expanded: {
+        "0": {
+          "0": {
+            "0": {
+              "0": {}
+            }
+          },
+          "1": {
+            "0": {},
+            "1": {},
+            "2": {}
+          }
+        },
+        "1": {
+          "0": {
+            "0": {}
+          },
+          "1": {
+            "0": {}
+          }
+        },
+        "2": {
+          "0": {
+            "0": {}
+          },
+          "1": {
+            "0": {}
+          },
+          "2": {
+            "0": {}
+          },
+          "3": {
+            "0": {}
+          }
+        }
+      },
+      filtered: []
+    },
     displayedColumns: [
       {
         columnId: 1,
@@ -79,6 +127,7 @@ const viewList = [
     isDefault: false,
     viewTitle: "Second View",
     isPivot: false,
+    sharedTableState: {},
     displayedColumns: [
       {
         columnId: 4,
@@ -97,6 +146,7 @@ const viewList = [
     isDefault: false,
     viewTitle: "Third View",
     isPivot: false,
+    sharedTableState: {},
     displayedColumns: [
       {
         columnId: 6,
