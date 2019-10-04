@@ -16,8 +16,8 @@ import {
 //-----*-----*-----*-----*-----*-----//
 
 const LeadsheetTable3 = props => {
-  const { isPivot, columnOnOff, columnState } = props
-  const { captionSetA, TB } = columnState
+  const { isPivot } = props
+  // const { captionSetA, TB } = columnState
 
   // ! data에 맞게 자동생성되게 수정 필요
   const defaultTalbeState = () => ({
@@ -78,7 +78,7 @@ const LeadsheetTable3 = props => {
         onSortedChange={sorted => setTableState({ sorted })}
         onExpandedChange={expanded => setTableState({ expanded })}
         onFilteredChange={filtered => setTableState({ filtered })}
-        style={{ marginRight: 8, display: captionSetA ? "block" : "none" }}
+        style={{ marginRight: 8 }}
         showPagination={false}
       />
       <ReactTable
@@ -94,7 +94,7 @@ const LeadsheetTable3 = props => {
         onSortedChange={sorted => setTableState({ sorted })}
         onExpandedChange={expanded => setTableState({ expanded })}
         onFilteredChange={filtered => setTableState({ filtered })}
-        style={{ marginRight: 8, display: TB ? "block" : "none" }}
+        style={{ marginRight: 8 }}
         showPagination={false}
       />
       <ReactTable

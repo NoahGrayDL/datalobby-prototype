@@ -1,4 +1,4 @@
-import React from "react"
+import React, { useState } from "react"
 import { makeStyles } from "@material-ui/core/styles"
 import Chip from "@material-ui/core/Chip"
 import ListIcon from "@material-ui/icons/List"
@@ -12,11 +12,11 @@ import AddCircleOutlineIcon from "@material-ui/icons/AddCircleOutline"
 
 const ColumnControl = props => {
   const { columnState, columnOnOff } = props
-  const { captionSetA, GLA, TB, CumulatedAJE, AdjustedTB } = columnState
   const classes = useStyles()
   const handleDelete = () => {
     alert("Do you want to exclude this column?")
   }
+
   return (
     <div className={classes.root}>
       <Chip
@@ -26,8 +26,8 @@ const ColumnControl = props => {
         size="small"
         color="primary"
         className={classes.chip}
-        variant={captionSetA ? "default" : "outlined"}
-        onClick={columnOnOff("captionSetA")}
+        // variant={captionSetA ? "default" : "outlined"}
+        onClick={columnOnOff("")}
       />
       <Chip
         // onDelete={columnOnOff("captionSetA")}
@@ -36,7 +36,7 @@ const ColumnControl = props => {
         size="small"
         color="primary"
         className={classes.chip}
-        variant={TB ? "default" : "outlined"}
+        // variant={TB ? "default" : "outlined"}
         onClick={columnOnOff("TB")}
       />
       {currentColumnList.map(item => {

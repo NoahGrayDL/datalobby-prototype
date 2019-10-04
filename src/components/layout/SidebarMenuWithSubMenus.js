@@ -62,6 +62,7 @@ const SidebarMenuWithSubMenus = props => {
                 to={url}
                 className={classes.link}
                 activeClassName={classes.activeMenu}
+                key={url}
               >
                 <ListItem button className={classes.nested}>
                   <ListItemIcon className={classes.menuIcon}>
