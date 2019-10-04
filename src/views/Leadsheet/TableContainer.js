@@ -1,23 +1,64 @@
 import React from "react"
+import ReactTable from "react-table"
+import "react-table/react-table.css"
+import captionsWithoutGLA from "../../assets/dummy-data/LS-without-GLA/captionsWithoutGLA.json"
+import {
+  CaptionOnlyColumn,
+  CaptionWithoutGLAColumn,
+  TBColumn,
+  curPeriodColumn
+} from "../../assets/dummy-data/LS-without-GLA/leadsheetColumnStructure"
+import styled from "styled-components"
 
 export default function TableContainer(props) {
   const { selectedView, columns } = props
+  const { isPivot } = selectedView
 
   return (
-    <div>
-      <div>Table Container | view: {selectedView}</div>
-      <div>
-        {columns.map(column => {
-          const { isDisplayed } = column
-          return isDisplayed && <TempTable data={column} />
-        })}
-      </div>
-    </div>
+    <StyledTableContainer>
+      {columns.map(column => {
+        const { isDisplayed } = column
+        return isDisplayed && <TableColumn isPivot={isPivot} data={column} />
+      })}
+    </StyledTableContainer>
   )
 }
 
-const TempTable = props => {
-  const { data } = props
+const StyledTableContainer = styled.div`
+  display: flex;
+  flex-direction: row;
+`
+
+const TableColumn = props => {
+  const { data, isPivot } = props
   const { columnTitle } = data
-  return <div>{columnTitle}</div>
+
+  return (
+    <div>
+      {columnTitle}
+      <ReactTable
+        data={captionsWithoutGLA}
+        columns={isPivot ? CaptionWithoutGLAColumn : CaptionOnlyColumn}
+        pivotBy={
+          isPivot ? ["captionGroup1", "captionGroup2", "captionGroup3"] : ""
+        }
+      />
+      {/* <ReactTable
+        data={captionsWithoutGLA}
+        columns={isPivot ? CaptionWithoutGLAColumn : CaptionOnlyColumn}
+        pivotBy={
+          isPivot ? ["captionGroup1", "captionGroup2", "captionGroup3"] : ""
+        }
+        className="-striped -highlight"
+        sorted={tableState.sorted}
+        expanded={tableState.expanded}
+        filtered={tableState.filtered}
+        onSortedChange={sorted => setTableState({ sorted })}
+        onExpandedChange={expanded => setTableState({ expanded })}
+        onFilteredChange={filtered => setTableState({ filtered })}
+        style={{ marginRight: 8, display: captionSetA ? "block" : "none" }}
+        showPagination={false}
+      /> */}
+    </div>
+  )
 }

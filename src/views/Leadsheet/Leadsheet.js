@@ -23,6 +23,12 @@ export default function Leadsheet() {
     setColumnUpdate(!columnUpdate)
   }
 
+  const pivotOnOff = () => {
+    console.log("pivot clicked")
+    currentViewObject.isPivot = !currentViewObject.isPivot
+    setColumnUpdate(!columnUpdate)
+  }
+
   useEffect(() => {
     console.log("---use effect---", currentViewObject, columns)
     setColumns(currentViewObject.displayedColumns)
@@ -31,16 +37,14 @@ export default function Leadsheet() {
   return (
     <Layout menuTitle="Leadsheet">
       <ViewControl
-        selectedView={currentViewObject.viewId}
+        selectedView={currentViewObject}
         handleSelectedView={handleSelectedView}
         viewList={viewList}
         columns={columns}
         columnOnOff={columnOnOff}
+        pivotOnOff={pivotOnOff}
       />
-      <TableContainer
-        selectedView={currentViewObject.viewTitle}
-        columns={columns}
-      />
+      <TableContainer selectedView={currentViewObject} columns={columns} />
     </Layout>
   )
 }
@@ -51,6 +55,7 @@ const viewList = [
     viewId: "default",
     isDefault: true,
     viewTitle: "Default View",
+    isPivot: false,
     displayedColumns: [
       {
         columnId: 1,
@@ -73,6 +78,7 @@ const viewList = [
     viewId: "second",
     isDefault: false,
     viewTitle: "Second View",
+    isPivot: false,
     displayedColumns: [
       {
         columnId: 4,
@@ -90,6 +96,7 @@ const viewList = [
     viewId: "third",
     isDefault: false,
     viewTitle: "Third View",
+    isPivot: false,
     displayedColumns: [
       {
         columnId: 6,

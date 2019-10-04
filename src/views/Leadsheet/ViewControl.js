@@ -13,7 +13,8 @@ export default function ViewControl(props) {
     handleSelectedView,
     viewList,
     columns,
-    columnOnOff
+    columnOnOff,
+    pivotOnOff
   } = props
 
   console.log("column on control: ", columns)
@@ -24,8 +25,11 @@ export default function ViewControl(props) {
         title="View Select"
         items={viewList}
         handleSelectedView={handleSelectedView}
-        defaultItem={selectedView}
+        defaultItem={selectedView.viewId}
       />
+      <div className="pivot-button" onClick={pivotOnOff}>
+        {selectedView.isPivot ? "Pivot Off" : "Pivot On"}
+      </div>
       <div className="column-chip-container">
         {columns.map(column => {
           const { columnId, columnTitle, isDisplayed } = column
