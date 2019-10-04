@@ -21,7 +21,7 @@ export default function TableContainer(props) {
 
   return (
     <StyledTableContainer>
-      {columns.map(column => {
+      {columns.map((column, i) => {
         const { isDisplayed } = column
         return (
           isDisplayed && (
@@ -30,6 +30,7 @@ export default function TableContainer(props) {
               columnInfo={column}
               tableState={tableState}
               setTableState={setTableState}
+              key={i}
             />
           )
         )
@@ -74,20 +75,17 @@ const TableColumn = props => {
   }
 
   return (
-    <div>
-      {columnTitle}
-      <ReactTable
-        data={columnData(data)}
-        columns={columnStructure(data)}
-        pivotBy={isPivot ? pivotBy : ""}
-        sorted={tableState.sorted}
-        expanded={tableState.expanded}
-        filtered={tableState.filtered}
-        onSortedChange={sorted => setTableState({ sorted })}
-        onExpandedChange={expanded => setTableState({ expanded })}
-        onFilteredChange={filtered => setTableState({ filtered })}
-        showPagination={false}
-      />
-    </div>
+    <ReactTable
+      data={columnData(data)}
+      columns={columnStructure(data)}
+      pivotBy={isPivot ? pivotBy : []}
+      sorted={tableState.sorted}
+      expanded={tableState.expanded}
+      filtered={tableState.filtered}
+      onSortedChange={sorted => setTableState({ sorted })}
+      onExpandedChange={expanded => setTableState({ expanded })}
+      onFilteredChange={filtered => setTableState({ filtered })}
+      showPagination={false}
+    />
   )
 }

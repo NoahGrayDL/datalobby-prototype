@@ -1,10 +1,9 @@
 import React, { useState } from "react"
-import { makeStyles } from "@material-ui/core/styles"
+import { DropdownSelect } from "../../components"
+import Chip from "@material-ui/core/Chip"
+import CloseIcon from "@material-ui/icons/Close"
+import GridOnIcon from "@material-ui/icons/GridOn"
 
-import FormControl from "@material-ui/core/FormControl"
-import MenuItem from "@material-ui/core/MenuItem"
-import Select from "@material-ui/core/Select"
-import InputLabel from "@material-ui/core/InputLabel"
 import styled from "styled-components"
 
 export default function ViewControl(props) {
@@ -12,36 +11,55 @@ export default function ViewControl(props) {
     selectedView,
     handleSelectedView,
     viewList,
+    unitList,
+    handleSelectedUnit,
+    selectedUnit,
+    pivotList,
+    handleSelectedPivot,
+    selectedPivot,
     columns,
-    columnOnOff,
-    pivotOnOff
+    columnOnOff
   } = props
 
   console.log("column on control: ", columns)
-
+  const handleDelete = () => {
+    alert("Do you want to exclude this column?")
+  }
   return (
     <StyledViewControl>
       <DropdownSelect
         title="View Select"
-        items={viewList}
-        handleSelectedView={handleSelectedView}
-        defaultItem={selectedView.viewId}
+        selectOptions={viewList}
+        handleSelect={handleSelectedView}
+        defaultValue={selectedView.id}
       />
-      <div className="pivot-button" onClick={pivotOnOff}>
-        {selectedView.isPivot ? "Pivot Off" : "Pivot On"}
-      </div>
+      <DropdownSelect
+        title="Unit Select"
+        selectOptions={unitList}
+        handleSelect={handleSelectedUnit}
+        defaultValue={selectedUnit.id}
+      />
+      <DropdownSelect
+        title="Pivot By"
+        selectOptions={pivotList}
+        handleSelect={handleSelectedPivot}
+        defaultValue={selectedPivot.id}
+      />
       <div className="column-chip-container">
         {columns.map(column => {
           const { columnId, columnTitle, isDisplayed } = column
           return (
-            <div
-              className="column-chip"
+            <Chip
               key={columnId}
-              style={{ color: isDisplayed ? "black" : "#e5e5e5" }}
+              onDelete={handleDelete}
+              deleteIcon={<CloseIcon style={{ zIndex: 1 }} />}
+              icon={<GridOnIcon />}
+              label={columnTitle}
+              size="small"
+              color="primary"
+              variant={isDisplayed ? "default" : "outlined"}
               onClick={() => columnOnOff(columnId)}
-            >
-              {columnTitle}
-            </div>
+            />
           )
         })}
       </div>
@@ -62,54 +80,3 @@ const StyledViewControl = styled.div`
     }
   }
 `
-
-const DropdownSelect = props => {
-  const { title, items, handleSelectedView, defaultItem } = props
-  const classes = useStyles()
-  const [value, setValue] = useState({
-    selectedId: defaultItem,
-    title: ""
-  })
-
-  const handleSelect = event => {
-    setValue(value => ({
-      ...value,
-      [event.target.name]: event.target.value
-    }))
-    handleSelectedView(event.target.value)
-  }
-
-  return (
-    <FormControl className={classes.formControl}>
-      <InputLabel htmlFor="select-view">{title}</InputLabel>
-      <Select
-        value={value.selectedId}
-        onChange={handleSelect}
-        inputProps={{ name: "selectedId", id: "select-view" }}
-      >
-        {items.map(item => {
-          const { viewId, viewTitle } = item
-          return (
-            <MenuItem value={viewId} key={viewId}>
-              {viewTitle}
-            </MenuItem>
-          )
-        })}
-      </Select>
-    </FormControl>
-  )
-}
-
-const useStyles = makeStyles(theme => ({
-  root: {
-    display: "flex",
-    flexWrap: "wrap"
-  },
-  formControl: {
-    margin: theme.spacing(0, 2, 1, 0),
-    minWidth: 148
-  },
-  selectEmpty: {
-    marginTop: theme.spacing(0)
-  }
-}))
