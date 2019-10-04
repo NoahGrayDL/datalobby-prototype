@@ -1,4 +1,4 @@
-import React, { useState, useEffect, useReducer } from "react"
+import React, { useState, useEffect } from "react"
 import { Layout } from "../../components/layout"
 import { ViewControl, TableContainer } from "../leadsheet"
 import _ from "lodash"
@@ -11,7 +11,6 @@ export default function Leadsheet() {
   )
   const [columns, setColumns] = useState(currentViewObject.displayedColumns)
 
-  const [columnUpdate, setColumnUpdate] = useState(false)
   const [tableState, setTableState] = useState(
     currentViewObject.sharedTableState
   )
@@ -21,20 +20,22 @@ export default function Leadsheet() {
   }
 
   const columnOnOff = target => {
-    const updatedColumn = _.findIndex(columns, { columnId: target })
-    columns[updatedColumn].isDisplayed = !columns[updatedColumn].isDisplayed
-    setColumnUpdate(!columnUpdate)
+    const newCol = _.clone(columns)
+    const updatedColumn = _.findIndex(newCol, { columnId: target })
+    newCol[updatedColumn].isDisplayed = !newCol[updatedColumn].isDisplayed
+    setColumns(newCol)
   }
 
   const pivotOnOff = () => {
-    console.log("pivot clicked")
-    currentViewObject.isPivot = !currentViewObject.isPivot
-    setColumnUpdate(!columnUpdate)
+    const newCurViewObj = _.clone(currentViewObject)
+    newCurViewObj.isPivot = !newCurViewObj.isPivot
+    setCurrentViewObject(newCurViewObj)
   }
 
   useEffect(() => {
-    console.log("---use effect---", currentViewObject, columns)
+    // console.log("---use effect---", currentViewObject, columns)
     setColumns(currentViewObject.displayedColumns)
+    setTableState(currentViewObject.sharedTableState)
   }, [currentViewObject, columns])
 
   return (
@@ -64,6 +65,7 @@ const viewList = [
     isDefault: true,
     viewTitle: "Default View",
     isPivot: false,
+    pivotBy: ["captionGroup1", "captionGroup2", "captionGroup3"],
     sharedTableState: {
       sorted: [],
       expanded: {
@@ -106,19 +108,22 @@ const viewList = [
     },
     displayedColumns: [
       {
-        columnId: 1,
-        columnTitle: "column 1",
+        columnId: "captionSet",
+        data: "caption",
+        columnTitle: "col 1_caption list",
         isDisplayed: true
       },
       {
-        columnId: 2,
-        columnTitle: "column 2",
+        columnId: "data1",
+        data: "prevTB",
+        columnTitle: "col 2_previous TB",
+        isDisplayed: true
+      },
+      {
+        columnId: "data2",
+        data: "curPeriod",
+        columnTitle: "col 3_current Period",
         isDisplayed: false
-      },
-      {
-        columnId: 3,
-        columnTitle: "column 3",
-        isDisplayed: true
       }
     ]
   },
@@ -127,17 +132,59 @@ const viewList = [
     isDefault: false,
     viewTitle: "Second View",
     isPivot: false,
-    sharedTableState: {},
+    pivotBy: ["captionGroup1", "captionGroup2", "captionGroup3"],
+    sharedTableState: {
+      sorted: [],
+      expanded: {
+        "0": {
+          "0": {
+            "0": {
+              "0": {}
+            }
+          },
+          "1": {
+            "0": {},
+            "1": {},
+            "2": {}
+          }
+        },
+        "1": {
+          "0": {
+            "0": {}
+          },
+          "1": {
+            "0": {}
+          }
+        },
+        "2": {
+          "0": {
+            "0": {}
+          },
+          "1": {
+            "0": {}
+          },
+          "2": {
+            "0": {}
+          },
+          "3": {
+            "0": {}
+          }
+        }
+      },
+      filtered: []
+    },
     displayedColumns: [
       {
-        columnId: 4,
-        columnTitle: "column 4",
-        isDisplayed: false
+        columnId: "captionSet",
+        data: "caption",
+        columnTitle: "col 4_caption",
+        isDisplayed: true
       },
       {
-        columnId: 5,
-        columnTitle: "column 5",
-        isDisplayed: true
+        columnId: "data3",
+        data: "prevTB",
+        columnTitle: "col 5_previous TB",
+        isDisplayed: false
       }
     ]
   },
@@ -146,21 +193,64 @@ const viewList = [
     isDefault: false,
     viewTitle: "Third View",
     isPivot: false,
-    sharedTableState: {},
+    pivotBy: ["captionGroup1", "captionGroup2", "captionGroup3"],
+    sharedTableState: {
+      sorted: [],
+      expanded: {
+        "0": {
+          "0": {
+            "0": {
+              "0": {}
+            }
+          },
+          "1": {
+            "0": {},
+            "1": {},
+            "2": {}
+          }
+        },
+        "1": {
+          "0": {
+            "0": {}
+          },
+          "1": {
+            "0": {}
+          }
+        },
+        "2": {
+          "0": {
+            "0": {}
+          },
+          "1": {
+            "0": {}
+          },
+          "2": {
+            "0": {}
+          },
+          "3": {
+            "0": {}
+          }
+        }
+      },
+      filtered: []
+    },
     displayedColumns: [
       {
-        columnId: 6,
-        columnTitle: "column 6",
+        columnId: "captionSet",
+        data: "caption",
+        columnTitle: "col 6_caption",
         isDisplayed: true
       },
       {
-        columnId: 7,
-        columnTitle: "column 7",
+        columnId: "data4",
+        data: "prevTB",
+        columnTitle: "col 7_previous TB",
         isDisplayed: true
       },
       {
-        columnId: 8,
-        columnTitle: "column 8",
+        columnId: "data5",
+        data: "netChange",
+        columnTitle: "col 8_current TB",
         isDisplayed: true
       }
     ]

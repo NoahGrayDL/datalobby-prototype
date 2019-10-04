@@ -1,18 +1,23 @@
 import React from "react"
 import ReactTable from "react-table"
 import "react-table/react-table.css"
-import captionsWithoutGLA from "../../assets/dummy-data/LS-without-GLA/captionsWithoutGLA.json"
 import {
   CaptionOnlyColumn,
   CaptionWithoutGLAColumn,
   TBColumn,
-  curPeriodColumn
+  curPeriodColumn,
+  netChangeColumn
 } from "../../assets/dummy-data/LS-without-GLA/leadsheetColumnStructure"
 import styled from "styled-components"
 
+// json
+import captionData from "../../assets/dummy-data/LS-without-GLA/captionsWithoutGLA.json"
+import curPeriodData from "../../assets/dummy-data/LS-without-GLA/curPeriod.json"
+import netChangeData from "../../assets/dummy-data/LS-without-GLA/netChange.json"
+import prevTBData from "../../assets/dummy-data/LS-without-GLA/prevTB.json"
+
 export default function TableContainer(props) {
   const { selectedView, columns, tableState, setTableState } = props
-  const { isPivot } = selectedView
 
   return (
     <StyledTableContainer>
@@ -21,8 +26,8 @@ export default function TableContainer(props) {
         return (
           isDisplayed && (
             <TableColumn
-              isPivot={isPivot}
-              data={column}
+              selectedView={selectedView}
+              columnInfo={column}
               tableState={tableState}
               setTableState={setTableState}
             />
@@ -39,41 +44,50 @@ const StyledTableContainer = styled.div`
 `
 
 const TableColumn = props => {
-  const { data, isPivot, tableState, setTableState } = props
-  const { columnTitle } = data
+  const { columnInfo, selectedView, tableState, setTableState } = props
+  const { columnTitle, data } = columnInfo
+  const { isPivot, pivotBy } = selectedView
+  console.log("data: ", data)
+
+  const columnData = data => {
+    if (data === "caption") {
+      return captionData
+    } else if (data === "prevTB") {
+      return prevTBData
+    } else if (data === "curPeriod") {
+      return curPeriodData
+    } else if (data === "netChange") {
+      return netChangeData
+    }
+  }
+
+  const columnStructure = data => {
+    if (data === "caption") {
+      return isPivot ? CaptionWithoutGLAColumn : CaptionOnlyColumn
+    } else if (data === "prevTB") {
+      return TBColumn
+    } else if (data === "curPeriod") {
+      return curPeriodColumn
+    } else if (data === "netChange") {
+      return netChangeColumn
+    }
+  }
 
   return (
     <div>
       {columnTitle}
       <ReactTable
-        data={captionsWithoutGLA}
-        columns={isPivot ? CaptionWithoutGLAColumn : CaptionOnlyColumn}
-        pivotBy={
-          isPivot ? ["captionGroup1", "captionGroup2", "captionGroup3"] : ""
-        }
+        data={columnData(data)}
+        columns={columnStructure(data)}
+        pivotBy={isPivot ? pivotBy : ""}
         sorted={tableState.sorted}
         expanded={tableState.expanded}
         filtered={tableState.filtered}
         onSortedChange={sorted => setTableState({ sorted })}
         onExpandedChange={expanded => setTableState({ expanded })}
         onFilteredChange={filtered => setTableState({ filtered })}
-      />
-      {/* <ReactTable
-        data={captionsWithoutGLA}
-        columns={isPivot ? CaptionWithoutGLAColumn : CaptionOnlyColumn}
-        pivotBy={
-          isPivot ? ["captionGroup1", "captionGroup2", "captionGroup3"] : ""
-        }
-        className="-striped -highlight"
-        sorted={tableState.sorted}
-        expanded={tableState.expanded}
-        filtered={tableState.filtered}
-        onSortedChange={sorted => setTableState({ sorted })}
-        onExpandedChange={expanded => setTableState({ expanded })}
-        onFilteredChange={filtered => setTableState({ filtered })}
-        style={{ marginRight: 8, display: captionSetA ? "block" : "none" }}
         showPagination={false}
-      /> */}
+      />
     </div>
   )
 }
