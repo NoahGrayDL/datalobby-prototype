@@ -292,4 +292,4 @@ const ORG_MENUS = [
     subMenus: false
   }
 ]
-export default SidebarMenuList
+export default React.memo(SidebarMenuList)

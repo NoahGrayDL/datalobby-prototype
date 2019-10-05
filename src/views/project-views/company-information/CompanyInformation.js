@@ -1,4 +1,4 @@
-import React, { useState, useRef, useCallback } from "react"
+import React, { useRef, useCallback, useReducer } from "react"
 import { PageContainer } from "../../../components"
 import InsertCompany from "./InsertCompany"
 import CompanyList from "./CompanyList"
@@ -6,7 +6,7 @@ import CompanyList from "./CompanyList"
 
 function createBulkEntities() {
   const array = []
-  for (let i = 1; i <= 250; i++) {
+  for (let i = 1; i <= 500; i++) {
     array.push({
       id: i,
       name: `컴퍼니 ${i}`,
@@ -16,10 +16,31 @@ function createBulkEntities() {
   return array
 }
 
-export default function CompanyInformation() {
-  const [entities, setEntities] = useState(createBulkEntities)
+function entityReducer(entities, action) {
+  switch (action.type) {
+    case "INSERT":
+      return entities.concat(action.entity)
+    case "REMOVE":
+      return entities.filter(entity => entity.id !== action.id)
+    case "TOGGLE":
+      return entities.map(entity =>
+        entity.id === action.id
+          ? { ...entity, checked: !entity.checked }
+          : entity
+      )
+    default:
+      return entities
+  }
+}
 
-  const newEntityId = useRef(251)
+export default function CompanyInformation() {
+  const [entities, dispatch] = useReducer(
+    entityReducer,
+    undefined,
+    createBulkEntities
+  )
+
+  const newEntityId = useRef(501)
 
   const onInsert = useCallback(value => {
     const entity = {
@@ -31,20 +52,16 @@ export default function CompanyInformation() {
       timeZone: value.timeZone,
       hasCoA: false
     }
-    setEntities(entities => entities.concat(entity))
+    dispatch({ type: "INSERT", entity })
     newEntityId.current += 1
   }, [])
 
   const onRemove = useCallback(id => {
-    setEntities(entities => entities.filter(entity => entity.id !== id))
+    dispatch({ type: "REMOVE", id })
   }, [])
 
   const onToggle = useCallback(id => {
-    setEntities(entities =>
-      entities.map(entity =>
-        entity.id === id ? { ...entity, checked: !entity.checked } : entity
-      )
-    )
+    dispatch({ type: "TOGGLE", id })
   }, [])
 
   return (

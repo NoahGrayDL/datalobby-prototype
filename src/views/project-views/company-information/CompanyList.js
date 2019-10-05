@@ -2,7 +2,7 @@ import React from "react"
 import CompanyCard from "./CompanyCard"
 //-----*-----*-----*-----*-----*-----//
 
-export default function CompanyList(props) {
+const CompanyList = props => {
   const { entities, onRemove, onToggle } = props
   return (
     <div>
@@ -19,3 +19,5 @@ export default function CompanyList(props) {
     </div>
   )
 }
+
+export default React.memo(CompanyList)

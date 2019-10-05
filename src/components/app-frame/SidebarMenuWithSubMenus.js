@@ -79,4 +79,4 @@ const SidebarMenuWithSubMenus = props => {
   )
 }
 
-export default SidebarMenuWithSubMenus
+export default React.memo(SidebarMenuWithSubMenus)
