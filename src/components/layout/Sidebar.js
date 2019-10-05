@@ -14,7 +14,8 @@ import {
 } from "../standard"
 
 const Sidebar = props => {
-  const { open, handleDrawer } = props
+  const { open, handleDrawer, isOrg, handleViewChange } = props
+
   const classes = useStyles()
 
   return (
@@ -37,7 +38,7 @@ const Sidebar = props => {
           {open ? <ChevronLeftIcon /> : <ChevronRightIcon />}
         </IconButton>
       </div>
-      <MenuList />
+      <MenuList isOrg={isOrg} handleViewChange={handleViewChange} />
     </Drawer>
   )
 }

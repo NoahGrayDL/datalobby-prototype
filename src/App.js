@@ -2,28 +2,29 @@ import React from "react"
 import { Route } from "react-router-dom"
 import { Layout } from "./components/layout"
 import { Login } from "./views/auth"
-import { MyPage } from "./views/my-page"
-import { Notification } from "./views/notification"
-import { HomeDashboard } from "./views/home-dashboard"
-import { ScheduleAndBudget } from "./views/schedule-and-budget"
-import { ArchiveManagement } from "./views/archive-management"
-import { Groups } from "./views/groups"
-import { Projects } from "./views/projects"
-import { Library } from "./views/library"
-import { Setup } from "./views/setup"
-import { CompanyInformation } from "./views/company-information"
-import { ChartOfAccount } from "./views/chart-of-account"
-import { Ledgers } from "./views/ledgers"
-import { TrialBalance } from "./views/trial-balance"
-import { Adjustments } from "./views/adjustments"
-import { Leadsheet } from "./views/leadsheet"
-import { FinancialStatements } from "./views/financial-statements"
+import { MyPage } from "./views/organization-views/my-page"
+import { Notification } from "./views/organization-views/notification"
+import { HomeDashboard } from "./views/organization-views/home-dashboard"
+import { ScheduleAndBudget } from "./views/organization-views/schedule-and-budget"
+import { ArchiveManagement } from "./views/organization-views/archive-management"
+import { Groups } from "./views/organization-views/groups"
+import { Projects } from "./views/organization-views/projects"
+import { Library } from "./views/organization-views/library"
+import { Setup } from "./views/organization-views/setup"
+import { CompanyInformation } from "./views/project-views/company-information"
+import { ChartOfAccount } from "./views/project-views/chart-of-account"
+import { Ledgers } from "./views/project-views/ledgers"
+import { TrialBalance } from "./views/project-views/trial-balance"
+import { Adjustments } from "./views/project-views/adjustments"
+import { Leadsheet } from "./views/project-views/leadsheet"
+import { FinancialStatements } from "./views/project-views/financial-statements"
 
 function App() {
   return (
-    <div>
+    <Layout>
       <Route exact path="/" component={Home} />
-      <Route path="/login" component={Login} />
+
+      {/* ----------organization views---------- */}
       <Route path="/my-page" component={MyPage} />
       <Route path="/notification" component={Notification} />
       <Route path="/home-dashboard" component={HomeDashboard} />
@@ -33,7 +34,7 @@ function App() {
       <Route path="/projects" component={Projects} />
       <Route path="/library" component={Library} />
       <Route path="/setup" component={Setup} />
-
+      {/* ----------project views---------- */}
       <Route
         exact
         path="/financial-statements"
@@ -54,12 +55,7 @@ function App() {
       />
       <Route path="/financial-statements/adjustments" component={Adjustments} />
       <Route path="/financial-statements/lead-sheet" component={Leadsheet} />
-      <Route
-        path="/financial-statements/financial-statements"
-        component={FinancialStatements}
-      />
-      {/* <Route path="/financial-statements/report" component={Report} /> */}
-    </div>
+    </Layout>
   )
 }
 

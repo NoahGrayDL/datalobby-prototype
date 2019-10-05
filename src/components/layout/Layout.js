@@ -18,6 +18,12 @@ const Layout = props => {
   const classes = useStyles()
   const theme = useTheme()
   const [open, setOpen] = useState(false)
+  const [isOrg, setIsOrg] = useState(false)
+
+  const handleViewChange = () => {
+    setIsOrg(!isOrg)
+    console.log("view handle")
+  }
 
   const handleDrawer = () => {
     setOpen(!open)
@@ -28,6 +34,8 @@ const Layout = props => {
     <div className={classes.root}>
       <Sidebar
         handleDrawer={handleDrawer}
+        handleViewChange={handleViewChange}
+        isOrg={isOrg}
         theme={theme}
         open={open}
         classes={classes}

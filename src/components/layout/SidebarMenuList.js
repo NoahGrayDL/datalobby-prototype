@@ -15,13 +15,8 @@ import AttachMoneyIcon from "@material-ui/icons/AttachMoney"
 import PrintIcon from "@material-ui/icons/Print"
 //-----*-----*-----*-----*-----*-----//
 
-const SidebarMenuList = () => {
-  const [isOrg, setIsOrg] = useState(false)
-
-  const handleViewChange = () => {
-    setIsOrg(!isOrg)
-    console.log("view handle")
-  }
+const SidebarMenuList = props => {
+  const { isOrg, handleViewChange } = props
 
   return (
     <List
