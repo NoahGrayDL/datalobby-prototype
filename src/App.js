@@ -23,7 +23,17 @@ import { Ledgers } from "./views/project-views/ledgers"
 import { TrialBalance } from "./views/project-views/trial-balance"
 import { Adjustments } from "./views/project-views/adjustments"
 import { Leadsheet } from "./views/project-views/leadsheet"
-import { FinancialStatements } from "./views/project-views/financial-statements"
+import { Paper } from "./views/project-views/paper"
+import { Report } from "./views/project-views/report"
+import { Workpapers } from "./views/project-views/workpapers"
+import { PermanentFiles } from "./views/project-views/permanent-files"
+import { ArchiveDiagnosis } from "./views/project-views/archive-diagnosis"
+import { SignOffHistory } from "./views/project-views/sign-off-history"
+import { ArchiveHistory } from "./views/project-views/archive-history"
+import {
+  ProjectSetupUsers,
+  ProjectSetupTrash
+} from "./views/project-views/project-setup"
 
 export default function App() {
   return (
@@ -45,12 +55,6 @@ export default function App() {
       <Route path="/project-information" component={ProjectInformation} />
       <Route path="/prepared-by-client" component={PreparedByClient} />
       <Route path="/task-and-time" component={TaskAndTime} />
-
-      <Route
-        exact
-        path="/financial-statements"
-        component={FinancialStatements}
-      />
       <Route
         path="/financial-statements/company-information"
         component={CompanyInformation}
@@ -66,6 +70,15 @@ export default function App() {
       />
       <Route path="/financial-statements/adjustments" component={Adjustments} />
       <Route path="/financial-statements/lead-sheet" component={Leadsheet} />
+      <Route path="/financial-statements/paper" component={Paper} />
+      <Route path="/workpapers" component={Workpapers} />
+      <Route path="/permanent-files" component={PermanentFiles} />
+      <Route path="/report" component={Report} />
+      <Route path="/archive/archive-diagnosis" component={ArchiveDiagnosis} />
+      <Route path="/archive/sign-off-history" component={SignOffHistory} />
+      <Route path="/archive/archive-history" component={ArchiveHistory} />
+      <Route path="/project-setup/users" component={ProjectSetupUsers} />
+      <Route path="/project-setup/trash" component={ProjectSetupTrash} />
     </Layout>
   )
 }

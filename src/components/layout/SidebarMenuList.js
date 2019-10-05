@@ -171,14 +171,9 @@ const PROJECT_MENUS = [
         url: "/financial-statements/lead-sheet"
       },
       {
-        title: "Financial Statements",
-        icon: <AttachMoneyIcon />,
-        url: "/financial-statements/financial-statements"
-      },
-      {
-        title: "Report",
+        title: "Paper",
         icon: <PrintIcon />,
-        url: "/financial-statements/report"
+        url: "/financial-statements/paper"
       }
     ]
   },
@@ -223,19 +218,19 @@ const PROJECT_MENUS = [
     ]
   },
   {
-    title: "Administration",
+    title: "Project Setup",
     icon: <DescriptionOutlinedIcon />,
-    url: "/administration",
+    url: "/project-setup",
     subMenus: [
       {
         title: "Users",
         icon: <AttachMoneyIcon />,
-        url: "/administration/users"
+        url: "/project-setup/users"
       },
       {
         title: "Trash",
         icon: <PrintIcon />,
-        url: "/administration/trash"
+        url: "/project-setup/trash"
       }
     ]
   }
