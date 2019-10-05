@@ -35,6 +35,7 @@ export default function TableContainer(props) {
           )
         )
       })}
+      <div>Add a Column</div>
     </StyledTableContainer>
   )
 }
@@ -86,6 +87,7 @@ const TableColumn = props => {
       onExpandedChange={expanded => setTableState({ expanded })}
       onFilteredChange={filtered => setTableState({ filtered })}
       showPagination={false}
+      style={{ marginRight: 8 }}
     />
   )
 }

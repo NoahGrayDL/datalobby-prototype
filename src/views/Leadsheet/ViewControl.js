@@ -2,7 +2,7 @@ import React, { useState } from "react"
 import { DropdownSelect } from "../../components"
 import Chip from "@material-ui/core/Chip"
 import CloseIcon from "@material-ui/icons/Close"
-import GridOnIcon from "@material-ui/icons/GridOn"
+import ControlCameraIcon from "@material-ui/icons/ControlCamera"
 
 import styled from "styled-components"
 
@@ -53,12 +53,13 @@ export default function ViewControl(props) {
               key={columnId}
               onDelete={handleDelete}
               deleteIcon={<CloseIcon style={{ zIndex: 1 }} />}
-              icon={<GridOnIcon />}
+              icon={<ControlCameraIcon />}
               label={columnTitle}
               size="small"
               color="primary"
               variant={isDisplayed ? "default" : "outlined"}
               onClick={() => columnOnOff(columnId)}
+              style={{ marginRight: 4 }}
             />
           )
         })}
@@ -74,9 +75,5 @@ const StyledViewControl = styled.div`
   & .column-chip-container {
     display: flex;
     flex-direction: row;
-    & .column-chip {
-      padding: 8px;
-      border: 1px solid gray;
-    }
   }
 `

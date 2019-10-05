@@ -135,6 +135,8 @@ const TBColumn = [
         accessor: "caption",
         show: false,
         style: { flex: "none", width: 0, display: "none" },
+        headerStyle: { flex: "none", width: 0, display: "none" },
+
         aggregate: vals => _.sum(vals)
       },
       {
@@ -144,7 +146,7 @@ const TBColumn = [
         Aggregated: row => {
           return (
             <span>
-              ({row.row._pivotVal}) {row.value}
+              ({row.row._pivotVal}) {row.value.toLocaleString()}
             </span>
           )
         },
@@ -157,8 +159,7 @@ const TBColumn = [
         Aggregated: row => {
           return (
             <span>
-              {" "}
-              ({row.row._pivotVal}) {row.value}
+              ({row.row._pivotVal}) {row.value.toLocaleString()}
             </span>
           )
         },

@@ -1,4 +1,4 @@
-import React from "react"
+import React, { useState } from "react"
 import List from "@material-ui/core/List"
 import { makeStyles } from "@material-ui/core/styles"
 import InfoOutlinedIcon from "@material-ui/icons/InfoOutlined"
@@ -16,44 +16,81 @@ import PrintIcon from "@material-ui/icons/Print"
 //-----*-----*-----*-----*-----*-----//
 
 const SidebarMenuList = () => {
+  const [isOrg, setIsOrg] = useState(false)
+
+  const handleViewChange = () => {
+    setIsOrg(!isOrg)
+    console.log("view handle")
+  }
+
   return (
     <List
       subheader={
-        <ListSubheader component="div" id="nested-list-subheader">
-          Project Menu
+        <ListSubheader
+          component="div"
+          id="nested-list-subheader"
+          onClick={handleViewChange}
+        >
+          {isOrg ? "Organization Menu" : "Project Menu"}
         </ListSubheader>
       }
     >
-      {MENUS.map((item, index) => {
-        const { title, icon, url, subMenus } = item
-        if (subMenus) {
-          return (
-            <SidebarMenuWithSubMenus
-              title={title}
-              index={index}
-              icon={icon}
-              url={url}
-              subMenus={subMenus}
-              key={title}
-            />
-          )
-        }
-        return (
-          <SidebarMenu
-            title={title}
-            index={index}
-            icon={icon}
-            url={url}
-            subMenus={subMenus}
-            key={title}
-          />
-        )
-      })}
+      {isOrg
+        ? ORG_MENUS.map((item, index) => {
+            const { title, icon, url, subMenus } = item
+            if (subMenus) {
+              return (
+                <SidebarMenuWithSubMenus
+                  title={title}
+                  index={index}
+                  icon={icon}
+                  url={url}
+                  subMenus={subMenus}
+                  key={title}
+                />
+              )
+            }
+            return (
+              <SidebarMenu
+                title={title}
+                index={index}
+                icon={icon}
+                url={url}
+                subMenus={subMenus}
+                key={title}
+              />
+            )
+          })
+        : PROJECT_MENUS.map((item, index) => {
+            const { title, icon, url, subMenus } = item
+            if (subMenus) {
+              return (
+                <SidebarMenuWithSubMenus
+                  title={title}
+                  index={index}
+                  icon={icon}
+                  url={url}
+                  subMenus={subMenus}
+                  key={title}
+                />
+              )
+            }
+            return (
+              <SidebarMenu
+                title={title}
+                index={index}
+                icon={icon}
+                url={url}
+                subMenus={subMenus}
+                key={title}
+              />
+            )
+          })}
     </List>
   )
 }
 
-const MENUS = [
+const PROJECT_MENUS = [
   {
     title: "Project Dashboard",
     icon: <DescriptionOutlinedIcon />,
@@ -185,4 +222,60 @@ const MENUS = [
   }
 ]
 
+const ORG_MENUS = [
+  {
+    title: "My Page",
+    icon: <DescriptionOutlinedIcon />,
+    url: "/my-page",
+    subMenus: false
+  },
+  {
+    title: "Notification",
+    icon: <DescriptionOutlinedIcon />,
+    url: "/notification",
+    subMenus: false
+  },
+  {
+    title: "Home Dashboard",
+    icon: <DescriptionOutlinedIcon />,
+    url: "/home-dashboard",
+    subMenus: false
+  },
+  {
+    title: "Schedule and Budget",
+    icon: <DescriptionOutlinedIcon />,
+    url: "/schedule-and-budget",
+    subMenus: false
+  },
+  {
+    title: "Archive Management",
+    icon: <DescriptionOutlinedIcon />,
+    url: "/archive-management",
+    subMenus: false
+  },
+  {
+    title: "Groups",
+    icon: <DescriptionOutlinedIcon />,
+    url: "/groups",
+    subMenus: false
+  },
+  {
+    title: "Projects",
+    icon: <DescriptionOutlinedIcon />,
+    url: "/projects",
+    subMenus: false
+  },
+  {
+    title: "Library",
+    icon: <DescriptionOutlinedIcon />,
+    url: "/library",
+    subMenus: false
+  },
+  {
+    title: "Setup",
+    icon: <DescriptionOutlinedIcon />,
+    url: "/setup",
+    subMenus: false
+  }
+]
 export default SidebarMenuList
