@@ -1,7 +1,7 @@
-import React from "react"
+import React, { useReducer } from "react"
 import { PageContainer } from "../../../components"
 import { makeStyles } from "@material-ui/core/styles"
-
+import { List } from "../../../components/list"
 import { NavLink } from "react-router-dom"
 import { primaryColor } from "../../../components/standard"
 
@@ -11,54 +11,23 @@ import EntityList from "./EntityList"
 
 //-----*-----*-----*-----*-----*-----//
 
-const ChartOfAccount = () => {
+export default function ChartOfAccount() {
+  const [coas, setCoas] = useReducer(coaReducer, DummyCoAs)
   const classes = useStyles()
   return (
-    // <Layout
-    //   menuTitle="Chart of Account"
-    //   // filters={CoAFilters}
-    //   // searchBar
-    //   buttons={
-    //     <div>
-    //       <Button size="medium">List</Button>
-    //       <Button size="medium">Detail</Button>
-    //     </div>
-    //   }
-    // >
     <PageContainer menuTitle="Chart of Account">
-      <div className={classes.container}>
-        <EntityList />
-        <CoATable />
-      </div>
+      {/* <List items={coas} /> */}
+      {/* <EntityList /> */}
+      {/* <CoATable /> */}
     </PageContainer>
-    // </Layout>
   )
 }
 
-const CoAFilters = [
-  // {
-  //   filterName: "CoA Title",
-  //   filterItems: [
-  //     { value: 1, title: "filter item 1" },
-  //     { value: 2, title: "filter item 2" },
-  //     { value: 3, title: "filter item 3" }
-  //   ]
-  // },
+const DummyCoAs = [
   {
-    filterName: "Entity",
-    filterItems: [
-      { value: 1, title: "filter item 1" },
-      { value: 2, title: "filter item 2" },
-      { value: 3, title: "filter item 3" }
-    ]
+    id: 1,
+    checked: false,
+    name: "첫번째 COA",
+    entity: "공룡알회사"
   }
 ]
-
-const useStyles = makeStyles(theme => ({
-  container: {
-    display: "flex",
-    flexDirection: "row"
-  }
-}))
-
-export default ChartOfAccount

@@ -11,8 +11,8 @@ import CheckBoxIcon from "@material-ui/icons/CheckBox"
 import CheckBoxOutlineBlankIcon from "@material-ui/icons/CheckBoxOutlineBlank"
 //-----*-----*-----*-----*-----*-----//
 
-const CompanyCard = props => {
-  const { data, onRemove, onToggle, innerStyle } = props
+const ListItem = props => {
+  const { data, onRemove, onToggle } = props
   const { id, checked, name, type, location, currency, timeZone, hasCoA } = data
   const [anchorEl, setAnchorEl] = useState(null)
 
@@ -28,52 +28,46 @@ const CompanyCard = props => {
   }
 
   return (
-    <div className="CompanyCard-virtualized" style={innerStyle}>
-      <Card className={classes.card}>
-        <div className={classes.contents}>
-          <div onClick={() => onToggle(id)} style={{ marginRight: 16 }}>
-            {checked ? <CheckBoxIcon /> : <CheckBoxOutlineBlankIcon />}
-          </div>
-          <div className={classes.type}>{type}</div>
-          <div className={classes.entityName}>{name}</div>
-          <div className={classes.propsContainer}>
-            <span>{location}</span>
-            <span>{currency}</span>
-            <span>{timeZone}</span>
-          </div>
-
-          <CardActions className={classes.actions}>
-            <Button
-              size="small"
-              style={{ color: hasCoA ? "black" : "#e5e5e5" }}
-            >
-              CoA
-            </Button>
-            <IconButton aria-label="more" onClick={handleClick}>
-              <MoreVertIcon />
-            </IconButton>
-            <Menu
-              id="entity-list-context-menu"
-              anchorEl={anchorEl}
-              keepMounted
-              open={Boolean(anchorEl)}
-              onClose={handleClose}
-            >
-              <MenuItem onClick={handleClose}>Edit</MenuItem>
-              <MenuItem onClick={() => onRemove(id)}>Remove</MenuItem>
-            </Menu>
-          </CardActions>
+    <Card className={classes.card}>
+      <div className={classes.contents}>
+        <div onClick={() => onToggle(id)} style={{ marginRight: 16 }}>
+          {checked ? <CheckBoxIcon /> : <CheckBoxOutlineBlankIcon />}
         </div>
-        {/* ----- actions ----- */}
-      </Card>
-    </div>
+        <div className={classes.type}>{type}</div>
+        <div className={classes.entityName}>{name}</div>
+        <div className={classes.propsContainer}>
+          <span>{location}</span>
+          <span>{currency}</span>
+          <span>{timeZone}</span>
+        </div>
+        d
+        <CardActions className={classes.actions}>
+          <Button size="small" style={{ color: hasCoA ? "black" : "#e5e5e5" }}>
+            CoA
+          </Button>
+          <IconButton aria-label="more" onClick={handleClick}>
+            <MoreVertIcon />
+          </IconButton>
+          <Menu
+            id="entity-list-context-menu"
+            anchorEl={anchorEl}
+            keepMounted
+            open={Boolean(anchorEl)}
+            onClose={handleClose}
+          >
+            <MenuItem onClick={handleClose}>Edit</MenuItem>
+            <MenuItem onClick={() => onRemove(id)}>Remove</MenuItem>
+          </Menu>
+        </CardActions>
+      </div>
+    </Card>
   )
 }
 
 const useStyles = makeStyles(theme => ({
   card: {
     minWidth: 275,
-    // marginBottom: theme.spacing(2),
+    marginBottom: theme.spacing(2),
     transition: "0.4s",
     "&:hover": {
       backgroundColor: "#e5e5e5"
@@ -110,7 +104,4 @@ const useStyles = makeStyles(theme => ({
   }
 }))
 
-export default React.memo(
-  CompanyCard
-  // (prevProps, nextProps) => prevProps.entity === nextProps.entity
-)
+export default React.memo(ListItem)

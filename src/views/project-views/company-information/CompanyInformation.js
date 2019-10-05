@@ -1,20 +1,8 @@
 import React, { useRef, useCallback, useReducer } from "react"
 import { PageContainer } from "../../../components"
 import InsertCompany from "./InsertCompany"
-import CompanyList from "./CompanyList"
+import { List } from "../../../components/list"
 //-----*-----*-----*-----*-----*-----//
-
-function createBulkEntities() {
-  const array = []
-  for (let i = 1; i <= 500; i++) {
-    array.push({
-      id: i,
-      name: `컴퍼니 ${i}`,
-      checked: false
-    })
-  }
-  return array
-}
 
 function entityReducer(entities, action) {
   switch (action.type) {
@@ -34,13 +22,9 @@ function entityReducer(entities, action) {
 }
 
 export default function CompanyInformation() {
-  const [entities, dispatch] = useReducer(
-    entityReducer,
-    undefined,
-    createBulkEntities
-  )
+  const [entities, dispatch] = useReducer(entityReducer, DummyEntities)
 
-  const newEntityId = useRef(501)
+  const newEntityId = useRef(DummyEntities.length + 1)
 
   const onInsert = useCallback(value => {
     const entity = {
@@ -67,11 +51,7 @@ export default function CompanyInformation() {
   return (
     <PageContainer menuTitle="Company Information">
       <InsertCompany onInsert={onInsert} />
-      <CompanyList
-        entities={entities}
-        onRemove={onRemove}
-        onToggle={onToggle}
-      />
+      <List items={entities} onRemove={onRemove} onToggle={onToggle} />
     </PageContainer>
   )
 }
@@ -102,16 +82,6 @@ const DummyEntities = [
     checked: false,
     type: "Subsidiary",
     name: "사성전기(주)",
-    location: "Korea",
-    currency: "KRW",
-    timeZone: "GMT+9",
-    hasCoA: false
-  },
-  {
-    id: 4,
-    checked: false,
-    type: "Subsidiary",
-    name: "사성공업(주)",
     location: "Korea",
     currency: "KRW",
     timeZone: "GMT+9",
