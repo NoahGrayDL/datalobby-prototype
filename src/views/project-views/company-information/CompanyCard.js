@@ -1,45 +1,58 @@
-import React from "react"
-import { makeStyles, useTheme } from "@material-ui/core/styles"
+import React, { useState } from "react"
+import { makeStyles } from "@material-ui/core/styles"
 import Card from "@material-ui/core/Card"
 import CardActions from "@material-ui/core/CardActions"
-import CardContent from "@material-ui/core/CardContent"
 import Button from "@material-ui/core/Button"
-import Typography from "@material-ui/core/Typography"
-
+import IconButton from "@material-ui/core/IconButton"
+import MoreVertIcon from "@material-ui/icons/MoreVert"
+import Menu from "@material-ui/core/Menu"
+import MenuItem from "@material-ui/core/MenuItem"
 //-----*-----*-----*-----*-----*-----//
 
 export default function CompanyCard(props) {
-  const { content } = props
-  const { name, type, location, currency, timeZone } = content
-  const theme = useTheme()
+  const { data, onRemove } = props
+  const { id, name, type, location, currency, timeZone } = data
+  const [anchorEl, setAnchorEl] = useState(null)
 
   const classes = useStyles()
 
+  const handleClick = event => {
+    setAnchorEl(event.currentTarget)
+  }
+
+  const handleClose = () => {
+    setAnchorEl(null)
+  }
+
   return (
     <Card className={classes.card}>
-      <CardContent>
-        <Typography
-          className={classes.title}
-          color="textSecondary"
-          gutterBottom
-        >
-          {type}
-        </Typography>
-        <Typography variant="h5" component="h2">
-          {name}
-        </Typography>
-        <Typography className={classes.pos} color="textSecondary">
-          {location}
-        </Typography>
-        <Typography variant="body2" component="p">
-          {currency} {timeZone}
-        </Typography>
-      </CardContent>
+      <div className={classes.contents}>
+        <div className={classes.type}>{type}</div>
+        <div className={classes.entityName}>{name}</div>
+        <div className={classes.propsContainer}>
+          <span>{location}</span>
+          <span>{currency}</span>
+          <span>{timeZone}</span>
+        </div>
+
+        <CardActions className={classes.actions}>
+          <Button size="small">CoA</Button>
+          <IconButton aria-label="more" onClick={handleClick}>
+            <MoreVertIcon />
+          </IconButton>
+          <Menu
+            id="entity-list-context-menu"
+            anchorEl={anchorEl}
+            keepMounted
+            open={Boolean(anchorEl)}
+            onClose={handleClose}
+          >
+            <MenuItem onClick={handleClose}>Edit</MenuItem>
+            <MenuItem onClick={() => onRemove(id)}>Remove</MenuItem>
+          </Menu>
+        </CardActions>
+      </div>
       {/* ----- actions ----- */}
-      <CardActions className={classes.actions}>
-        <Button size="small">Chart of Account</Button>
-        <Button size="small">Edit</Button>
-      </CardActions>
     </Card>
   )
 }
@@ -51,13 +64,32 @@ const useStyles = makeStyles(theme => ({
     transition: "0.4s",
     "&:hover": {
       backgroundColor: "#e5e5e5"
+    },
+    padding: "0 16px"
+  },
+  contents: {
+    display: "flex",
+    flexDirection: "row",
+    alignItems: "center"
+  },
+  type: {
+    fontSize: 14,
+    minWidth: 100,
+    width: "10%"
+  },
+  entityName: {
+    width: "55%",
+    alignItems: "center",
+    fontWeight: "bold"
+  },
+  propsContainer: {
+    display: "flex",
+    flexDirection: "row",
+    alignItems: "center",
+    width: "25%",
+    "& span": {
+      width: "30%"
     }
-  },
-  title: {
-    fontSize: 14
-  },
-  pos: {
-    marginBottom: 12
   },
   actions: {
     justifyContent: "space-between"
