@@ -42,6 +42,24 @@ export default function InsertCompany(props) {
         value={value.name}
         onChange={onChange}
       />
+      <input
+        placeholder="Input Location"
+        name="location"
+        value={value.location}
+        onChange={onChange}
+      />
+      <input
+        placeholder="Select Currency"
+        name="currency"
+        value={value.currency}
+        onChange={onChange}
+      />
+      <input
+        placeholder="Select Time Zone"
+        name="timeZone"
+        value={value.timeZone}
+        onChange={onChange}
+      />
       <button type="submit">Add</button>
     </StyledForm>
   )

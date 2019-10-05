@@ -7,14 +7,17 @@ import IconButton from "@material-ui/core/IconButton"
 import MoreVertIcon from "@material-ui/icons/MoreVert"
 import Menu from "@material-ui/core/Menu"
 import MenuItem from "@material-ui/core/MenuItem"
+import CheckBoxIcon from "@material-ui/icons/CheckBox"
+import CheckBoxOutlineBlankIcon from "@material-ui/icons/CheckBoxOutlineBlank"
 //-----*-----*-----*-----*-----*-----//
 
-export default function CompanyCard(props) {
-  const { data, onRemove } = props
-  const { id, name, type, location, currency, timeZone } = data
+const CompanyCard = props => {
+  const { data, onRemove, onToggle } = props
+  const { id, checked, name, type, location, currency, timeZone, hasCoA } = data
   const [anchorEl, setAnchorEl] = useState(null)
 
-  const classes = useStyles()
+  const styleProps = { checked: checked }
+  const classes = useStyles(styleProps)
 
   const handleClick = event => {
     setAnchorEl(event.currentTarget)
@@ -27,6 +30,9 @@ export default function CompanyCard(props) {
   return (
     <Card className={classes.card}>
       <div className={classes.contents}>
+        <div onClick={() => onToggle(id)} style={{ marginRight: 16 }}>
+          {checked ? <CheckBoxIcon /> : <CheckBoxOutlineBlankIcon />}
+        </div>
         <div className={classes.type}>{type}</div>
         <div className={classes.entityName}>{name}</div>
         <div className={classes.propsContainer}>
@@ -36,7 +42,9 @@ export default function CompanyCard(props) {
         </div>
 
         <CardActions className={classes.actions}>
-          <Button size="small">CoA</Button>
+          <Button size="small" style={{ color: hasCoA ? "black" : "#e5e5e5" }}>
+            CoA
+          </Button>
           <IconButton aria-label="more" onClick={handleClick}>
             <MoreVertIcon />
           </IconButton>
@@ -65,6 +73,7 @@ const useStyles = makeStyles(theme => ({
     "&:hover": {
       backgroundColor: "#e5e5e5"
     },
+    color: props => (props.checked ? "#758fff" : "inherit"),
     padding: "0 16px"
   },
   contents: {
@@ -95,3 +104,5 @@ const useStyles = makeStyles(theme => ({
     justifyContent: "space-between"
   }
 }))
+
+export default React.memo(CompanyCard)
