@@ -9,11 +9,11 @@ import SearchIcon from "@material-ui/icons/Search"
 import InputBase from "@material-ui/core/InputBase"
 
 import ToolBar from "./ToolBar"
-import { Header, Sidebar } from "../layout"
+import { Header, Sidebar } from "../app-frame"
 
 //-----*-----*-----*-----*-----*-----//
 
-const Layout = props => {
+export default function AppFrame(props) {
   const { children, menuTitle, menuButton, buttons, filters, searchBar } = props
   const classes = useStyles()
   const theme = useTheme()
@@ -165,5 +165,3 @@ const useStyles = makeStyles(theme => ({
     flexGrow: 1
   }
 }))
-
-export default Layout

@@ -1,6 +1,6 @@
 import React from "react"
-import { Layout } from "../../components/layout"
+import { AppFrame } from "../../components/app-frame"
 
 export default function Login() {
-  return <Layout menuTitle="Login"></Layout>
+  return <AppFrame menuTitle="Login"></AppFrame>
 }

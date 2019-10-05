@@ -1,6 +1,6 @@
 import React from "react"
 import { Route } from "react-router-dom"
-import { Layout } from "./components/layout"
+import { AppFrame } from "./components/app-frame"
 import { Login } from "./views/auth"
 // ----------organization views----------
 import { MyPage } from "./views/organization-views/my-page"
@@ -37,7 +37,7 @@ import {
 
 export default function App() {
   return (
-    <Layout>
+    <AppFrame>
       <Route exact path="/" component={Home} />
 
       {/* ----------organization views---------- */}
@@ -79,12 +79,14 @@ export default function App() {
       <Route path="/archive/archive-history" component={ArchiveHistory} />
       <Route path="/project-setup/users" component={ProjectSetupUsers} />
       <Route path="/project-setup/trash" component={ProjectSetupTrash} />
-    </Layout>
+    </AppFrame>
   )
 }
 
 const Home = () => {
   return (
-    <Layout menuTitle="Home">Welcome to Financial Statements Prototype</Layout>
+    <AppFrame menuTitle="Home">
+      Welcome to Financial Statements Prototype
+    </AppFrame>
   )
 }

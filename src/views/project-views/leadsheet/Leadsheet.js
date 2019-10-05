@@ -1,5 +1,4 @@
 import React, { useState, useEffect } from "react"
-import { Layout } from "../../../components/layout"
 import { ViewControl, TableContainer } from "."
 import _ from "lodash"
 
