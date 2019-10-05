@@ -1,4 +1,5 @@
 import React from "react"
+import { PageContainer } from "../../../components"
 
 import { TrialBalanceTable } from "../trial-balance"
 //-----*-----*-----*-----*-----*-----//
@@ -6,10 +7,9 @@ import { TrialBalanceTable } from "../trial-balance"
 const TrialBalance = () => {
   return (
     // <Layout menuTitle="Trial Balance" filters={TrialBalanceFilters}>
-    <div>
-      <div>Trial Balance</div>
+    <PageContainer menuTitle="Trial Balance">
       <TrialBalanceTable />
-    </div>
+    </PageContainer>
     // </Layout>
   )
 }

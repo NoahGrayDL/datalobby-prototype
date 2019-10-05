@@ -1,7 +1,10 @@
 import React from "react"
-
-//-----*-----*-----*-----*-----*-----//
+import { PageContainer } from "../../../components"
 
 export default function ArchiveDiagnosis() {
-  return <div>Archive Diagnosis</div>
+  return (
+    <PageContainer menuTitle="ArchiveDiagnosis">
+      ArchiveDiagnosis Contents
+    </PageContainer>
+  )
 }

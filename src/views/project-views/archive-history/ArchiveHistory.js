@@ -1,7 +1,10 @@
 import React from "react"
-
-//-----*-----*-----*-----*-----*-----//
+import { PageContainer } from "../../../components"
 
 export default function ArchiveHistory() {
-  return <div>Archive History</div>
+  return (
+    <PageContainer menuTitle="Archive History">
+      ArchiveHistory Contents
+    </PageContainer>
+  )
 }

@@ -1,5 +1,6 @@
 import React from "react"
+import { PageContainer } from "../../../components"
 
 export default function Setup() {
-  return <div>Setup</div>
+  return <PageContainer menuTitle="Setup">Setup Contents</PageContainer>
 }

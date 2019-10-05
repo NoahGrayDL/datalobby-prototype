@@ -1,9 +1,8 @@
 import React from "react"
+import { PageContainer } from "../../../components"
 
-//-----*-----*-----*-----*-----*-----//
-
-const Adjustments = () => {
-  return <div>Adjustments</div>
+export default function Adjustments() {
+  return (
+    <PageContainer menuTitle="Adjustments">Adjustments Contents</PageContainer>
+  )
 }
-
-export default Adjustments

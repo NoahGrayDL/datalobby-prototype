@@ -1,7 +1,10 @@
 import React from "react"
-
-//-----*-----*-----*-----*-----*-----//
+import { PageContainer } from "../../../components"
 
 export default function ProjectSetupTrash() {
-  return <div>Project Setup Trash</div>
+  return (
+    <PageContainer menuTitle="Project Setup Trash">
+      ProjectSetupTrash Contents
+    </PageContainer>
+  )
 }

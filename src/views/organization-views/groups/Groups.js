@@ -1,5 +1,6 @@
 import React from "react"
+import { PageContainer } from "../../../components"
 
 export default function Groups() {
-  return <div>Groups</div>
+  return <PageContainer menuTitle="Groups">Groups Contents</PageContainer>
 }

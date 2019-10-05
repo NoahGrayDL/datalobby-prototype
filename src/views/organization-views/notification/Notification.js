@@ -1,5 +1,10 @@
 import React from "react"
+import { PageContainer } from "../../../components"
 
 export default function Notification() {
-  return <div>Notification</div>
+  return (
+    <PageContainer menuTitle="Notification">
+      Notification Contents
+    </PageContainer>
+  )
 }

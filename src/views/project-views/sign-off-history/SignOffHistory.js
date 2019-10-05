@@ -1,7 +1,10 @@
 import React from "react"
-
-//-----*-----*-----*-----*-----*-----//
+import { PageContainer } from "../../../components"
 
 export default function SignOffHistory() {
-  return <div>Sign Off History</div>
+  return (
+    <PageContainer menuTitle="Sign Off History">
+      SignOffHistory Contents
+    </PageContainer>
+  )
 }

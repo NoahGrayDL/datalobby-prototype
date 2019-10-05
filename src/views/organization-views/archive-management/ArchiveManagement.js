@@ -1,5 +1,10 @@
 import React from "react"
+import { PageContainer } from "../../../components"
 
 export default function ArchiveManagement() {
-  return <div>Archive Management</div>
+  return (
+    <PageContainer menuTitle="Archive Management">
+      ArchiveManagement Contents
+    </PageContainer>
+  )
 }

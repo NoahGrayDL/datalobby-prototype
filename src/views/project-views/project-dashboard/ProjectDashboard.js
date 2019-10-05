@@ -1,7 +1,10 @@
 import React from "react"
-
-//-----*-----*-----*-----*-----*-----//
+import { PageContainer } from "../../../components"
 
 export default function ProjectDashboard() {
-  return <div>Project Dashboard</div>
+  return (
+    <PageContainer menuTitle="Project Dashboard">
+      ProjectDashboard Contents
+    </PageContainer>
+  )
 }

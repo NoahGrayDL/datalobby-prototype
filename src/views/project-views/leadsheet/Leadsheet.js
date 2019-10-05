@@ -1,4 +1,6 @@
 import React, { useState, useEffect } from "react"
+import { PageContainer } from "../../../components"
+
 import { ViewControl, TableContainer } from "."
 import _ from "lodash"
 
@@ -50,8 +52,7 @@ export default function Leadsheet() {
   }, [currentViewObject, columns, pivot])
 
   return (
-    <div>
-      <div>Lead Sheet</div>
+    <PageContainer menuTitle="Lead Sheet">
       <ViewControl
         selectedView={currentViewObject}
         handleSelectedView={handleSelectedView}
@@ -71,7 +72,7 @@ export default function Leadsheet() {
         tableState={tableState}
         setTableState={setTableState}
       />
-    </div>
+    </PageContainer>
   )
 }
 

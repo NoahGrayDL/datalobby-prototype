@@ -1,5 +1,10 @@
 import React from "react"
+import { PageContainer } from "../../../components"
 
 export default function HomeDashboard() {
-  return <div>Home Dashboard</div>
+  return (
+    <PageContainer menuTitle="HomeDashboard">
+      HomeDashboard Contents
+    </PageContainer>
+  )
 }

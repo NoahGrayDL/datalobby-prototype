@@ -1,4 +1,5 @@
 import React from "react"
+import { PageContainer } from "../../../components"
 import { makeStyles } from "@material-ui/core/styles"
 
 import { NavLink } from "react-router-dom"
@@ -24,11 +25,12 @@ const ChartOfAccount = () => {
     //     </div>
     //   }
     // >
-    <div className={classes.container}>
-      <div>Chart of Account</div>
-      <EntityList />
-      <CoATable />
-    </div>
+    <PageContainer menuTitle="Chart of Account">
+      <div className={classes.container}>
+        <EntityList />
+        <CoATable />
+      </div>
+    </PageContainer>
     // </Layout>
   )
 }

@@ -1,5 +1,6 @@
 import React from "react"
+import { PageContainer } from "../../../components"
 
 export default function MyPage() {
-  return <div>My Page</div>
+  return <PageContainer menuTitle="My Page">My Page Contents</PageContainer>
 }

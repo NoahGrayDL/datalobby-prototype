@@ -1,4 +1,6 @@
 import React from "react"
+import { PageContainer } from "../../../components"
+
 import CompanyList from "./CompanyList"
 //-----*-----*-----*-----*-----*-----//
 
@@ -7,10 +9,9 @@ const CompanyInformation = () => {
     // <Layout menuTitle="Company Information" menuButton="Add Company">
     //   <CompanyList />
     // </Layout>
-    <div>
-      <div>Company Information</div>
+    <PageContainer menuTitle="Company Information">
       <CompanyList />
-    </div>
+    </PageContainer>
   )
 }
 

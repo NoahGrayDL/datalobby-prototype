@@ -1,5 +1,6 @@
 import React from "react"
+import { PageContainer } from "../../../components"
 
 export default function Library() {
-  return <div>Library</div>
+  return <PageContainer menuTitle="Library">Library Contents</PageContainer>
 }
