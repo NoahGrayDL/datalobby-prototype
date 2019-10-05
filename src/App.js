@@ -2,6 +2,7 @@ import React from "react"
 import { Route } from "react-router-dom"
 import { Layout } from "./components/layout"
 import { Login } from "./views/auth"
+// ----------organization views----------
 import { MyPage } from "./views/organization-views/my-page"
 import { Notification } from "./views/organization-views/notification"
 import { HomeDashboard } from "./views/organization-views/home-dashboard"
@@ -11,6 +12,11 @@ import { Groups } from "./views/organization-views/groups"
 import { Projects } from "./views/organization-views/projects"
 import { Library } from "./views/organization-views/library"
 import { Setup } from "./views/organization-views/setup"
+// ----------project views----------
+import { ProjectDashboard } from "./views/project-views/project-dashboard"
+import { ProjectInformation } from "./views/project-views/project-information"
+import { PreparedByClient } from "./views/project-views/prepared-by-client"
+import { TaskAndTime } from "./views/project-views/task-and-time"
 import { CompanyInformation } from "./views/project-views/company-information"
 import { ChartOfAccount } from "./views/project-views/chart-of-account"
 import { Ledgers } from "./views/project-views/ledgers"
@@ -19,7 +25,7 @@ import { Adjustments } from "./views/project-views/adjustments"
 import { Leadsheet } from "./views/project-views/leadsheet"
 import { FinancialStatements } from "./views/project-views/financial-statements"
 
-function App() {
+export default function App() {
   return (
     <Layout>
       <Route exact path="/" component={Home} />
@@ -35,6 +41,11 @@ function App() {
       <Route path="/library" component={Library} />
       <Route path="/setup" component={Setup} />
       {/* ----------project views---------- */}
+      <Route path="/project-dashboard" component={ProjectDashboard} />
+      <Route path="/project-information" component={ProjectInformation} />
+      <Route path="/prepared-by-client" component={PreparedByClient} />
+      <Route path="/task-and-time" component={TaskAndTime} />
+
       <Route
         exact
         path="/financial-statements"
@@ -64,5 +75,3 @@ const Home = () => {
     <Layout menuTitle="Home">Welcome to Financial Statements Prototype</Layout>
   )
 }
-
-export default App

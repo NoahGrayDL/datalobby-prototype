@@ -13,7 +13,22 @@ import EditIcon from "@material-ui/icons/Edit"
 import ViewWeekIcon from "@material-ui/icons/ViewWeek"
 import AttachMoneyIcon from "@material-ui/icons/AttachMoney"
 import PrintIcon from "@material-ui/icons/Print"
+
+import ArrowUpwardIcon from "@material-ui/icons/ArrowUpward"
+import ArrowDownwardIcon from "@material-ui/icons/ArrowDownward"
+
+import styled from "styled-components"
 //-----*-----*-----*-----*-----*-----//
+
+const StyledViewToggle = styled.div`
+  padding: 0 16px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: ${props => props.sidebarBackgroundColor || "#F5F7F9"};
+  border-bottom: 1px solid
+    ${props => props.sidebarSubMenuBackgroundColor || "#E8EDF2"};
+`
 
 const SidebarMenuList = props => {
   const { isOrg, handleViewChange } = props
@@ -25,8 +40,17 @@ const SidebarMenuList = props => {
           component="div"
           id="nested-list-subheader"
           onClick={handleViewChange}
+          style={{ padding: 0 }}
         >
-          {isOrg ? "Organization Menu" : "Project Menu"}
+          {isOrg ? (
+            <StyledViewToggle>
+              Organization Menu <ArrowDownwardIcon fontSize="small" />
+            </StyledViewToggle>
+          ) : (
+            <StyledViewToggle>
+              Project Menu <ArrowUpwardIcon fontSize="small" />
+            </StyledViewToggle>
+          )}
         </ListSubheader>
       }
     >
@@ -101,7 +125,7 @@ const PROJECT_MENUS = [
   {
     title: "PBC",
     icon: <DescriptionOutlinedIcon />,
-    url: "/prepared-by-clients",
+    url: "/prepared-by-client",
     subMenus: false
   },
   {
