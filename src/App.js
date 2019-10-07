@@ -1,4 +1,4 @@
-import React from "react"
+import React, { useState } from "react"
 import { Route } from "react-router-dom"
 import { AppFrame } from "./components/app-frame"
 import { Login } from "./views/auth"
@@ -34,6 +34,7 @@ import {
   ProjectSetupUsers,
   ProjectSetupTrash
 } from "./views/project-views/project-setup"
+import axios from "axios"
 
 export default function App() {
   return (
@@ -84,9 +85,35 @@ export default function App() {
 }
 
 const Home = () => {
+  const [data, setData] = useState(null)
+  // const onClick = () => {
+  //   axios.get("https://jsonplaceholder.typicode.com/todos/1").then(response => {
+  //     setData(response.data)
+  //   })
+  // }
+  const onClick = async () => {
+    try {
+      const response = await axios.get(
+        "https://jsonplaceholder.typicode.com/todos/1"
+      )
+      setData(response.data)
+    } catch (e) {
+      console.log(e)
+    }
+  }
   return (
-    <AppFrame menuTitle="Home">
-      Welcome to Financial Statements Prototype
-    </AppFrame>
+    <div>
+      <div>Welcome to Datalobby Prototype</div>
+      <button onClick={onClick}>import </button>
+      <div>
+        {data && (
+          <textarea
+            row={7}
+            value={JSON.stringify(data, null, 2)}
+            readOnly={true}
+          />
+        )}
+      </div>
+    </div>
   )
 }

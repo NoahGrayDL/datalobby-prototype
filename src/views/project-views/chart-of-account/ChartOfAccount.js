@@ -1,29 +1,61 @@
-import React, { useReducer } from "react"
+import React, { useRef, useReducer, useCallback } from "react"
 import { PageContainer } from "../../../components"
-import { makeStyles } from "@material-ui/core/styles"
+import InsertCoA from "./InsertCoA"
 import { List } from "../../../components/list"
-import { NavLink } from "react-router-dom"
-import { primaryColor } from "../../../components/standard"
-
-import Button from "@material-ui/core/Button"
-import CoATable from "./CoATable"
-import EntityList from "./EntityList"
 
 //-----*-----*-----*-----*-----*-----//
 
+function coaReducer(coaList, action) {
+  switch (action.type) {
+    case "INSERT":
+      return coaList.concat(action.coa)
+    case "REMOVE":
+      return coaList.filter(coa => coa.id !== action.id)
+    case "TOGGLE":
+      return coaList.map(coa =>
+        coa.id === action.id ? { ...coa, checked: !coa.checked } : coa
+      )
+    default:
+      return coaList
+  }
+}
+
 export default function ChartOfAccount() {
-  const [coas, setCoas] = useReducer(coaReducer, DummyCoAs)
-  const classes = useStyles()
+  const [coaList, dispatch] = useReducer(coaReducer, DummyCoAList)
+
+  const newCoAId = useRef(DummyCoAList.length + 1)
+
+  const onInsert = useCallback(value => {
+    const coa = {
+      id: newCoAId.current,
+      type: value.type,
+      name: value.name,
+      location: value.location,
+      currency: value.currency,
+      timeZone: value.timeZone,
+      hasCoA: false
+    }
+    dispatch({ type: "INSERT", coa })
+    newCoAId.current += 1
+  }, [])
+
+  const onRemove = useCallback(id => {
+    dispatch({ type: "REMOVE", id })
+  }, [])
+
+  const onToggle = useCallback(id => {
+    dispatch({ type: "TOGGLE", id })
+  }, [])
+
   return (
     <PageContainer menuTitle="Chart of Account">
-      {/* <List items={coas} /> */}
-      {/* <EntityList /> */}
-      {/* <CoATable /> */}
+      <InsertCoA onInsert={onInsert} />
+      <List items={coaList} onRemove={onRemove} onToggle={onToggle} />
     </PageContainer>
   )
 }
 
-const DummyCoAs = [
+const DummyCoAList = [
   {
     id: 1,
     checked: false,

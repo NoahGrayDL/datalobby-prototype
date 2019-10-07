@@ -1,13 +1,20 @@
-import React, { useRef, useCallback, useReducer } from "react"
+import React, {
+  useState,
+  useEffect,
+  useRef,
+  useCallback,
+  useReducer
+} from "react"
 import { PageContainer } from "../../../components"
 import InsertCompany from "./InsertCompany"
 import { List } from "../../../components/list"
+import Axios from "axios"
 //-----*-----*-----*-----*-----*-----//
 
 function entityReducer(entities, action) {
   switch (action.type) {
     case "INSERT":
-      return entities.concat(action.entity)
+      return Axios.post("http://localhost:3000/entities", action.entity)
     case "REMOVE":
       return entities.filter(entity => entity.id !== action.id)
     case "TOGGLE":
@@ -22,13 +29,30 @@ function entityReducer(entities, action) {
 }
 
 export default function CompanyInformation() {
-  const [entities, dispatch] = useReducer(entityReducer, DummyEntities)
+  const [data, setData] = useState(null)
+  const [loading, setLoading] = useState(false)
+  const [newEntityId, setNewEntityId] = useState(1)
 
-  const newEntityId = useRef(DummyEntities.length + 1)
+  useEffect(() => {
+    const fetchData = async () => {
+      setLoading(true)
+      try {
+        const response = await Axios.get("http://localhost:3000/entities")
+        setData(response.data)
+        console.log(data)
+      } catch (e) {
+        console.log(e)
+      }
+      setLoading(false)
+    }
+    fetchData()
+  }, [])
+
+  const [entities, dispatch] = useReducer(entityReducer, data)
 
   const onInsert = useCallback(value => {
     const entity = {
-      id: newEntityId.current,
+      id: `${value.type}_${value.name}_${value.location}`,
       type: value.type,
       name: value.name,
       location: value.location,
@@ -48,43 +72,17 @@ export default function CompanyInformation() {
     dispatch({ type: "TOGGLE", id })
   }, [])
 
+  if (loading) {
+    return <div>loading...</div>
+  }
+  if (!data) {
+    return null
+  }
+
   return (
     <PageContainer menuTitle="Company Information">
       <InsertCompany onInsert={onInsert} />
-      <List items={entities} onRemove={onRemove} onToggle={onToggle} />
+      {data && <List items={data} onRemove={onRemove} onToggle={onToggle} />}
     </PageContainer>
   )
 }
-
-const DummyEntities = [
-  {
-    id: 1,
-    checked: true,
-    type: "Parent",
-    name: "사성디스플레이(주)",
-    location: "Korea",
-    currency: "KRW",
-    timeZone: "GMT+9",
-    hasCoA: true
-  },
-  {
-    id: 2,
-    checked: false,
-    type: "Subsidiary",
-    name: "사성물산(주)",
-    location: "Korea",
-    currency: "KRW",
-    timeZone: "GMT+9",
-    hasCoA: false
-  },
-  {
-    id: 3,
-    checked: false,
-    type: "Subsidiary",
-    name: "사성전기(주)",
-    location: "Korea",
-    currency: "KRW",
-    timeZone: "GMT+9",
-    hasCoA: false
-  }
-]

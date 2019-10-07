@@ -40,7 +40,6 @@ const ListItem = props => {
           <span>{currency}</span>
           <span>{timeZone}</span>
         </div>
-        d
         <CardActions className={classes.actions}>
           <Button size="small" style={{ color: hasCoA ? "black" : "#e5e5e5" }}>
             CoA
