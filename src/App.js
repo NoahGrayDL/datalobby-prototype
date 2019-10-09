@@ -74,10 +74,9 @@ export default function App() {
 
       <Route path="/financial-statements/ledgers" component={Ledgers} />
       <Route
-        path="/financial-statements/trial-balance"
+        path="/financial-statements/closing/trial-balance"
         component={TrialBalance}
       />
-      <Route path="/financial-statements/adjustments" component={Adjustments} />
       <Route path="/financial-statements/lead-sheet" component={Leadsheet} />
       <Route path="/financial-statements/paper" component={Paper} />
       <Route path="/sox" component={SOX} />

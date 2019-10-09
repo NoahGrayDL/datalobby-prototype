@@ -50,10 +50,10 @@ export default function CompanyInformation() {
 
   return (
     <PageContainer menuTitle="Company Information">
-      <InsertCompany onInsert={onInsert} />
       {state.entities && (
         <TableForList data={state.entities} columns={columns(onRemove)} />
       )}
+      <InsertCompany onInsert={onInsert} />
     </PageContainer>
   )
 }

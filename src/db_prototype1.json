@@ -1,21 +1,4 @@
 {
-  "posts": [
-    {
-      "id": 1,
-      "title": "json-server",
-      "author": "typicode"
-    }
-  ],
-  "comments": [
-    {
-      "id": 1,
-      "body": "some comment",
-      "postId": 1
-    }
-  ],
-  "profile": {
-    "name": "typicode"
-  },
   "entities": [
     {
       "id": 1,
@@ -56,11 +39,11 @@
   ],
   "chart-of-account": [
     {
-      "id": "456_789",
-      "type": "123",
-      "name": "456",
-      "entity": "789",
-      "entityId": "1"
+      "id": "coa1",
+      "type": "Consolidation",
+      "name": "CoA Example 1",
+      "entity": "사성디스플레이(주)",
+      "entityId": 1
     }
   ]
 }

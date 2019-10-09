@@ -13,6 +13,7 @@ import EditIcon from "@material-ui/icons/Edit"
 import ViewWeekIcon from "@material-ui/icons/ViewWeek"
 import AttachMoneyIcon from "@material-ui/icons/AttachMoney"
 import PrintIcon from "@material-ui/icons/Print"
+import StarsIcon from "@material-ui/icons/Stars"
 
 import ArrowUpwardIcon from "@material-ui/icons/ArrowUpward"
 import ArrowDownwardIcon from "@material-ui/icons/ArrowDownward"
@@ -124,17 +125,17 @@ const PROJECT_MENUS = [
   },
   {
     title: "Entity Information",
-    icon: <DescriptionOutlinedIcon />,
+    icon: <StarsIcon />,
     url: "/entity",
     subMenus: [
       {
         title: "Entity List",
-        icon: <AccountTreeOutlinedIcon />,
+        icon: <StarsIcon />,
         url: "/entity/entity-list"
       },
       {
         title: "Chart of Account",
-        icon: <AccountTreeOutlinedIcon />,
+        icon: <StarsIcon />,
         url: "/entity/chart-of-account"
       }
     ]
@@ -153,7 +154,7 @@ const PROJECT_MENUS = [
   },
   {
     title: "Financial Statements",
-    icon: <DescriptionOutlinedIcon />,
+    icon: <StarsIcon />,
     url: "/financial-statements",
     subMenus: [
       {
@@ -162,14 +163,9 @@ const PROJECT_MENUS = [
         url: "/financial-statements/ledgers"
       },
       {
-        title: "Trial Balance",
+        title: "Closing",
         icon: <AccountBalanceWalletIcon />,
-        url: "/financial-statements/trial-balance"
-      },
-      {
-        title: "Adjustments",
-        icon: <EditIcon />,
-        url: "/financial-statements/adjustments"
+        url: "/financial-statements/closing/trial-balance"
       },
       {
         title: "Lead Sheet",
@@ -185,7 +181,7 @@ const PROJECT_MENUS = [
   },
   {
     title: "SOX",
-    icon: <DescriptionOutlinedIcon />,
+    icon: <StarsIcon />,
     url: "/sox",
     subMenus: false
   },
@@ -203,7 +199,7 @@ const PROJECT_MENUS = [
   },
   {
     title: "Report",
-    icon: <DescriptionOutlinedIcon />,
+    icon: <StarsIcon />,
     url: "/report",
     subMenus: false
   },
