@@ -1,10 +1,4 @@
-import React, {
-  useState,
-  useEffect,
-  useCallback,
-  useReducer,
-  useContext
-} from "react"
+import React, { useState, useEffect, useReducer } from "react"
 import { PageContainer } from "../../../components"
 import InsertCompany from "./InsertCompany"
 import Axios from "axios"
@@ -13,28 +7,8 @@ import MoreVertIcon from "@material-ui/icons/MoreVert"
 import Menu from "@material-ui/core/Menu"
 import MenuItem from "@material-ui/core/MenuItem"
 import { TableForList } from "../../../components/tables"
+import { entityReducer } from "../../../reducer"
 //-----*-----*-----*-----*-----*-----//
-
-function entityReducer(state, action) {
-  switch (action.type) {
-    case "GET_DATA":
-      return {
-        ...state,
-        entities: action.payload
-      }
-    case "INSERT":
-      const insertedEntities = state.entities.concat(action.payload)
-      return { ...state, entities: insertedEntities }
-
-    case "REMOVE":
-      const deletedEntities = state.entities.filter(
-        entity => entity.id !== action.id
-      )
-      return { ...state, entities: deletedEntities }
-    default:
-      return state
-  }
-}
 
 const useAPI = endpoint => {
   const [data, setData] = useState([])
