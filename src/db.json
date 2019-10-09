@@ -56,32 +56,11 @@
   ],
   "chart-of-account": [
     {
-      "id": "coa1",
-      "name": "첫번째 COA",
-      "entity": "사성디스플레이(주)",
-      "entityId": 1,
-      "type": "Consolidation"
-    },
-    {
-      "id": "coa2",
-      "name": "Long Lang Leng",
-      "entity": "사성물산(주)",
-      "entityId": 2,
-      "type": "Individual"
-    },
-    {
-      "id": "coa3",
-      "name": "세번째 COA",
-      "entity": "시조새 글라이딩",
-      "entityId": null,
-      "type": "Individual"
-    },
-    {
-      "id": "coa4",
-      "name": "네번째 COA",
-      "entity": "티라노 Tea",
-      "entityId": null,
-      "type": "Individual"
+      "id": "456_789",
+      "type": "123",
+      "name": "456",
+      "entity": "789",
+      "entityId": "1"
     }
   ]
 }

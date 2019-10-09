@@ -26,10 +26,12 @@ function coaReducer(state, action) {
         ...state,
         coaList: action.payload
       }
-    // case "INSERT":
-    //   return coaList.concat(action.coa)
-    // case "REMOVE":
-    //   return coaList.filter(coa => coa.id !== action.id)
+    case "INSERT":
+      const insertedCoAList = state.coaList.concat(action.payload)
+      return { ...state, coaList: insertedCoAList }
+    case "REMOVE":
+      const deletedCoAList = state.coaList.filter(coa => coa.id !== action.id)
+      return { ...state, coaList: deletedCoAList }
     default:
       return state
   }

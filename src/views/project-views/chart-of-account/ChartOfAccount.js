@@ -29,7 +29,9 @@ export default function ChartOfAccount() {
     const coa = {
       id: `${value.name}_${value.entity}`,
       type: value.type,
-      name: value.name
+      name: value.name,
+      entity: value.entity,
+      entityId: value.entityId
     }
     const response = await axios.post(
       "http://localhost:3000/chart-of-account",
@@ -113,6 +115,7 @@ const columns = onRemove => {
       minWidth: 50,
       Cell: row => {
         const id = row.value.id
+        console.log("delete id: ", id)
         const [anchorEl, setAnchorEl] = useState(null)
         const handleClick = event => {
           setAnchorEl(event.currentTarget)

@@ -4,12 +4,10 @@ import styled from "styled-components"
 export default function InsertCoA(props) {
   const { onInsert } = props
   const [value, setValue] = useState({
-    name: "",
     type: "",
-    location: "",
-    currency: "",
-    timeZone: "",
-    coaId: ""
+    name: "",
+    entity: "",
+    entityId: ""
   })
 
   const onChange = useCallback(
@@ -31,33 +29,27 @@ export default function InsertCoA(props) {
   return (
     <StyledForm className="TodoInsert" onSubmit={onSubmit}>
       <input
-        placeholder="Select Entity Type"
+        placeholder="Select CoA Type"
         name="type"
         value={value.type}
         onChange={onChange}
       />
       <input
-        placeholder="Input Entity Name"
+        placeholder="Input CoA Name"
         name="name"
         value={value.name}
         onChange={onChange}
       />
       <input
-        placeholder="Input Location"
-        name="location"
-        value={value.location}
+        placeholder="Connected Entity"
+        name="entity"
+        value={value.entity}
         onChange={onChange}
       />
       <input
-        placeholder="Select Currency"
-        name="currency"
-        value={value.currency}
-        onChange={onChange}
-      />
-      <input
-        placeholder="Select Time Zone"
-        name="timeZone"
-        value={value.timeZone}
+        placeholder="Entity ID (temporary)"
+        name="entityId"
+        value={value.entityId}
         onChange={onChange}
       />
       <button type="submit">Add</button>
