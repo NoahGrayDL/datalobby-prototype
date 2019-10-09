@@ -58,8 +58,7 @@ export default function ChartOfAccount() {
 const DummyCoAList = [
   {
     id: 1,
-    checked: false,
     name: "첫번째 COA",
-    entity: "공룡알회사"
+    entity: "공룡알서리"
   }
 ]

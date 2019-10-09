@@ -123,6 +123,23 @@ const PROJECT_MENUS = [
     subMenus: false
   },
   {
+    title: "Entity Information",
+    icon: <DescriptionOutlinedIcon />,
+    url: "/entity",
+    subMenus: [
+      {
+        title: "Entity List",
+        icon: <AccountTreeOutlinedIcon />,
+        url: "/entity/entity-list"
+      },
+      {
+        title: "Chart of Account",
+        icon: <AccountTreeOutlinedIcon />,
+        url: "/entity/chart-of-account"
+      }
+    ]
+  },
+  {
     title: "PBC",
     icon: <DescriptionOutlinedIcon />,
     url: "/prepared-by-client",
@@ -139,17 +156,6 @@ const PROJECT_MENUS = [
     icon: <DescriptionOutlinedIcon />,
     url: "/financial-statements",
     subMenus: [
-      {
-        title: "Company Information",
-        icon: <InfoOutlinedIcon />,
-        url: "/financial-statements/company-information"
-      },
-      {
-        title: "Chart of Account",
-        icon: <AccountTreeOutlinedIcon />,
-        url: "/financial-statements/chart-of-account"
-      },
-
       {
         title: "Ledgers",
         icon: <DescriptionOutlinedIcon />,
@@ -176,6 +182,12 @@ const PROJECT_MENUS = [
         url: "/financial-statements/paper"
       }
     ]
+  },
+  {
+    title: "SOX",
+    icon: <DescriptionOutlinedIcon />,
+    url: "/sox",
+    subMenus: false
   },
   {
     title: "Workpapers",

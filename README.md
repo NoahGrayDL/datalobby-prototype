@@ -2,9 +2,19 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 ## Available Scripts
 
-In the project directory, you can run:
+In the project directory, move to db.json file location
+
+### `cd src`
+
+### `json-server --watch db.json`
+
+> without this, you cannot see some pages
+
+Then back again to upper directory (project directory)
 
 ### `npm start`
+
+---
 
 Runs the app in the development mode.<br>
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.

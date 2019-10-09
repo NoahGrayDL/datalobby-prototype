@@ -19,43 +19,69 @@
   "entities": [
     {
       "id": 1,
-      "checked": true,
       "type": "Parent",
       "name": "사성디스플레이(주)",
       "location": "Korea",
       "currency": "KRW",
       "timeZone": "GMT+9",
-      "hasCoA": true
+      "hasCoA": true,
+      "coaId": 1
     },
     {
       "id": 2,
-      "checked": false,
       "type": "Subsidiary",
       "name": "사성물산(주)",
       "location": "Korea",
       "currency": "KRW",
       "timeZone": "GMT+9",
-      "hasCoA": false
+      "hasCoA": true,
+      "coaId": 2
     },
     {
       "id": 3,
-      "checked": false,
       "type": "Subsidiary",
       "name": "사성전기(주)",
       "location": "Korea",
       "currency": "KRW",
       "timeZone": "GMT+9",
-      "hasCoA": false
+      "hasCoA": false,
+      "coaId": null
     },
     {
       "id": 4,
-      "checked": false,
       "type": "Subsidiary",
       "name": "사성행상(주)",
       "location": "Korea",
       "currency": "KRW",
       "timeZone": "GMT+9",
-      "hasCoA": false
+      "hasCoA": false,
+      "coaId": null
+    }
+  ],
+  "chart-of-account": [
+    {
+      "id": 1,
+      "name": "첫번째 COA",
+      "entity": "공룡알서리",
+      "type": "Subsidiary"
+    },
+    {
+      "id": 4,
+      "name": "Long Lang Leng",
+      "entity": "공룡알서리",
+      "type": "Subsidiary"
+    },
+    {
+      "id": 2,
+      "name": "첫번째 COA",
+      "entity": "시조새 글라이딩",
+      "type": "Subsidiary"
+    },
+    {
+      "id": 3,
+      "name": "첫번째 COA",
+      "entity": "티라노 Tea",
+      "type": "Subsidiary"
     }
   ]
 }

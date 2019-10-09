@@ -1,56 +1,69 @@
 import React, {
   useState,
   useEffect,
-  useRef,
   useCallback,
-  useReducer
+  useReducer,
+  useContext
 } from "react"
 import { PageContainer } from "../../../components"
 import InsertCompany from "./InsertCompany"
-import { List } from "../../../components/list"
 import Axios from "axios"
+import IconButton from "@material-ui/core/IconButton"
+import MoreVertIcon from "@material-ui/icons/MoreVert"
+import Menu from "@material-ui/core/Menu"
+import MenuItem from "@material-ui/core/MenuItem"
+import { TableForList } from "../../../components/tables"
 //-----*-----*-----*-----*-----*-----//
 
-function entityReducer(entities, action) {
+function entityReducer(state, action) {
   switch (action.type) {
+    case "GET_DATA":
+      return {
+        ...state,
+        entities: action.payload
+      }
     case "INSERT":
-      return Axios.post("http://localhost:3000/entities", action.entity)
+      const insertedEntities = state.entities.concat(action.payload)
+      return { ...state, entities: insertedEntities }
+
     case "REMOVE":
-      return entities.filter(entity => entity.id !== action.id)
-    case "TOGGLE":
-      return entities.map(entity =>
-        entity.id === action.id
-          ? { ...entity, checked: !entity.checked }
-          : entity
+      const deletedEntities = state.entities.filter(
+        entity => entity.id !== action.id
       )
+      return { ...state, entities: deletedEntities }
     default:
-      return entities
+      return state
   }
 }
 
-export default function CompanyInformation() {
-  const [data, setData] = useState(null)
-  const [loading, setLoading] = useState(false)
-  const [newEntityId, setNewEntityId] = useState(1)
+const useAPI = endpoint => {
+  const [data, setData] = useState([])
 
   useEffect(() => {
-    const fetchData = async () => {
-      setLoading(true)
-      try {
-        const response = await Axios.get("http://localhost:3000/entities")
-        setData(response.data)
-        console.log(data)
-      } catch (e) {
-        console.log(e)
-      }
-      setLoading(false)
-    }
-    fetchData()
+    getData()
   }, [])
 
-  const [entities, dispatch] = useReducer(entityReducer, data)
+  const getData = async () => {
+    const response = await Axios.get(endpoint)
+    setData(response.data)
+  }
 
-  const onInsert = useCallback(value => {
+  return data
+}
+
+export default function CompanyInformation() {
+  const initialState = [{ entities: [] }]
+  const [state, dispatch] = useReducer(entityReducer, initialState)
+  const existingEntities = useAPI("http://localhost:3000/entities")
+
+  useEffect(() => {
+    dispatch({
+      type: "GET_DATA",
+      payload: existingEntities
+    })
+  }, [existingEntities])
+
+  const onInsert = async value => {
     const entity = {
       id: `${value.type}_${value.name}_${value.location}`,
       type: value.type,
@@ -60,29 +73,99 @@ export default function CompanyInformation() {
       timeZone: value.timeZone,
       hasCoA: false
     }
-    dispatch({ type: "INSERT", entity })
-    newEntityId.current += 1
-  }, [])
-
-  const onRemove = useCallback(id => {
-    dispatch({ type: "REMOVE", id })
-  }, [])
-
-  const onToggle = useCallback(id => {
-    dispatch({ type: "TOGGLE", id })
-  }, [])
-
-  if (loading) {
-    return <div>loading...</div>
+    const response = await Axios.post("http://localhost:3000/entities", entity)
+    dispatch({ type: "INSERT", payload: response.data })
   }
-  if (!data) {
+
+  const onRemove = async id => {
+    await Axios.delete(`http://localhost:3000/entities/${id}`)
+    dispatch({ type: "REMOVE", id })
+  }
+
+  if (!state.entities) {
     return null
   }
 
   return (
     <PageContainer menuTitle="Company Information">
       <InsertCompany onInsert={onInsert} />
-      {data && <List items={data} onRemove={onRemove} onToggle={onToggle} />}
+      {state.entities && (
+        <TableForList data={state.entities} columns={columns(onRemove)} />
+      )}
     </PageContainer>
   )
+}
+
+const columns = onRemove => {
+  return [
+    {
+      Header: "Type",
+      accessor: "type",
+      minWidth: 90,
+      style: {
+        paddingLeft: 16
+      }
+    },
+    {
+      Header: "Name",
+      accessor: "name",
+      minWidth: 180
+    },
+    {
+      Header: "Location",
+      accessor: "location"
+    },
+    {
+      Header: "Currency",
+      accessor: "currency",
+      minWidth: 60
+    },
+    {
+      Header: "TimeZone",
+      accessor: "timeZone",
+      minWidth: 60
+    },
+    {
+      Header: "CoA",
+      accessor: "hasCoA",
+      minWidth: 60,
+      Cell: row => {
+        const hasCoA = row.row.hasCoA
+        return <div style={{ color: hasCoA ? "black" : "#e5e5e5" }}>CoA</div>
+      }
+    },
+    {
+      Header: "action",
+      accessor: "",
+      minWidth: 50,
+      Cell: row => {
+        const id = row.value.id
+        const [anchorEl, setAnchorEl] = useState(null)
+        const handleClick = event => {
+          setAnchorEl(event.currentTarget)
+        }
+        const handleClose = () => {
+          setAnchorEl(null)
+        }
+
+        return (
+          <div>
+            <IconButton aria-label="more" onClick={handleClick}>
+              <MoreVertIcon />
+            </IconButton>
+            <Menu
+              id="entity-list-context-menu"
+              anchorEl={anchorEl}
+              keepMounted
+              open={Boolean(anchorEl)}
+              onClose={handleClose}
+            >
+              <MenuItem onClick={handleClose}>Edit</MenuItem>
+              <MenuItem onClick={() => onRemove(id)}>Remove</MenuItem>
+            </Menu>
+          </div>
+        )
+      }
+    }
+  ]
 }
