@@ -12,10 +12,10 @@ import MenuItem from "@material-ui/core/MenuItem"
 
 const ListItem = props => {
   const { data, onRemove } = props
-  const { id, name, type, location, currency, timeZone, hasCoA, coaId } = data
+  const { id, name, type, location, currency, timeZone, coaId } = data
   const [anchorEl, setAnchorEl] = useState(null)
 
-  const styleProps = { hasCoA: hasCoA }
+  const styleProps = { coaId: coaId }
   const classes = useStyles(styleProps)
 
   const handleClick = event => {
@@ -41,7 +41,7 @@ const ListItem = props => {
             <Link to={`/entity/chart-of-account/detail/${coaId}`}>
               <Button
                 size="small"
-                style={{ color: hasCoA ? "black" : "#e5e5e5" }}
+                style={{ color: coaId ? "black" : "#e5e5e5" }}
               >
                 CoA
               </Button>
@@ -74,7 +74,7 @@ const useStyles = makeStyles(theme => ({
     "&:hover": {
       backgroundColor: "#e5e5e5"
     },
-    color: props => (props.hasCoA ? "#758fff" : "inherit"),
+    color: props => (props.coaId ? "#758fff" : "inherit"),
     padding: "0 16px"
   },
   contents: {

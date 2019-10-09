@@ -1,29 +1,17 @@
 import React, { useState, useEffect, useReducer } from "react"
 import { PageContainer } from "../../../components"
+import { Link } from "react-router-dom"
 import InsertCompany from "./InsertCompany"
-import Axios from "axios"
+import axios from "axios"
 import IconButton from "@material-ui/core/IconButton"
 import MoreVertIcon from "@material-ui/icons/MoreVert"
 import Menu from "@material-ui/core/Menu"
 import MenuItem from "@material-ui/core/MenuItem"
 import { TableForList } from "../../../components/tables"
 import { entityReducer } from "../../../reducer"
+import useAPI from "../../../utils/useAPI"
+
 //-----*-----*-----*-----*-----*-----//
-
-const useAPI = endpoint => {
-  const [data, setData] = useState([])
-
-  useEffect(() => {
-    getData()
-  }, [])
-
-  const getData = async () => {
-    const response = await Axios.get(endpoint)
-    setData(response.data)
-  }
-
-  return data
-}
 
 export default function CompanyInformation() {
   const initialState = [{ entities: [] }]
@@ -45,14 +33,14 @@ export default function CompanyInformation() {
       location: value.location,
       currency: value.currency,
       timeZone: value.timeZone,
-      hasCoA: false
+      coaId: false
     }
-    const response = await Axios.post("http://localhost:3000/entities", entity)
+    const response = await axios.post("http://localhost:3000/entities", entity)
     dispatch({ type: "INSERT", payload: response.data })
   }
 
   const onRemove = async id => {
-    await Axios.delete(`http://localhost:3000/entities/${id}`)
+    await axios.delete(`http://localhost:3000/entities/${id}`)
     dispatch({ type: "REMOVE", id })
   }
 
@@ -83,7 +71,23 @@ const columns = onRemove => {
     {
       Header: "Name",
       accessor: "name",
-      minWidth: 180
+      minWidth: 180,
+      Cell: row => {
+        const id = row.original.id
+        return (
+          <Link
+            to={`/entity/entity-detail/${id}`}
+            style={{
+              width: "100%",
+              height: "100%",
+              display: "flex",
+              alignItems: "center"
+            }}
+          >
+            {row.value}
+          </Link>
+        )
+      }
     },
     {
       Header: "Location",
@@ -101,11 +105,18 @@ const columns = onRemove => {
     },
     {
       Header: "CoA",
-      accessor: "hasCoA",
+      accessor: "coaId",
       minWidth: 60,
       Cell: row => {
-        const hasCoA = row.row.hasCoA
-        return <div style={{ color: hasCoA ? "black" : "#e5e5e5" }}>CoA</div>
+        const coaId = row.row.coaId
+        return (
+          <Link
+            to={`/entity/chart-of-account/detail/${coaId}`}
+            style={{ color: coaId ? "black" : "#e5e5e5" }}
+          >
+            CoA
+          </Link>
+        )
       }
     },
     {

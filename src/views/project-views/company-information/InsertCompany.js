@@ -9,7 +9,7 @@ export default function InsertCompany(props) {
     location: "",
     currency: "",
     timeZone: "",
-    hasCoA: ""
+    coaId: ""
   })
 
   const onChange = useCallback(

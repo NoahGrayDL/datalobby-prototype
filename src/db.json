@@ -24,8 +24,7 @@
       "location": "Korea",
       "currency": "KRW",
       "timeZone": "GMT+9",
-      "hasCoA": true,
-      "coaId": 1
+      "coaId": "coa1"
     },
     {
       "id": 2,
@@ -34,8 +33,7 @@
       "location": "Korea",
       "currency": "KRW",
       "timeZone": "GMT+9",
-      "hasCoA": true,
-      "coaId": 2
+      "coaId": "coa2"
     },
     {
       "id": 3,
@@ -44,7 +42,6 @@
       "location": "Korea",
       "currency": "KRW",
       "timeZone": "GMT+9",
-      "hasCoA": false,
       "coaId": null
     },
     {
@@ -54,34 +51,37 @@
       "location": "Korea",
       "currency": "KRW",
       "timeZone": "GMT+9",
-      "hasCoA": false,
       "coaId": null
     }
   ],
   "chart-of-account": [
     {
-      "id": 1,
+      "id": "coa1",
       "name": "첫번째 COA",
-      "entity": "공룡알서리",
-      "type": "Subsidiary"
+      "entity": "사성디스플레이(주)",
+      "entityId": 1,
+      "type": "Consolidation"
     },
     {
-      "id": 4,
+      "id": "coa2",
       "name": "Long Lang Leng",
-      "entity": "공룡알서리",
-      "type": "Subsidiary"
+      "entity": "사성물산(주)",
+      "entityId": 2,
+      "type": "Individual"
     },
     {
-      "id": 2,
-      "name": "첫번째 COA",
+      "id": "coa3",
+      "name": "세번째 COA",
       "entity": "시조새 글라이딩",
-      "type": "Subsidiary"
+      "entityId": null,
+      "type": "Individual"
     },
     {
-      "id": 3,
-      "name": "첫번째 COA",
+      "id": "coa4",
+      "name": "네번째 COA",
       "entity": "티라노 Tea",
-      "type": "Subsidiary"
+      "entityId": null,
+      "type": "Individual"
     }
   ]
 }

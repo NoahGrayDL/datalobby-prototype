@@ -19,4 +19,20 @@ function entityReducer(state, action) {
   }
 }
 
-export { entityReducer }
+function coaReducer(state, action) {
+  switch (action.type) {
+    case "GET_DATA":
+      return {
+        ...state,
+        coaList: action.payload
+      }
+    // case "INSERT":
+    //   return coaList.concat(action.coa)
+    // case "REMOVE":
+    //   return coaList.filter(coa => coa.id !== action.id)
+    default:
+      return state
+  }
+}
+
+export { entityReducer, coaReducer }

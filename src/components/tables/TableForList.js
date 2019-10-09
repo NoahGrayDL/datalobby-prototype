@@ -6,11 +6,24 @@ import styled from "styled-components"
 export default function TableForList(props) {
   const { data, columns } = props
 
-  console.log("data in table: ", data)
-
+  // console.log("data in table: ", data)
+  // ? how to redirect by a row instead of the cell..?
+  // const handleMove = id => {
+  //   window.location.href = `/entity/entity-detail/${id}`
+  // }
   return (
     <StyledContainer>
       <ReactTable
+        // getTdProps={(state, rowInfo, column, instance) => {
+        //   return {
+        //     onClick: (e, handleOriginal) => {
+        //       handleMove(rowInfo.original.id)
+        //       if (handleOriginal) {
+        //         handleOriginal()
+        //       }
+        //     }
+        //   }
+        // }}
         data={data}
         columns={columns ? columns : defaultColumns}
         minRows={data ? data.length : undefined}
@@ -56,12 +69,16 @@ const StyledContainer = styled.div`
     margin: 8px;
     border-radius: 4px;
     &:hover {
-      background-color: #ccc;
+      background-color: #abbfff;
     }
   }
   & .ReactTable .rt-tbody .rt-td {
     display: flex;
     align-items: center;
     border-right: none;
+    transition: 0.4s;
+    & a {
+      font-weight: 500;
+    }
   }
 `
