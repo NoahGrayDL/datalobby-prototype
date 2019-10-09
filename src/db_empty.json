@@ -1,4 +1,31 @@
 {
   "entities": [],
-  "chart-of-account": []
+  "chart-of-account": [
+    {
+      "id": 1,
+      "type": "Indiv",
+      "name": "COA test",
+      "entity": "aa;sdlkfj  ",
+      "entityId": "123",
+      "glaList": null
+    },
+    {
+      "id": 2,
+      "type": "Indiv",
+      "name": "COA test2",
+      "entity": "aa;sdlkfj  ",
+      "entityId": "423",
+      "glaList": [
+        {
+          "gla": "item1"
+        },
+        {
+          "gla": "item2"
+        },
+        {
+          "gla": "item3"
+        }
+      ]
+    }
+  ]
 }

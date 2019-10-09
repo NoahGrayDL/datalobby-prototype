@@ -27,7 +27,10 @@ export default function CompanyInformation() {
 
   const onInsert = async value => {
     const entity = {
-      id: `${value.type}_${value.name}_${value.location}`,
+      id: `${value.type.replace(/(\s*)/g, "")}_${value.name.replace(
+        /(\s*)/g,
+        ""
+      )}_${value.location.replace(/(\s*)/g, "")}`,
       type: value.type,
       name: value.name,
       location: value.location,

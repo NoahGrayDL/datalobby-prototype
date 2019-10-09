@@ -27,11 +27,15 @@ export default function ChartOfAccount() {
 
   const onInsert = async value => {
     const coa = {
-      id: `${value.name}_${value.entity}`,
+      id: `${value.name.replace(/(\s*)/g, "")}_${value.entity.replace(
+        /(\s*)/g,
+        ""
+      )}`,
       type: value.type,
       name: value.name,
       entity: value.entity,
-      entityId: value.entityId
+      entityId: value.entityId,
+      glaList: null
     }
     const response = await axios.post(
       "http://localhost:3000/chart-of-account",
@@ -88,6 +92,20 @@ const columns = onRemove => {
           >
             {row.value}
           </Link>
+        )
+      }
+    },
+    {
+      Header: "GLA",
+      headerStyle: { textAlign: "center" },
+      accessor: "glaList",
+      minWidth: 40,
+      Cell: row => {
+        const gla = row.original.glaList
+        return (
+          <div style={{ width: "100%", textAlign: "center" }}>
+            {gla ? gla.length : "0"}
+          </div>
         )
       }
     },
