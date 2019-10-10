@@ -1,0 +1,4364 @@
+[
+  {
+    "accountCode": 10100,
+    "accountTitle": "VAULT CASH",
+    "accountClass": "Assets",
+    "caption": "CASH AND DUE FROM BANKS"
+  },
+  {
+    "accountCode": 10101,
+    "accountTitle": "TELLER #1",
+    "accountClass": "Assets",
+    "caption": "CASH AND DUE FROM BANKS"
+  },
+  {
+    "accountCode": 10102,
+    "accountTitle": "TELLER #2",
+    "accountClass": "Assets",
+    "caption": "CASH AND DUE FROM BANKS"
+  },
+  {
+    "accountCode": 10103,
+    "accountTitle": "TELLER #3",
+    "accountClass": "Assets",
+    "caption": "CASH AND DUE FROM BANKS"
+  },
+  {
+    "accountCode": 10104,
+    "accountTitle": "TELLER #4",
+    "accountClass": "Assets",
+    "caption": "CASH AND DUE FROM BANKS"
+  },
+  {
+    "accountCode": 10105,
+    "accountTitle": "TELLER #5",
+    "accountClass": "Assets",
+    "caption": "CASH AND DUE FROM BANKS"
+  },
+  {
+    "accountCode": 10106,
+    "accountTitle": "TELLER #6",
+    "accountClass": "Assets",
+    "caption": "CASH AND DUE FROM BANKS"
+  },
+  {
+    "accountCode": 10107,
+    "accountTitle": "TELLER #7",
+    "accountClass": "Assets",
+    "caption": "CASH AND DUE FROM BANKS"
+  },
+  {
+    "accountCode": 10108,
+    "accountTitle": "TELLER #8",
+    "accountClass": "Assets",
+    "caption": "CASH AND DUE FROM BANKS"
+  },
+  {
+    "accountCode": 10120,
+    "accountTitle": "TELLER EXCHANGE",
+    "accountClass": "Assets",
+    "caption": "CASH AND DUE FROM BANKS"
+  },
+  {
+    "accountCode": 10130,
+    "accountTitle": "ATM CASH",
+    "accountClass": "Assets",
+    "caption": "CASH AND DUE FROM BANKS"
+  },
+  {
+    "accountCode": 10140,
+    "accountTitle": "PETTY CASH",
+    "accountClass": "Assets",
+    "caption": "CASH AND DUE FROM BANKS"
+  },
+  {
+    "accountCode": 10210,
+    "accountTitle": "REDEEMED US SAVINGS BONDS",
+    "accountClass": "Assets",
+    "caption": "CASH AND DUE FROM BANKS"
+  },
+  {
+    "accountCode": 10220,
+    "accountTitle": "TBD",
+    "accountClass": "Assets",
+    "caption": "CASH AND DUE FROM BANKS"
+  },
+  {
+    "accountCode": 10230,
+    "accountTitle": "TBD",
+    "accountClass": "Assets",
+    "caption": "CASH AND DUE FROM BANKS"
+  },
+  {
+    "accountCode": 10240,
+    "accountTitle": "COLLECTION ITEMS IN PROCESS",
+    "accountClass": "Assets",
+    "caption": "CASH AND DUE FROM BANKS"
+  },
+  {
+    "accountCode": 10250,
+    "accountTitle": "CREDIT CARD CASH ADVANCES IN",
+    "accountClass": "Assets",
+    "caption": "CASH AND DUE FROM BANKS"
+  },
+  {
+    "accountCode": 10260,
+    "accountTitle": "TBD",
+    "accountClass": "Assets",
+    "caption": "CASH AND DUE FROM BANKS"
+  },
+  {
+    "accountCode": 10275,
+    "accountTitle": "TBD",
+    "accountClass": "Assets",
+    "caption": "CASH AND DUE FROM BANKS"
+  },
+  {
+    "accountCode": 10310,
+    "accountTitle": "PACIFIC COAST BANKERS BANK",
+    "accountClass": "Assets",
+    "caption": "CASH AND DUE FROM BANKS"
+  },
+  {
+    "accountCode": 10320,
+    "accountTitle": "ZIONS BANK",
+    "accountClass": "Assets",
+    "caption": "CASH AND DUE FROM BANKS"
+  },
+  {
+    "accountCode": 10330,
+    "accountTitle": "WELLS FARGO BANK",
+    "accountClass": "Assets",
+    "caption": "CASH AND DUE FROM BANKS"
+  },
+  {
+    "accountCode": 10331,
+    "accountTitle": "WELLS FARGO BANK-INVESTMENT",
+    "accountClass": "Assets",
+    "caption": "CASH AND DUE FROM BANKS"
+  },
+  {
+    "accountCode": 10340,
+    "accountTitle": "TBD",
+    "accountClass": "Assets",
+    "caption": "CASH AND DUE FROM BANKS"
+  },
+  {
+    "accountCode": 10390,
+    "accountTitle": "BANK OF NY MELLON - CDARS",
+    "accountClass": "Assets",
+    "caption": "CASH AND DUE FROM BANKS"
+  },
+  {
+    "accountCode": 10405,
+    "accountTitle": "INT BEARING - FRB",
+    "accountClass": "Assets",
+    "caption": "INTEREST BEARING DEPOSITS IN FINANCIAL INSTITUTIONS"
+  },
+  {
+    "accountCode": 10410,
+    "accountTitle": "TBD",
+    "accountClass": "Assets",
+    "caption": "INTEREST BEARING DEPOSITS IN FINANCIAL INSTITUTIONS"
+  },
+  {
+    "accountCode": 10420,
+    "accountTitle": "INT BEARING - FHLBANK",
+    "accountClass": "Assets",
+    "caption": "INTEREST BEARING DEPOSITS IN FINANCIAL INSTITUTIONS"
+  },
+  {
+    "accountCode": 10430,
+    "accountTitle": "INT BEARING - WFB MMDA",
+    "accountClass": "Assets",
+    "caption": "INTEREST BEARING DEPOSITS IN FINANCIAL INSTITUTIONS"
+  },
+  {
+    "accountCode": 10440,
+    "accountTitle": "TBD",
+    "accountClass": "Assets",
+    "caption": "INTEREST BEARING DEPOSITS IN FINANCIAL INSTITUTIONS"
+  },
+  {
+    "accountCode": 10490,
+    "accountTitle": "TBD",
+    "accountClass": "Assets",
+    "caption": "INTEREST BEARING DEPOSITS IN FINANCIAL INSTITUTIONS"
+  },
+  {
+    "accountCode": 11000,
+    "accountTitle": "US TREASURY SECURITIES - AFS",
+    "accountClass": "Assets",
+    "caption": "INVESTMENT SECURITIES-AFS"
+  },
+  {
+    "accountCode": 11010,
+    "accountTitle": "UNAMORTIZED PREMIUM - TREASU",
+    "accountClass": "Assets",
+    "caption": "INVESTMENT SECURITIES-AFS"
+  },
+  {
+    "accountCode": 11030,
+    "accountTitle": "UNACCRETED DISCOUNT - TREASU",
+    "accountClass": "Assets",
+    "caption": "INVESTMENT SECURITIES-AFS"
+  },
+  {
+    "accountCode": 11070,
+    "accountTitle": "FAIR VALUE ADJ - TREASURY",
+    "accountClass": "Assets",
+    "caption": "INVESTMENT SECURITIES-AFS"
+  },
+  {
+    "accountCode": 11110,
+    "accountTitle": "US GOVERNMENT AGENCIES - AFS",
+    "accountClass": "Assets",
+    "caption": "INVESTMENT SECURITIES-AFS"
+  },
+  {
+    "accountCode": 11120,
+    "accountTitle": "UNAMORTIZED PREMIUM - AGENCI",
+    "accountClass": "Assets",
+    "caption": "INVESTMENT SECURITIES-AFS"
+  },
+  {
+    "accountCode": 11130,
+    "accountTitle": "UNACCRETED DISCOUNT - AGENCI",
+    "accountClass": "Assets",
+    "caption": "INVESTMENT SECURITIES-AFS"
+  },
+  {
+    "accountCode": 11170,
+    "accountTitle": "FAIR VALUE ADJ - AGENCIES",
+    "accountClass": "Assets",
+    "caption": "INVESTMENT SECURITIES-AFS"
+  },
+  {
+    "accountCode": 11200,
+    "accountTitle": "MUNI BONDS",
+    "accountClass": "Assets",
+    "caption": "INVESTMENT SECURITIES-AFS"
+  },
+  {
+    "accountCode": 11210,
+    "accountTitle": "UNAMORTIZED PREMIUM - MUNI",
+    "accountClass": "Assets",
+    "caption": "INVESTMENT SECURITIES-AFS"
+  },
+  {
+    "accountCode": 11230,
+    "accountTitle": "UNACCRETED DISCOUNT - MUNI",
+    "accountClass": "Assets",
+    "caption": "INVESTMENT SECURITIES-AFS"
+  },
+  {
+    "accountCode": 11270,
+    "accountTitle": "FAIR VALUE ADJ - MUNI",
+    "accountClass": "Assets",
+    "caption": "INVESTMENT SECURITIES-AFS"
+  },
+  {
+    "accountCode": 11300,
+    "accountTitle": "MORTGAGE BACKED SECURITIES -",
+    "accountClass": "Assets",
+    "caption": "INVESTMENT SECURITIES-AFS"
+  },
+  {
+    "accountCode": 11310,
+    "accountTitle": "UNAMORTIZED PREMIUM - MBS -",
+    "accountClass": "Assets",
+    "caption": "INVESTMENT SECURITIES-AFS"
+  },
+  {
+    "accountCode": 11330,
+    "accountTitle": "UNACCRETED DISCOUNT - MBS -",
+    "accountClass": "Assets",
+    "caption": "INVESTMENT SECURITIES-AFS"
+  },
+  {
+    "accountCode": 11370,
+    "accountTitle": "FAIR VALUE ADJ - MBS",
+    "accountClass": "Assets",
+    "caption": "INVESTMENT SECURITIES-AFS"
+  },
+  {
+    "accountCode": 11380,
+    "accountTitle": "MBS - HTM",
+    "accountClass": "Assets",
+    "caption": "INVESTMENT SECURITIES-HFS"
+  },
+  {
+    "accountCode": 11385,
+    "accountTitle": "UNAMORTIZED PREMIUM - MBS -",
+    "accountClass": "Assets",
+    "caption": "INVESTMENT SECURITIES-HFS"
+  },
+  {
+    "accountCode": 11390,
+    "accountTitle": "UNACCRETED DISCOUNT - MBS -",
+    "accountClass": "Assets",
+    "caption": "INVESTMENT SECURITIES-HFS"
+  },
+  {
+    "accountCode": 11400,
+    "accountTitle": "COLLATERLIZED MORTGAGE OBLIG",
+    "accountClass": "Assets",
+    "caption": "INVESTMENT SECURITIES-AFS"
+  },
+  {
+    "accountCode": 11410,
+    "accountTitle": "UNAMORTIZED PREMIUM - CMO -",
+    "accountClass": "Assets",
+    "caption": "INVESTMENT SECURITIES-AFS"
+  },
+  {
+    "accountCode": 11430,
+    "accountTitle": "UNACCRETED DISCOUNT - CMO -",
+    "accountClass": "Assets",
+    "caption": "INVESTMENT SECURITIES-AFS"
+  },
+  {
+    "accountCode": 11470,
+    "accountTitle": "FAIR VALUE ADJ - CMO",
+    "accountClass": "Assets",
+    "caption": "INVESTMENT SECURITIES-AFS"
+  },
+  {
+    "accountCode": 11480,
+    "accountTitle": "CMO - HTM",
+    "accountClass": "Assets",
+    "caption": "INVESTMENT SECURITIES-HFS"
+  },
+  {
+    "accountCode": 11485,
+    "accountTitle": "UNAMORTIZED PREMIUM - CMO -",
+    "accountClass": "Assets",
+    "caption": "INVESTMENT SECURITIES-HFS"
+  },
+  {
+    "accountCode": 11490,
+    "accountTitle": "UNACCRETED DISCOUNT - CMO -",
+    "accountClass": "Assets",
+    "caption": "INVESTMENT SECURITIES-HFS"
+  },
+  {
+    "accountCode": 11610,
+    "accountTitle": "FED FUNDS SOLD O/N",
+    "accountClass": "Assets",
+    "caption": "INVESTMENT SECURITIES-AFS"
+  },
+  {
+    "accountCode": 11615,
+    "accountTitle": "OTHER INVESTMENTS",
+    "accountClass": "Assets",
+    "caption": "INVESTMENT SECURITIES-AFS"
+  },
+  {
+    "accountCode": 12010,
+    "accountTitle": "NEW AUTO LOAN",
+    "accountClass": "Assets",
+    "caption": "CONSUMER LOANS"
+  },
+  {
+    "accountCode": 12015,
+    "accountTitle": "USED AUTO LOAN",
+    "accountClass": "Assets",
+    "caption": "CONSUMER LOANS"
+  },
+  {
+    "accountCode": 12016,
+    "accountTitle": "SUBPRIME NEW AUTO LOAN",
+    "accountClass": "Assets",
+    "caption": "CONSUMER LOANS"
+  },
+  {
+    "accountCode": 12017,
+    "accountTitle": "SUBPRIME USED AUTO LOAN",
+    "accountClass": "Assets",
+    "caption": "CONSUMER LOANS"
+  },
+  {
+    "accountCode": 12020,
+    "accountTitle": "PERSONAL CASH SECURED",
+    "accountClass": "Assets",
+    "caption": "CONSUMER LOANS"
+  },
+  {
+    "accountCode": 12025,
+    "accountTitle": "PERSONAL OTHER SECURED",
+    "accountClass": "Assets",
+    "caption": "CONSUMER LOANS"
+  },
+  {
+    "accountCode": 12030,
+    "accountTitle": "PERSONAL UNSECURED & OTHER T",
+    "accountClass": "Assets",
+    "caption": "CONSUMER LOANS"
+  },
+  {
+    "accountCode": 12035,
+    "accountTitle": "HOME EQUITY LOAN - IMPROVEME",
+    "accountClass": "Assets",
+    "caption": "CONSUMER LOANS"
+  },
+  {
+    "accountCode": 12075,
+    "accountTitle": "NON-ACCRUAL INSTALLMENT",
+    "accountClass": "Assets",
+    "caption": "CONSUMER LOANS"
+  },
+  {
+    "accountCode": 12110,
+    "accountTitle": "PERSONAL CASH SECURED LINE O",
+    "accountClass": "Assets",
+    "caption": "CONSUMER LOANS"
+  },
+  {
+    "accountCode": 12115,
+    "accountTitle": "PERSONAL OTHER SECURED LINE",
+    "accountClass": "Assets",
+    "caption": "CONSUMER LOANS"
+  },
+  {
+    "accountCode": 12120,
+    "accountTitle": "PERSONAL UNSECURED LINE OF C",
+    "accountClass": "Assets",
+    "caption": "CONSUMER LOANS"
+  },
+  {
+    "accountCode": 12130,
+    "accountTitle": "PERSONAL SECURED BY TD",
+    "accountClass": "Assets",
+    "caption": "CONSUMER LOANS"
+  },
+  {
+    "accountCode": 12135,
+    "accountTitle": "TBD",
+    "accountClass": "Assets",
+    "caption": "CONSUMER LOANS"
+  },
+  {
+    "accountCode": 12140,
+    "accountTitle": "TBD",
+    "accountClass": "Assets",
+    "caption": "CONSUMER LOANS"
+  },
+  {
+    "accountCode": 12175,
+    "accountTitle": "NON-ACCRUAL CONSUMER LINE OF",
+    "accountClass": "Assets",
+    "caption": "CONSUMER LOANS"
+  },
+  {
+    "accountCode": 12210,
+    "accountTitle": "RE CONSTRUCTION - COMM",
+    "accountClass": "Assets",
+    "caption": "REAL ESTATE LOANS"
+  },
+  {
+    "accountCode": 12215,
+    "accountTitle": "RE RESIDENTIAL CONSTRUCTION",
+    "accountClass": "Assets",
+    "caption": "REAL ESTATE LOANS"
+  },
+  {
+    "accountCode": 12217,
+    "accountTitle": "RE TD LINE OF CREDIT - COM'L",
+    "accountClass": "Assets",
+    "caption": "REAL ESTATE LOANS"
+  },
+  {
+    "accountCode": 12220,
+    "accountTitle": "RE COMMERCIAL PROPERTY",
+    "accountClass": "Assets",
+    "caption": "REAL ESTATE LOANS"
+  },
+  {
+    "accountCode": 12224,
+    "accountTitle": "RE PART PURCH - LINE",
+    "accountClass": "Assets",
+    "caption": "REAL ESTATE LOANS"
+  },
+  {
+    "accountCode": 12225,
+    "accountTitle": "RE PART PURCH - COMM PROP",
+    "accountClass": "Assets",
+    "caption": "REAL ESTATE LOANS"
+  },
+  {
+    "accountCode": 12226,
+    "accountTitle": "RE HOME MORTG LOAN - FIXED",
+    "accountClass": "Assets",
+    "caption": "REAL ESTATE LOANS"
+  },
+  {
+    "accountCode": 12227,
+    "accountTitle": "RE HOME MORTG LOAN - ARM",
+    "accountClass": "Assets",
+    "caption": "REAL ESTATE LOANS"
+  },
+  {
+    "accountCode": 12228,
+    "accountTitle": "RE HOME MORTG LOAN - PURCHAS",
+    "accountClass": "Assets",
+    "caption": "REAL ESTATE LOANS"
+  },
+  {
+    "accountCode": 12231,
+    "accountTitle": "RE HOME EQUITY LOAN",
+    "accountClass": "Assets",
+    "caption": "REAL ESTATE LOANS"
+  },
+  {
+    "accountCode": 12232,
+    "accountTitle": "RE HOME EQUITY LINE OF CREDI",
+    "accountClass": "Assets",
+    "caption": "REAL ESTATE LOANS"
+  },
+  {
+    "accountCode": 12235,
+    "accountTitle": "RE MULTI FAMILY 1ST TD",
+    "accountClass": "Assets",
+    "caption": "REAL ESTATE LOANS"
+  },
+  {
+    "accountCode": 12237,
+    "accountTitle": "RE TD LINE OF CREDIT - BUS P",
+    "accountClass": "Assets",
+    "caption": "REAL ESTATE LOANS"
+  },
+  {
+    "accountCode": 12240,
+    "accountTitle": "RE BUSINESS PROPERTY",
+    "accountClass": "Assets",
+    "caption": "REAL ESTATE LOANS"
+  },
+  {
+    "accountCode": 12243,
+    "accountTitle": "RE PART PURCH - CONSTRUCTION",
+    "accountClass": "Assets",
+    "caption": "REAL ESTATE LOANS"
+  },
+  {
+    "accountCode": 12245,
+    "accountTitle": "RE PART PURCH - BUS PROPERTY",
+    "accountClass": "Assets",
+    "caption": "REAL ESTATE LOANS"
+  },
+  {
+    "accountCode": 12260,
+    "accountTitle": "RE PART SOLD - COMM PROP",
+    "accountClass": "Assets",
+    "caption": "REAL ESTATE LOANS"
+  },
+  {
+    "accountCode": 12265,
+    "accountTitle": "RE PART SOLD - BUS PROPERTY",
+    "accountClass": "Assets",
+    "caption": "REAL ESTATE LOANS"
+  },
+  {
+    "accountCode": 12266,
+    "accountTitle": "RE PART SOLD - HOME MORTG LO",
+    "accountClass": "Assets",
+    "caption": "REAL ESTATE LOANS"
+  },
+  {
+    "accountCode": 12267,
+    "accountTitle": "RE HOME MORTG SOLD TO FAMA",
+    "accountClass": "Assets",
+    "caption": "REAL ESTATE LOANS"
+  },
+  {
+    "accountCode": 12268,
+    "accountTitle": "RE COMM LOANS SOLD W/RECOURS",
+    "accountClass": "Assets",
+    "caption": "REAL ESTATE LOANS"
+  },
+  {
+    "accountCode": 12274,
+    "accountTitle": "RE BUSINESS PROPERTY - CONTR",
+    "accountClass": "Assets",
+    "caption": "REAL ESTATE LOANS"
+  },
+  {
+    "accountCode": 12275,
+    "accountTitle": "NON-ACCRUAL COMMERCIAL REAL",
+    "accountClass": "Assets",
+    "caption": "REAL ESTATE LOANS"
+  },
+  {
+    "accountCode": 12277,
+    "accountTitle": "NON-ACCRUAL HOME MORTG LOAN",
+    "accountClass": "Assets",
+    "caption": "REAL ESTATE LOANS"
+  },
+  {
+    "accountCode": 12310,
+    "accountTitle": "COMMERCIAL TERM - UNSECURED",
+    "accountClass": "Assets",
+    "caption": "COMMERCIAL AND INDUSTRIAL LOANS"
+  },
+  {
+    "accountCode": 12315,
+    "accountTitle": "COMMERCIAL TERM T/D SECURED",
+    "accountClass": "Assets",
+    "caption": "COMMERCIAL AND INDUSTRIAL LOANS"
+  },
+  {
+    "accountCode": 12320,
+    "accountTitle": "COMMERCIAL TERM - CASH SECUR",
+    "accountClass": "Assets",
+    "caption": "COMMERCIAL AND INDUSTRIAL LOANS"
+  },
+  {
+    "accountCode": 12325,
+    "accountTitle": "COMMERCIAL TERM - UCC SECURE",
+    "accountClass": "Assets",
+    "caption": "COMMERCIAL AND INDUSTRIAL LOANS"
+  },
+  {
+    "accountCode": 12327,
+    "accountTitle": "COMMERCIAL TERM - EZ",
+    "accountClass": "Assets",
+    "caption": "COMMERCIAL AND INDUSTRIAL LOANS"
+  },
+  {
+    "accountCode": 12328,
+    "accountTitle": "COMMERCIAL TERM - STATE",
+    "accountClass": "Assets",
+    "caption": "COMMERCIAL AND INDUSTRIAL LOANS"
+  },
+  {
+    "accountCode": 12330,
+    "accountTitle": "COMMERCIAL TERM - STOCK & BO",
+    "accountClass": "Assets",
+    "caption": "COMMERCIAL AND INDUSTRIAL LOANS"
+  },
+  {
+    "accountCode": 12335,
+    "accountTitle": "COMMERCIAL TERM - MULTIPLE S",
+    "accountClass": "Assets",
+    "caption": "COMMERCIAL AND INDUSTRIAL LOANS"
+  },
+  {
+    "accountCode": 12345,
+    "accountTitle": "COMMERCIAL PARTICIPATION PUR",
+    "accountClass": "Assets",
+    "caption": "COMMERCIAL AND INDUSTRIAL LOANS"
+  },
+  {
+    "accountCode": 12350,
+    "accountTitle": "COMMERCIAL TERM - OTHER SECU",
+    "accountClass": "Assets",
+    "caption": "COMMERCIAL AND INDUSTRIAL LOANS"
+  },
+  {
+    "accountCode": 12352,
+    "accountTitle": "COMMERCIAL TERM - WAREHS ADV",
+    "accountClass": "Assets",
+    "caption": "COMMERCIAL AND INDUSTRIAL LOANS"
+  },
+  {
+    "accountCode": 12355,
+    "accountTitle": "COMMERCIAL TERM - COM'L TRUC",
+    "accountClass": "Assets",
+    "caption": "COMMERCIAL AND INDUSTRIAL LOANS"
+  },
+  {
+    "accountCode": 12356,
+    "accountTitle": "COMMERCIAL TERM - RENT CAR",
+    "accountClass": "Assets",
+    "caption": "COMMERCIAL AND INDUSTRIAL LOANS"
+  },
+  {
+    "accountCode": 12360,
+    "accountTitle": "COMMERCIAL PART SOLD",
+    "accountClass": "Assets",
+    "caption": "COMMERCIAL AND INDUSTRIAL LOANS"
+  },
+  {
+    "accountCode": 12374,
+    "accountTitle": "COMMERCIAL TERM - CONTRA",
+    "accountClass": "Assets",
+    "caption": "COMMERCIAL AND INDUSTRIAL LOANS"
+  },
+  {
+    "accountCode": 12375,
+    "accountTitle": "NON-ACCRUAL COMMERCIAL TERM",
+    "accountClass": "Assets",
+    "caption": "COMMERCIAL AND INDUSTRIAL LOANS"
+  },
+  {
+    "accountCode": 12410,
+    "accountTitle": "COM'L LINE OF CREDIT - UNSEC",
+    "accountClass": "Assets",
+    "caption": "COMMERCIAL AND INDUSTRIAL LOANS"
+  },
+  {
+    "accountCode": 12415,
+    "accountTitle": "COM'L LINE OF CREDIT - TD SE",
+    "accountClass": "Assets",
+    "caption": "COMMERCIAL AND INDUSTRIAL LOANS"
+  },
+  {
+    "accountCode": 12420,
+    "accountTitle": "COM'L LINE OF CREDIT - CASH",
+    "accountClass": "Assets",
+    "caption": "COMMERCIAL AND INDUSTRIAL LOANS"
+  },
+  {
+    "accountCode": 12425,
+    "accountTitle": "COM'L LINE OF CREDIT - UCC S",
+    "accountClass": "Assets",
+    "caption": "COMMERCIAL AND INDUSTRIAL LOANS"
+  },
+  {
+    "accountCode": 12427,
+    "accountTitle": "COM'L LINE OF CREDIT - EZ",
+    "accountClass": "Assets",
+    "caption": "COMMERCIAL AND INDUSTRIAL LOANS"
+  },
+  {
+    "accountCode": 12428,
+    "accountTitle": "COM'L LINE OF CREDIT - STATE",
+    "accountClass": "Assets",
+    "caption": "COMMERCIAL AND INDUSTRIAL LOANS"
+  },
+  {
+    "accountCode": 12430,
+    "accountTitle": "COM'L LINE OF CREDIT - STOCK",
+    "accountClass": "Assets",
+    "caption": "COMMERCIAL AND INDUSTRIAL LOANS"
+  },
+  {
+    "accountCode": 12435,
+    "accountTitle": "COM'L LINE OF CREDIT - MULTI",
+    "accountClass": "Assets",
+    "caption": "COMMERCIAL AND INDUSTRIAL LOANS"
+  },
+  {
+    "accountCode": 12440,
+    "accountTitle": "COM'L LINE OF CREDIT - ASSET",
+    "accountClass": "Assets",
+    "caption": "COMMERCIAL AND INDUSTRIAL LOANS"
+  },
+  {
+    "accountCode": 12445,
+    "accountTitle": "COM'L LINE OF CREDIT - FACTO",
+    "accountClass": "Assets",
+    "caption": "COMMERCIAL AND INDUSTRIAL LOANS"
+  },
+  {
+    "accountCode": 12450,
+    "accountTitle": "COM'L LINE OF CREDIT - OTHER",
+    "accountClass": "Assets",
+    "caption": "COMMERCIAL AND INDUSTRIAL LOANS"
+  },
+  {
+    "accountCode": 12460,
+    "accountTitle": "COM'L LINE OF CREDIT - PART",
+    "accountClass": "Assets",
+    "caption": "COMMERCIAL AND INDUSTRIAL LOANS"
+  },
+  {
+    "accountCode": 12465,
+    "accountTitle": "COM'L LINE OF CREDIT - PART",
+    "accountClass": "Assets",
+    "caption": "COMMERCIAL AND INDUSTRIAL LOANS"
+  },
+  {
+    "accountCode": 12475,
+    "accountTitle": "NON-ACCRUAL COM'L LINE OF CR",
+    "accountClass": "Assets",
+    "caption": "COMMERCIAL AND INDUSTRIAL LOANS"
+  },
+  {
+    "accountCode": 12510,
+    "accountTitle": "SBA - RE COMMERCIAL PROPERTY",
+    "accountClass": "Assets",
+    "caption": "REAL ESTATE LOANS"
+  },
+  {
+    "accountCode": 12515,
+    "accountTitle": "SBA COMMERCIAL",
+    "accountClass": "Assets",
+    "caption": "COMMERCIAL AND INDUSTRIAL LOANS"
+  },
+  {
+    "accountCode": 12516,
+    "accountTitle": "SBA ARC (COMM'L TERM)",
+    "accountClass": "Assets",
+    "caption": "COMMERCIAL AND INDUSTRIAL LOANS"
+  },
+  {
+    "accountCode": 12518,
+    "accountTitle": "SBA EZ TERM",
+    "accountClass": "Assets",
+    "caption": "COMMERCIAL AND INDUSTRIAL LOANS"
+  },
+  {
+    "accountCode": 12519,
+    "accountTitle": "SBA EZ LINE OF CREDIT",
+    "accountClass": "Assets",
+    "caption": "COMMERCIAL AND INDUSTRIAL LOANS"
+  },
+  {
+    "accountCode": 12520,
+    "accountTitle": "SBA EXPRESS",
+    "accountClass": "Assets",
+    "caption": "REAL ESTATE LOANS"
+  },
+  {
+    "accountCode": 12525,
+    "accountTitle": "SBA EXPRESS LINE",
+    "accountClass": "Assets",
+    "caption": "COMMERCIAL AND INDUSTRIAL LOANS"
+  },
+  {
+    "accountCode": 12526,
+    "accountTitle": "SBA - RE INTERIM",
+    "accountClass": "Assets",
+    "caption": "REAL ESTATE LOANS"
+  },
+  {
+    "accountCode": 12527,
+    "accountTitle": "SBA - COMM'L INTERIM",
+    "accountClass": "Assets",
+    "caption": "COMMERCIAL AND INDUSTRIAL LOANS"
+  },
+  {
+    "accountCode": 12528,
+    "accountTitle": "SBA PARTICIPATIONS SOLD-R/E",
+    "accountClass": "Assets",
+    "caption": "REAL ESTATE LOANS"
+  },
+  {
+    "accountCode": 12529,
+    "accountTitle": "SBA PARTICIPATIONS SOLD-COMM",
+    "accountClass": "Assets",
+    "caption": "COMMERCIAL AND INDUSTRIAL LOANS"
+  },
+  {
+    "accountCode": 12535,
+    "accountTitle": "SBA PARTICIPATIONS SOLD-EXPR",
+    "accountClass": "Assets",
+    "caption": "REAL ESTATE LOANS"
+  },
+  {
+    "accountCode": 12565,
+    "accountTitle": "SBA RE LOAN SOLD W/ RECOURSE",
+    "accountClass": "Assets",
+    "caption": "REAL ESTATE LOANS"
+  },
+  {
+    "accountCode": 12610,
+    "accountTitle": "TRUST RECEIPTS",
+    "accountClass": "Assets",
+    "caption": "COMMERCIAL AND INDUSTRIAL LOANS"
+  },
+  {
+    "accountCode": 12615,
+    "accountTitle": "CASH ADVANCE",
+    "accountClass": "Assets",
+    "caption": "COMMERCIAL AND INDUSTRIAL LOANS"
+  },
+  {
+    "accountCode": 12620,
+    "accountTitle": "IMPORT L/C - CUSTOMER LIABIL",
+    "accountClass": "Assets",
+    "caption": "COMMERCIAL AND INDUSTRIAL LOANS"
+  },
+  {
+    "accountCode": 12621,
+    "accountTitle": "IMPORT L/C - BANK LIABILITY",
+    "accountClass": "Assets",
+    "caption": "COMMERCIAL AND INDUSTRIAL LOANS"
+  },
+  {
+    "accountCode": 12640,
+    "accountTitle": "SIGHT BILL PURCHASED",
+    "accountClass": "Assets",
+    "caption": "COMMERCIAL AND INDUSTRIAL LOANS"
+  },
+  {
+    "accountCode": 12645,
+    "accountTitle": "STANDBY L/C - CUSTOMER LIABI",
+    "accountClass": "Assets",
+    "caption": "COMMERCIAL AND INDUSTRIAL LOANS"
+  },
+  {
+    "accountCode": 12646,
+    "accountTitle": "STANDBY L/C - BANK LIABILITY",
+    "accountClass": "Assets",
+    "caption": "COMMERCIAL AND INDUSTRIAL LOANS"
+  },
+  {
+    "accountCode": 12650,
+    "accountTitle": "BACK TO BACK L/C - CUSTOMER",
+    "accountClass": "Assets",
+    "caption": "COMMERCIAL AND INDUSTRIAL LOANS"
+  },
+  {
+    "accountCode": 12651,
+    "accountTitle": "BACK TO BACK L/C - BANK LIAB",
+    "accountClass": "Assets",
+    "caption": "COMMERCIAL AND INDUSTRIAL LOANS"
+  },
+  {
+    "accountCode": 12655,
+    "accountTitle": "TO BE DELETED",
+    "accountClass": "Assets",
+    "caption": "COMMERCIAL AND INDUSTRIAL LOANS"
+  },
+  {
+    "accountCode": 12656,
+    "accountTitle": "TO BE DELETED",
+    "accountClass": "Assets",
+    "caption": "COMMERCIAL AND INDUSTRIAL LOANS"
+  },
+  {
+    "accountCode": 12670,
+    "accountTitle": "TIME BILL PURCHASED",
+    "accountClass": "Assets",
+    "caption": "COMMERCIAL AND INDUSTRIAL LOANS"
+  },
+  {
+    "accountCode": 12675,
+    "accountTitle": "NON-ACCRUAL INTERNATIONAL",
+    "accountClass": "Assets",
+    "caption": "COMMERCIAL AND INDUSTRIAL LOANS"
+  },
+  {
+    "accountCode": 12710,
+    "accountTitle": "OVERDRAFTS",
+    "accountClass": "Assets",
+    "caption": "CONSUMER LOANS"
+  },
+  {
+    "accountCode": 12720,
+    "accountTitle": "UNEARNED LOAN FEES",
+    "accountClass": "Assets",
+    "caption": "DEFERRED LOAN COSTS (FEES), NET"
+  },
+  {
+    "accountCode": 12725,
+    "accountTitle": "DEFERRED DOCUMENTATION COST",
+    "accountClass": "Assets",
+    "caption": "DEFERRED LOAN COSTS (FEES), NET"
+  },
+  {
+    "accountCode": 12730,
+    "accountTitle": "DEFERRED ORIG COST",
+    "accountClass": "Assets",
+    "caption": "DEFERRED LOAN COSTS (FEES), NET"
+  },
+  {
+    "accountCode": 12740,
+    "accountTitle": "DEFERRED ORIG COST - SBA",
+    "accountClass": "Assets",
+    "caption": "DEFERRED LOAN COSTS (FEES), NET"
+  },
+  {
+    "accountCode": 12745,
+    "accountTitle": "DEFERRED ORIG COST - SBA UNS",
+    "accountClass": "Assets",
+    "caption": "DEFERRED LOAN COSTS (FEES), NET"
+  },
+  {
+    "accountCode": 12750,
+    "accountTitle": "DEFERRED REFERRAL COST",
+    "accountClass": "Assets",
+    "caption": "DEFERRED LOAN COSTS (FEES), NET"
+  },
+  {
+    "accountCode": 12785,
+    "accountTitle": "LOAN SETTLEMENT ACCOUNT",
+    "accountClass": "Assets",
+    "caption": "DEFERRED LOAN COSTS (FEES), NET"
+  },
+  {
+    "accountCode": 12820,
+    "accountTitle": "NET PROVISION THRU PRIOR YEA",
+    "accountClass": "Assets",
+    "caption": "ALLOWANCE FOR LOAN LOSSES"
+  },
+  {
+    "accountCode": 12830,
+    "accountTitle": "YEAR TO DATE PROVISION FOR L",
+    "accountClass": "Assets",
+    "caption": "ALLOWANCE FOR LOAN LOSSES"
+  },
+  {
+    "accountCode": 12860,
+    "accountTitle": "YEAR TO DATE CHARGE-OFFS",
+    "accountClass": "Assets",
+    "caption": "ALLOWANCE FOR LOAN LOSSES"
+  },
+  {
+    "accountCode": 12880,
+    "accountTitle": "YEAR TO DATE RECOVERIES",
+    "accountClass": "Assets",
+    "caption": "ALLOWANCE FOR LOAN LOSSES"
+  },
+  {
+    "accountCode": 13110,
+    "accountTitle": "FURNITURE AND FIXTURE",
+    "accountClass": "Assets",
+    "caption": "PREMISES AND EQUIPMENT"
+  },
+  {
+    "accountCode": 13120,
+    "accountTitle": "ACCUM DEPRECIATION FURNITURE",
+    "accountClass": "Assets",
+    "caption": "PREMISES AND EQUIPMENT"
+  },
+  {
+    "accountCode": 13130,
+    "accountTitle": "SOFTWARE",
+    "accountClass": "Assets",
+    "caption": "PREMISES AND EQUIPMENT"
+  },
+  {
+    "accountCode": 13140,
+    "accountTitle": "ACCUM DEPRECIATION SOFTWARE",
+    "accountClass": "Assets",
+    "caption": "PREMISES AND EQUIPMENT"
+  },
+  {
+    "accountCode": 13150,
+    "accountTitle": "COMPUTER EQUIPMENT",
+    "accountClass": "Assets",
+    "caption": "PREMISES AND EQUIPMENT"
+  },
+  {
+    "accountCode": 13170,
+    "accountTitle": "ACCUM DEPRECIATION COMPUTER",
+    "accountClass": "Assets",
+    "caption": "PREMISES AND EQUIPMENT"
+  },
+  {
+    "accountCode": 13180,
+    "accountTitle": "OTHER EQUIPMENT",
+    "accountClass": "Assets",
+    "caption": "PREMISES AND EQUIPMENT"
+  },
+  {
+    "accountCode": 13185,
+    "accountTitle": "ACCUM DEPRECIATION OTHER EQU",
+    "accountClass": "Assets",
+    "caption": "PREMISES AND EQUIPMENT"
+  },
+  {
+    "accountCode": 13190,
+    "accountTitle": "AUTOMOBILE",
+    "accountClass": "Assets",
+    "caption": "PREMISES AND EQUIPMENT"
+  },
+  {
+    "accountCode": 13195,
+    "accountTitle": "ACCUM DEPRECIATION AUTOMOBIL",
+    "accountClass": "Assets",
+    "caption": "PREMISES AND EQUIPMENT"
+  },
+  {
+    "accountCode": 13210,
+    "accountTitle": "LEASEHOLD IMPROVEMENTS",
+    "accountClass": "Assets",
+    "caption": "PREMISES AND EQUIPMENT"
+  },
+  {
+    "accountCode": 13220,
+    "accountTitle": "ACCUM DEPRECIATION LEASEHOLD",
+    "accountClass": "Assets",
+    "caption": "PREMISES AND EQUIPMENT"
+  },
+  {
+    "accountCode": 14105,
+    "accountTitle": "ACCR INT REC -INT BEARING DU",
+    "accountClass": "Assets",
+    "caption": "ACCRUED INTEREST AND OTHER ASSETS"
+  },
+  {
+    "accountCode": 14106,
+    "accountTitle": "ACCR INT REC - FED FUND SOLD",
+    "accountClass": "Assets",
+    "caption": "ACCRUED INTEREST AND OTHER ASSETS"
+  },
+  {
+    "accountCode": 14110,
+    "accountTitle": "ACCR INT REC - TREASURIES -",
+    "accountClass": "Assets",
+    "caption": "ACCRUED INTEREST AND OTHER ASSETS"
+  },
+  {
+    "accountCode": 14115,
+    "accountTitle": "ACCR INT REC - AGENCIES - AF",
+    "accountClass": "Assets",
+    "caption": "ACCRUED INTEREST AND OTHER ASSETS"
+  },
+  {
+    "accountCode": 14117,
+    "accountTitle": "ACCR INT REC - MUNI",
+    "accountClass": "Assets",
+    "caption": "ACCRUED INTEREST AND OTHER ASSETS"
+  },
+  {
+    "accountCode": 14120,
+    "accountTitle": "ACCR INT REC - MBS - AFS",
+    "accountClass": "Assets",
+    "caption": "ACCRUED INTEREST AND OTHER ASSETS"
+  },
+  {
+    "accountCode": 14125,
+    "accountTitle": "ACCR INT REC - MBS - HTM",
+    "accountClass": "Assets",
+    "caption": "ACCRUED INTEREST AND OTHER ASSETS"
+  },
+  {
+    "accountCode": 14130,
+    "accountTitle": "ACCR INT REC - CMO - AFS",
+    "accountClass": "Assets",
+    "caption": "ACCRUED INTEREST AND OTHER ASSETS"
+  },
+  {
+    "accountCode": 14135,
+    "accountTitle": "ACCR INT REC - CMO - HTM",
+    "accountClass": "Assets",
+    "caption": "ACCRUED INTEREST AND OTHER ASSETS"
+  },
+  {
+    "accountCode": 14140,
+    "accountTitle": "ACCR INT REC - FHLB STOCK",
+    "accountClass": "Assets",
+    "caption": "ACCRUED INTEREST AND OTHER ASSETS"
+  },
+  {
+    "accountCode": 14150,
+    "accountTitle": "ACCR INT REC - PCBB STOCK",
+    "accountClass": "Assets",
+    "caption": "ACCRUED INTEREST AND OTHER ASSETS"
+  },
+  {
+    "accountCode": 14210,
+    "accountTitle": "ACCR INT REC - CONSUMER LOAN",
+    "accountClass": "Assets",
+    "caption": "ACCRUED INTEREST AND OTHER ASSETS"
+  },
+  {
+    "accountCode": 14215,
+    "accountTitle": "ACCR INT REC - CONSUMER LINE",
+    "accountClass": "Assets",
+    "caption": "ACCRUED INTEREST AND OTHER ASSETS"
+  },
+  {
+    "accountCode": 14217,
+    "accountTitle": "ACCR INT REC - HOME MORTG LO",
+    "accountClass": "Assets",
+    "caption": "ACCRUED INTEREST AND OTHER ASSETS"
+  },
+  {
+    "accountCode": 14220,
+    "accountTitle": "ACCR INT REC - COMMERCIAL RE",
+    "accountClass": "Assets",
+    "caption": "ACCRUED INTEREST AND OTHER ASSETS"
+  },
+  {
+    "accountCode": 14225,
+    "accountTitle": "ACCR INT REC - COMMERCIAL LO",
+    "accountClass": "Assets",
+    "caption": "ACCRUED INTEREST AND OTHER ASSETS"
+  },
+  {
+    "accountCode": 14230,
+    "accountTitle": "ACCR INT REC - COM'L LINE OF",
+    "accountClass": "Assets",
+    "caption": "ACCRUED INTEREST AND OTHER ASSETS"
+  },
+  {
+    "accountCode": 14235,
+    "accountTitle": "ACCR INT REC - SBA LOANS",
+    "accountClass": "Assets",
+    "caption": "ACCRUED INTEREST AND OTHER ASSETS"
+  },
+  {
+    "accountCode": 14236,
+    "accountTitle": "ACCR INT REC - SBA SOLD W/RE",
+    "accountClass": "Assets",
+    "caption": "ACCRUED INTEREST AND OTHER ASSETS"
+  },
+  {
+    "accountCode": 14240,
+    "accountTitle": "ACCR INT REC - INTERNATIONAL",
+    "accountClass": "Assets",
+    "caption": "ACCRUED INTEREST AND OTHER ASSETS"
+  },
+  {
+    "accountCode": 14290,
+    "accountTitle": "ACCR INT REC-OVERDRAFTS",
+    "accountClass": "Assets",
+    "caption": "ACCRUED INTEREST AND OTHER ASSETS"
+  },
+  {
+    "accountCode": 15000,
+    "accountTitle": "LOAN HELD FOR SALE - SBA",
+    "accountClass": "Assets",
+    "caption": "LOANS HELD FOR SALE"
+  },
+  {
+    "accountCode": 15010,
+    "accountTitle": "LOAN HELD FOR SALE - RMC",
+    "accountClass": "Assets",
+    "caption": "LOANS HELD FOR SALE"
+  },
+  {
+    "accountCode": 15020,
+    "accountTitle": "LOAN HELD FOR SALE - COMMERC",
+    "accountClass": "Assets",
+    "caption": "LOANS HELD FOR SALE"
+  },
+  {
+    "accountCode": 15030,
+    "accountTitle": "LHFS VALUATION ALLOWANCE",
+    "accountClass": "Assets",
+    "caption": "LOANS HELD FOR SALE"
+  },
+  {
+    "accountCode": 17000,
+    "accountTitle": "PREPAID DFI ASSESSMENT",
+    "accountClass": "Assets",
+    "caption": "ACCRUED INTEREST AND OTHER ASSETS"
+  },
+  {
+    "accountCode": 17010,
+    "accountTitle": "PREPAID - PROPERTY TAXES",
+    "accountClass": "Assets",
+    "caption": "ACCRUED INTEREST AND OTHER ASSETS"
+  },
+  {
+    "accountCode": 17020,
+    "accountTitle": "PREPAID - FDIC INSURANCE",
+    "accountClass": "Assets",
+    "caption": "ACCRUED INTEREST AND OTHER ASSETS"
+  },
+  {
+    "accountCode": 17030,
+    "accountTitle": "PREPAID - MAINT. CONTRACTS -",
+    "accountClass": "Assets",
+    "caption": "ACCRUED INTEREST AND OTHER ASSETS"
+  },
+  {
+    "accountCode": 17040,
+    "accountTitle": "PREPAID - BANK INSURANCE",
+    "accountClass": "Assets",
+    "caption": "ACCRUED INTEREST AND OTHER ASSETS"
+  },
+  {
+    "accountCode": 17050,
+    "accountTitle": "PREPAID - FED INCOME TAX",
+    "accountClass": "Assets",
+    "caption": "ACCRUED INTEREST AND OTHER ASSETS"
+  },
+  {
+    "accountCode": 17055,
+    "accountTitle": "PREPAID - STATE INCOME TAX",
+    "accountClass": "Assets",
+    "caption": "ACCRUED INTEREST AND OTHER ASSETS"
+  },
+  {
+    "accountCode": 17060,
+    "accountTitle": "PREPAID INTEREST - BROKERED",
+    "accountClass": "Assets",
+    "caption": "ACCRUED INTEREST AND OTHER ASSETS"
+  },
+  {
+    "accountCode": 17085,
+    "accountTitle": "PREPAID - SBA GUARANTY FEE",
+    "accountClass": "Assets",
+    "caption": "ACCRUED INTEREST AND OTHER ASSETS"
+  },
+  {
+    "accountCode": 17086,
+    "accountTitle": "TO BE DELETED",
+    "accountClass": "Assets",
+    "caption": "ACCRUED INTEREST AND OTHER ASSETS"
+  },
+  {
+    "accountCode": 17090,
+    "accountTitle": "PREPAID - OTHER",
+    "accountClass": "Assets",
+    "caption": "ACCRUED INTEREST AND OTHER ASSETS"
+  },
+  {
+    "accountCode": 17105,
+    "accountTitle": "DUE FROM BHC/PCB",
+    "accountClass": "Assets",
+    "caption": "ACCRUED INTEREST AND OTHER ASSETS"
+  },
+  {
+    "accountCode": 17110,
+    "accountTitle": "SECURITY DEPOSIT",
+    "accountClass": "Assets",
+    "caption": "ACCRUED INTEREST AND OTHER ASSETS"
+  },
+  {
+    "accountCode": 17120,
+    "accountTitle": "UTILITY DEPOSIT",
+    "accountClass": "Assets",
+    "caption": "ACCRUED INTEREST AND OTHER ASSETS"
+  },
+  {
+    "accountCode": 17129,
+    "accountTitle": "SBA RECEIVABLES",
+    "accountClass": "Assets",
+    "caption": "ACCRUED INTEREST AND OTHER ASSETS"
+  },
+  {
+    "accountCode": 17130,
+    "accountTitle": "OTHER RECEIVABLES",
+    "accountClass": "Assets",
+    "caption": "ACCRUED INTEREST AND OTHER ASSETS"
+  },
+  {
+    "accountCode": 17131,
+    "accountTitle": "SBA PART. SOLD RECEIVABLE",
+    "accountClass": "Assets",
+    "caption": "ACCRUED INTEREST AND OTHER ASSETS"
+  },
+  {
+    "accountCode": 17132,
+    "accountTitle": "SBA REPURCHASE INTEREST RECE",
+    "accountClass": "Assets",
+    "caption": "ACCRUED INTEREST AND OTHER ASSETS"
+  },
+  {
+    "accountCode": 17133,
+    "accountTitle": "ADVANCED BROKER FEE - HOME M",
+    "accountClass": "Assets",
+    "caption": "ACCRUED INTEREST AND OTHER ASSETS"
+  },
+  {
+    "accountCode": 17134,
+    "accountTitle": "HOME MORT LN PMT RECEIVABLE",
+    "accountClass": "Assets",
+    "caption": "ACCRUED INTEREST AND OTHER ASSETS"
+  },
+  {
+    "accountCode": 17135,
+    "accountTitle": "LEASE BUYOUT",
+    "accountClass": "Assets",
+    "caption": "ACCRUED INTEREST AND OTHER ASSETS"
+  },
+  {
+    "accountCode": 17136,
+    "accountTitle": "AUTO LOANS REFERRAL FEE REFU",
+    "accountClass": "Assets",
+    "caption": "ACCRUED INTEREST AND OTHER ASSETS"
+  },
+  {
+    "accountCode": 17140,
+    "accountTitle": "BR OPENING/DEPT SET-UP EXP",
+    "accountClass": "Assets",
+    "caption": "ACCRUED INTEREST AND OTHER ASSETS"
+  },
+  {
+    "accountCode": 17150,
+    "accountTitle": "IOS REC-MORTGAGE LOANS",
+    "accountClass": "Assets",
+    "caption": "ACCRUED INTEREST AND OTHER ASSETS"
+  },
+  {
+    "accountCode": 17155,
+    "accountTitle": "FAIR VALUE ADJ-IOS MORTG LOA",
+    "accountClass": "Assets",
+    "caption": "ACCRUED INTEREST AND OTHER ASSETS"
+  },
+  {
+    "accountCode": 17160,
+    "accountTitle": "IOS REC-NONMORTG LOANS",
+    "accountClass": "Assets",
+    "caption": "ACCRUED INTEREST AND OTHER ASSETS"
+  },
+  {
+    "accountCode": 17165,
+    "accountTitle": "FAIR VALUE ADJ-IOS NONMORTG",
+    "accountClass": "Assets",
+    "caption": "ACCRUED INTEREST AND OTHER ASSETS"
+  },
+  {
+    "accountCode": 17170,
+    "accountTitle": "BANK OWNED LIFE INSURANCE",
+    "accountClass": "Assets",
+    "caption": "ACCRUED INTEREST AND OTHER ASSETS"
+  },
+  {
+    "accountCode": 17180,
+    "accountTitle": "PART. REVERSED PMT HOLDOVER",
+    "accountClass": "Assets",
+    "caption": "ACCRUED INTEREST AND OTHER ASSETS"
+  },
+  {
+    "accountCode": 17190,
+    "accountTitle": "FED HOME LOAN BANK STOCK",
+    "accountClass": "Assets",
+    "caption": "FEDERAL HOME LOAN BANK AND OTHER BANK STOCK, AT COST"
+  },
+  {
+    "accountCode": 17191,
+    "accountTitle": "PAC COAST BANKERS BANK STOCK",
+    "accountClass": "Assets",
+    "caption": "FEDERAL HOME LOAN BANK AND OTHER BANK STOCK, AT COST"
+  },
+  {
+    "accountCode": 17197,
+    "accountTitle": "OUTGOING RATE BRIDGE PMT-CDA",
+    "accountClass": "Assets",
+    "caption": "ACCRUED INTEREST AND OTHER ASSETS"
+  },
+  {
+    "accountCode": 17198,
+    "accountTitle": "OTHER MISCELLANEOUS ASSETS",
+    "accountClass": "Assets",
+    "caption": "ACCRUED INTEREST AND OTHER ASSETS"
+  },
+  {
+    "accountCode": 17220,
+    "accountTitle": "SUSPENSE RESOURCES - OPERATI",
+    "accountClass": "Assets",
+    "caption": "ACCRUED INTEREST AND OTHER ASSETS"
+  },
+  {
+    "accountCode": 17230,
+    "accountTitle": "SUSPENSE RESOURCES - LOANS",
+    "accountClass": "Assets",
+    "caption": "ACCRUED INTEREST AND OTHER ASSETS"
+  },
+  {
+    "accountCode": 17240,
+    "accountTitle": "SUSPENSE RESOURCES - GENERAL",
+    "accountClass": "Assets",
+    "caption": "ACCRUED INTEREST AND OTHER ASSETS"
+  },
+  {
+    "accountCode": 17320,
+    "accountTitle": "OTHER REAL ESTATE OWNED",
+    "accountClass": "Assets",
+    "caption": "OTHER REAL ESTATE OWNED"
+  },
+  {
+    "accountCode": 17325,
+    "accountTitle": "OREO VALUATION",
+    "accountClass": "Assets",
+    "caption": "OTHER REAL ESTATE OWNED"
+  },
+  {
+    "accountCode": 17350,
+    "accountTitle": "REPOSSESSIONS",
+    "accountClass": "Assets",
+    "caption": "OTHER REAL ESTATE OWNED"
+  },
+  {
+    "accountCode": 17410,
+    "accountTitle": "MORTGAGE SERVICING ASSETS",
+    "accountClass": "Assets",
+    "caption": "ACCRUED INTEREST AND OTHER ASSETS"
+  },
+  {
+    "accountCode": 17415,
+    "accountTitle": "MORTGAGE SERVICING ASSETS -",
+    "accountClass": "Assets",
+    "caption": "ACCRUED INTEREST AND OTHER ASSETS"
+  },
+  {
+    "accountCode": 17420,
+    "accountTitle": "NONMORTGAGE SERVICING ASSETS",
+    "accountClass": "Assets",
+    "caption": "ACCRUED INTEREST AND OTHER ASSETS"
+  },
+  {
+    "accountCode": 17510,
+    "accountTitle": "DEFERRED FED INC TAX ASSETS",
+    "accountClass": "Assets",
+    "caption": "ACCRUED INTEREST AND OTHER ASSETS"
+  },
+  {
+    "accountCode": 17520,
+    "accountTitle": "DEFERRED STATE INC TAX ASSET",
+    "accountClass": "Assets",
+    "caption": "ACCRUED INTEREST AND OTHER ASSETS"
+  },
+  {
+    "accountCode": 17525,
+    "accountTitle": "DEFERRED INC TAX ASSETS-AFS",
+    "accountClass": "Assets",
+    "caption": "ACCRUED INTEREST AND OTHER ASSETS"
+  },
+  {
+    "accountCode": 17530,
+    "accountTitle": "VALUATION ALLOWANCE",
+    "accountClass": "Assets",
+    "caption": "ACCRUED INTEREST AND OTHER ASSETS"
+  },
+  {
+    "accountCode": 17610,
+    "accountTitle": "BANKERS ACCEPTANCE-CUSTOMER'",
+    "accountClass": "Assets",
+    "caption": "ACCRUED INTEREST AND OTHER ASSETS"
+  },
+  {
+    "accountCode": 20010,
+    "accountTitle": "DEMAND DEPOSIT ACCOUNTS",
+    "accountClass": "Liabilities",
+    "caption": "NONINTEREST BEARING DEMAND"
+  },
+  {
+    "accountCode": 20015,
+    "accountTitle": "OVERDRAFT OFFSET",
+    "accountClass": "Liabilities",
+    "caption": "NONINTEREST BEARING DEMAND"
+  },
+  {
+    "accountCode": 20020,
+    "accountTitle": "PAYROLL",
+    "accountClass": "Liabilities",
+    "caption": "NONINTEREST BEARING DEMAND"
+  },
+  {
+    "accountCode": 20025,
+    "accountTitle": "CASHIER CHECKS",
+    "accountClass": "Liabilities",
+    "caption": "NONINTEREST BEARING DEMAND"
+  },
+  {
+    "accountCode": 20030,
+    "accountTitle": "EXPENSE CHECKS",
+    "accountClass": "Liabilities",
+    "caption": "NONINTEREST BEARING DEMAND"
+  },
+  {
+    "accountCode": 20035,
+    "accountTitle": "MONEY ORDERS",
+    "accountClass": "Liabilities",
+    "caption": "NONINTEREST BEARING DEMAND"
+  },
+  {
+    "accountCode": 20040,
+    "accountTitle": "TBD",
+    "accountClass": "Liabilities",
+    "caption": "NONINTEREST BEARING DEMAND"
+  },
+  {
+    "accountCode": 20045,
+    "accountTitle": "AMEX TRAVELERS CHECKS",
+    "accountClass": "Liabilities",
+    "caption": "NONINTEREST BEARING DEMAND"
+  },
+  {
+    "accountCode": 20047,
+    "accountTitle": "TREASURY TAX & LOAN ACCOUNT",
+    "accountClass": "Liabilities",
+    "caption": "NONINTEREST BEARING DEMAND"
+  },
+  {
+    "accountCode": 20050,
+    "accountTitle": "WIRE IN PROCESS",
+    "accountClass": "Liabilities",
+    "caption": "NONINTEREST BEARING DEMAND"
+  },
+  {
+    "accountCode": 20060,
+    "accountTitle": "WIRE HOLDOVER",
+    "accountClass": "Liabilities",
+    "caption": "NONINTEREST BEARING DEMAND"
+  },
+  {
+    "accountCode": 20061,
+    "accountTitle": "AUTO LOAN REFERRAL FEE HOLDO",
+    "accountClass": "Liabilities",
+    "caption": "NONINTEREST BEARING DEMAND"
+  },
+  {
+    "accountCode": 20062,
+    "accountTitle": "ESCROW RESERVES - HOME MORTG",
+    "accountClass": "Liabilities",
+    "caption": "NONINTEREST BEARING DEMAND"
+  },
+  {
+    "accountCode": 20063,
+    "accountTitle": "SBA RECOVERIES HOLDOVER",
+    "accountClass": "Liabilities",
+    "caption": "NONINTEREST BEARING DEMAND"
+  },
+  {
+    "accountCode": 20064,
+    "accountTitle": "SBA LOAN REFERRAL FEE HOLDOV",
+    "accountClass": "Liabilities",
+    "caption": "NONINTEREST BEARING DEMAND"
+  },
+  {
+    "accountCode": 20065,
+    "accountTitle": "SBA SOLD LOAN PMT HOLDOVER",
+    "accountClass": "Liabilities",
+    "caption": "NONINTEREST BEARING DEMAND"
+  },
+  {
+    "accountCode": 20066,
+    "accountTitle": "TBD",
+    "accountClass": "Liabilities",
+    "caption": "NONINTEREST BEARING DEMAND"
+  },
+  {
+    "accountCode": 20067,
+    "accountTitle": "LOAN REFERRAL FEE HOLDOVER",
+    "accountClass": "Liabilities",
+    "caption": "NONINTEREST BEARING DEMAND"
+  },
+  {
+    "accountCode": 20068,
+    "accountTitle": "SOLD LOAN PMT HOLDOVER",
+    "accountClass": "Liabilities",
+    "caption": "NONINTEREST BEARING DEMAND"
+  },
+  {
+    "accountCode": 20069,
+    "accountTitle": "NON-ACCRUAL INT. IN TRANSIT",
+    "accountClass": "Liabilities",
+    "caption": "NONINTEREST BEARING DEMAND"
+  },
+  {
+    "accountCode": 20070,
+    "accountTitle": "FEES IN TRANSIT",
+    "accountClass": "Liabilities",
+    "caption": "NONINTEREST BEARING DEMAND"
+  },
+  {
+    "accountCode": 20071,
+    "accountTitle": "FEES IN TRANSIT - SBA DEPT",
+    "accountClass": "Liabilities",
+    "caption": "NONINTEREST BEARING DEMAND"
+  },
+  {
+    "accountCode": 20072,
+    "accountTitle": "FEES IN TRANSIT - HOME MORTG",
+    "accountClass": "Liabilities",
+    "caption": "NONINTEREST BEARING DEMAND"
+  },
+  {
+    "accountCode": 20073,
+    "accountTitle": "FEES IN TRANSIT - CONSUMER",
+    "accountClass": "Liabilities",
+    "caption": "NONINTEREST BEARING DEMAND"
+  },
+  {
+    "accountCode": 20075,
+    "accountTitle": "CASH HOLDOVER",
+    "accountClass": "Liabilities",
+    "caption": "NONINTEREST BEARING DEMAND"
+  },
+  {
+    "accountCode": 20076,
+    "accountTitle": "DEPOSIT HOLDOVER - WFB",
+    "accountClass": "Liabilities",
+    "caption": "NONINTEREST BEARING DEMAND"
+  },
+  {
+    "accountCode": 20077,
+    "accountTitle": "RMC Payment Holdover",
+    "accountClass": "Liabilities",
+    "caption": "NONINTEREST BEARING DEMAND"
+  },
+  {
+    "accountCode": 20078,
+    "accountTitle": "SAFE DEPOSIT BOX KEY DEPOSIT",
+    "accountClass": "Liabilities",
+    "caption": "NONINTEREST BEARING DEMAND"
+  },
+  {
+    "accountCode": 20079,
+    "accountTitle": "ATTACHMENTS",
+    "accountClass": "Liabilities",
+    "caption": "NONINTEREST BEARING DEMAND"
+  },
+  {
+    "accountCode": 20080,
+    "accountTitle": "DEPOSIT UNPOSTED",
+    "accountClass": "Liabilities",
+    "caption": "NONINTEREST BEARING DEMAND"
+  },
+  {
+    "accountCode": 20081,
+    "accountTitle": "SAFE DEPOSIT BOX UNPOSTED",
+    "accountClass": "Liabilities",
+    "caption": "NONINTEREST BEARING DEMAND"
+  },
+  {
+    "accountCode": 20083,
+    "accountTitle": "TBD",
+    "accountClass": "Liabilities",
+    "caption": "NONINTEREST BEARING DEMAND"
+  },
+  {
+    "accountCode": 20085,
+    "accountTitle": "INTEREST PAYOUT",
+    "accountClass": "Liabilities",
+    "caption": "NONINTEREST BEARING DEMAND"
+  },
+  {
+    "accountCode": 20090,
+    "accountTitle": "ACH IN PROCESS",
+    "accountClass": "Liabilities",
+    "caption": "NONINTEREST BEARING DEMAND"
+  },
+  {
+    "accountCode": 20091,
+    "accountTitle": "MERCHANT DEPOSIT CLEARING AC",
+    "accountClass": "Liabilities",
+    "caption": "NONINTEREST BEARING DEMAND"
+  },
+  {
+    "accountCode": 20095,
+    "accountTitle": "PREPAID LETTER OF CREDIT",
+    "accountClass": "Liabilities",
+    "caption": "NONINTEREST BEARING DEMAND"
+  },
+  {
+    "accountCode": 20097,
+    "accountTitle": "CDARS IN-CLEARING/IN-PROCESS",
+    "accountClass": "Liabilities",
+    "caption": "NONINTEREST BEARING DEMAND"
+  },
+  {
+    "accountCode": 20100,
+    "accountTitle": "SUPER NOW ACCOUNTS - PERSONA",
+    "accountClass": "Liabilities",
+    "caption": "SAVINGS, NOW, AND MONEY MARKET ACCOUNTS"
+  },
+  {
+    "accountCode": 20150,
+    "accountTitle": "SUPER NOW ACCOUNTS - BUSINES",
+    "accountClass": "Liabilities",
+    "caption": "SAVINGS, NOW, AND MONEY MARKET ACCOUNTS"
+  },
+  {
+    "accountCode": 20209,
+    "accountTitle": "BROKERED MONEY MARKET - BUSI",
+    "accountClass": "Liabilities",
+    "caption": "SAVINGS, NOW, AND MONEY MARKET ACCOUNTS"
+  },
+  {
+    "accountCode": 20210,
+    "accountTitle": "MONEY MARKET ACCOUNTS - PERS",
+    "accountClass": "Liabilities",
+    "caption": "SAVINGS, NOW, AND MONEY MARKET ACCOUNTS"
+  },
+  {
+    "accountCode": 20250,
+    "accountTitle": "MONEY MARKET ACCOUNTS - BUSI",
+    "accountClass": "Liabilities",
+    "caption": "SAVINGS, NOW, AND MONEY MARKET ACCOUNTS"
+  },
+  {
+    "accountCode": 20260,
+    "accountTitle": "VIP MONEY MARKET ACCOUNTS -",
+    "accountClass": "Liabilities",
+    "caption": "SAVINGS, NOW, AND MONEY MARKET ACCOUNTS"
+  },
+  {
+    "accountCode": 20265,
+    "accountTitle": "VIP MONEY MARKET ACCOUNTS -",
+    "accountClass": "Liabilities",
+    "caption": "SAVINGS, NOW, AND MONEY MARKET ACCOUNTS"
+  },
+  {
+    "accountCode": 20270,
+    "accountTitle": "PREFERRED MONEY MARKET-PERSO",
+    "accountClass": "Liabilities",
+    "caption": "SAVINGS, NOW, AND MONEY MARKET ACCOUNTS"
+  },
+  {
+    "accountCode": 20275,
+    "accountTitle": "PREFERRED MONEY MARKET-BUSIN",
+    "accountClass": "Liabilities",
+    "caption": "SAVINGS, NOW, AND MONEY MARKET ACCOUNTS"
+  },
+  {
+    "accountCode": 20305,
+    "accountTitle": "SAVINGS ACCOUNTS - PERSONAL",
+    "accountClass": "Liabilities",
+    "caption": "SAVINGS, NOW, AND MONEY MARKET ACCOUNTS"
+  },
+  {
+    "accountCode": 20310,
+    "accountTitle": "SAVINGS ACCOUNTS - BUSINESS",
+    "accountClass": "Liabilities",
+    "caption": "SAVINGS, NOW, AND MONEY MARKET ACCOUNTS"
+  },
+  {
+    "accountCode": 20410,
+    "accountTitle": "CERTIFICATE OF DEPOSITS < 10",
+    "accountClass": "Liabilities",
+    "caption": "TIME DEPOSITS UNDER $100,000"
+  },
+  {
+    "accountCode": 20420,
+    "accountTitle": "CERTIFICATE OF DEPOSITS 100M",
+    "accountClass": "Liabilities",
+    "caption": "TIME DEPOSITS $100,000 AND OVER"
+  },
+  {
+    "accountCode": 20430,
+    "accountTitle": "PLEDGED CD",
+    "accountClass": "Liabilities",
+    "caption": "TIME DEPOSITS UNDER $100,000"
+  },
+  {
+    "accountCode": 20440,
+    "accountTitle": "CA STATE DEPOSIT CD > 100M",
+    "accountClass": "Liabilities",
+    "caption": "TIME DEPOSITS $100,000 AND OVER"
+  },
+  {
+    "accountCode": 20450,
+    "accountTitle": "BROKERED DEPOSIT CD < 100M",
+    "accountClass": "Liabilities",
+    "caption": "TIME DEPOSITS UNDER $100,000"
+  },
+  {
+    "accountCode": 20455,
+    "accountTitle": "BROKERED DEPOSIT CD > 100M",
+    "accountClass": "Liabilities",
+    "caption": "TIME DEPOSITS UNDER $100,000"
+  },
+  {
+    "accountCode": 20490,
+    "accountTitle": "CDARS BAL(NON-PUBLIC) < 250M",
+    "accountClass": "Liabilities",
+    "caption": "TIME DEPOSITS $100,000 AND OVER"
+  },
+  {
+    "accountCode": 20495,
+    "accountTitle": "CDARS BAL(PUBLIC) < 250M",
+    "accountClass": "Liabilities",
+    "caption": "TIME DEPOSITS $100,000 AND OVER"
+  },
+  {
+    "accountCode": 20520,
+    "accountTitle": "IRA ACCOUNTS < 100M",
+    "accountClass": "Liabilities",
+    "caption": "TIME DEPOSITS UNDER $100,000"
+  },
+  {
+    "accountCode": 20540,
+    "accountTitle": "IRA ACCOUNTS > 100M",
+    "accountClass": "Liabilities",
+    "caption": "TIME DEPOSITS $100,000 AND OVER"
+  },
+  {
+    "accountCode": 20590,
+    "accountTitle": "CDARS BALANCES (IRA) < 250M",
+    "accountClass": "Liabilities",
+    "caption": "TIME DEPOSITS $100,000 AND OVER"
+  },
+  {
+    "accountCode": 20685,
+    "accountTitle": "DEPOSIT SETTLEMENT",
+    "accountClass": null,
+    "caption": null
+  },
+  {
+    "accountCode": 20687,
+    "accountTitle": "SAFE DEPOSIT BOX SETTLEMENT",
+    "accountClass": null,
+    "caption": null
+  },
+  {
+    "accountCode": 21100,
+    "accountTitle": "FED FUNDS PURCHASED",
+    "accountClass": "Liabilities",
+    "caption": "BORROWINGS"
+  },
+  {
+    "accountCode": 21110,
+    "accountTitle": "FHLB BORROWING O/N",
+    "accountClass": "Liabilities",
+    "caption": "BORROWINGS"
+  },
+  {
+    "accountCode": 21111,
+    "accountTitle": "FHLB BORROWING FIXED",
+    "accountClass": "Liabilities",
+    "caption": "BORROWINGS"
+  },
+  {
+    "accountCode": 21120,
+    "accountTitle": "FRB BORROWINGS",
+    "accountClass": "Liabilities",
+    "caption": "BORROWINGS"
+  },
+  {
+    "accountCode": 21130,
+    "accountTitle": "PCBB BORROWING",
+    "accountClass": "Liabilities",
+    "caption": "BORROWINGS"
+  },
+  {
+    "accountCode": 21140,
+    "accountTitle": "WFB BORROWING",
+    "accountClass": "Liabilities",
+    "caption": "BORROWINGS"
+  },
+  {
+    "accountCode": 21150,
+    "accountTitle": "ZIONS BORROWING",
+    "accountClass": "Liabilities",
+    "caption": "BORROWINGS"
+  },
+  {
+    "accountCode": 21180,
+    "accountTitle": "LOANS SOLD WITH RECOURSE",
+    "accountClass": "Liabilities",
+    "caption": "BORROWINGS"
+  },
+  {
+    "accountCode": 21205,
+    "accountTitle": "ACCR INT PAYABLE - SUPER NOW",
+    "accountClass": "Liabilities",
+    "caption": "ACCRUED INTEREST AND OTHER LIABILITIES"
+  },
+  {
+    "accountCode": 21209,
+    "accountTitle": "ACCR INT PAYABLE - BROKERED",
+    "accountClass": "Liabilities",
+    "caption": "ACCRUED INTEREST AND OTHER LIABILITIES"
+  },
+  {
+    "accountCode": 21210,
+    "accountTitle": "ACCR INT PAYABLE - MONEY MAR",
+    "accountClass": "Liabilities",
+    "caption": "ACCRUED INTEREST AND OTHER LIABILITIES"
+  },
+  {
+    "accountCode": 21215,
+    "accountTitle": "ACCR INT PAYABLE - MONEY MAR",
+    "accountClass": "Liabilities",
+    "caption": "ACCRUED INTEREST AND OTHER LIABILITIES"
+  },
+  {
+    "accountCode": 21217,
+    "accountTitle": "ACCR INT PAYABLE - PREFERRED",
+    "accountClass": "Liabilities",
+    "caption": "ACCRUED INTEREST AND OTHER LIABILITIES"
+  },
+  {
+    "accountCode": 21218,
+    "accountTitle": "ACCR INT PAYABLE - VIP MONEY",
+    "accountClass": "Liabilities",
+    "caption": "ACCRUED INTEREST AND OTHER LIABILITIES"
+  },
+  {
+    "accountCode": 21219,
+    "accountTitle": "ACCR INT PAYABLE - VIP MONEY",
+    "accountClass": "Liabilities",
+    "caption": "ACCRUED INTEREST AND OTHER LIABILITIES"
+  },
+  {
+    "accountCode": 21220,
+    "accountTitle": "ACCR INT PAYABLE - SAVINGS B",
+    "accountClass": "Liabilities",
+    "caption": "ACCRUED INTEREST AND OTHER LIABILITIES"
+  },
+  {
+    "accountCode": 21221,
+    "accountTitle": "ACCR INT PAYABLE - INSTALL S",
+    "accountClass": "Liabilities",
+    "caption": "ACCRUED INTEREST AND OTHER LIABILITIES"
+  },
+  {
+    "accountCode": 21223,
+    "accountTitle": "ACCR INT PAYABLE - INSTALL S",
+    "accountClass": "Liabilities",
+    "caption": "ACCRUED INTEREST AND OTHER LIABILITIES"
+  },
+  {
+    "accountCode": 21224,
+    "accountTitle": "ACCR INT PAYABLE - SAVINGS P",
+    "accountClass": "Liabilities",
+    "caption": "ACCRUED INTEREST AND OTHER LIABILITIES"
+  },
+  {
+    "accountCode": 21225,
+    "accountTitle": "ACCR INT PAYABLE - CD'S < 10",
+    "accountClass": "Liabilities",
+    "caption": "ACCRUED INTEREST AND OTHER LIABILITIES"
+  },
+  {
+    "accountCode": 21230,
+    "accountTitle": "ACCR INT PAYABLE - CD'S > 10",
+    "accountClass": "Liabilities",
+    "caption": "ACCRUED INTEREST AND OTHER LIABILITIES"
+  },
+  {
+    "accountCode": 21232,
+    "accountTitle": "ACCR INT PAYABLE - CA STATE",
+    "accountClass": "Liabilities",
+    "caption": "ACCRUED INTEREST AND OTHER LIABILITIES"
+  },
+  {
+    "accountCode": 21233,
+    "accountTitle": "ACCR INT PAYABLE - BROKERED",
+    "accountClass": "Liabilities",
+    "caption": "ACCRUED INTEREST AND OTHER LIABILITIES"
+  },
+  {
+    "accountCode": 21234,
+    "accountTitle": "ACCR INT PAYABLE - BROKERED",
+    "accountClass": "Liabilities",
+    "caption": "ACCRUED INTEREST AND OTHER LIABILITIES"
+  },
+  {
+    "accountCode": 21235,
+    "accountTitle": "ACCR INT PAYABLE - IRA'S < 1",
+    "accountClass": "Liabilities",
+    "caption": "ACCRUED INTEREST AND OTHER LIABILITIES"
+  },
+  {
+    "accountCode": 21240,
+    "accountTitle": "ACCR INT PAYABLE - IRA'S > 1",
+    "accountClass": "Liabilities",
+    "caption": "ACCRUED INTEREST AND OTHER LIABILITIES"
+  },
+  {
+    "accountCode": 21290,
+    "accountTitle": "ACCR INT PAYABLE - CDARS BAL",
+    "accountClass": "Liabilities",
+    "caption": "ACCRUED INTEREST AND OTHER LIABILITIES"
+  },
+  {
+    "accountCode": 21310,
+    "accountTitle": "ACCR INT PAYABLE - FED FUND",
+    "accountClass": "Liabilities",
+    "caption": "ACCRUED INTEREST AND OTHER LIABILITIES"
+  },
+  {
+    "accountCode": 21320,
+    "accountTitle": "ACCR INT PAYABLE - FHLB BORR",
+    "accountClass": "Liabilities",
+    "caption": "ACCRUED INTEREST AND OTHER LIABILITIES"
+  },
+  {
+    "accountCode": 21330,
+    "accountTitle": "ACCR INT PAYABLE - FRB BORRO",
+    "accountClass": "Liabilities",
+    "caption": "ACCRUED INTEREST AND OTHER LIABILITIES"
+  },
+  {
+    "accountCode": 21340,
+    "accountTitle": "ACCR INT PAYABLE - PCBB BORR",
+    "accountClass": "Liabilities",
+    "caption": "ACCRUED INTEREST AND OTHER LIABILITIES"
+  },
+  {
+    "accountCode": 21345,
+    "accountTitle": "ACCR INT PAYABLE - WFB BORRO",
+    "accountClass": "Liabilities",
+    "caption": "ACCRUED INTEREST AND OTHER LIABILITIES"
+  },
+  {
+    "accountCode": 21350,
+    "accountTitle": "ACCR INT PAYABLE - ZIONS BOR",
+    "accountClass": "Liabilities",
+    "caption": "ACCRUED INTEREST AND OTHER LIABILITIES"
+  },
+  {
+    "accountCode": 21380,
+    "accountTitle": "ACCR INT PAYABLE - SBA LOANS",
+    "accountClass": "Liabilities",
+    "caption": "ACCRUED INTEREST AND OTHER LIABILITIES"
+  },
+  {
+    "accountCode": 21410,
+    "accountTitle": "BACKUP WITHHOLDING PAYABLE",
+    "accountClass": "Liabilities",
+    "caption": "ACCRUED INTEREST AND OTHER LIABILITIES"
+  },
+  {
+    "accountCode": 22110,
+    "accountTitle": "ACCRUED - DIVIDENDS PAYABLE",
+    "accountClass": "Liabilities",
+    "caption": "ACCRUED INTEREST AND OTHER LIABILITIES"
+  },
+  {
+    "accountCode": 22115,
+    "accountTitle": "ACCRUED - LEASE PAYABLE",
+    "accountClass": "Liabilities",
+    "caption": "ACCRUED INTEREST AND OTHER LIABILITIES"
+  },
+  {
+    "accountCode": 22120,
+    "accountTitle": "ACCRUED - VACATION PAYABLE",
+    "accountClass": "Liabilities",
+    "caption": "ACCRUED INTEREST AND OTHER LIABILITIES"
+  },
+  {
+    "accountCode": 22125,
+    "accountTitle": "ACCRUED - WAGES PAYABLE",
+    "accountClass": "Liabilities",
+    "caption": "ACCRUED INTEREST AND OTHER LIABILITIES"
+  },
+  {
+    "accountCode": 22126,
+    "accountTitle": "ACCRUED - YEAR END BONUSES",
+    "accountClass": "Liabilities",
+    "caption": "ACCRUED INTEREST AND OTHER LIABILITIES"
+  },
+  {
+    "accountCode": 22127,
+    "accountTitle": "ACCRUED - SBA PRODUCTION BON",
+    "accountClass": "Liabilities",
+    "caption": "ACCRUED INTEREST AND OTHER LIABILITIES"
+  },
+  {
+    "accountCode": 22128,
+    "accountTitle": "ACCRUED - BONUSES & INCENTIV",
+    "accountClass": "Liabilities",
+    "caption": "ACCRUED INTEREST AND OTHER LIABILITIES"
+  },
+  {
+    "accountCode": 22129,
+    "accountTitle": "ACCRUED - P/R TAXES",
+    "accountClass": "Liabilities",
+    "caption": "ACCRUED INTEREST AND OTHER LIABILITIES"
+  },
+  {
+    "accountCode": 22130,
+    "accountTitle": "ACCRUED - 401K CONTRIBUTION",
+    "accountClass": "Liabilities",
+    "caption": "ACCRUED INTEREST AND OTHER LIABILITIES"
+  },
+  {
+    "accountCode": 22180,
+    "accountTitle": "ACCRUED - AUDIT, TAX & ACCT",
+    "accountClass": "Liabilities",
+    "caption": "ACCRUED INTEREST AND OTHER LIABILITIES"
+  },
+  {
+    "accountCode": 22185,
+    "accountTitle": "ACCRUED - DEBIT CARD REWARD",
+    "accountClass": "Liabilities",
+    "caption": "ACCRUED INTEREST AND OTHER LIABILITIES"
+  },
+  {
+    "accountCode": 22190,
+    "accountTitle": "ACCRUED - OTHER",
+    "accountClass": "Liabilities",
+    "caption": "ACCRUED INTEREST AND OTHER LIABILITIES"
+  },
+  {
+    "accountCode": 22191,
+    "accountTitle": "ACCRUED - FDIC INSURANCE",
+    "accountClass": "Liabilities",
+    "caption": "ACCRUED INTEREST AND OTHER LIABILITIES"
+  },
+  {
+    "accountCode": 22192,
+    "accountTitle": "ACCRUED - OPERATING EXPENSE",
+    "accountClass": "Liabilities",
+    "caption": "ACCRUED INTEREST AND OTHER LIABILITIES"
+  },
+  {
+    "accountCode": 22193,
+    "accountTitle": "ACCRUED - DATA PROCESSING EX",
+    "accountClass": "Liabilities",
+    "caption": "ACCRUED INTEREST AND OTHER LIABILITIES"
+  },
+  {
+    "accountCode": 22210,
+    "accountTitle": "DUE TO BHC/PCB",
+    "accountClass": null,
+    "caption": "ELIMINATING"
+  },
+  {
+    "accountCode": 22230,
+    "accountTitle": "IPS ACCOUNTS PAYABLE",
+    "accountClass": "Liabilities",
+    "caption": "ACCRUED INTEREST AND OTHER LIABILITIES"
+  },
+  {
+    "accountCode": 22240,
+    "accountTitle": "USE TAX PAYABLE",
+    "accountClass": "Liabilities",
+    "caption": "ACCRUED INTEREST AND OTHER LIABILITIES"
+  },
+  {
+    "accountCode": 22245,
+    "accountTitle": "REFUNDABLE PREMIUM",
+    "accountClass": "Liabilities",
+    "caption": "ACCRUED INTEREST AND OTHER LIABILITIES"
+  },
+  {
+    "accountCode": 22250,
+    "accountTitle": "DEFERRED GAIN ON LOAN SALES",
+    "accountClass": "Liabilities",
+    "caption": "ACCRUED INTEREST AND OTHER LIABILITIES"
+  },
+  {
+    "accountCode": 22255,
+    "accountTitle": "DEFERRED TENANT ALLOWANCE",
+    "accountClass": "Liabilities",
+    "caption": "ACCRUED INTEREST AND OTHER LIABILITIES"
+  },
+  {
+    "accountCode": 22260,
+    "accountTitle": "AUTO LOANS UNEARNED INCOME",
+    "accountClass": "Liabilities",
+    "caption": "ACCRUED INTEREST AND OTHER LIABILITIES"
+  },
+  {
+    "accountCode": 22290,
+    "accountTitle": "OTHER PAYABLE",
+    "accountClass": "Liabilities",
+    "caption": "ACCRUED INTEREST AND OTHER LIABILITIES"
+  },
+  {
+    "accountCode": 22295,
+    "accountTitle": "INCOMING RATE BRIDGE PMT - C",
+    "accountClass": "Liabilities",
+    "caption": "ACCRUED INTEREST AND OTHER LIABILITIES"
+  },
+  {
+    "accountCode": 22297,
+    "accountTitle": "DEFERRED FEE LIABILITY-CDARS",
+    "accountClass": "Liabilities",
+    "caption": "ACCRUED INTEREST AND OTHER LIABILITIES"
+  },
+  {
+    "accountCode": 22310,
+    "accountTitle": "FEDERAL INCOME TAX PAYABLE",
+    "accountClass": "Liabilities",
+    "caption": "ACCRUED INTEREST AND OTHER LIABILITIES"
+  },
+  {
+    "accountCode": 22320,
+    "accountTitle": "STATE INCOME TAX PAYABLE",
+    "accountClass": "Liabilities",
+    "caption": "ACCRUED INTEREST AND OTHER LIABILITIES"
+  },
+  {
+    "accountCode": 22430,
+    "accountTitle": "SUSPENSE LIABILITIES - OPERA",
+    "accountClass": "Liabilities",
+    "caption": "ACCRUED INTEREST AND OTHER LIABILITIES"
+  },
+  {
+    "accountCode": 22440,
+    "accountTitle": "SUSPENSE LIABILITIES - LOANS",
+    "accountClass": "Liabilities",
+    "caption": "ACCRUED INTEREST AND OTHER LIABILITIES"
+  },
+  {
+    "accountCode": 22480,
+    "accountTitle": "SUSPENSE LIABILITIES - GL",
+    "accountClass": "Liabilities",
+    "caption": "ACCRUED INTEREST AND OTHER LIABILITIES"
+  },
+  {
+    "accountCode": 22510,
+    "accountTitle": "BANKERS ACCEPTANCE-BANK'S LI",
+    "accountClass": "Liabilities",
+    "caption": "ACCRUED INTEREST AND OTHER LIABILITIES"
+  },
+  {
+    "accountCode": 22610,
+    "accountTitle": "ALLOWANCE FOR OFF B/S CREDIT",
+    "accountClass": "Liabilities",
+    "caption": "ACCRUED INTEREST AND OTHER LIABILITIES"
+  },
+  {
+    "accountCode": 22725,
+    "accountTitle": "DEFERRED INC TAX LIAB - AFS",
+    "accountClass": "Liabilities",
+    "caption": "ACCRUED INTEREST AND OTHER LIABILITIES"
+  },
+  {
+    "accountCode": 28110,
+    "accountTitle": "COMMON STOCK - PCB",
+    "accountClass": "Equity",
+    "caption": "EQUITY"
+  },
+  {
+    "accountCode": 28120,
+    "accountTitle": "ADDTL PAID-IN CAP -PCB(FR HC",
+    "accountClass": "Equity",
+    "caption": "EQUITY"
+  },
+  {
+    "accountCode": 28125,
+    "accountTitle": "ADDTL PAID-IN CAP - PCB(TARP",
+    "accountClass": "Equity",
+    "caption": "EQUITY"
+  },
+  {
+    "accountCode": 28130,
+    "accountTitle": "ADDTL PAID-IN CAPITAL - PCB",
+    "accountClass": "Equity",
+    "caption": "EQUITY"
+  },
+  {
+    "accountCode": 28140,
+    "accountTitle": "RETAINED EARNINGS - PCB",
+    "accountClass": "Equity",
+    "caption": "EQUITY"
+  },
+  {
+    "accountCode": 28145,
+    "accountTitle": "YEAR TO DATE DIVIDEND - PCB",
+    "accountClass": "Equity",
+    "caption": "EQUITY"
+  },
+  {
+    "accountCode": 28150,
+    "accountTitle": "YEAR TO DATE NET PROFIT-PCB",
+    "accountClass": "Equity",
+    "caption": "EQUITY"
+  },
+  {
+    "accountCode": 28160,
+    "accountTitle": "NET UNREALIZED GAIN(LOSS)-PC",
+    "accountClass": "Equity",
+    "caption": "EQUITY"
+  },
+  {
+    "accountCode": 30000,
+    "accountTitle": "INTEREST INC US TREASURY SECURITIES",
+    "accountClass": "Income",
+    "caption": "INTEREST ON INVESTMENT SECURITIES"
+  },
+  {
+    "accountCode": 30010,
+    "accountTitle": "PREMIUM AMORTIZATION TREASURIES - AFS",
+    "accountClass": "Income",
+    "caption": "INTEREST ON INVESTMENT SECURITIES"
+  },
+  {
+    "accountCode": 30030,
+    "accountTitle": "DISCOUNT ACCRETION TREASURIES - AFS",
+    "accountClass": "Income",
+    "caption": "INTEREST ON INVESTMENT SECURITIES"
+  },
+  {
+    "accountCode": 30110,
+    "accountTitle": "INTEREST INCOME US GOV AGENCIES",
+    "accountClass": "Income",
+    "caption": "INTEREST ON INVESTMENT SECURITIES"
+  },
+  {
+    "accountCode": 30130,
+    "accountTitle": "PREMIUM AMORTIZATION US GOV AGENCIES-AFS",
+    "accountClass": "Income",
+    "caption": "INTEREST ON INVESTMENT SECURITIES"
+  },
+  {
+    "accountCode": 30150,
+    "accountTitle": "DISCOUNT ACCRETION US GOV AGENCIES - AFS",
+    "accountClass": "Income",
+    "caption": "INTEREST ON INVESTMENT SECURITIES"
+  },
+  {
+    "accountCode": 30200,
+    "accountTitle": "INTEREST INCOME MBS",
+    "accountClass": "Income",
+    "caption": "INTEREST ON INVESTMENT SECURITIES"
+  },
+  {
+    "accountCode": 30220,
+    "accountTitle": "PREMIUM AMORTIZATION MBS - AFS",
+    "accountClass": "Income",
+    "caption": "INTEREST ON INVESTMENT SECURITIES"
+  },
+  {
+    "accountCode": 30230,
+    "accountTitle": "DISCOUNT ACCRETION MBS - AFS",
+    "accountClass": "Income",
+    "caption": "INTEREST ON INVESTMENT SECURITIES"
+  },
+  {
+    "accountCode": 30240,
+    "accountTitle": "INTEREST INCOME MBS - HTM",
+    "accountClass": "Income",
+    "caption": "INTEREST ON INVESTMENT SECURITIES"
+  },
+  {
+    "accountCode": 30250,
+    "accountTitle": "PREMIUM AMORTIZATION MBS - HTM",
+    "accountClass": "Income",
+    "caption": "INTEREST ON INVESTMENT SECURITIES"
+  },
+  {
+    "accountCode": 30260,
+    "accountTitle": "DISCOUNT ACCRETION MBS - HTM",
+    "accountClass": "Income",
+    "caption": "INTEREST ON INVESTMENT SECURITIES"
+  },
+  {
+    "accountCode": 30340,
+    "accountTitle": "INTEREST EARNED - FRB",
+    "accountClass": "Income",
+    "caption": "INTEREST ON FEDERAL FUNDS SOLD AND OTHER"
+  },
+  {
+    "accountCode": 30350,
+    "accountTitle": "TBD",
+    "accountClass": "Income",
+    "caption": "INTEREST ON FEDERAL FUNDS SOLD AND OTHER"
+  },
+  {
+    "accountCode": 30360,
+    "accountTitle": "INTEREST EARNED - FHLBANK",
+    "accountClass": "Income",
+    "caption": "INTEREST ON FEDERAL FUNDS SOLD AND OTHER"
+  },
+  {
+    "accountCode": 30370,
+    "accountTitle": "INTEREST EARNED - WFB MMDA",
+    "accountClass": "Income",
+    "caption": "INTEREST ON FEDERAL FUNDS SOLD AND OTHER"
+  },
+  {
+    "accountCode": 30380,
+    "accountTitle": "INTEREST EARNED - IDC/WFB MMDA",
+    "accountClass": "Income",
+    "caption": "INTEREST ON FEDERAL FUNDS SOLD AND OTHER"
+  },
+  {
+    "accountCode": 30390,
+    "accountTitle": "INTEREST EARNED-OTHER",
+    "accountClass": "Income",
+    "caption": "INTEREST ON FEDERAL FUNDS SOLD AND OTHER"
+  },
+  {
+    "accountCode": 30410,
+    "accountTitle": "INT EARNED FED FUNDS SOLD O/N",
+    "accountClass": "Income",
+    "caption": "INTEREST ON FEDERAL FUNDS SOLD AND OTHER"
+  },
+  {
+    "accountCode": 30415,
+    "accountTitle": "TBD",
+    "accountClass": "Income",
+    "caption": "INTEREST ON FEDERAL FUNDS SOLD AND OTHER"
+  },
+  {
+    "accountCode": 30430,
+    "accountTitle": "TBD",
+    "accountClass": "Income",
+    "caption": "INTEREST ON FEDERAL FUNDS SOLD AND OTHER"
+  },
+  {
+    "accountCode": 30440,
+    "accountTitle": "DIV/INT EARNED PCBB STOCK",
+    "accountClass": "Income",
+    "caption": "INTEREST ON FEDERAL FUNDS SOLD AND OTHER"
+  },
+  {
+    "accountCode": 30450,
+    "accountTitle": "DIV EARNED FHLB STOCK",
+    "accountClass": "Income",
+    "caption": "INTEREST ON FEDERAL FUNDS SOLD AND OTHER"
+  },
+  {
+    "accountCode": 30480,
+    "accountTitle": "INTERBRANCH INTEREST INCOME",
+    "accountClass": "Income",
+    "caption": "INTEREST ON FEDERAL FUNDS SOLD AND OTHER"
+  },
+  {
+    "accountCode": 30500,
+    "accountTitle": "INTEREST INCOME MUNI",
+    "accountClass": "Income",
+    "caption": "INTEREST ON INVESTMENT SECURITIES"
+  },
+  {
+    "accountCode": 30510,
+    "accountTitle": "PREMIUM AMORTIZATION - MUNI",
+    "accountClass": "Income",
+    "caption": "INTEREST ON INVESTMENT SECURITIES"
+  },
+  {
+    "accountCode": 30530,
+    "accountTitle": "DISCOUNT ACCRETION - MUNI",
+    "accountClass": "Income",
+    "caption": "INTEREST ON INVESTMENT SECURITIES"
+  },
+  {
+    "accountCode": 30605,
+    "accountTitle": "INTEREST INCOME CMO",
+    "accountClass": "Income",
+    "caption": "INTEREST ON INVESTMENT SECURITIES"
+  },
+  {
+    "accountCode": 30610,
+    "accountTitle": "PREMIUM AMORTIZATION CMO - AFS",
+    "accountClass": "Income",
+    "caption": "INTEREST ON INVESTMENT SECURITIES"
+  },
+  {
+    "accountCode": 30630,
+    "accountTitle": "DISCOUNT ACCRETION CMO - AFS",
+    "accountClass": "Income",
+    "caption": "INTEREST ON INVESTMENT SECURITIES"
+  },
+  {
+    "accountCode": 30640,
+    "accountTitle": "INTEREST INCOME - CMO - HTM",
+    "accountClass": "Income",
+    "caption": "INTEREST ON INVESTMENT SECURITIES"
+  },
+  {
+    "accountCode": 30650,
+    "accountTitle": "PREMIUM AMORTIZATION - CMO - HTM",
+    "accountClass": "Income",
+    "caption": "INTEREST ON INVESTMENT SECURITIES"
+  },
+  {
+    "accountCode": 30660,
+    "accountTitle": "DISCOUNT ACCRETION - CMO - HTM",
+    "accountClass": "Income",
+    "caption": "INTEREST ON INVESTMENT SECURITIES"
+  },
+  {
+    "accountCode": 31410,
+    "accountTitle": "INT INCOME OVERDRAFTS",
+    "accountClass": "Income",
+    "caption": "INTEREST AND FEES ON LOANS"
+  },
+  {
+    "accountCode": 31420,
+    "accountTitle": "OVERDRAFT CHARGES",
+    "accountClass": "Income",
+    "caption": "INTEREST AND FEES ON LOANS"
+  },
+  {
+    "accountCode": 31421,
+    "accountTitle": "OVERDRAFT CHARGES REVERSAL",
+    "accountClass": "Income",
+    "caption": "INTEREST AND FEES ON LOANS"
+  },
+  {
+    "accountCode": 31510,
+    "accountTitle": "INT INCOME CONSUMER LOANS",
+    "accountClass": "Income",
+    "caption": "INTEREST AND FEES ON LOANS"
+  },
+  {
+    "accountCode": 31515,
+    "accountTitle": "INT INCOME CONSUMER LINES OF CREDIT",
+    "accountClass": "Income",
+    "caption": "INTEREST AND FEES ON LOANS"
+  },
+  {
+    "accountCode": 31517,
+    "accountTitle": "INT INCOME HOME MORTG LOAN - FIXED",
+    "accountClass": "Income",
+    "caption": "INTEREST AND FEES ON LOANS"
+  },
+  {
+    "accountCode": 31518,
+    "accountTitle": "INT INCOME HOME MORTG LOAN - ARM",
+    "accountClass": "Income",
+    "caption": "INTEREST AND FEES ON LOANS"
+  },
+  {
+    "accountCode": 31519,
+    "accountTitle": "INT INCOME HOME MORTG LOAN -EQUITY LN/LC",
+    "accountClass": "Income",
+    "caption": "INTEREST AND FEES ON LOANS"
+  },
+  {
+    "accountCode": 31520,
+    "accountTitle": "INT INCOME COMMERCIAL REAL ESTATE",
+    "accountClass": "Income",
+    "caption": "INTEREST AND FEES ON LOANS"
+  },
+  {
+    "accountCode": 31525,
+    "accountTitle": "INT INCOME COMMERCIAL LOANS",
+    "accountClass": "Income",
+    "caption": "INTEREST AND FEES ON LOANS"
+  },
+  {
+    "accountCode": 31526,
+    "accountTitle": "INT INCOME COMMERCIAL LOAN - COM'L TRUCK",
+    "accountClass": "Income",
+    "caption": "INTEREST AND FEES ON LOANS"
+  },
+  {
+    "accountCode": 31527,
+    "accountTitle": "INT INCOME COMMERCIAL LOAN - RENT CAR",
+    "accountClass": "Income",
+    "caption": "INTEREST AND FEES ON LOANS"
+  },
+  {
+    "accountCode": 31530,
+    "accountTitle": "INT INCOME COM'L LINE OF CREDIT",
+    "accountClass": "Income",
+    "caption": "INTEREST AND FEES ON LOANS"
+  },
+  {
+    "accountCode": 31532,
+    "accountTitle": "INT INCOME SBA ARC (COMM'L TERM)",
+    "accountClass": "Income",
+    "caption": "INTEREST AND FEES ON LOANS"
+  },
+  {
+    "accountCode": 31533,
+    "accountTitle": "INT INCOME SBA EZ TERM",
+    "accountClass": "Income",
+    "caption": "INTEREST AND FEES ON LOANS"
+  },
+  {
+    "accountCode": 31534,
+    "accountTitle": "INT INCOME SBA EZ LINE OF CREDIT",
+    "accountClass": "Income",
+    "caption": "INTEREST AND FEES ON LOANS"
+  },
+  {
+    "accountCode": 31535,
+    "accountTitle": "INT INCOME SBA R/E LOANS",
+    "accountClass": "Income",
+    "caption": "INTEREST AND FEES ON LOANS"
+  },
+  {
+    "accountCode": 31536,
+    "accountTitle": "INT INCOME SBA COMM'L LOANS",
+    "accountClass": "Income",
+    "caption": "INTEREST AND FEES ON LOANS"
+  },
+  {
+    "accountCode": 31537,
+    "accountTitle": "INT INCOME SBA EXPRESS",
+    "accountClass": "Income",
+    "caption": "INTEREST AND FEES ON LOANS"
+  },
+  {
+    "accountCode": 31538,
+    "accountTitle": "INT INCOME SBA EXPRESS LINE",
+    "accountClass": "Income",
+    "caption": "INTEREST AND FEES ON LOANS"
+  },
+  {
+    "accountCode": 31540,
+    "accountTitle": "INT INCOME INTERNATIONAL LOANS",
+    "accountClass": "Income",
+    "caption": "INTEREST AND FEES ON LOANS"
+  },
+  {
+    "accountCode": 31544,
+    "accountTitle": "INT INCOME HOME MORTG PARTICIPATION SOLD",
+    "accountClass": "Income",
+    "caption": "INTEREST AND FEES ON LOANS"
+  },
+  {
+    "accountCode": 31545,
+    "accountTitle": "INT INCOME COMM'L R/E PARTICIPATION SOLD",
+    "accountClass": "Income",
+    "caption": "INTEREST AND FEES ON LOANS"
+  },
+  {
+    "accountCode": 31546,
+    "accountTitle": "INT INCOME COMM'L PARTICIPATION SOLD",
+    "accountClass": "Income",
+    "caption": "INTEREST AND FEES ON LOANS"
+  },
+  {
+    "accountCode": 31550,
+    "accountTitle": "INT INCOME SBA R/E PARTICIPATION SOLD",
+    "accountClass": "Income",
+    "caption": "INTEREST AND FEES ON LOANS"
+  },
+  {
+    "accountCode": 31555,
+    "accountTitle": "INT INCOME SBA COMM'L PARTICIPATION SOLD",
+    "accountClass": "Income",
+    "caption": "INTEREST AND FEES ON LOANS"
+  },
+  {
+    "accountCode": 31556,
+    "accountTitle": "INT INCOME SBA EXPRESS PART SOLD",
+    "accountClass": "Income",
+    "caption": "INTEREST AND FEES ON LOANS"
+  },
+  {
+    "accountCode": 31600,
+    "accountTitle": "TBD",
+    "accountClass": null,
+    "caption": null
+  },
+  {
+    "accountCode": 31605,
+    "accountTitle": "TBD",
+    "accountClass": null,
+    "caption": null
+  },
+  {
+    "accountCode": 31610,
+    "accountTitle": "TBD",
+    "accountClass": null,
+    "caption": null
+  },
+  {
+    "accountCode": 31700,
+    "accountTitle": "TBD",
+    "accountClass": null,
+    "caption": null
+  },
+  {
+    "accountCode": 31705,
+    "accountTitle": "TBD",
+    "accountClass": null,
+    "caption": null
+  },
+  {
+    "accountCode": 31710,
+    "accountTitle": "TBD",
+    "accountClass": null,
+    "caption": null
+  },
+  {
+    "accountCode": 31810,
+    "accountTitle": "TBD",
+    "accountClass": null,
+    "caption": null
+  },
+  {
+    "accountCode": 31815,
+    "accountTitle": "TBD",
+    "accountClass": null,
+    "caption": null
+  },
+  {
+    "accountCode": 31820,
+    "accountTitle": "TBD",
+    "accountClass": null,
+    "caption": null
+  },
+  {
+    "accountCode": 31835,
+    "accountTitle": "TBD",
+    "accountClass": null,
+    "caption": null
+  },
+  {
+    "accountCode": 31850,
+    "accountTitle": "TBD",
+    "accountClass": null,
+    "caption": null
+  },
+  {
+    "accountCode": 32010,
+    "accountTitle": "INTERBRANCH INTEREST INCOME",
+    "accountClass": null,
+    "caption": null
+  },
+  {
+    "accountCode": 33510,
+    "accountTitle": "EXTENSION FEE",
+    "accountClass": "Income",
+    "caption": "INTEREST AND FEES ON LOANS"
+  },
+  {
+    "accountCode": 33515,
+    "accountTitle": "TBD",
+    "accountClass": null,
+    "caption": null
+  },
+  {
+    "accountCode": 33519,
+    "accountTitle": "ORIGINATION FEE-HOME MORTG",
+    "accountClass": "Income",
+    "caption": "INTEREST AND FEES ON LOANS"
+  },
+  {
+    "accountCode": 33520,
+    "accountTitle": "ORIGINATION FEE-R/E",
+    "accountClass": "Income",
+    "caption": "INTEREST AND FEES ON LOANS"
+  },
+  {
+    "accountCode": 33521,
+    "accountTitle": "ORIGINATION FEE-COMMERCIAL",
+    "accountClass": "Income",
+    "caption": "INTEREST AND FEES ON LOANS"
+  },
+  {
+    "accountCode": 33522,
+    "accountTitle": "ORIGINATION FEE-PERSONAL",
+    "accountClass": "Income",
+    "caption": "INTEREST AND FEES ON LOANS"
+  },
+  {
+    "accountCode": 33525,
+    "accountTitle": "TBD",
+    "accountClass": "Income",
+    "caption": "INTEREST AND FEES ON LOANS"
+  },
+  {
+    "accountCode": 33526,
+    "accountTitle": "ACQUISITION FEE-INDIRECT AUTO (SUBPRIME)",
+    "accountClass": "Income",
+    "caption": "INTEREST AND FEES ON LOANS"
+  },
+  {
+    "accountCode": 33527,
+    "accountTitle": "ACQUISITION FEE-INDIRECT AUTO LOAN",
+    "accountClass": "Income",
+    "caption": "INTEREST AND FEES ON LOANS"
+  },
+  {
+    "accountCode": 33528,
+    "accountTitle": "DOCUMENTATION COST - HOME MORTGAGE",
+    "accountClass": "Income",
+    "caption": "INTEREST AND FEES ON LOANS"
+  },
+  {
+    "accountCode": 33529,
+    "accountTitle": "DOCUMENTATION FEE - HOME MORTGAGE",
+    "accountClass": "Income",
+    "caption": "INTEREST AND FEES ON LOANS"
+  },
+  {
+    "accountCode": 33530,
+    "accountTitle": "DOCUMENTATION FEE-R/E",
+    "accountClass": "Income",
+    "caption": "INTEREST AND FEES ON LOANS"
+  },
+  {
+    "accountCode": 33531,
+    "accountTitle": "DOCUMENTATION FEE-COMMERCIAL",
+    "accountClass": "Income",
+    "caption": "INTEREST AND FEES ON LOANS"
+  },
+  {
+    "accountCode": 33532,
+    "accountTitle": "DOCUMENTATION FEE-CONSUMER",
+    "accountClass": "Income",
+    "caption": "INTEREST AND FEES ON LOANS"
+  },
+  {
+    "accountCode": 33533,
+    "accountTitle": "DOC FEE-COM'L TERM AUTO SECURED",
+    "accountClass": "Income",
+    "caption": "INTEREST AND FEES ON LOANS"
+  },
+  {
+    "accountCode": 33534,
+    "accountTitle": "DEFERRED EXPENSE AMORT(FASB91)-HOME MTG",
+    "accountClass": "Income",
+    "caption": "INTEREST AND FEES ON LOANS"
+  },
+  {
+    "accountCode": 33535,
+    "accountTitle": "DEFERRED EXPENSE AMORT(FASB91)-R/E",
+    "accountClass": "Income",
+    "caption": "INTEREST AND FEES ON LOANS"
+  },
+  {
+    "accountCode": 33536,
+    "accountTitle": "DEFERRED EXPENSE AMORT(FASB91)-COMM",
+    "accountClass": "Income",
+    "caption": "INTEREST AND FEES ON LOANS"
+  },
+  {
+    "accountCode": 33537,
+    "accountTitle": "DEFERRED EXPENSE AMORT(FASB91)-PERSONAL",
+    "accountClass": "Income",
+    "caption": "INTEREST AND FEES ON LOANS"
+  },
+  {
+    "accountCode": 33538,
+    "accountTitle": "DEFERRED EXPENSE AMORT(FASB91)-PERS AUTO",
+    "accountClass": "Income",
+    "caption": "INTEREST AND FEES ON LOANS"
+  },
+  {
+    "accountCode": 33539,
+    "accountTitle": "DEFERRED EXPENSE AMORT(FASB91)-COML AUTO",
+    "accountClass": "Income",
+    "caption": "INTEREST AND FEES ON LOANS"
+  },
+  {
+    "accountCode": 33540,
+    "accountTitle": "TBD",
+    "accountClass": null,
+    "caption": null
+  },
+  {
+    "accountCode": 33550,
+    "accountTitle": "PREPAYMENT PENALTY",
+    "accountClass": "Income",
+    "caption": "INTEREST AND FEES ON LOANS"
+  },
+  {
+    "accountCode": 33580,
+    "accountTitle": "FEES - LATE CHARGES AND COLLECTION",
+    "accountClass": "Income",
+    "caption": "INTEREST AND FEES ON LOANS"
+  },
+  {
+    "accountCode": 33582,
+    "accountTitle": "WAREHOUSE LINE REVIEW FEE",
+    "accountClass": "Income",
+    "caption": "OTHER INCOME"
+  },
+  {
+    "accountCode": 33583,
+    "accountTitle": "HELC ANNUAL FEE",
+    "accountClass": "Income",
+    "caption": "INTEREST AND FEES ON LOANS"
+  },
+  {
+    "accountCode": 33590,
+    "accountTitle": "OTHER FEES",
+    "accountClass": "Income",
+    "caption": "OTHER INCOME"
+  },
+  {
+    "accountCode": 33593,
+    "accountTitle": "SBA EZ DOCUMENTATION FEE-COMMERCIAL",
+    "accountClass": "Income",
+    "caption": "INTEREST AND FEES ON LOANS"
+  },
+  {
+    "accountCode": 33595,
+    "accountTitle": "SBA GUARANTY FEE - UNDER $150,000",
+    "accountClass": "Income",
+    "caption": "INTEREST AND FEES ON LOANS"
+  },
+  {
+    "accountCode": 33596,
+    "accountTitle": "DOCUMENTATION COST - R/E",
+    "accountClass": "Income",
+    "caption": "INTEREST AND FEES ON LOANS"
+  },
+  {
+    "accountCode": 33597,
+    "accountTitle": "DOCUMENTATION COST - COMMERCIAL",
+    "accountClass": "Income",
+    "caption": "INTEREST AND FEES ON LOANS"
+  },
+  {
+    "accountCode": 33598,
+    "accountTitle": "DOCUMENTATION COST - CONSUMER",
+    "accountClass": "Income",
+    "caption": "INTEREST AND FEES ON LOANS"
+  },
+  {
+    "accountCode": 33600,
+    "accountTitle": "SERVICE CHARGES ON DEPOSIT ACCOUNTS",
+    "accountClass": "Income",
+    "caption": "SERVICE CHARGES AND FEES"
+  },
+  {
+    "accountCode": 33610,
+    "accountTitle": "NSF FEES",
+    "accountClass": "Income",
+    "caption": "SERVICE CHARGES AND FEES"
+  },
+  {
+    "accountCode": 33611,
+    "accountTitle": "NSF FEES REVERSALS",
+    "accountClass": "Income",
+    "caption": "SERVICE CHARGES AND FEES"
+  },
+  {
+    "accountCode": 33612,
+    "accountTitle": "TO BE DELETED",
+    "accountClass": "Income",
+    "caption": "SERVICE CHARGES AND FEES"
+  },
+  {
+    "accountCode": 33613,
+    "accountTitle": "CHARGEBACK FEES",
+    "accountClass": "Income",
+    "caption": "SERVICE CHARGES AND FEES"
+  },
+  {
+    "accountCode": 33614,
+    "accountTitle": "CHARGEBACK FEES REVERSALS",
+    "accountClass": "Income",
+    "caption": "SERVICE CHARGES AND FEES"
+  },
+  {
+    "accountCode": 33615,
+    "accountTitle": "ANALYSIS CHARGES",
+    "accountClass": "Income",
+    "caption": "SERVICE CHARGES AND FEES"
+  },
+  {
+    "accountCode": 33620,
+    "accountTitle": "TBD",
+    "accountClass": "Income",
+    "caption": "SERVICE CHARGES AND FEES"
+  },
+  {
+    "accountCode": 33621,
+    "accountTitle": "TBD",
+    "accountClass": "Income",
+    "caption": "SERVICE CHARGES AND FEES"
+  },
+  {
+    "accountCode": 33640,
+    "accountTitle": "STOP PAYMENT CHARGES",
+    "accountClass": "Income",
+    "caption": "SERVICE CHARGES AND FEES"
+  },
+  {
+    "accountCode": 33641,
+    "accountTitle": "STOP PAYMENT CHANGES REVERSAL",
+    "accountClass": "Income",
+    "caption": "SERVICE CHARGES AND FEES"
+  },
+  {
+    "accountCode": 33700,
+    "accountTitle": "ATM/DEBIT CARD FEES",
+    "accountClass": "Income",
+    "caption": "OTHER INCOME"
+  },
+  {
+    "accountCode": 33701,
+    "accountTitle": "DEBIT CARD INTERCHANGE FEES",
+    "accountClass": "Income",
+    "caption": "OTHER INCOME"
+  },
+  {
+    "accountCode": 33702,
+    "accountTitle": "ATTACHMENT FEES",
+    "accountClass": "Income",
+    "caption": "OTHER INCOME"
+  },
+  {
+    "accountCode": 33705,
+    "accountTitle": "CASHIERS CHECK FEES",
+    "accountClass": "Income",
+    "caption": "OTHER INCOME"
+  },
+  {
+    "accountCode": 33706,
+    "accountTitle": "CASHIERS CHECK FEES REVERSAL",
+    "accountClass": "Income",
+    "caption": "OTHER INCOME"
+  },
+  {
+    "accountCode": 33710,
+    "accountTitle": "CHECK CASHING FEES",
+    "accountClass": "Income",
+    "caption": "OTHER INCOME"
+  },
+  {
+    "accountCode": 33715,
+    "accountTitle": "CHECK PRINTING INCOME",
+    "accountClass": "Income",
+    "caption": "OTHER INCOME"
+  },
+  {
+    "accountCode": 33719,
+    "accountTitle": "CDARS FEE INCOME - ONE WAY SELL TRANS",
+    "accountClass": "Income",
+    "caption": "OTHER INCOME"
+  },
+  {
+    "accountCode": 33720,
+    "accountTitle": "COLLECTION FEES",
+    "accountClass": "Income",
+    "caption": "OTHER INCOME"
+  },
+  {
+    "accountCode": 33724,
+    "accountTitle": "ESCHEAT FEES",
+    "accountClass": "Income",
+    "caption": "OTHER INCOME"
+  },
+  {
+    "accountCode": 33725,
+    "accountTitle": "INTERN'L SWIFT & MAIL",
+    "accountClass": "Income",
+    "caption": "OTHER INCOME"
+  },
+  {
+    "accountCode": 33730,
+    "accountTitle": "TBD",
+    "accountClass": "Income",
+    "caption": "OTHER INCOME"
+  },
+  {
+    "accountCode": 33731,
+    "accountTitle": "INTERN'L L/C OPENING & AMENDMENT",
+    "accountClass": "Income",
+    "caption": "OTHER INCOME"
+  },
+  {
+    "accountCode": 33732,
+    "accountTitle": "INTERN'L L/C ADVICE & NEGOTIATION",
+    "accountClass": "Income",
+    "caption": "OTHER INCOME"
+  },
+  {
+    "accountCode": 33733,
+    "accountTitle": "INTERN'L STANDBY L/C OPENING & AMEND",
+    "accountClass": "Income",
+    "caption": "OTHER INCOME"
+  },
+  {
+    "accountCode": 33734,
+    "accountTitle": "INTERN'L COLLECTIONS (D/A, D/P)",
+    "accountClass": "Income",
+    "caption": "OTHER INCOME"
+  },
+  {
+    "accountCode": 33735,
+    "accountTitle": "INTERN'L COMMITMENT FEES",
+    "accountClass": "Income",
+    "caption": "OTHER INCOME"
+  },
+  {
+    "accountCode": 33738,
+    "accountTitle": "COMM'L SERVICING FEES",
+    "accountClass": "Income",
+    "caption": "OTHER INCOME"
+  },
+  {
+    "accountCode": 33739,
+    "accountTitle": "SBA SERVICING ASSET AMORTIZATION",
+    "accountClass": "Income",
+    "caption": "OTHER INCOME"
+  },
+  {
+    "accountCode": 33740,
+    "accountTitle": "SBA SERVICING FEES",
+    "accountClass": "Income",
+    "caption": "OTHER INCOME"
+  },
+  {
+    "accountCode": 33741,
+    "accountTitle": "HOME MORTGAGE SERVICING FEES",
+    "accountClass": "Income",
+    "caption": "OTHER INCOME"
+  },
+  {
+    "accountCode": 33742,
+    "accountTitle": "HOME MORTGAGE SERVICING ASSET AMORT",
+    "accountClass": "Income",
+    "caption": "OTHER INCOME"
+  },
+  {
+    "accountCode": 33743,
+    "accountTitle": "SBA LOAN CO-ORIGINATION FEES",
+    "accountClass": "Income",
+    "caption": "OTHER INCOME"
+  },
+  {
+    "accountCode": 33745,
+    "accountTitle": "COMM'L LOAN CO-ORIGINATION FEES",
+    "accountClass": "Income",
+    "caption": "OTHER INCOME"
+  },
+  {
+    "accountCode": 33747,
+    "accountTitle": "HOME MORTG LOAN CO-ORIGINATION FEES",
+    "accountClass": "Income",
+    "caption": "OTHER INCOME"
+  },
+  {
+    "accountCode": 33748,
+    "accountTitle": "SBA GUARANTY FEE - UNDER $150,000",
+    "accountClass": "Income",
+    "caption": "OTHER INCOME"
+  },
+  {
+    "accountCode": 33749,
+    "accountTitle": "CREDIT CARD FEE INCOME",
+    "accountClass": "Income",
+    "caption": "OTHER INCOME"
+  },
+  {
+    "accountCode": 33750,
+    "accountTitle": "MISC FEES",
+    "accountClass": "Income",
+    "caption": "OTHER INCOME"
+  },
+  {
+    "accountCode": 33755,
+    "accountTitle": "AUTO REPO & RELATED INCOME",
+    "accountClass": "Income",
+    "caption": "OTHER INCOME"
+  },
+  {
+    "accountCode": 33760,
+    "accountTitle": "NIGHT DEPOSITORY FEES",
+    "accountClass": "Income",
+    "caption": "OTHER INCOME"
+  },
+  {
+    "accountCode": 33762,
+    "accountTitle": "OPERATION ACCOUNT FEES",
+    "accountClass": "Income",
+    "caption": "OTHER INCOME"
+  },
+  {
+    "accountCode": 33763,
+    "accountTitle": "OPERATIONS ACCOUNT FEES REVERSAL",
+    "accountClass": "Income",
+    "caption": "OTHER INCOME"
+  },
+  {
+    "accountCode": 33765,
+    "accountTitle": "SAFE DEPOSIT BOX RENTAL",
+    "accountClass": "Income",
+    "caption": "OTHER INCOME"
+  },
+  {
+    "accountCode": 33775,
+    "accountTitle": "TT & L FEES",
+    "accountClass": "Income",
+    "caption": "OTHER INCOME"
+  },
+  {
+    "accountCode": 33780,
+    "accountTitle": "WIRE FEES IN/OUT GOING",
+    "accountClass": "Income",
+    "caption": "OTHER INCOME"
+  },
+  {
+    "accountCode": 33781,
+    "accountTitle": "WIRE FEES REVERSAL",
+    "accountClass": "Income",
+    "caption": "OTHER INCOME"
+  },
+  {
+    "accountCode": 33785,
+    "accountTitle": "REMITTANCE FEE",
+    "accountClass": "Income",
+    "caption": "OTHER INCOME"
+  },
+  {
+    "accountCode": 33810,
+    "accountTitle": "VSI COMMISSION",
+    "accountClass": "Income",
+    "caption": "OTHER INCOME"
+  },
+  {
+    "accountCode": 33820,
+    "accountTitle": "TELLER OVERS",
+    "accountClass": "Income",
+    "caption": "OTHER INCOME"
+  },
+  {
+    "accountCode": 33830,
+    "accountTitle": "SUNDRY RECOVERIES",
+    "accountClass": "Income",
+    "caption": "OTHER INCOME"
+  },
+  {
+    "accountCode": 33835,
+    "accountTitle": "OPERATIONS RECOVERIES",
+    "accountClass": "Income",
+    "caption": "OTHER INCOME"
+  },
+  {
+    "accountCode": 33837,
+    "accountTitle": "OREO VALUATION WRITE-DOWN",
+    "accountClass": "Income",
+    "caption": "WIRTE-DOWN ON OREO, NET OF GAIN ON SALE"
+  },
+  {
+    "accountCode": 33838,
+    "accountTitle": "GAIN(LOSS)ON SALE OF OREO",
+    "accountClass": "Income",
+    "caption": "WIRTE-DOWN ON OREO, NET OF GAIN ON SALE"
+  },
+  {
+    "accountCode": 33840,
+    "accountTitle": "GAIN(LOSS)ON SALE OF SBA LOANS",
+    "accountClass": "Income",
+    "caption": "GAIN ON SALE OF LOANS"
+  },
+  {
+    "accountCode": 33845,
+    "accountTitle": "GAIN(LOSS) ON SALE OF HOME MORTG LOANS",
+    "accountClass": "Income",
+    "caption": "GAIN ON SALE OF LOANS"
+  },
+  {
+    "accountCode": 33850,
+    "accountTitle": "GAIN(LOSS)ON SALE OF COMMERCIAL LOANS",
+    "accountClass": "Income",
+    "caption": "GAIN ON SALE OF LOANS"
+  },
+  {
+    "accountCode": 33852,
+    "accountTitle": "GAIN (LOSS) ON SALE OF SECURITIES",
+    "accountClass": "Income",
+    "caption": "OTHER INCOME"
+  },
+  {
+    "accountCode": 33855,
+    "accountTitle": "GAIN (LOSS) ON SALE OF OTHER ASSETS",
+    "accountClass": "Income",
+    "caption": "OTHER INCOME"
+  },
+  {
+    "accountCode": 33860,
+    "accountTitle": "OTHER MISCELLANEOUS INCOME",
+    "accountClass": "Income",
+    "caption": "OTHER INCOME"
+  },
+  {
+    "accountCode": 50100,
+    "accountTitle": "INTEREST EXP - SUPER NOW - PERS/BUS",
+    "accountClass": "Income",
+    "caption": "INTEREST ON SAVINGS, NOW AND MONEY MARKET DEPOSITS"
+  },
+  {
+    "accountCode": 50109,
+    "accountTitle": "INTEREST EXP - BROKERED MMKT - BUSINESS",
+    "accountClass": "Income",
+    "caption": "INTEREST ON SAVINGS, NOW AND MONEY MARKET DEPOSITS"
+  },
+  {
+    "accountCode": 50110,
+    "accountTitle": "INTEREST EXP - MMKT - PERSONAL",
+    "accountClass": "Income",
+    "caption": "INTEREST ON SAVINGS, NOW AND MONEY MARKET DEPOSITS"
+  },
+  {
+    "accountCode": 50115,
+    "accountTitle": "INTEREST EXP - MMKT - BUSINESS",
+    "accountClass": "Income",
+    "caption": "INTEREST ON SAVINGS, NOW AND MONEY MARKET DEPOSITS"
+  },
+  {
+    "accountCode": 50118,
+    "accountTitle": "INTEREST EXP-VIP MONEY MARKET PERSONAL",
+    "accountClass": "Income",
+    "caption": "INTEREST ON SAVINGS, NOW AND MONEY MARKET DEPOSITS"
+  },
+  {
+    "accountCode": 50120,
+    "accountTitle": "INTEREST EXP-VIP MONEY MARKET BUSINESS",
+    "accountClass": "Income",
+    "caption": "INTEREST ON SAVINGS, NOW AND MONEY MARKET DEPOSITS"
+  },
+  {
+    "accountCode": 50122,
+    "accountTitle": "INTEREST EXP-PREFERRED MM-PER/BUS",
+    "accountClass": "Income",
+    "caption": "INTEREST ON SAVINGS, NOW AND MONEY MARKET DEPOSITS"
+  },
+  {
+    "accountCode": 50124,
+    "accountTitle": "INTEREST EXP - SAVINGS PERSONAL",
+    "accountClass": "Income",
+    "caption": "INTEREST ON SAVINGS, NOW AND MONEY MARKET DEPOSITS"
+  },
+  {
+    "accountCode": 50125,
+    "accountTitle": "INTEREST EXP - SAVINGS BUSINESS",
+    "accountClass": "Income",
+    "caption": "INTEREST ON SAVINGS, NOW AND MONEY MARKET DEPOSITS"
+  },
+  {
+    "accountCode": 50126,
+    "accountTitle": "INTEREST EXP-INSTALLMENT SAVINGS PERSONL",
+    "accountClass": "Income",
+    "caption": "INTEREST ON TIME DEPOSITS"
+  },
+  {
+    "accountCode": 50128,
+    "accountTitle": "INTEREST EXP-INSTALLMENT SAVINGS BUSINES",
+    "accountClass": "Income",
+    "caption": "INTEREST ON TIME DEPOSITS"
+  },
+  {
+    "accountCode": 50130,
+    "accountTitle": "INTEREST EXP - CERTIFICATES < 100M",
+    "accountClass": "Income",
+    "caption": "INTEREST ON TIME DEPOSITS"
+  },
+  {
+    "accountCode": 50135,
+    "accountTitle": "INTEREST EXP - CERTIFICATES > 100M",
+    "accountClass": "Income",
+    "caption": "INTEREST ON TIME DEPOSITS"
+  },
+  {
+    "accountCode": 50137,
+    "accountTitle": "INTEREST EXP - CA STATE DEPOSIT CD >100M",
+    "accountClass": "Income",
+    "caption": "INTEREST ON TIME DEPOSITS"
+  },
+  {
+    "accountCode": 50138,
+    "accountTitle": "INTEREST EXP - BROKERED DEPOSIT CD <100M",
+    "accountClass": "Income",
+    "caption": "INTEREST ON TIME DEPOSITS"
+  },
+  {
+    "accountCode": 50139,
+    "accountTitle": "INTEREST EXP - BROKERED DEPOSIT CD >100M",
+    "accountClass": "Income",
+    "caption": "INTEREST ON TIME DEPOSITS"
+  },
+  {
+    "accountCode": 50140,
+    "accountTitle": "INTEREST EXP - IRA'S < 100M",
+    "accountClass": "Income",
+    "caption": "INTEREST ON TIME DEPOSITS"
+  },
+  {
+    "accountCode": 50145,
+    "accountTitle": "INTEREST EXP - IRA'S > 100M",
+    "accountClass": "Income",
+    "caption": "INTEREST ON TIME DEPOSITS"
+  },
+  {
+    "accountCode": 50190,
+    "accountTitle": "INTEREST EXP - CDARS BALANCES < 100M",
+    "accountClass": "Income",
+    "caption": "INTEREST ON TIME DEPOSITS"
+  },
+  {
+    "accountCode": 50210,
+    "accountTitle": "FED FUNDS PURCHASED INTEREST EXPENSE",
+    "accountClass": "Income",
+    "caption": "INTEREST ON BORROWINGS"
+  },
+  {
+    "accountCode": 50215,
+    "accountTitle": "FHLB BORROWING INTEREST EXPENSE",
+    "accountClass": "Income",
+    "caption": "INTEREST ON BORROWINGS"
+  },
+  {
+    "accountCode": 50220,
+    "accountTitle": "FRB BORROWING INTEREST EXPENSE",
+    "accountClass": "Income",
+    "caption": "INTEREST ON BORROWINGS"
+  },
+  {
+    "accountCode": 50230,
+    "accountTitle": "PCBB BORROWING INTEREST EXPENSE",
+    "accountClass": "Income",
+    "caption": "INTEREST ON BORROWINGS"
+  },
+  {
+    "accountCode": 50245,
+    "accountTitle": "WFB BORROWING INTEREST EXPENSE",
+    "accountClass": "Income",
+    "caption": "INTEREST ON BORROWINGS"
+  },
+  {
+    "accountCode": 50250,
+    "accountTitle": "ZIONS BORROWING INTEREST EXPENSE",
+    "accountClass": "Income",
+    "caption": "INTEREST ON BORROWINGS"
+  },
+  {
+    "accountCode": 50280,
+    "accountTitle": "SBA LOANS SOLD WITH RECOURSE EXPENSE",
+    "accountClass": "Income",
+    "caption": "INTEREST ON BORROWINGS"
+  },
+  {
+    "accountCode": 51010,
+    "accountTitle": "INTERBRANCH INTEREST EXPENSE",
+    "accountClass": null,
+    "caption": null
+  },
+  {
+    "accountCode": 52120,
+    "accountTitle": "FURNITURE & FIXTURE DEPRECIATION EXPENSE",
+    "accountClass": "Expenses",
+    "caption": "OCCUPANCY AND EQUIPMENT EXPENSES"
+  },
+  {
+    "accountCode": 52130,
+    "accountTitle": "LEASEHOLD IMPROVEMENT DEPRECIATION EXP",
+    "accountClass": "Expenses",
+    "caption": "OCCUPANCY AND EQUIPMENT EXPENSES"
+  },
+  {
+    "accountCode": 52135,
+    "accountTitle": "SOFTWARE DEPRECIATION EXPENSE",
+    "accountClass": "Expenses",
+    "caption": "OCCUPANCY AND EQUIPMENT EXPENSES"
+  },
+  {
+    "accountCode": 52140,
+    "accountTitle": "COMPUTER & SOFTWARE DEPRECIATION EXPENSE",
+    "accountClass": "Expenses",
+    "caption": "OCCUPANCY AND EQUIPMENT EXPENSES"
+  },
+  {
+    "accountCode": 52145,
+    "accountTitle": "OTHER EQUIPMENT DEPRECIATION EXPENSE",
+    "accountClass": "Expenses",
+    "caption": "OCCUPANCY AND EQUIPMENT EXPENSES"
+  },
+  {
+    "accountCode": 52147,
+    "accountTitle": "AUTOMOBILE DEPRECIATION EXPENSE",
+    "accountClass": "Expenses",
+    "caption": "OCCUPANCY AND EQUIPMENT EXPENSES"
+  },
+  {
+    "accountCode": 52150,
+    "accountTitle": "MISC FURNITURE & FIXTURE EXPENSE",
+    "accountClass": "Expenses",
+    "caption": "OCCUPANCY AND EQUIPMENT EXPENSES"
+  },
+  {
+    "accountCode": 52170,
+    "accountTitle": "MISC EQUIPMENT EXPENSE",
+    "accountClass": "Expenses",
+    "caption": "OCCUPANCY AND EQUIPMENT EXPENSES"
+  },
+  {
+    "accountCode": 52195,
+    "accountTitle": "TBD",
+    "accountClass": "Expenses",
+    "caption": "OCCUPANCY AND EQUIPMENT EXPENSES"
+  },
+  {
+    "accountCode": 52196,
+    "accountTitle": "TBD",
+    "accountClass": "Expenses",
+    "caption": "OCCUPANCY AND EQUIPMENT EXPENSES"
+  },
+  {
+    "accountCode": 52197,
+    "accountTitle": "TBD",
+    "accountClass": "Expenses",
+    "caption": "OCCUPANCY AND EQUIPMENT EXPENSES"
+  },
+  {
+    "accountCode": 52198,
+    "accountTitle": "TBD",
+    "accountClass": "Expenses",
+    "caption": "OCCUPANCY AND EQUIPMENT EXPENSES"
+  },
+  {
+    "accountCode": 52210,
+    "accountTitle": "BUILDING MAINTENANCE & REPAIRS",
+    "accountClass": "Expenses",
+    "caption": "OCCUPANCY AND EQUIPMENT EXPENSES"
+  },
+  {
+    "accountCode": 52220,
+    "accountTitle": "TBD",
+    "accountClass": "Expenses",
+    "caption": "OCCUPANCY AND EQUIPMENT EXPENSES"
+  },
+  {
+    "accountCode": 52230,
+    "accountTitle": "JANITORIAL SERVICES & SUPPLIES",
+    "accountClass": "Expenses",
+    "caption": "OCCUPANCY AND EQUIPMENT EXPENSES"
+  },
+  {
+    "accountCode": 52250,
+    "accountTitle": "TBD",
+    "accountClass": "Expenses",
+    "caption": "OCCUPANCY AND EQUIPMENT EXPENSES"
+  },
+  {
+    "accountCode": 52260,
+    "accountTitle": "TBD",
+    "accountClass": "Expenses",
+    "caption": "OCCUPANCY AND EQUIPMENT EXPENSES"
+  },
+  {
+    "accountCode": 52270,
+    "accountTitle": "MISC OCCUPANCY EXPENSE",
+    "accountClass": "Expenses",
+    "caption": "OCCUPANCY AND EQUIPMENT EXPENSES"
+  },
+  {
+    "accountCode": 52280,
+    "accountTitle": "OCCUPANCY LEASE EXPENSE",
+    "accountClass": "Expenses",
+    "caption": "OCCUPANCY AND EQUIPMENT EXPENSES"
+  },
+  {
+    "accountCode": 52285,
+    "accountTitle": "TENANT ALLOWANCE AMORTIZATION",
+    "accountClass": "Expenses",
+    "caption": "OCCUPANCY AND EQUIPMENT EXPENSES"
+  },
+  {
+    "accountCode": 52290,
+    "accountTitle": "UTILITIES",
+    "accountClass": "Expenses",
+    "caption": "OCCUPANCY AND EQUIPMENT EXPENSES"
+  },
+  {
+    "accountCode": 52295,
+    "accountTitle": "TBD",
+    "accountClass": "Expenses",
+    "caption": "OCCUPANCY AND EQUIPMENT EXPENSES"
+  },
+  {
+    "accountCode": 52296,
+    "accountTitle": "TBD",
+    "accountClass": "Expenses",
+    "caption": "OCCUPANCY AND EQUIPMENT EXPENSES"
+  },
+  {
+    "accountCode": 52310,
+    "accountTitle": "UNSECURED PROPERTY TAXES",
+    "accountClass": "Expenses",
+    "caption": "OCCUPANCY AND EQUIPMENT EXPENSES"
+  },
+  {
+    "accountCode": 52320,
+    "accountTitle": "EQUIPMENT REPAIRS & MAINTENANCE",
+    "accountClass": "Expenses",
+    "caption": "OCCUPANCY AND EQUIPMENT EXPENSES"
+  },
+  {
+    "accountCode": 52325,
+    "accountTitle": "ATM MAINTENANCE & REPAIRS",
+    "accountClass": "Expenses",
+    "caption": "OCCUPANCY AND EQUIPMENT EXPENSES"
+  },
+  {
+    "accountCode": 52330,
+    "accountTitle": "FURNITURE & FIXTURE EXPENSE",
+    "accountClass": "Expenses",
+    "caption": "OCCUPANCY AND EQUIPMENT EXPENSES"
+  },
+  {
+    "accountCode": 52350,
+    "accountTitle": "MAINTENANCE CONTRACTS - EQUIPMENT",
+    "accountClass": "Expenses",
+    "caption": "OCCUPANCY AND EQUIPMENT EXPENSES"
+  },
+  {
+    "accountCode": 52370,
+    "accountTitle": "NON-CAPITALIZED FF & E COSTS",
+    "accountClass": "Expenses",
+    "caption": "OCCUPANCY AND EQUIPMENT EXPENSES"
+  },
+  {
+    "accountCode": 52380,
+    "accountTitle": "MAINT CONTRACTS IS & OTHER IS EXP NON-EQ",
+    "accountClass": "Expenses",
+    "caption": "OCCUPANCY AND EQUIPMENT EXPENSES"
+  },
+  {
+    "accountCode": 52385,
+    "accountTitle": "NON-CAPITALIZED COMPUTER & SOFTWARE EXP",
+    "accountClass": "Expenses",
+    "caption": "OCCUPANCY AND EQUIPMENT EXPENSES"
+  },
+  {
+    "accountCode": 54210,
+    "accountTitle": "AUDIT, TAX & ACCOUNTING FEES",
+    "accountClass": "Expenses",
+    "caption": "OTHER EXPENSES"
+  },
+  {
+    "accountCode": 54220,
+    "accountTitle": "DIRECTOR FEES",
+    "accountClass": "Expenses",
+    "caption": "OTHER EXPENSES"
+  },
+  {
+    "accountCode": 54225,
+    "accountTitle": "STOCK OPTION EXP-DIRECTORS/ORGANIZORS",
+    "accountClass": "Expenses",
+    "caption": "OTHER EXPENSES"
+  },
+  {
+    "accountCode": 54230,
+    "accountTitle": "EXAMINATION & REGULATORY FEES",
+    "accountClass": "Expenses",
+    "caption": "OTHER EXPENSES"
+  },
+  {
+    "accountCode": 54240,
+    "accountTitle": "LEGAL FEES",
+    "accountClass": "Expenses",
+    "caption": "OTHER EXPENSES"
+  },
+  {
+    "accountCode": 54250,
+    "accountTitle": "TBD",
+    "accountClass": "Expenses",
+    "caption": "OTHER EXPENSES"
+  },
+  {
+    "accountCode": 54260,
+    "accountTitle": "OTHER PROFESSIONAL FEES",
+    "accountClass": "Expenses",
+    "caption": "OTHER EXPENSES"
+  },
+  {
+    "accountCode": 54270,
+    "accountTitle": "CORRESPONDENT BANK CHARGES",
+    "accountClass": "Expenses",
+    "caption": "OTHER EXPENSES"
+  },
+  {
+    "accountCode": 54310,
+    "accountTitle": "FDIC INSURANCE",
+    "accountClass": "Expenses",
+    "caption": "OTHER EXPENSES"
+  },
+  {
+    "accountCode": 54315,
+    "accountTitle": "BLANKET BOND INSURANCE",
+    "accountClass": "Expenses",
+    "caption": "OTHER EXPENSES"
+  },
+  {
+    "accountCode": 54320,
+    "accountTitle": "D & O/INTERNET LIAB INSURANCE",
+    "accountClass": "Expenses",
+    "caption": "OTHER EXPENSES"
+  },
+  {
+    "accountCode": 54325,
+    "accountTitle": "BUILDING PROPERTY & LIABILITY INSURANCE",
+    "accountClass": "Expenses",
+    "caption": "OTHER EXPENSES"
+  },
+  {
+    "accountCode": 54330,
+    "accountTitle": "TBD",
+    "accountClass": "Expenses",
+    "caption": "OTHER EXPENSES"
+  },
+  {
+    "accountCode": 55120,
+    "accountTitle": "ADVERTISING - GENERAL",
+    "accountClass": "Expenses",
+    "caption": "OTHER EXPENSES"
+  },
+  {
+    "accountCode": 55125,
+    "accountTitle": "TBD",
+    "accountClass": "Expenses",
+    "caption": "OTHER EXPENSES"
+  },
+  {
+    "accountCode": 55130,
+    "accountTitle": "TBD",
+    "accountClass": "Expenses",
+    "caption": "OTHER EXPENSES"
+  },
+  {
+    "accountCode": 55150,
+    "accountTitle": "BUSINESS DEVELOPMENT",
+    "accountClass": "Expenses",
+    "caption": "OTHER EXPENSES"
+  },
+  {
+    "accountCode": 55170,
+    "accountTitle": "PUBLIC RELATIONS EXPENSE",
+    "accountClass": "Expenses",
+    "caption": "OTHER EXPENSES"
+  },
+  {
+    "accountCode": 55205,
+    "accountTitle": "ARMORED TRANSPORT",
+    "accountClass": "Expenses",
+    "caption": "OTHER EXPENSES"
+  },
+  {
+    "accountCode": 55206,
+    "accountTitle": "ARMED GUARD",
+    "accountClass": "Expenses",
+    "caption": "OTHER EXPENSES"
+  },
+  {
+    "accountCode": 55207,
+    "accountTitle": "ATM INTERCHANGE EXPENSE",
+    "accountClass": "Expenses",
+    "caption": "OTHER EXPENSES"
+  },
+  {
+    "accountCode": 55208,
+    "accountTitle": "ALARM & SECURITY",
+    "accountClass": "Expenses",
+    "caption": "OTHER EXPENSES"
+  },
+  {
+    "accountCode": 55209,
+    "accountTitle": "C/CARD SERVICE FEE",
+    "accountClass": "Expenses",
+    "caption": "OTHER EXPENSES"
+  },
+  {
+    "accountCode": 55210,
+    "accountTitle": "CONFERENCES, SEMINARS & MEETINGS",
+    "accountClass": "Expenses",
+    "caption": "OTHER EXPENSES"
+  },
+  {
+    "accountCode": 55215,
+    "accountTitle": "DEBIT CARD PROCESSING FEE",
+    "accountClass": "Expenses",
+    "caption": "OTHER EXPENSES"
+  },
+  {
+    "accountCode": 55216,
+    "accountTitle": "DEBIT CARD REWARD EXPENSE",
+    "accountClass": "Expenses",
+    "caption": "OTHER EXPENSES"
+  },
+  {
+    "accountCode": 55217,
+    "accountTitle": "INTERNATIONAL ATM FEES",
+    "accountClass": "Expenses",
+    "caption": "OTHER EXPENSES"
+  },
+  {
+    "accountCode": 55220,
+    "accountTitle": "DONATIONS/CONTRIBUTIONS",
+    "accountClass": "Expenses",
+    "caption": "OTHER EXPENSES"
+  },
+  {
+    "accountCode": 55224,
+    "accountTitle": "TBD",
+    "accountClass": "Expenses",
+    "caption": "OTHER EXPENSES"
+  },
+  {
+    "accountCode": 55225,
+    "accountTitle": "CHECK PRINTING EXPENSE",
+    "accountClass": "Expenses",
+    "caption": "OTHER EXPENSES"
+  },
+  {
+    "accountCode": 55227,
+    "accountTitle": "CHECK VERIF/NOTIFICATION",
+    "accountClass": "Expenses",
+    "caption": "OTHER EXPENSES"
+  },
+  {
+    "accountCode": 55229,
+    "accountTitle": "CDARS - ACCT OPENING FEE",
+    "accountClass": "Expenses",
+    "caption": "OTHER EXPENSES"
+  },
+  {
+    "accountCode": 55230,
+    "accountTitle": "MISC EXPENSE",
+    "accountClass": "Expenses",
+    "caption": "OTHER EXPENSES"
+  },
+  {
+    "accountCode": 55231,
+    "accountTitle": "CUSTOMER SERVICES",
+    "accountClass": "Expenses",
+    "caption": "OTHER EXPENSES"
+  },
+  {
+    "accountCode": 55232,
+    "accountTitle": "PENALTIES",
+    "accountClass": "Expenses",
+    "caption": "OTHER EXPENSES"
+  },
+  {
+    "accountCode": 55235,
+    "accountTitle": "BUSINESS MEALS & ENTERTAINMENT",
+    "accountClass": "Expenses",
+    "caption": "OTHER EXPENSES"
+  },
+  {
+    "accountCode": 55240,
+    "accountTitle": "MEMBERSHIPS",
+    "accountClass": "Expenses",
+    "caption": "OTHER EXPENSES"
+  },
+  {
+    "accountCode": 55245,
+    "accountTitle": "TBD",
+    "accountClass": "Expenses",
+    "caption": "OTHER EXPENSES"
+  },
+  {
+    "accountCode": 55250,
+    "accountTitle": "OPERATIONAL LOSSES",
+    "accountClass": "Expenses",
+    "caption": "OTHER EXPENSES"
+  },
+  {
+    "accountCode": 55255,
+    "accountTitle": "POSTAGE & MAILING EXPENSE",
+    "accountClass": "Expenses",
+    "caption": "OTHER EXPENSES"
+  },
+  {
+    "accountCode": 55256,
+    "accountTitle": "COURIER EXPENSE",
+    "accountClass": "Expenses",
+    "caption": "OTHER EXPENSES"
+  },
+  {
+    "accountCode": 55260,
+    "accountTitle": "PUBLICATIONS, DUES & SUBSCRIPTIONS",
+    "accountClass": "Expenses",
+    "caption": "OTHER EXPENSES"
+  },
+  {
+    "accountCode": 55265,
+    "accountTitle": "STATIONARY-LETTERHEAD ETC. & PRINTING",
+    "accountClass": "Expenses",
+    "caption": "OTHER EXPENSES"
+  },
+  {
+    "accountCode": 55267,
+    "accountTitle": "SUNDRY LOSSES",
+    "accountClass": "Expenses",
+    "caption": "OTHER EXPENSES"
+  },
+  {
+    "accountCode": 55270,
+    "accountTitle": "SUPPLIES",
+    "accountClass": "Expenses",
+    "caption": "OTHER EXPENSES"
+  },
+  {
+    "accountCode": 55273,
+    "accountTitle": "OTHER TAXES",
+    "accountClass": "Expenses",
+    "caption": "OTHER EXPENSES"
+  },
+  {
+    "accountCode": 55275,
+    "accountTitle": "TELEPHONE EXPENSE",
+    "accountClass": "Expenses",
+    "caption": "OTHER EXPENSES"
+  },
+  {
+    "accountCode": 55277,
+    "accountTitle": "INTERNET SERVICES",
+    "accountClass": "Expenses",
+    "caption": "OTHER EXPENSES"
+  },
+  {
+    "accountCode": 55280,
+    "accountTitle": "TELLER SHORTAGE",
+    "accountClass": "Expenses",
+    "caption": "OTHER EXPENSES"
+  },
+  {
+    "accountCode": 55285,
+    "accountTitle": "TRAVEL",
+    "accountClass": "Expenses",
+    "caption": "OTHER EXPENSES"
+  },
+  {
+    "accountCode": 55286,
+    "accountTitle": "CUSTOMER PARKING",
+    "accountClass": "Expenses",
+    "caption": "OTHER EXPENSES"
+  },
+  {
+    "accountCode": 55305,
+    "accountTitle": "TBD",
+    "accountClass": "Expenses",
+    "caption": "OTHER EXPENSES"
+  },
+  {
+    "accountCode": 55310,
+    "accountTitle": "TBD",
+    "accountClass": "Expenses",
+    "caption": "OTHER EXPENSES"
+  },
+  {
+    "accountCode": 55315,
+    "accountTitle": "CORE PROCESSOR EXPENSE",
+    "accountClass": "Expenses",
+    "caption": "OTHER EXPENSES"
+  },
+  {
+    "accountCode": 55320,
+    "accountTitle": "TBD",
+    "accountClass": "Expenses",
+    "caption": "OTHER EXPENSES"
+  },
+  {
+    "accountCode": 55330,
+    "accountTitle": "TBD",
+    "accountClass": "Expenses",
+    "caption": "OTHER EXPENSES"
+  },
+  {
+    "accountCode": 55340,
+    "accountTitle": "OTHER PROCESSOR EXPENSE",
+    "accountClass": "Expenses",
+    "caption": "OTHER EXPENSES"
+  },
+  {
+    "accountCode": 55350,
+    "accountTitle": "TBD",
+    "accountClass": "Expenses",
+    "caption": "OTHER EXPENSES"
+  },
+  {
+    "accountCode": 60010,
+    "accountTitle": "OFFICERS SALARIES",
+    "accountClass": "Expenses",
+    "caption": "SALARIES AND EMPLOYEE BENEFITS"
+  },
+  {
+    "accountCode": 60020,
+    "accountTitle": "EMPLOYEE WAGES",
+    "accountClass": "Expenses",
+    "caption": "SALARIES AND EMPLOYEE BENEFITS"
+  },
+  {
+    "accountCode": 60030,
+    "accountTitle": "EMPLOYEE OVERTIME",
+    "accountClass": "Expenses",
+    "caption": "SALARIES AND EMPLOYEE BENEFITS"
+  },
+  {
+    "accountCode": 60050,
+    "accountTitle": "FASB 91 DEFERRAL",
+    "accountClass": "Expenses",
+    "caption": "SALARIES AND EMPLOYEE BENEFITS"
+  },
+  {
+    "accountCode": 60095,
+    "accountTitle": "SALARY EXPENSE ALLOCATIONS-BBC & BRANCHE",
+    "accountClass": "Expenses",
+    "caption": "SALARIES AND EMPLOYEE BENEFITS"
+  },
+  {
+    "accountCode": 60096,
+    "accountTitle": "TBD",
+    "accountClass": "Expenses",
+    "caption": "SALARIES AND EMPLOYEE BENEFITS"
+  },
+  {
+    "accountCode": 60097,
+    "accountTitle": "TBD",
+    "accountClass": "Expenses",
+    "caption": "SALARIES AND EMPLOYEE BENEFITS"
+  },
+  {
+    "accountCode": 60098,
+    "accountTitle": "SALARY EXPENSE ALLOCATION TO BHC",
+    "accountClass": "Expenses",
+    "caption": "SALARIES AND EMPLOYEE BENEFITS"
+  },
+  {
+    "accountCode": 60100,
+    "accountTitle": "401K PLAN EMPLOYER MATCHING",
+    "accountClass": "Expenses",
+    "caption": "SALARIES AND EMPLOYEE BENEFITS"
+  },
+  {
+    "accountCode": 60105,
+    "accountTitle": "AUTO ALLOWANCE-MILEAGE REIMBURSEMENT",
+    "accountClass": "Expenses",
+    "caption": "SALARIES AND EMPLOYEE BENEFITS"
+  },
+  {
+    "accountCode": 60110,
+    "accountTitle": "TBD",
+    "accountClass": "Expenses",
+    "caption": "SALARIES AND EMPLOYEE BENEFITS"
+  },
+  {
+    "accountCode": 60115,
+    "accountTitle": "EMPLOYEE BONUSES & INCENTIVES",
+    "accountClass": "Expenses",
+    "caption": "SALARIES AND EMPLOYEE BENEFITS"
+  },
+  {
+    "accountCode": 60116,
+    "accountTitle": "YEAR END BONUSES",
+    "accountClass": "Expenses",
+    "caption": "SALARIES AND EMPLOYEE BENEFITS"
+  },
+  {
+    "accountCode": 60117,
+    "accountTitle": "STOCK OPTION EXPENSE-EMPLOYEES",
+    "accountClass": "Expenses",
+    "caption": "SALARIES AND EMPLOYEE BENEFITS"
+  },
+  {
+    "accountCode": 60120,
+    "accountTitle": "EMPLOYEE GROUP INSURANCE",
+    "accountClass": "Expenses",
+    "caption": "SALARIES AND EMPLOYEE BENEFITS"
+  },
+  {
+    "accountCode": 60125,
+    "accountTitle": "EMPLOYER PAYROLL TAXES",
+    "accountClass": "Expenses",
+    "caption": "SALARIES AND EMPLOYEE BENEFITS"
+  },
+  {
+    "accountCode": 60130,
+    "accountTitle": "VACATION",
+    "accountClass": "Expenses",
+    "caption": "SALARIES AND EMPLOYEE BENEFITS"
+  },
+  {
+    "accountCode": 60135,
+    "accountTitle": "OTHER EMPLOYMENT EXPENSE",
+    "accountClass": "Expenses",
+    "caption": "SALARIES AND EMPLOYEE BENEFITS"
+  },
+  {
+    "accountCode": 60140,
+    "accountTitle": "BANK AUTO EXPENSES AND LEASE PAYMENTS",
+    "accountClass": "Expenses",
+    "caption": "SALARIES AND EMPLOYEE BENEFITS"
+  },
+  {
+    "accountCode": 60145,
+    "accountTitle": "TBD",
+    "accountClass": "Expenses",
+    "caption": "SALARIES AND EMPLOYEE BENEFITS"
+  },
+  {
+    "accountCode": 60150,
+    "accountTitle": "RECRUITING EXPENSE FOR EMPLOYEES",
+    "accountClass": "Expenses",
+    "caption": "SALARIES AND EMPLOYEE BENEFITS"
+  },
+  {
+    "accountCode": 60155,
+    "accountTitle": "EMPLOYEE EDUCATION",
+    "accountClass": "Expenses",
+    "caption": "SALARIES AND EMPLOYEE BENEFITS"
+  },
+  {
+    "accountCode": 60160,
+    "accountTitle": "EMPLOYEE PARKING",
+    "accountClass": "Expenses",
+    "caption": "SALARIES AND EMPLOYEE BENEFITS"
+  },
+  {
+    "accountCode": 60190,
+    "accountTitle": "WORKERS COMPENSATION INSURANCE",
+    "accountClass": "Expenses",
+    "caption": "SALARIES AND EMPLOYEE BENEFITS"
+  },
+  {
+    "accountCode": 60195,
+    "accountTitle": "EMP BENEFITS ALLOCATIONS-BBC & BRANCHES",
+    "accountClass": "Expenses",
+    "caption": "SALARIES AND EMPLOYEE BENEFITS"
+  },
+  {
+    "accountCode": 60196,
+    "accountTitle": "TBD",
+    "accountClass": "Expenses",
+    "caption": "SALARIES AND EMPLOYEE BENEFITS"
+  },
+  {
+    "accountCode": 60197,
+    "accountTitle": "TBD",
+    "accountClass": "Expenses",
+    "caption": "SALARIES AND EMPLOYEE BENEFITS"
+  },
+  {
+    "accountCode": 60198,
+    "accountTitle": "EMP BENEFITS ALLOCATIONS TO BHC",
+    "accountClass": "Expenses",
+    "caption": "SALARIES AND EMPLOYEE BENEFITS"
+  },
+  {
+    "accountCode": 61410,
+    "accountTitle": "HQ EXPENSE ALLOCATION",
+    "accountClass": null,
+    "caption": null
+  },
+  {
+    "accountCode": 61700,
+    "accountTitle": "APPRAISAL FEES",
+    "accountClass": "Expenses",
+    "caption": "OTHER EXPENSES"
+  },
+  {
+    "accountCode": 61705,
+    "accountTitle": "TBD",
+    "accountClass": "Expenses",
+    "caption": "OTHER EXPENSES"
+  },
+  {
+    "accountCode": 61706,
+    "accountTitle": "FORCED PLACE INSURANCE",
+    "accountClass": "Expenses",
+    "caption": "OTHER EXPENSES"
+  },
+  {
+    "accountCode": 61707,
+    "accountTitle": "FORECLOSURE FEES",
+    "accountClass": "Expenses",
+    "caption": "OTHER EXPENSES"
+  },
+  {
+    "accountCode": 61710,
+    "accountTitle": "AUTO LOAN REFERRAL FEE",
+    "accountClass": "Expenses",
+    "caption": "OTHER EXPENSES"
+  },
+  {
+    "accountCode": 61711,
+    "accountTitle": "SBA REFERRAL FEES",
+    "accountClass": "Expenses",
+    "caption": "OTHER EXPENSES"
+  },
+  {
+    "accountCode": 61712,
+    "accountTitle": "COMMERCIAL LOAN REFERRAL FEES",
+    "accountClass": "Expenses",
+    "caption": "OTHER EXPENSES"
+  },
+  {
+    "accountCode": 61715,
+    "accountTitle": "AUTO REPO & RELATED EXPENSE",
+    "accountClass": "Expenses",
+    "caption": "OTHER EXPENSES"
+  },
+  {
+    "accountCode": 61716,
+    "accountTitle": "AUTO REPO & RELATED INCOME",
+    "accountClass": "Expenses",
+    "caption": "OTHER EXPENSES"
+  },
+  {
+    "accountCode": 61718,
+    "accountTitle": "AUTO PROTECTION INSURANCE",
+    "accountClass": "Expenses",
+    "caption": "OTHER EXPENSES"
+  },
+  {
+    "accountCode": 61720,
+    "accountTitle": "CREDIT BUREAU EXPENSE",
+    "accountClass": "Expenses",
+    "caption": "OTHER EXPENSES"
+  },
+  {
+    "accountCode": 61725,
+    "accountTitle": "TBD",
+    "accountClass": "Expenses",
+    "caption": "OTHER EXPENSES"
+  },
+  {
+    "accountCode": 61730,
+    "accountTitle": "FILING & RECORDING FEE EXPENSE",
+    "accountClass": "Expenses",
+    "caption": "OTHER EXPENSES"
+  },
+  {
+    "accountCode": 61740,
+    "accountTitle": "LEGAL FEES - LOANS",
+    "accountClass": "Expenses",
+    "caption": "OTHER EXPENSES"
+  },
+  {
+    "accountCode": 61745,
+    "accountTitle": "TBD",
+    "accountClass": "Expenses",
+    "caption": "OTHER EXPENSES"
+  },
+  {
+    "accountCode": 61748,
+    "accountTitle": "LOAN UNDERWRITING FEE",
+    "accountClass": "Expenses",
+    "caption": "OTHER EXPENSES"
+  },
+  {
+    "accountCode": 61750,
+    "accountTitle": "OREO EXPENSE",
+    "accountClass": "Expenses",
+    "caption": "OTHER EXPENSES"
+  },
+  {
+    "accountCode": 61760,
+    "accountTitle": "TBD",
+    "accountClass": "Expenses",
+    "caption": "OTHER EXPENSES"
+  },
+  {
+    "accountCode": 61770,
+    "accountTitle": "TITLE INSURANCE FEES",
+    "accountClass": "Expenses",
+    "caption": "OTHER EXPENSES"
+  },
+  {
+    "accountCode": 61775,
+    "accountTitle": "TBD",
+    "accountClass": "Expenses",
+    "caption": "OTHER EXPENSES"
+  },
+  {
+    "accountCode": 61780,
+    "accountTitle": "SBA GUARANTEE FEE PAID BY BANK",
+    "accountClass": "Expenses",
+    "caption": "OTHER EXPENSES"
+  },
+  {
+    "accountCode": 61785,
+    "accountTitle": "OTHER LOAN EXPENSE",
+    "accountClass": "Expenses",
+    "caption": "OTHER EXPENSES"
+  },
+  {
+    "accountCode": 61790,
+    "accountTitle": "PROVISION FOR OFF B/S CREDIT LOSSES",
+    "accountClass": "Expenses",
+    "caption": "OTHER EXPENSES"
+  },
+  {
+    "accountCode": 61795,
+    "accountTitle": "PROVISION FOR LHFS VALUATION ALLOWANCE",
+    "accountClass": "Expenses",
+    "caption": "OTHER EXPENSES"
+  },
+  {
+    "accountCode": 61800,
+    "accountTitle": "PROVISION FOR LOAN LOSSES",
+    "accountClass": "Expenses",
+    "caption": "PROVISION FOR LOAN LOSSES"
+  },
+  {
+    "accountCode": 61850,
+    "accountTitle": "TBD",
+    "accountClass": "Expenses",
+    "caption": "PROVISION FOR LOAN LOSSES"
+  },
+  {
+    "accountCode": 62000,
+    "accountTitle": "INTERBRANCH INCOME / EXPENSE",
+    "accountClass": null,
+    "caption": null
+  },
+  {
+    "accountCode": 81000,
+    "accountTitle": "FEDERAL TAX EXPENSE",
+    "accountClass": "Expenses",
+    "caption": "INCOME TAX EXPENSES"
+  },
+  {
+    "accountCode": 81050,
+    "accountTitle": "STATE TAX EXPENSE",
+    "accountClass": "Expenses",
+    "caption": "INCOME TAX EXPENSES"
+  },
+  {
+    "accountCode": 81055,
+    "accountTitle": "DTA VALUATION ALLOWANCE",
+    "accountClass": "Expenses",
+    "caption": "INCOME TAX EXPENSES"
+  }
+]

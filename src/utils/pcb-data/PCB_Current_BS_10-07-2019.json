@@ -1,0 +1,5532 @@
+[
+  {
+    "account": {
+      "accountCode": "10100"
+    },
+    "amountUnit": 1000,
+    "debit": {
+      "formatted": "3,587,627",
+      "amount": 3587627000
+    },
+    "credit": {
+      "formatted": "0",
+      "amount": 0
+    }
+  },
+  {
+    "account": {
+      "accountCode": "10101"
+    },
+    "amountUnit": 1000,
+    "debit": {
+      "formatted": "28,031",
+      "amount": 28031100
+    },
+    "credit": {
+      "formatted": "0",
+      "amount": 0
+    }
+  },
+  {
+    "account": {
+      "accountCode": "10102"
+    },
+    "amountUnit": 1000,
+    "debit": {
+      "formatted": "26,075",
+      "amount": 26074730
+    },
+    "credit": {
+      "formatted": "0",
+      "amount": 0
+    }
+  },
+  {
+    "account": {
+      "accountCode": "10103"
+    },
+    "amountUnit": 1000,
+    "debit": {
+      "formatted": "15,800",
+      "amount": 15800190
+    },
+    "credit": {
+      "formatted": "0",
+      "amount": 0
+    }
+  },
+  {
+    "account": {
+      "accountCode": "10104"
+    },
+    "amountUnit": 1000,
+    "debit": {
+      "formatted": "10,569",
+      "amount": 10569180
+    },
+    "credit": {
+      "formatted": "0",
+      "amount": 0
+    }
+  },
+  {
+    "account": {
+      "accountCode": "10105"
+    },
+    "amountUnit": 1000,
+    "debit": {
+      "formatted": "2,162",
+      "amount": 2162040
+    },
+    "credit": {
+      "formatted": "0",
+      "amount": 0
+    }
+  },
+  {
+    "account": {
+      "accountCode": "10106"
+    },
+    "amountUnit": 1000,
+    "debit": {
+      "formatted": "0",
+      "amount": 0
+    },
+    "credit": {
+      "formatted": "0",
+      "amount": 0
+    }
+  },
+  {
+    "account": {
+      "accountCode": "10107"
+    },
+    "amountUnit": 1000,
+    "debit": {
+      "formatted": "0",
+      "amount": 0
+    },
+    "credit": {
+      "formatted": "0",
+      "amount": 0
+    }
+  },
+  {
+    "account": {
+      "accountCode": "10108"
+    },
+    "amountUnit": 1000,
+    "debit": {
+      "formatted": "0",
+      "amount": 0
+    },
+    "credit": {
+      "formatted": "0",
+      "amount": 0
+    }
+  },
+  {
+    "account": {
+      "accountCode": "10120"
+    },
+    "amountUnit": 1000,
+    "debit": {
+      "formatted": "0",
+      "amount": 0
+    },
+    "credit": {
+      "formatted": "0",
+      "amount": 0
+    }
+  },
+  {
+    "account": {
+      "accountCode": "10130"
+    },
+    "amountUnit": 1000,
+    "debit": {
+      "formatted": "89,640",
+      "amount": 89640000
+    },
+    "credit": {
+      "formatted": "0",
+      "amount": 0
+    }
+  },
+  {
+    "account": {
+      "accountCode": "10140"
+    },
+    "amountUnit": 1000,
+    "debit": {
+      "formatted": "75",
+      "amount": 75400
+    },
+    "credit": {
+      "formatted": "0",
+      "amount": 0
+    }
+  },
+  {
+    "account": {
+      "accountCode": "10210"
+    },
+    "amountUnit": 1000,
+    "debit": {
+      "formatted": "0",
+      "amount": 0
+    },
+    "credit": {
+      "formatted": "0",
+      "amount": 0
+    }
+  },
+  {
+    "account": {
+      "accountCode": "10220"
+    },
+    "amountUnit": 1000,
+    "debit": {
+      "formatted": "0",
+      "amount": 0
+    },
+    "credit": {
+      "formatted": "0",
+      "amount": 0
+    }
+  },
+  {
+    "account": {
+      "accountCode": "10230"
+    },
+    "amountUnit": 1000,
+    "debit": {
+      "formatted": "0",
+      "amount": 0
+    },
+    "credit": {
+      "formatted": "0",
+      "amount": 0
+    }
+  },
+  {
+    "account": {
+      "accountCode": "10240"
+    },
+    "amountUnit": 1000,
+    "debit": {
+      "formatted": "7,190,638",
+      "amount": 7190638250
+    },
+    "credit": {
+      "formatted": "0",
+      "amount": 0
+    }
+  },
+  {
+    "account": {
+      "accountCode": "10250"
+    },
+    "amountUnit": 1000,
+    "debit": {
+      "formatted": "0",
+      "amount": 0
+    },
+    "credit": {
+      "formatted": "0",
+      "amount": 0
+    }
+  },
+  {
+    "account": {
+      "accountCode": "10260"
+    },
+    "amountUnit": 1000,
+    "debit": {
+      "formatted": "0",
+      "amount": 0
+    },
+    "credit": {
+      "formatted": "0",
+      "amount": 0
+    }
+  },
+  {
+    "account": {
+      "accountCode": "10275"
+    },
+    "amountUnit": 1000,
+    "debit": {
+      "formatted": "0",
+      "amount": 0
+    },
+    "credit": {
+      "formatted": "0",
+      "amount": 0
+    }
+  },
+  {
+    "account": {
+      "accountCode": "10310"
+    },
+    "amountUnit": 1000,
+    "debit": {
+      "formatted": "8,222,634",
+      "amount": 8222633500
+    },
+    "credit": {
+      "formatted": "0",
+      "amount": 0
+    }
+  },
+  {
+    "account": {
+      "accountCode": "10320"
+    },
+    "amountUnit": 1000,
+    "debit": {
+      "formatted": "200,000",
+      "amount": 200000000
+    },
+    "credit": {
+      "formatted": "0",
+      "amount": 0
+    }
+  },
+  {
+    "account": {
+      "accountCode": "10330"
+    },
+    "amountUnit": 1000,
+    "debit": {
+      "formatted": "141,348",
+      "amount": 141347810
+    },
+    "credit": {
+      "formatted": "0",
+      "amount": 0
+    }
+  },
+  {
+    "account": {
+      "accountCode": "10331"
+    },
+    "amountUnit": 1000,
+    "debit": {
+      "formatted": "0",
+      "amount": 0
+    },
+    "credit": {
+      "formatted": "0",
+      "amount": 0
+    }
+  },
+  {
+    "account": {
+      "accountCode": "10340"
+    },
+    "amountUnit": 1000,
+    "debit": {
+      "formatted": "0",
+      "amount": 0
+    },
+    "credit": {
+      "formatted": "0",
+      "amount": 0
+    }
+  },
+  {
+    "account": {
+      "accountCode": "10390"
+    },
+    "amountUnit": 1000,
+    "debit": {
+      "formatted": "0",
+      "amount": 0
+    },
+    "credit": {
+      "formatted": "0",
+      "amount": 0
+    }
+  },
+  {
+    "account": {
+      "accountCode": "10405"
+    },
+    "amountUnit": 1000,
+    "debit": {
+      "formatted": "50,965,576",
+      "amount": 50965576260
+    },
+    "credit": {
+      "formatted": "0",
+      "amount": 0
+    }
+  },
+  {
+    "account": {
+      "accountCode": "10410"
+    },
+    "amountUnit": 1000,
+    "debit": {
+      "formatted": "0",
+      "amount": 0
+    },
+    "credit": {
+      "formatted": "0",
+      "amount": 0
+    }
+  },
+  {
+    "account": {
+      "accountCode": "10420"
+    },
+    "amountUnit": 1000,
+    "debit": {
+      "formatted": "12,714",
+      "amount": 12713690
+    },
+    "credit": {
+      "formatted": "0",
+      "amount": 0
+    }
+  },
+  {
+    "account": {
+      "accountCode": "10430"
+    },
+    "amountUnit": 1000,
+    "debit": {
+      "formatted": "1,025,516",
+      "amount": 1025516030
+    },
+    "credit": {
+      "formatted": "0",
+      "amount": 0
+    }
+  },
+  {
+    "account": {
+      "accountCode": "10440"
+    },
+    "amountUnit": 1000,
+    "debit": {
+      "formatted": "0",
+      "amount": 0
+    },
+    "credit": {
+      "formatted": "0",
+      "amount": 0
+    }
+  },
+  {
+    "account": {
+      "accountCode": "10490"
+    },
+    "amountUnit": 1000,
+    "debit": {
+      "formatted": "0",
+      "amount": 0
+    },
+    "credit": {
+      "formatted": "0",
+      "amount": 0
+    }
+  },
+  {
+    "account": {
+      "accountCode": "11000"
+    },
+    "amountUnit": 1000,
+    "debit": {
+      "formatted": "0",
+      "amount": 0
+    },
+    "credit": {
+      "formatted": "0",
+      "amount": 0
+    }
+  },
+  {
+    "account": {
+      "accountCode": "11010"
+    },
+    "amountUnit": 1000,
+    "debit": {
+      "formatted": "0",
+      "amount": 0
+    },
+    "credit": {
+      "formatted": "0",
+      "amount": 0
+    }
+  },
+  {
+    "account": {
+      "accountCode": "11030"
+    },
+    "amountUnit": 1000,
+    "debit": {
+      "formatted": "0",
+      "amount": 0
+    },
+    "credit": {
+      "formatted": "0",
+      "amount": 0
+    }
+  },
+  {
+    "account": {
+      "accountCode": "11070"
+    },
+    "amountUnit": 1000,
+    "debit": {
+      "formatted": "0",
+      "amount": 0
+    },
+    "credit": {
+      "formatted": "0",
+      "amount": 0
+    }
+  },
+  {
+    "account": {
+      "accountCode": "11110"
+    },
+    "amountUnit": 1000,
+    "debit": {
+      "formatted": "2,803,773",
+      "amount": 2803773230
+    },
+    "credit": {
+      "formatted": "0",
+      "amount": 0
+    }
+  },
+  {
+    "account": {
+      "accountCode": "11120"
+    },
+    "amountUnit": 1000,
+    "debit": {
+      "formatted": "15,463",
+      "amount": 15463380
+    },
+    "credit": {
+      "formatted": "0",
+      "amount": 0
+    }
+  },
+  {
+    "account": {
+      "accountCode": "11130"
+    },
+    "amountUnit": 1000,
+    "debit": {
+      "formatted": "0",
+      "amount": 0
+    },
+    "credit": {
+      "formatted": "0",
+      "amount": 0
+    }
+  },
+  {
+    "account": {
+      "accountCode": "11170"
+    },
+    "amountUnit": 1000,
+    "debit": {
+      "formatted": "0",
+      "amount": 0
+    },
+    "credit": {
+      "formatted": "185,408",
+      "amount": 185408210
+    }
+  },
+  {
+    "account": {
+      "accountCode": "11200"
+    },
+    "amountUnit": 1000,
+    "debit": {
+      "formatted": "225,000",
+      "amount": 225000000
+    },
+    "credit": {
+      "formatted": "0",
+      "amount": 0
+    }
+  },
+  {
+    "account": {
+      "accountCode": "11210"
+    },
+    "amountUnit": 1000,
+    "debit": {
+      "formatted": "0",
+      "amount": 0
+    },
+    "credit": {
+      "formatted": "0",
+      "amount": 0
+    }
+  },
+  {
+    "account": {
+      "accountCode": "11230"
+    },
+    "amountUnit": 1000,
+    "debit": {
+      "formatted": "0",
+      "amount": 0
+    },
+    "credit": {
+      "formatted": "0",
+      "amount": 0
+    }
+  },
+  {
+    "account": {
+      "accountCode": "11270"
+    },
+    "amountUnit": 1000,
+    "debit": {
+      "formatted": "21,611",
+      "amount": 21611250
+    },
+    "credit": {
+      "formatted": "0",
+      "amount": 0
+    }
+  },
+  {
+    "account": {
+      "accountCode": "11300"
+    },
+    "amountUnit": 1000,
+    "debit": {
+      "formatted": "24,079,975",
+      "amount": 24079974610
+    },
+    "credit": {
+      "formatted": "0",
+      "amount": 0
+    }
+  },
+  {
+    "account": {
+      "accountCode": "11310"
+    },
+    "amountUnit": 1000,
+    "debit": {
+      "formatted": "703,046",
+      "amount": 703045820
+    },
+    "credit": {
+      "formatted": "0",
+      "amount": 0
+    }
+  },
+  {
+    "account": {
+      "accountCode": "11330"
+    },
+    "amountUnit": 1000,
+    "debit": {
+      "formatted": "0",
+      "amount": 0
+    },
+    "credit": {
+      "formatted": "1,294",
+      "amount": 1294270
+    }
+  },
+  {
+    "account": {
+      "accountCode": "11370"
+    },
+    "amountUnit": 1000,
+    "debit": {
+      "formatted": "0",
+      "amount": 0
+    },
+    "credit": {
+      "formatted": "295,546",
+      "amount": 295545950
+    }
+  },
+  {
+    "account": {
+      "accountCode": "11380"
+    },
+    "amountUnit": 1000,
+    "debit": {
+      "formatted": "9,229,624",
+      "amount": 9229624120
+    },
+    "credit": {
+      "formatted": "0",
+      "amount": 0
+    }
+  },
+  {
+    "account": {
+      "accountCode": "11385"
+    },
+    "amountUnit": 1000,
+    "debit": {
+      "formatted": "346,829",
+      "amount": 346828940
+    },
+    "credit": {
+      "formatted": "0",
+      "amount": 0
+    }
+  },
+  {
+    "account": {
+      "accountCode": "11390"
+    },
+    "amountUnit": 1000,
+    "debit": {
+      "formatted": "0",
+      "amount": 0
+    },
+    "credit": {
+      "formatted": "0",
+      "amount": 0
+    }
+  },
+  {
+    "account": {
+      "accountCode": "11400"
+    },
+    "amountUnit": 1000,
+    "debit": {
+      "formatted": "29,913,385",
+      "amount": 29913385290
+    },
+    "credit": {
+      "formatted": "0",
+      "amount": 0
+    }
+  },
+  {
+    "account": {
+      "accountCode": "11410"
+    },
+    "amountUnit": 1000,
+    "debit": {
+      "formatted": "395,924",
+      "amount": 395924350
+    },
+    "credit": {
+      "formatted": "0",
+      "amount": 0
+    }
+  },
+  {
+    "account": {
+      "accountCode": "11430"
+    },
+    "amountUnit": 1000,
+    "debit": {
+      "formatted": "0",
+      "amount": 0
+    },
+    "credit": {
+      "formatted": "4,973",
+      "amount": 4972630
+    }
+  },
+  {
+    "account": {
+      "accountCode": "11470"
+    },
+    "amountUnit": 1000,
+    "debit": {
+      "formatted": "0",
+      "amount": 0
+    },
+    "credit": {
+      "formatted": "1,214,359",
+      "amount": 1214359040
+    }
+  },
+  {
+    "account": {
+      "accountCode": "11480"
+    },
+    "amountUnit": 1000,
+    "debit": {
+      "formatted": "0",
+      "amount": 0
+    },
+    "credit": {
+      "formatted": "0",
+      "amount": 0
+    }
+  },
+  {
+    "account": {
+      "accountCode": "11485"
+    },
+    "amountUnit": 1000,
+    "debit": {
+      "formatted": "0",
+      "amount": 0
+    },
+    "credit": {
+      "formatted": "0",
+      "amount": 0
+    }
+  },
+  {
+    "account": {
+      "accountCode": "11490"
+    },
+    "amountUnit": 1000,
+    "debit": {
+      "formatted": "0",
+      "amount": 0
+    },
+    "credit": {
+      "formatted": "0",
+      "amount": 0
+    }
+  },
+  {
+    "account": {
+      "accountCode": "11610"
+    },
+    "amountUnit": 1000,
+    "debit": {
+      "formatted": "0",
+      "amount": 0
+    },
+    "credit": {
+      "formatted": "0",
+      "amount": 0
+    }
+  },
+  {
+    "account": {
+      "accountCode": "11615"
+    },
+    "amountUnit": 1000,
+    "debit": {
+      "formatted": "0",
+      "amount": 0
+    },
+    "credit": {
+      "formatted": "0",
+      "amount": 0
+    }
+  },
+  {
+    "account": {
+      "accountCode": "12010"
+    },
+    "amountUnit": 1000,
+    "debit": {
+      "formatted": "13,425,862",
+      "amount": 13425861650
+    },
+    "credit": {
+      "formatted": "0",
+      "amount": 0
+    }
+  },
+  {
+    "account": {
+      "accountCode": "12015"
+    },
+    "amountUnit": 1000,
+    "debit": {
+      "formatted": "13,271,227",
+      "amount": 13271226520
+    },
+    "credit": {
+      "formatted": "0",
+      "amount": 0
+    }
+  },
+  {
+    "account": {
+      "accountCode": "12016"
+    },
+    "amountUnit": 1000,
+    "debit": {
+      "formatted": "0",
+      "amount": 0
+    },
+    "credit": {
+      "formatted": "0",
+      "amount": 0
+    }
+  },
+  {
+    "account": {
+      "accountCode": "12017"
+    },
+    "amountUnit": 1000,
+    "debit": {
+      "formatted": "72,245",
+      "amount": 72245070
+    },
+    "credit": {
+      "formatted": "0",
+      "amount": 0
+    }
+  },
+  {
+    "account": {
+      "accountCode": "12020"
+    },
+    "amountUnit": 1000,
+    "debit": {
+      "formatted": "11,525",
+      "amount": 11524790
+    },
+    "credit": {
+      "formatted": "0",
+      "amount": 0
+    }
+  },
+  {
+    "account": {
+      "accountCode": "12025"
+    },
+    "amountUnit": 1000,
+    "debit": {
+      "formatted": "0",
+      "amount": 0
+    },
+    "credit": {
+      "formatted": "0",
+      "amount": 0
+    }
+  },
+  {
+    "account": {
+      "accountCode": "12030"
+    },
+    "amountUnit": 1000,
+    "debit": {
+      "formatted": "752,211",
+      "amount": 752210660
+    },
+    "credit": {
+      "formatted": "0",
+      "amount": 0
+    }
+  },
+  {
+    "account": {
+      "accountCode": "12035"
+    },
+    "amountUnit": 1000,
+    "debit": {
+      "formatted": "0",
+      "amount": 0
+    },
+    "credit": {
+      "formatted": "0",
+      "amount": 0
+    }
+  },
+  {
+    "account": {
+      "accountCode": "12075"
+    },
+    "amountUnit": 1000,
+    "debit": {
+      "formatted": "50,313",
+      "amount": 50312710
+    },
+    "credit": {
+      "formatted": "0",
+      "amount": 0
+    }
+  },
+  {
+    "account": {
+      "accountCode": "12110"
+    },
+    "amountUnit": 1000,
+    "debit": {
+      "formatted": "2,403,936",
+      "amount": 2403935680
+    },
+    "credit": {
+      "formatted": "0",
+      "amount": 0
+    }
+  },
+  {
+    "account": {
+      "accountCode": "12115"
+    },
+    "amountUnit": 1000,
+    "debit": {
+      "formatted": "0",
+      "amount": 0
+    },
+    "credit": {
+      "formatted": "0",
+      "amount": 0
+    }
+  },
+  {
+    "account": {
+      "accountCode": "12120"
+    },
+    "amountUnit": 1000,
+    "debit": {
+      "formatted": "144,804",
+      "amount": 144803690
+    },
+    "credit": {
+      "formatted": "0",
+      "amount": 0
+    }
+  },
+  {
+    "account": {
+      "accountCode": "12130"
+    },
+    "amountUnit": 1000,
+    "debit": {
+      "formatted": "0",
+      "amount": 0
+    },
+    "credit": {
+      "formatted": "0",
+      "amount": 0
+    }
+  },
+  {
+    "account": {
+      "accountCode": "12135"
+    },
+    "amountUnit": 1000,
+    "debit": {
+      "formatted": "0",
+      "amount": 0
+    },
+    "credit": {
+      "formatted": "0",
+      "amount": 0
+    }
+  },
+  {
+    "account": {
+      "accountCode": "12140"
+    },
+    "amountUnit": 1000,
+    "debit": {
+      "formatted": "0",
+      "amount": 0
+    },
+    "credit": {
+      "formatted": "0",
+      "amount": 0
+    }
+  },
+  {
+    "account": {
+      "accountCode": "12175"
+    },
+    "amountUnit": 1000,
+    "debit": {
+      "formatted": "0",
+      "amount": 0
+    },
+    "credit": {
+      "formatted": "0",
+      "amount": 0
+    }
+  },
+  {
+    "account": {
+      "accountCode": "12210"
+    },
+    "amountUnit": 1000,
+    "debit": {
+      "formatted": "0",
+      "amount": 0
+    },
+    "credit": {
+      "formatted": "0",
+      "amount": 0
+    }
+  },
+  {
+    "account": {
+      "accountCode": "12215"
+    },
+    "amountUnit": 1000,
+    "debit": {
+      "formatted": "2,100,735",
+      "amount": 2100734740.0000002
+    },
+    "credit": {
+      "formatted": "0",
+      "amount": 0
+    }
+  },
+  {
+    "account": {
+      "accountCode": "12217"
+    },
+    "amountUnit": 1000,
+    "debit": {
+      "formatted": "1,242,460",
+      "amount": 1242459880
+    },
+    "credit": {
+      "formatted": "0",
+      "amount": 0
+    }
+  },
+  {
+    "account": {
+      "accountCode": "12220"
+    },
+    "amountUnit": 1000,
+    "debit": {
+      "formatted": "193,658,704",
+      "amount": 193658703710
+    },
+    "credit": {
+      "formatted": "0",
+      "amount": 0
+    }
+  },
+  {
+    "account": {
+      "accountCode": "12224"
+    },
+    "amountUnit": 1000,
+    "debit": {
+      "formatted": "0",
+      "amount": 0
+    },
+    "credit": {
+      "formatted": "0",
+      "amount": 0
+    }
+  },
+  {
+    "account": {
+      "accountCode": "12225"
+    },
+    "amountUnit": 1000,
+    "debit": {
+      "formatted": "5,669,369",
+      "amount": 5669369360
+    },
+    "credit": {
+      "formatted": "0",
+      "amount": 0
+    }
+  },
+  {
+    "account": {
+      "accountCode": "12226"
+    },
+    "amountUnit": 1000,
+    "debit": {
+      "formatted": "600,000",
+      "amount": 600000000
+    },
+    "credit": {
+      "formatted": "0",
+      "amount": 0
+    }
+  },
+  {
+    "account": {
+      "accountCode": "12227"
+    },
+    "amountUnit": 1000,
+    "debit": {
+      "formatted": "173,300,607",
+      "amount": 173300606930
+    },
+    "credit": {
+      "formatted": "0",
+      "amount": 0
+    }
+  },
+  {
+    "account": {
+      "accountCode": "12228"
+    },
+    "amountUnit": 1000,
+    "debit": {
+      "formatted": "1,199,417",
+      "amount": 1199417310
+    },
+    "credit": {
+      "formatted": "0",
+      "amount": 0
+    }
+  },
+  {
+    "account": {
+      "accountCode": "12231"
+    },
+    "amountUnit": 1000,
+    "debit": {
+      "formatted": "0",
+      "amount": 0
+    },
+    "credit": {
+      "formatted": "0",
+      "amount": 0
+    }
+  },
+  {
+    "account": {
+      "accountCode": "12232"
+    },
+    "amountUnit": 1000,
+    "debit": {
+      "formatted": "77,300",
+      "amount": 77300000
+    },
+    "credit": {
+      "formatted": "0",
+      "amount": 0
+    }
+  },
+  {
+    "account": {
+      "accountCode": "12235"
+    },
+    "amountUnit": 1000,
+    "debit": {
+      "formatted": "33,141,489",
+      "amount": 33141489320
+    },
+    "credit": {
+      "formatted": "0",
+      "amount": 0
+    }
+  },
+  {
+    "account": {
+      "accountCode": "12237"
+    },
+    "amountUnit": 1000,
+    "debit": {
+      "formatted": "0",
+      "amount": 0
+    },
+    "credit": {
+      "formatted": "0",
+      "amount": 0
+    }
+  },
+  {
+    "account": {
+      "accountCode": "12240"
+    },
+    "amountUnit": 1000,
+    "debit": {
+      "formatted": "96,649,629",
+      "amount": 96649629130
+    },
+    "credit": {
+      "formatted": "0",
+      "amount": 0
+    }
+  },
+  {
+    "account": {
+      "accountCode": "12243"
+    },
+    "amountUnit": 1000,
+    "debit": {
+      "formatted": "0",
+      "amount": 0
+    },
+    "credit": {
+      "formatted": "0",
+      "amount": 0
+    }
+  },
+  {
+    "account": {
+      "accountCode": "12245"
+    },
+    "amountUnit": 1000,
+    "debit": {
+      "formatted": "9,619,038",
+      "amount": 9619038410
+    },
+    "credit": {
+      "formatted": "0",
+      "amount": 0
+    }
+  },
+  {
+    "account": {
+      "accountCode": "12260"
+    },
+    "amountUnit": 1000,
+    "debit": {
+      "formatted": "0",
+      "amount": 0
+    },
+    "credit": {
+      "formatted": "0",
+      "amount": 0
+    }
+  },
+  {
+    "account": {
+      "accountCode": "12265"
+    },
+    "amountUnit": 1000,
+    "debit": {
+      "formatted": "0",
+      "amount": 0
+    },
+    "credit": {
+      "formatted": "4,680,299",
+      "amount": 4680299290
+    }
+  },
+  {
+    "account": {
+      "accountCode": "12266"
+    },
+    "amountUnit": 1000,
+    "debit": {
+      "formatted": "0",
+      "amount": 0
+    },
+    "credit": {
+      "formatted": "90,455,899",
+      "amount": 90455898990
+    }
+  },
+  {
+    "account": {
+      "accountCode": "12267"
+    },
+    "amountUnit": 1000,
+    "debit": {
+      "formatted": "0",
+      "amount": 0
+    },
+    "credit": {
+      "formatted": "0",
+      "amount": 0
+    }
+  },
+  {
+    "account": {
+      "accountCode": "12268"
+    },
+    "amountUnit": 1000,
+    "debit": {
+      "formatted": "0",
+      "amount": 0
+    },
+    "credit": {
+      "formatted": "0",
+      "amount": 0
+    }
+  },
+  {
+    "account": {
+      "accountCode": "12274"
+    },
+    "amountUnit": 1000,
+    "debit": {
+      "formatted": "0",
+      "amount": 0
+    },
+    "credit": {
+      "formatted": "0",
+      "amount": 0
+    }
+  },
+  {
+    "account": {
+      "accountCode": "12275"
+    },
+    "amountUnit": 1000,
+    "debit": {
+      "formatted": "1,430,905",
+      "amount": 1430905170
+    },
+    "credit": {
+      "formatted": "0",
+      "amount": 0
+    }
+  },
+  {
+    "account": {
+      "accountCode": "12277"
+    },
+    "amountUnit": 1000,
+    "debit": {
+      "formatted": "0",
+      "amount": 0
+    },
+    "credit": {
+      "formatted": "0",
+      "amount": 0
+    }
+  },
+  {
+    "account": {
+      "accountCode": "12310"
+    },
+    "amountUnit": 1000,
+    "debit": {
+      "formatted": "0",
+      "amount": 0
+    },
+    "credit": {
+      "formatted": "0",
+      "amount": 0
+    }
+  },
+  {
+    "account": {
+      "accountCode": "12315"
+    },
+    "amountUnit": 1000,
+    "debit": {
+      "formatted": "0",
+      "amount": 0
+    },
+    "credit": {
+      "formatted": "0",
+      "amount": 0
+    }
+  },
+  {
+    "account": {
+      "accountCode": "12320"
+    },
+    "amountUnit": 1000,
+    "debit": {
+      "formatted": "0",
+      "amount": 0
+    },
+    "credit": {
+      "formatted": "0",
+      "amount": 0
+    }
+  },
+  {
+    "account": {
+      "accountCode": "12325"
+    },
+    "amountUnit": 1000,
+    "debit": {
+      "formatted": "8,101,182",
+      "amount": 8101182300
+    },
+    "credit": {
+      "formatted": "0",
+      "amount": 0
+    }
+  },
+  {
+    "account": {
+      "accountCode": "12327"
+    },
+    "amountUnit": 1000,
+    "debit": {
+      "formatted": "269,445",
+      "amount": 269444520
+    },
+    "credit": {
+      "formatted": "0",
+      "amount": 0
+    }
+  },
+  {
+    "account": {
+      "accountCode": "12328"
+    },
+    "amountUnit": 1000,
+    "debit": {
+      "formatted": "8,770",
+      "amount": 8770030
+    },
+    "credit": {
+      "formatted": "0",
+      "amount": 0
+    }
+  },
+  {
+    "account": {
+      "accountCode": "12330"
+    },
+    "amountUnit": 1000,
+    "debit": {
+      "formatted": "0",
+      "amount": 0
+    },
+    "credit": {
+      "formatted": "0",
+      "amount": 0
+    }
+  },
+  {
+    "account": {
+      "accountCode": "12335"
+    },
+    "amountUnit": 1000,
+    "debit": {
+      "formatted": "25,867,235",
+      "amount": 25867235210
+    },
+    "credit": {
+      "formatted": "0",
+      "amount": 0
+    }
+  },
+  {
+    "account": {
+      "accountCode": "12345"
+    },
+    "amountUnit": 1000,
+    "debit": {
+      "formatted": "1,761,689",
+      "amount": 1761688940
+    },
+    "credit": {
+      "formatted": "0",
+      "amount": 0
+    }
+  },
+  {
+    "account": {
+      "accountCode": "12350"
+    },
+    "amountUnit": 1000,
+    "debit": {
+      "formatted": "6,290,363",
+      "amount": 6290362770
+    },
+    "credit": {
+      "formatted": "0",
+      "amount": 0
+    }
+  },
+  {
+    "account": {
+      "accountCode": "12352"
+    },
+    "amountUnit": 1000,
+    "debit": {
+      "formatted": "881,101",
+      "amount": 881101440
+    },
+    "credit": {
+      "formatted": "0",
+      "amount": 0
+    }
+  },
+  {
+    "account": {
+      "accountCode": "12355"
+    },
+    "amountUnit": 1000,
+    "debit": {
+      "formatted": "494,879",
+      "amount": 494878710
+    },
+    "credit": {
+      "formatted": "0",
+      "amount": 0
+    }
+  },
+  {
+    "account": {
+      "accountCode": "12356"
+    },
+    "amountUnit": 1000,
+    "debit": {
+      "formatted": "682,441",
+      "amount": 682440890
+    },
+    "credit": {
+      "formatted": "0",
+      "amount": 0
+    }
+  },
+  {
+    "account": {
+      "accountCode": "12360"
+    },
+    "amountUnit": 1000,
+    "debit": {
+      "formatted": "0",
+      "amount": 0
+    },
+    "credit": {
+      "formatted": "0",
+      "amount": 0
+    }
+  },
+  {
+    "account": {
+      "accountCode": "12374"
+    },
+    "amountUnit": 1000,
+    "debit": {
+      "formatted": "0",
+      "amount": 0
+    },
+    "credit": {
+      "formatted": "16,044",
+      "amount": 16043760
+    }
+  },
+  {
+    "account": {
+      "accountCode": "12375"
+    },
+    "amountUnit": 1000,
+    "debit": {
+      "formatted": "2,165,317",
+      "amount": 2165317250
+    },
+    "credit": {
+      "formatted": "0",
+      "amount": 0
+    }
+  },
+  {
+    "account": {
+      "accountCode": "12410"
+    },
+    "amountUnit": 1000,
+    "debit": {
+      "formatted": "0",
+      "amount": 0
+    },
+    "credit": {
+      "formatted": "0",
+      "amount": 0
+    }
+  },
+  {
+    "account": {
+      "accountCode": "12415"
+    },
+    "amountUnit": 1000,
+    "debit": {
+      "formatted": "0",
+      "amount": 0
+    },
+    "credit": {
+      "formatted": "0",
+      "amount": 0
+    }
+  },
+  {
+    "account": {
+      "accountCode": "12420"
+    },
+    "amountUnit": 1000,
+    "debit": {
+      "formatted": "2,976,691",
+      "amount": 2976690740
+    },
+    "credit": {
+      "formatted": "0",
+      "amount": 0
+    }
+  },
+  {
+    "account": {
+      "accountCode": "12425"
+    },
+    "amountUnit": 1000,
+    "debit": {
+      "formatted": "5,885,833",
+      "amount": 5885833130
+    },
+    "credit": {
+      "formatted": "0",
+      "amount": 0
+    }
+  },
+  {
+    "account": {
+      "accountCode": "12427"
+    },
+    "amountUnit": 1000,
+    "debit": {
+      "formatted": "0",
+      "amount": 0
+    },
+    "credit": {
+      "formatted": "0",
+      "amount": 0
+    }
+  },
+  {
+    "account": {
+      "accountCode": "12428"
+    },
+    "amountUnit": 1000,
+    "debit": {
+      "formatted": "0",
+      "amount": 0
+    },
+    "credit": {
+      "formatted": "0",
+      "amount": 0
+    }
+  },
+  {
+    "account": {
+      "accountCode": "12430"
+    },
+    "amountUnit": 1000,
+    "debit": {
+      "formatted": "0",
+      "amount": 0
+    },
+    "credit": {
+      "formatted": "0",
+      "amount": 0
+    }
+  },
+  {
+    "account": {
+      "accountCode": "12435"
+    },
+    "amountUnit": 1000,
+    "debit": {
+      "formatted": "3,913,573",
+      "amount": 3913572610
+    },
+    "credit": {
+      "formatted": "0",
+      "amount": 0
+    }
+  },
+  {
+    "account": {
+      "accountCode": "12440"
+    },
+    "amountUnit": 1000,
+    "debit": {
+      "formatted": "0",
+      "amount": 0
+    },
+    "credit": {
+      "formatted": "0",
+      "amount": 0
+    }
+  },
+  {
+    "account": {
+      "accountCode": "12445"
+    },
+    "amountUnit": 1000,
+    "debit": {
+      "formatted": "0",
+      "amount": 0
+    },
+    "credit": {
+      "formatted": "0",
+      "amount": 0
+    }
+  },
+  {
+    "account": {
+      "accountCode": "12450"
+    },
+    "amountUnit": 1000,
+    "debit": {
+      "formatted": "1,348,719",
+      "amount": 1348718750
+    },
+    "credit": {
+      "formatted": "0",
+      "amount": 0
+    }
+  },
+  {
+    "account": {
+      "accountCode": "12460"
+    },
+    "amountUnit": 1000,
+    "debit": {
+      "formatted": "0",
+      "amount": 0
+    },
+    "credit": {
+      "formatted": "0",
+      "amount": 0
+    }
+  },
+  {
+    "account": {
+      "accountCode": "12465"
+    },
+    "amountUnit": 1000,
+    "debit": {
+      "formatted": "0",
+      "amount": 0
+    },
+    "credit": {
+      "formatted": "0",
+      "amount": 0
+    }
+  },
+  {
+    "account": {
+      "accountCode": "12475"
+    },
+    "amountUnit": 1000,
+    "debit": {
+      "formatted": "549,378",
+      "amount": 549378220
+    },
+    "credit": {
+      "formatted": "0",
+      "amount": 0
+    }
+  },
+  {
+    "account": {
+      "accountCode": "12510"
+    },
+    "amountUnit": 1000,
+    "debit": {
+      "formatted": "278,458,644",
+      "amount": 278458643980
+    },
+    "credit": {
+      "formatted": "0",
+      "amount": 0
+    }
+  },
+  {
+    "account": {
+      "accountCode": "12515"
+    },
+    "amountUnit": 1000,
+    "debit": {
+      "formatted": "79,746,416",
+      "amount": 79746416140
+    },
+    "credit": {
+      "formatted": "0",
+      "amount": 0
+    }
+  },
+  {
+    "account": {
+      "accountCode": "12516"
+    },
+    "amountUnit": 1000,
+    "debit": {
+      "formatted": "0",
+      "amount": 0
+    },
+    "credit": {
+      "formatted": "0",
+      "amount": 0
+    }
+  },
+  {
+    "account": {
+      "accountCode": "12518"
+    },
+    "amountUnit": 1000,
+    "debit": {
+      "formatted": "265,571",
+      "amount": 265571020.00000003
+    },
+    "credit": {
+      "formatted": "0",
+      "amount": 0
+    }
+  },
+  {
+    "account": {
+      "accountCode": "12519"
+    },
+    "amountUnit": 1000,
+    "debit": {
+      "formatted": "0",
+      "amount": 0
+    },
+    "credit": {
+      "formatted": "0",
+      "amount": 0
+    }
+  },
+  {
+    "account": {
+      "accountCode": "12520"
+    },
+    "amountUnit": 1000,
+    "debit": {
+      "formatted": "186,936",
+      "amount": 186936300
+    },
+    "credit": {
+      "formatted": "0",
+      "amount": 0
+    }
+  },
+  {
+    "account": {
+      "accountCode": "12525"
+    },
+    "amountUnit": 1000,
+    "debit": {
+      "formatted": "0",
+      "amount": 0
+    },
+    "credit": {
+      "formatted": "0",
+      "amount": 0
+    }
+  },
+  {
+    "account": {
+      "accountCode": "12526"
+    },
+    "amountUnit": 1000,
+    "debit": {
+      "formatted": "0",
+      "amount": 0
+    },
+    "credit": {
+      "formatted": "0",
+      "amount": 0
+    }
+  },
+  {
+    "account": {
+      "accountCode": "12527"
+    },
+    "amountUnit": 1000,
+    "debit": {
+      "formatted": "0",
+      "amount": 0
+    },
+    "credit": {
+      "formatted": "0",
+      "amount": 0
+    }
+  },
+  {
+    "account": {
+      "accountCode": "12528"
+    },
+    "amountUnit": 1000,
+    "debit": {
+      "formatted": "0",
+      "amount": 0
+    },
+    "credit": {
+      "formatted": "212,174,333",
+      "amount": 212174333230
+    }
+  },
+  {
+    "account": {
+      "accountCode": "12529"
+    },
+    "amountUnit": 1000,
+    "debit": {
+      "formatted": "0",
+      "amount": 0
+    },
+    "credit": {
+      "formatted": "60,606,809",
+      "amount": 60606809010
+    }
+  },
+  {
+    "account": {
+      "accountCode": "12535"
+    },
+    "amountUnit": 1000,
+    "debit": {
+      "formatted": "0",
+      "amount": 0
+    },
+    "credit": {
+      "formatted": "93,468",
+      "amount": 93468000
+    }
+  },
+  {
+    "account": {
+      "accountCode": "12565"
+    },
+    "amountUnit": 1000,
+    "debit": {
+      "formatted": "0",
+      "amount": 0
+    },
+    "credit": {
+      "formatted": "0",
+      "amount": 0
+    }
+  },
+  {
+    "account": {
+      "accountCode": "12566"
+    },
+    "amountUnit": 1000,
+    "debit": {
+      "formatted": "0",
+      "amount": 0
+    },
+    "credit": {
+      "formatted": "0",
+      "amount": 0
+    }
+  },
+  {
+    "account": {
+      "accountCode": "12574"
+    },
+    "amountUnit": 1000,
+    "debit": {
+      "formatted": "0",
+      "amount": 0
+    },
+    "credit": {
+      "formatted": "75,403",
+      "amount": 75402650
+    }
+  },
+  {
+    "account": {
+      "accountCode": "12575"
+    },
+    "amountUnit": 1000,
+    "debit": {
+      "formatted": "2,764,513",
+      "amount": 2764513160
+    },
+    "credit": {
+      "formatted": "0",
+      "amount": 0
+    }
+  },
+  {
+    "account": {
+      "accountCode": "12590"
+    },
+    "amountUnit": 1000,
+    "debit": {
+      "formatted": "0",
+      "amount": 0
+    },
+    "credit": {
+      "formatted": "6,961,983",
+      "amount": 6961982600
+    }
+  },
+  {
+    "account": {
+      "accountCode": "12610"
+    },
+    "amountUnit": 1000,
+    "debit": {
+      "formatted": "0",
+      "amount": 0
+    },
+    "credit": {
+      "formatted": "0",
+      "amount": 0
+    }
+  },
+  {
+    "account": {
+      "accountCode": "12615"
+    },
+    "amountUnit": 1000,
+    "debit": {
+      "formatted": "7,905,765",
+      "amount": 7905764680
+    },
+    "credit": {
+      "formatted": "0",
+      "amount": 0
+    }
+  },
+  {
+    "account": {
+      "accountCode": "12620"
+    },
+    "amountUnit": 1000,
+    "debit": {
+      "formatted": "489,438",
+      "amount": 489438000
+    },
+    "credit": {
+      "formatted": "0",
+      "amount": 0
+    }
+  },
+  {
+    "account": {
+      "accountCode": "12621"
+    },
+    "amountUnit": 1000,
+    "debit": {
+      "formatted": "0",
+      "amount": 0
+    },
+    "credit": {
+      "formatted": "489,438",
+      "amount": 489438000
+    }
+  },
+  {
+    "account": {
+      "accountCode": "12640"
+    },
+    "amountUnit": 1000,
+    "debit": {
+      "formatted": "0",
+      "amount": 0
+    },
+    "credit": {
+      "formatted": "0",
+      "amount": 0
+    }
+  },
+  {
+    "account": {
+      "accountCode": "12645"
+    },
+    "amountUnit": 1000,
+    "debit": {
+      "formatted": "2,714,416",
+      "amount": 2714416000
+    },
+    "credit": {
+      "formatted": "0",
+      "amount": 0
+    }
+  },
+  {
+    "account": {
+      "accountCode": "12646"
+    },
+    "amountUnit": 1000,
+    "debit": {
+      "formatted": "0",
+      "amount": 0
+    },
+    "credit": {
+      "formatted": "2,714,416",
+      "amount": 2714416000
+    }
+  },
+  {
+    "account": {
+      "accountCode": "12650"
+    },
+    "amountUnit": 1000,
+    "debit": {
+      "formatted": "0",
+      "amount": 0
+    },
+    "credit": {
+      "formatted": "0",
+      "amount": 0
+    }
+  },
+  {
+    "account": {
+      "accountCode": "12651"
+    },
+    "amountUnit": 1000,
+    "debit": {
+      "formatted": "0",
+      "amount": 0
+    },
+    "credit": {
+      "formatted": "0",
+      "amount": 0
+    }
+  },
+  {
+    "account": {
+      "accountCode": "12655"
+    },
+    "amountUnit": 1000,
+    "debit": {
+      "formatted": "0",
+      "amount": 0
+    },
+    "credit": {
+      "formatted": "0",
+      "amount": 0
+    }
+  },
+  {
+    "account": {
+      "accountCode": "12656"
+    },
+    "amountUnit": 1000,
+    "debit": {
+      "formatted": "0",
+      "amount": 0
+    },
+    "credit": {
+      "formatted": "0",
+      "amount": 0
+    }
+  },
+  {
+    "account": {
+      "accountCode": "12670"
+    },
+    "amountUnit": 1000,
+    "debit": {
+      "formatted": "0",
+      "amount": 0
+    },
+    "credit": {
+      "formatted": "0",
+      "amount": 0
+    }
+  },
+  {
+    "account": {
+      "accountCode": "12675"
+    },
+    "amountUnit": 1000,
+    "debit": {
+      "formatted": "1,740,181",
+      "amount": 1740180910
+    },
+    "credit": {
+      "formatted": "0",
+      "amount": 0
+    }
+  },
+  {
+    "account": {
+      "accountCode": "12710"
+    },
+    "amountUnit": 1000,
+    "debit": {
+      "formatted": "111,880",
+      "amount": 111880190
+    },
+    "credit": {
+      "formatted": "0",
+      "amount": 0
+    }
+  },
+  {
+    "account": {
+      "accountCode": "12720"
+    },
+    "amountUnit": 1000,
+    "debit": {
+      "formatted": "0",
+      "amount": 0
+    },
+    "credit": {
+      "formatted": "1,966,004",
+      "amount": 1966004490
+    }
+  },
+  {
+    "account": {
+      "accountCode": "12725"
+    },
+    "amountUnit": 1000,
+    "debit": {
+      "formatted": "16,144",
+      "amount": 16144320
+    },
+    "credit": {
+      "formatted": "0",
+      "amount": 0
+    }
+  },
+  {
+    "account": {
+      "accountCode": "12730"
+    },
+    "amountUnit": 1000,
+    "debit": {
+      "formatted": "917,408",
+      "amount": 917407790
+    },
+    "credit": {
+      "formatted": "0",
+      "amount": 0
+    }
+  },
+  {
+    "account": {
+      "accountCode": "12740"
+    },
+    "amountUnit": 1000,
+    "debit": {
+      "formatted": "142,763",
+      "amount": 142762790
+    },
+    "credit": {
+      "formatted": "0",
+      "amount": 0
+    }
+  },
+  {
+    "account": {
+      "accountCode": "12745"
+    },
+    "amountUnit": 1000,
+    "debit": {
+      "formatted": "47,550",
+      "amount": 47549890
+    },
+    "credit": {
+      "formatted": "0",
+      "amount": 0
+    }
+  },
+  {
+    "account": {
+      "accountCode": "12750"
+    },
+    "amountUnit": 1000,
+    "debit": {
+      "formatted": "1,185,326",
+      "amount": 1185325670
+    },
+    "credit": {
+      "formatted": "0",
+      "amount": 0
+    }
+  },
+  {
+    "account": {
+      "accountCode": "12785"
+    },
+    "amountUnit": 1000,
+    "debit": {
+      "formatted": "0",
+      "amount": 0
+    },
+    "credit": {
+      "formatted": "0",
+      "amount": 0
+    }
+  },
+  {
+    "account": {
+      "accountCode": "12820"
+    },
+    "amountUnit": 1000,
+    "debit": {
+      "formatted": "0",
+      "amount": 0
+    },
+    "credit": {
+      "formatted": "14,666,824",
+      "amount": 14666824210
+    }
+  },
+  {
+    "account": {
+      "accountCode": "12830"
+    },
+    "amountUnit": 1000,
+    "debit": {
+      "formatted": "0",
+      "amount": 0
+    },
+    "credit": {
+      "formatted": "706,935",
+      "amount": 706935070
+    }
+  },
+  {
+    "account": {
+      "accountCode": "12860"
+    },
+    "amountUnit": 1000,
+    "debit": {
+      "formatted": "3,547,776",
+      "amount": 3547775910
+    },
+    "credit": {
+      "formatted": "0",
+      "amount": 0
+    }
+  },
+  {
+    "account": {
+      "accountCode": "12880"
+    },
+    "amountUnit": 1000,
+    "debit": {
+      "formatted": "0",
+      "amount": 0
+    },
+    "credit": {
+      "formatted": "779,806",
+      "amount": 779805560
+    }
+  },
+  {
+    "account": {
+      "accountCode": "13110"
+    },
+    "amountUnit": 1000,
+    "debit": {
+      "formatted": "1,087,515",
+      "amount": 1087515350
+    },
+    "credit": {
+      "formatted": "0",
+      "amount": 0
+    }
+  },
+  {
+    "account": {
+      "accountCode": "13120"
+    },
+    "amountUnit": 1000,
+    "debit": {
+      "formatted": "0",
+      "amount": 0
+    },
+    "credit": {
+      "formatted": "860,281",
+      "amount": 860281050
+    }
+  },
+  {
+    "account": {
+      "accountCode": "13130"
+    },
+    "amountUnit": 1000,
+    "debit": {
+      "formatted": "756,728",
+      "amount": 756727870
+    },
+    "credit": {
+      "formatted": "0",
+      "amount": 0
+    }
+  },
+  {
+    "account": {
+      "accountCode": "13140"
+    },
+    "amountUnit": 1000,
+    "debit": {
+      "formatted": "0",
+      "amount": 0
+    },
+    "credit": {
+      "formatted": "620,503",
+      "amount": 620502970
+    }
+  },
+  {
+    "account": {
+      "accountCode": "13150"
+    },
+    "amountUnit": 1000,
+    "debit": {
+      "formatted": "1,586,460",
+      "amount": 1586459960
+    },
+    "credit": {
+      "formatted": "0",
+      "amount": 0
+    }
+  },
+  {
+    "account": {
+      "accountCode": "13170"
+    },
+    "amountUnit": 1000,
+    "debit": {
+      "formatted": "0",
+      "amount": 0
+    },
+    "credit": {
+      "formatted": "1,155,971",
+      "amount": 1155971150
+    }
+  },
+  {
+    "account": {
+      "accountCode": "13180"
+    },
+    "amountUnit": 1000,
+    "debit": {
+      "formatted": "1,010,038",
+      "amount": 1010037950
+    },
+    "credit": {
+      "formatted": "0",
+      "amount": 0
+    }
+  },
+  {
+    "account": {
+      "accountCode": "13185"
+    },
+    "amountUnit": 1000,
+    "debit": {
+      "formatted": "0",
+      "amount": 0
+    },
+    "credit": {
+      "formatted": "783,611",
+      "amount": 783611400
+    }
+  },
+  {
+    "account": {
+      "accountCode": "13190"
+    },
+    "amountUnit": 1000,
+    "debit": {
+      "formatted": "0",
+      "amount": 0
+    },
+    "credit": {
+      "formatted": "0",
+      "amount": 0
+    }
+  },
+  {
+    "account": {
+      "accountCode": "13195"
+    },
+    "amountUnit": 1000,
+    "debit": {
+      "formatted": "0",
+      "amount": 0
+    },
+    "credit": {
+      "formatted": "0",
+      "amount": 0
+    }
+  },
+  {
+    "account": {
+      "accountCode": "13210"
+    },
+    "amountUnit": 1000,
+    "debit": {
+      "formatted": "4,094,731",
+      "amount": 4094731010
+    },
+    "credit": {
+      "formatted": "0",
+      "amount": 0
+    }
+  },
+  {
+    "account": {
+      "accountCode": "13220"
+    },
+    "amountUnit": 1000,
+    "debit": {
+      "formatted": "0",
+      "amount": 0
+    },
+    "credit": {
+      "formatted": "3,032,527",
+      "amount": 3032527240
+    }
+  },
+  {
+    "account": {
+      "accountCode": "14105"
+    },
+    "amountUnit": 1000,
+    "debit": {
+      "formatted": "2,134",
+      "amount": 2134070
+    },
+    "credit": {
+      "formatted": "0",
+      "amount": 0
+    }
+  },
+  {
+    "account": {
+      "accountCode": "14106"
+    },
+    "amountUnit": 1000,
+    "debit": {
+      "formatted": "0",
+      "amount": 0
+    },
+    "credit": {
+      "formatted": "0",
+      "amount": 0
+    }
+  },
+  {
+    "account": {
+      "accountCode": "14110"
+    },
+    "amountUnit": 1000,
+    "debit": {
+      "formatted": "0",
+      "amount": 0
+    },
+    "credit": {
+      "formatted": "0",
+      "amount": 0
+    }
+  },
+  {
+    "account": {
+      "accountCode": "14115"
+    },
+    "amountUnit": 1000,
+    "debit": {
+      "formatted": "12,327",
+      "amount": 12327260
+    },
+    "credit": {
+      "formatted": "0",
+      "amount": 0
+    }
+  },
+  {
+    "account": {
+      "accountCode": "14117"
+    },
+    "amountUnit": 1000,
+    "debit": {
+      "formatted": "3,750",
+      "amount": 3750000
+    },
+    "credit": {
+      "formatted": "0",
+      "amount": 0
+    }
+  },
+  {
+    "account": {
+      "accountCode": "14120"
+    },
+    "amountUnit": 1000,
+    "debit": {
+      "formatted": "53,032",
+      "amount": 53031750
+    },
+    "credit": {
+      "formatted": "0",
+      "amount": 0
+    }
+  },
+  {
+    "account": {
+      "accountCode": "14125"
+    },
+    "amountUnit": 1000,
+    "debit": {
+      "formatted": "22,699",
+      "amount": 22698650
+    },
+    "credit": {
+      "formatted": "0",
+      "amount": 0
+    }
+  },
+  {
+    "account": {
+      "accountCode": "14130"
+    },
+    "amountUnit": 1000,
+    "debit": {
+      "formatted": "47,226",
+      "amount": 47225540
+    },
+    "credit": {
+      "formatted": "0",
+      "amount": 0
+    }
+  },
+  {
+    "account": {
+      "accountCode": "14135"
+    },
+    "amountUnit": 1000,
+    "debit": {
+      "formatted": "0",
+      "amount": 0
+    },
+    "credit": {
+      "formatted": "0",
+      "amount": 0
+    }
+  },
+  {
+    "account": {
+      "accountCode": "14140"
+    },
+    "amountUnit": 1000,
+    "debit": {
+      "formatted": "0",
+      "amount": 0
+    },
+    "credit": {
+      "formatted": "0",
+      "amount": 0
+    }
+  },
+  {
+    "account": {
+      "accountCode": "14150"
+    },
+    "amountUnit": 1000,
+    "debit": {
+      "formatted": "0",
+      "amount": 0
+    },
+    "credit": {
+      "formatted": "0",
+      "amount": 0
+    }
+  },
+  {
+    "account": {
+      "accountCode": "14210"
+    },
+    "amountUnit": 1000,
+    "debit": {
+      "formatted": "117,497",
+      "amount": 117496570
+    },
+    "credit": {
+      "formatted": "0",
+      "amount": 0
+    }
+  },
+  {
+    "account": {
+      "accountCode": "14215"
+    },
+    "amountUnit": 1000,
+    "debit": {
+      "formatted": "1,736",
+      "amount": 1736100
+    },
+    "credit": {
+      "formatted": "0",
+      "amount": 0
+    }
+  },
+  {
+    "account": {
+      "accountCode": "14217"
+    },
+    "amountUnit": 1000,
+    "debit": {
+      "formatted": "402,392",
+      "amount": 402391700
+    },
+    "credit": {
+      "formatted": "0",
+      "amount": 0
+    }
+  },
+  {
+    "account": {
+      "accountCode": "14220"
+    },
+    "amountUnit": 1000,
+    "debit": {
+      "formatted": "775,035",
+      "amount": 775034660
+    },
+    "credit": {
+      "formatted": "0",
+      "amount": 0
+    }
+  },
+  {
+    "account": {
+      "accountCode": "14225"
+    },
+    "amountUnit": 1000,
+    "debit": {
+      "formatted": "106,100",
+      "amount": 106099500
+    },
+    "credit": {
+      "formatted": "0",
+      "amount": 0
+    }
+  },
+  {
+    "account": {
+      "accountCode": "14230"
+    },
+    "amountUnit": 1000,
+    "debit": {
+      "formatted": "26,380",
+      "amount": 26379980
+    },
+    "credit": {
+      "formatted": "0",
+      "amount": 0
+    }
+  },
+  {
+    "account": {
+      "accountCode": "14235"
+    },
+    "amountUnit": 1000,
+    "debit": {
+      "formatted": "259,545",
+      "amount": 259544770
+    },
+    "credit": {
+      "formatted": "0",
+      "amount": 0
+    }
+  },
+  {
+    "account": {
+      "accountCode": "14236"
+    },
+    "amountUnit": 1000,
+    "debit": {
+      "formatted": "0",
+      "amount": 0
+    },
+    "credit": {
+      "formatted": "0",
+      "amount": 0
+    }
+  },
+  {
+    "account": {
+      "accountCode": "14240"
+    },
+    "amountUnit": 1000,
+    "debit": {
+      "formatted": "20,153",
+      "amount": 20153210
+    },
+    "credit": {
+      "formatted": "0",
+      "amount": 0
+    }
+  },
+  {
+    "account": {
+      "accountCode": "14290"
+    },
+    "amountUnit": 1000,
+    "debit": {
+      "formatted": "179",
+      "amount": 178550
+    },
+    "credit": {
+      "formatted": "0",
+      "amount": 0
+    }
+  },
+  {
+    "account": {
+      "accountCode": "15000"
+    },
+    "amountUnit": 1000,
+    "debit": {
+      "formatted": "0",
+      "amount": 0
+    },
+    "credit": {
+      "formatted": "0",
+      "amount": 0
+    }
+  },
+  {
+    "account": {
+      "accountCode": "15010"
+    },
+    "amountUnit": 1000,
+    "debit": {
+      "formatted": "0",
+      "amount": 0
+    },
+    "credit": {
+      "formatted": "0",
+      "amount": 0
+    }
+  },
+  {
+    "account": {
+      "accountCode": "15020"
+    },
+    "amountUnit": 1000,
+    "debit": {
+      "formatted": "0",
+      "amount": 0
+    },
+    "credit": {
+      "formatted": "0",
+      "amount": 0
+    }
+  },
+  {
+    "account": {
+      "accountCode": "15030"
+    },
+    "amountUnit": 1000,
+    "debit": {
+      "formatted": "0",
+      "amount": 0
+    },
+    "credit": {
+      "formatted": "0",
+      "amount": 0
+    }
+  },
+  {
+    "account": {
+      "accountCode": "17000"
+    },
+    "amountUnit": 1000,
+    "debit": {
+      "formatted": "37,531",
+      "amount": 37530520
+    },
+    "credit": {
+      "formatted": "0",
+      "amount": 0
+    }
+  },
+  {
+    "account": {
+      "accountCode": "17010"
+    },
+    "amountUnit": 1000,
+    "debit": {
+      "formatted": "5,442",
+      "amount": 5441910
+    },
+    "credit": {
+      "formatted": "0",
+      "amount": 0
+    }
+  },
+  {
+    "account": {
+      "accountCode": "17020"
+    },
+    "amountUnit": 1000,
+    "debit": {
+      "formatted": "0",
+      "amount": 0
+    },
+    "credit": {
+      "formatted": "0",
+      "amount": 0
+    }
+  },
+  {
+    "account": {
+      "accountCode": "17030"
+    },
+    "amountUnit": 1000,
+    "debit": {
+      "formatted": "76,513",
+      "amount": 76512510
+    },
+    "credit": {
+      "formatted": "0",
+      "amount": 0
+    }
+  },
+  {
+    "account": {
+      "accountCode": "17040"
+    },
+    "amountUnit": 1000,
+    "debit": {
+      "formatted": "37,789",
+      "amount": 37789030
+    },
+    "credit": {
+      "formatted": "0",
+      "amount": 0
+    }
+  },
+  {
+    "account": {
+      "accountCode": "17050"
+    },
+    "amountUnit": 1000,
+    "debit": {
+      "formatted": "730,275",
+      "amount": 730275020
+    },
+    "credit": {
+      "formatted": "0",
+      "amount": 0
+    }
+  },
+  {
+    "account": {
+      "accountCode": "17055"
+    },
+    "amountUnit": 1000,
+    "debit": {
+      "formatted": "189,413",
+      "amount": 189413230
+    },
+    "credit": {
+      "formatted": "0",
+      "amount": 0
+    }
+  },
+  {
+    "account": {
+      "accountCode": "17060"
+    },
+    "amountUnit": 1000,
+    "debit": {
+      "formatted": "38,582",
+      "amount": 38581590
+    },
+    "credit": {
+      "formatted": "0",
+      "amount": 0
+    }
+  },
+  {
+    "account": {
+      "accountCode": "17085"
+    },
+    "amountUnit": 1000,
+    "debit": {
+      "formatted": "49,436",
+      "amount": 49436250
+    },
+    "credit": {
+      "formatted": "0",
+      "amount": 0
+    }
+  },
+  {
+    "account": {
+      "accountCode": "17086"
+    },
+    "amountUnit": 1000,
+    "debit": {
+      "formatted": "0",
+      "amount": 0
+    },
+    "credit": {
+      "formatted": "0",
+      "amount": 0
+    }
+  },
+  {
+    "account": {
+      "accountCode": "17090"
+    },
+    "amountUnit": 1000,
+    "debit": {
+      "formatted": "127,023",
+      "amount": 127023250
+    },
+    "credit": {
+      "formatted": "0",
+      "amount": 0
+    }
+  },
+  {
+    "account": {
+      "accountCode": "17105"
+    },
+    "amountUnit": 1000,
+    "debit": {
+      "formatted": "0",
+      "amount": 0
+    },
+    "credit": {
+      "formatted": "0",
+      "amount": 0
+    }
+  },
+  {
+    "account": {
+      "accountCode": "17110"
+    },
+    "amountUnit": 1000,
+    "debit": {
+      "formatted": "187,682",
+      "amount": 187682300
+    },
+    "credit": {
+      "formatted": "0",
+      "amount": 0
+    }
+  },
+  {
+    "account": {
+      "accountCode": "17120"
+    },
+    "amountUnit": 1000,
+    "debit": {
+      "formatted": "100",
+      "amount": 100000
+    },
+    "credit": {
+      "formatted": "0",
+      "amount": 0
+    }
+  },
+  {
+    "account": {
+      "accountCode": "17129"
+    },
+    "amountUnit": 1000,
+    "debit": {
+      "formatted": "653,365",
+      "amount": 653364860
+    },
+    "credit": {
+      "formatted": "0",
+      "amount": 0
+    }
+  },
+  {
+    "account": {
+      "accountCode": "17130"
+    },
+    "amountUnit": 1000,
+    "debit": {
+      "formatted": "40,855",
+      "amount": 40854850
+    },
+    "credit": {
+      "formatted": "0",
+      "amount": 0
+    }
+  },
+  {
+    "account": {
+      "accountCode": "17131"
+    },
+    "amountUnit": 1000,
+    "debit": {
+      "formatted": "0",
+      "amount": 0
+    },
+    "credit": {
+      "formatted": "0",
+      "amount": 0
+    }
+  },
+  {
+    "account": {
+      "accountCode": "17132"
+    },
+    "amountUnit": 1000,
+    "debit": {
+      "formatted": "1,914",
+      "amount": 1914370
+    },
+    "credit": {
+      "formatted": "0",
+      "amount": 0
+    }
+  },
+  {
+    "account": {
+      "accountCode": "17133"
+    },
+    "amountUnit": 1000,
+    "debit": {
+      "formatted": "0",
+      "amount": 0
+    },
+    "credit": {
+      "formatted": "0",
+      "amount": 0
+    }
+  },
+  {
+    "account": {
+      "accountCode": "17134"
+    },
+    "amountUnit": 1000,
+    "debit": {
+      "formatted": "0",
+      "amount": 0
+    },
+    "credit": {
+      "formatted": "0",
+      "amount": 0
+    }
+  },
+  {
+    "account": {
+      "accountCode": "17135"
+    },
+    "amountUnit": 1000,
+    "debit": {
+      "formatted": "0",
+      "amount": 0
+    },
+    "credit": {
+      "formatted": "0",
+      "amount": 0
+    }
+  },
+  {
+    "account": {
+      "accountCode": "17136"
+    },
+    "amountUnit": 1000,
+    "debit": {
+      "formatted": "0",
+      "amount": 0
+    },
+    "credit": {
+      "formatted": "0",
+      "amount": 0
+    }
+  },
+  {
+    "account": {
+      "accountCode": "17140"
+    },
+    "amountUnit": 1000,
+    "debit": {
+      "formatted": "0",
+      "amount": 0
+    },
+    "credit": {
+      "formatted": "0",
+      "amount": 0
+    }
+  },
+  {
+    "account": {
+      "accountCode": "17150"
+    },
+    "amountUnit": 1000,
+    "debit": {
+      "formatted": "0",
+      "amount": 0
+    },
+    "credit": {
+      "formatted": "0",
+      "amount": 0
+    }
+  },
+  {
+    "account": {
+      "accountCode": "17155"
+    },
+    "amountUnit": 1000,
+    "debit": {
+      "formatted": "0",
+      "amount": 0
+    },
+    "credit": {
+      "formatted": "0",
+      "amount": 0
+    }
+  },
+  {
+    "account": {
+      "accountCode": "17160"
+    },
+    "amountUnit": 1000,
+    "debit": {
+      "formatted": "0",
+      "amount": 0
+    },
+    "credit": {
+      "formatted": "0",
+      "amount": 0
+    }
+  },
+  {
+    "account": {
+      "accountCode": "17165"
+    },
+    "amountUnit": 1000,
+    "debit": {
+      "formatted": "0",
+      "amount": 0
+    },
+    "credit": {
+      "formatted": "0",
+      "amount": 0
+    }
+  },
+  {
+    "account": {
+      "accountCode": "17170"
+    },
+    "amountUnit": 1000,
+    "debit": {
+      "formatted": "0",
+      "amount": 0
+    },
+    "credit": {
+      "formatted": "0",
+      "amount": 0
+    }
+  },
+  {
+    "account": {
+      "accountCode": "17180"
+    },
+    "amountUnit": 1000,
+    "debit": {
+      "formatted": "10,607",
+      "amount": 10607460
+    },
+    "credit": {
+      "formatted": "0",
+      "amount": 0
+    }
+  },
+  {
+    "account": {
+      "accountCode": "17190"
+    },
+    "amountUnit": 1000,
+    "debit": {
+      "formatted": "3,000,200",
+      "amount": 3000200000
+    },
+    "credit": {
+      "formatted": "0",
+      "amount": 0
+    }
+  },
+  {
+    "account": {
+      "accountCode": "17191"
+    },
+    "amountUnit": 1000,
+    "debit": {
+      "formatted": "170,000",
+      "amount": 170000000
+    },
+    "credit": {
+      "formatted": "0",
+      "amount": 0
+    }
+  },
+  {
+    "account": {
+      "accountCode": "17197"
+    },
+    "amountUnit": 1000,
+    "debit": {
+      "formatted": "0",
+      "amount": 0
+    },
+    "credit": {
+      "formatted": "0",
+      "amount": 0
+    }
+  },
+  {
+    "account": {
+      "accountCode": "17198"
+    },
+    "amountUnit": 1000,
+    "debit": {
+      "formatted": "0",
+      "amount": 0
+    },
+    "credit": {
+      "formatted": "0",
+      "amount": 0
+    }
+  },
+  {
+    "account": {
+      "accountCode": "17220"
+    },
+    "amountUnit": 1000,
+    "debit": {
+      "formatted": "39,412",
+      "amount": 39412260
+    },
+    "credit": {
+      "formatted": "0",
+      "amount": 0
+    }
+  },
+  {
+    "account": {
+      "accountCode": "17230"
+    },
+    "amountUnit": 1000,
+    "debit": {
+      "formatted": "0",
+      "amount": 0
+    },
+    "credit": {
+      "formatted": "0",
+      "amount": 0
+    }
+  },
+  {
+    "account": {
+      "accountCode": "17240"
+    },
+    "amountUnit": 1000,
+    "debit": {
+      "formatted": "0",
+      "amount": 0
+    },
+    "credit": {
+      "formatted": "0",
+      "amount": 0
+    }
+  },
+  {
+    "account": {
+      "accountCode": "17320"
+    },
+    "amountUnit": 1000,
+    "debit": {
+      "formatted": "891,000",
+      "amount": 891000000
+    },
+    "credit": {
+      "formatted": "0",
+      "amount": 0
+    }
+  },
+  {
+    "account": {
+      "accountCode": "17325"
+    },
+    "amountUnit": 1000,
+    "debit": {
+      "formatted": "0",
+      "amount": 0
+    },
+    "credit": {
+      "formatted": "0",
+      "amount": 0
+    }
+  },
+  {
+    "account": {
+      "accountCode": "17350"
+    },
+    "amountUnit": 1000,
+    "debit": {
+      "formatted": "0",
+      "amount": 0
+    },
+    "credit": {
+      "formatted": "0",
+      "amount": 0
+    }
+  },
+  {
+    "account": {
+      "accountCode": "17410"
+    },
+    "amountUnit": 1000,
+    "debit": {
+      "formatted": "4,496,939",
+      "amount": 4496939370
+    },
+    "credit": {
+      "formatted": "0",
+      "amount": 0
+    }
+  },
+  {
+    "account": {
+      "accountCode": "17415"
+    },
+    "amountUnit": 1000,
+    "debit": {
+      "formatted": "574,347",
+      "amount": 574346540
+    },
+    "credit": {
+      "formatted": "0",
+      "amount": 0
+    }
+  },
+  {
+    "account": {
+      "accountCode": "17420"
+    },
+    "amountUnit": 1000,
+    "debit": {
+      "formatted": "721,534",
+      "amount": 721533780
+    },
+    "credit": {
+      "formatted": "0",
+      "amount": 0
+    }
+  },
+  {
+    "account": {
+      "accountCode": "17510"
+    },
+    "amountUnit": 1000,
+    "debit": {
+      "formatted": "2,878,091",
+      "amount": 2878091420
+    },
+    "credit": {
+      "formatted": "0",
+      "amount": 0
+    }
+  },
+  {
+    "account": {
+      "accountCode": "17520"
+    },
+    "amountUnit": 1000,
+    "debit": {
+      "formatted": "4,892,163",
+      "amount": 4892162960
+    },
+    "credit": {
+      "formatted": "0",
+      "amount": 0
+    }
+  },
+  {
+    "account": {
+      "accountCode": "17525"
+    },
+    "amountUnit": 1000,
+    "debit": {
+      "formatted": "703,725",
+      "amount": 703724720
+    },
+    "credit": {
+      "formatted": "0",
+      "amount": 0
+    }
+  },
+  {
+    "account": {
+      "accountCode": "17530"
+    },
+    "amountUnit": 1000,
+    "debit": {
+      "formatted": "0",
+      "amount": 0
+    },
+    "credit": {
+      "formatted": "0",
+      "amount": 0
+    }
+  },
+  {
+    "account": {
+      "accountCode": "17610"
+    },
+    "amountUnit": 1000,
+    "debit": {
+      "formatted": "0",
+      "amount": 0
+    },
+    "credit": {
+      "formatted": "0",
+      "amount": 0
+    }
+  },
+  {
+    "account": {
+      "accountCode": "20010"
+    },
+    "amountUnit": 1000,
+    "debit": {
+      "formatted": "0",
+      "amount": 0
+    },
+    "credit": {
+      "formatted": "155,216,055",
+      "amount": 155216054790
+    }
+  },
+  {
+    "account": {
+      "accountCode": "20015"
+    },
+    "amountUnit": 1000,
+    "debit": {
+      "formatted": "0",
+      "amount": 0
+    },
+    "credit": {
+      "formatted": "111,880",
+      "amount": 111880190
+    }
+  },
+  {
+    "account": {
+      "accountCode": "20020"
+    },
+    "amountUnit": 1000,
+    "debit": {
+      "formatted": "0",
+      "amount": 0
+    },
+    "credit": {
+      "formatted": "1,080",
+      "amount": 1079750
+    }
+  },
+  {
+    "account": {
+      "accountCode": "20025"
+    },
+    "amountUnit": 1000,
+    "debit": {
+      "formatted": "0",
+      "amount": 0
+    },
+    "credit": {
+      "formatted": "5,546,025",
+      "amount": 5546025130
+    }
+  },
+  {
+    "account": {
+      "accountCode": "20030"
+    },
+    "amountUnit": 1000,
+    "debit": {
+      "formatted": "0",
+      "amount": 0
+    },
+    "credit": {
+      "formatted": "136,251",
+      "amount": 136251090
+    }
+  },
+  {
+    "account": {
+      "accountCode": "20035"
+    },
+    "amountUnit": 1000,
+    "debit": {
+      "formatted": "0",
+      "amount": 0
+    },
+    "credit": {
+      "formatted": "2,745",
+      "amount": 2745000
+    }
+  },
+  {
+    "account": {
+      "accountCode": "20040"
+    },
+    "amountUnit": 1000,
+    "debit": {
+      "formatted": "0",
+      "amount": 0
+    },
+    "credit": {
+      "formatted": "0",
+      "amount": 0
+    }
+  },
+  {
+    "account": {
+      "accountCode": "20045"
+    },
+    "amountUnit": 1000,
+    "debit": {
+      "formatted": "0",
+      "amount": 0
+    },
+    "credit": {
+      "formatted": "0",
+      "amount": 0
+    }
+  },
+  {
+    "account": {
+      "accountCode": "20047"
+    },
+    "amountUnit": 1000,
+    "debit": {
+      "formatted": "0",
+      "amount": 0
+    },
+    "credit": {
+      "formatted": "0",
+      "amount": 0
+    }
+  },
+  {
+    "account": {
+      "accountCode": "20050"
+    },
+    "amountUnit": 1000,
+    "debit": {
+      "formatted": "0",
+      "amount": 0
+    },
+    "credit": {
+      "formatted": "0",
+      "amount": 0
+    }
+  },
+  {
+    "account": {
+      "accountCode": "20060"
+    },
+    "amountUnit": 1000,
+    "debit": {
+      "formatted": "0",
+      "amount": 0
+    },
+    "credit": {
+      "formatted": "427,106",
+      "amount": 427106270
+    }
+  },
+  {
+    "account": {
+      "accountCode": "20061"
+    },
+    "amountUnit": 1000,
+    "debit": {
+      "formatted": "0",
+      "amount": 0
+    },
+    "credit": {
+      "formatted": "0",
+      "amount": 0
+    }
+  },
+  {
+    "account": {
+      "accountCode": "20062"
+    },
+    "amountUnit": 1000,
+    "debit": {
+      "formatted": "0",
+      "amount": 0
+    },
+    "credit": {
+      "formatted": "0",
+      "amount": 0
+    }
+  },
+  {
+    "account": {
+      "accountCode": "20063"
+    },
+    "amountUnit": 1000,
+    "debit": {
+      "formatted": "0",
+      "amount": 0
+    },
+    "credit": {
+      "formatted": "963,372",
+      "amount": 963372290
+    }
+  },
+  {
+    "account": {
+      "accountCode": "20064"
+    },
+    "amountUnit": 1000,
+    "debit": {
+      "formatted": "0",
+      "amount": 0
+    },
+    "credit": {
+      "formatted": "113,962",
+      "amount": 113962490
+    }
+  },
+  {
+    "account": {
+      "accountCode": "20065"
+    },
+    "amountUnit": 1000,
+    "debit": {
+      "formatted": "0",
+      "amount": 0
+    },
+    "credit": {
+      "formatted": "157,129",
+      "amount": 157129160
+    }
+  },
+  {
+    "account": {
+      "accountCode": "20066"
+    },
+    "amountUnit": 1000,
+    "debit": {
+      "formatted": "0",
+      "amount": 0
+    },
+    "credit": {
+      "formatted": "0",
+      "amount": 0
+    }
+  },
+  {
+    "account": {
+      "accountCode": "20067"
+    },
+    "amountUnit": 1000,
+    "debit": {
+      "formatted": "0",
+      "amount": 0
+    },
+    "credit": {
+      "formatted": "10,015",
+      "amount": 10015000
+    }
+  },
+  {
+    "account": {
+      "accountCode": "20068"
+    },
+    "amountUnit": 1000,
+    "debit": {
+      "formatted": "0",
+      "amount": 0
+    },
+    "credit": {
+      "formatted": "0",
+      "amount": 0
+    }
+  },
+  {
+    "account": {
+      "accountCode": "20069"
+    },
+    "amountUnit": 1000,
+    "debit": {
+      "formatted": "0",
+      "amount": 0
+    },
+    "credit": {
+      "formatted": "0",
+      "amount": 0
+    }
+  },
+  {
+    "account": {
+      "accountCode": "20070"
+    },
+    "amountUnit": 1000,
+    "debit": {
+      "formatted": "0",
+      "amount": 0
+    },
+    "credit": {
+      "formatted": "99,315",
+      "amount": 99314920
+    }
+  },
+  {
+    "account": {
+      "accountCode": "20071"
+    },
+    "amountUnit": 1000,
+    "debit": {
+      "formatted": "0",
+      "amount": 0
+    },
+    "credit": {
+      "formatted": "223,492",
+      "amount": 223492330
+    }
+  },
+  {
+    "account": {
+      "accountCode": "20072"
+    },
+    "amountUnit": 1000,
+    "debit": {
+      "formatted": "0",
+      "amount": 0
+    },
+    "credit": {
+      "formatted": "18,410",
+      "amount": 18410000
+    }
+  },
+  {
+    "account": {
+      "accountCode": "20073"
+    },
+    "amountUnit": 1000,
+    "debit": {
+      "formatted": "0",
+      "amount": 0
+    },
+    "credit": {
+      "formatted": "0",
+      "amount": 0
+    }
+  },
+  {
+    "account": {
+      "accountCode": "20074"
+    },
+    "amountUnit": 1000,
+    "debit": {
+      "formatted": "0",
+      "amount": 0
+    },
+    "credit": {
+      "formatted": "0",
+      "amount": 0
+    }
+  },
+  {
+    "account": {
+      "accountCode": "20075"
+    },
+    "amountUnit": 1000,
+    "debit": {
+      "formatted": "0",
+      "amount": 0
+    },
+    "credit": {
+      "formatted": "0",
+      "amount": 0
+    }
+  },
+  {
+    "account": {
+      "accountCode": "20076"
+    },
+    "amountUnit": 1000,
+    "debit": {
+      "formatted": "0",
+      "amount": 0
+    },
+    "credit": {
+      "formatted": "91,348",
+      "amount": 91347810
+    }
+  },
+  {
+    "account": {
+      "accountCode": "20077"
+    },
+    "amountUnit": 1000,
+    "debit": {
+      "formatted": "0",
+      "amount": 0
+    },
+    "credit": {
+      "formatted": "100,897",
+      "amount": 100896900
+    }
+  },
+  {
+    "account": {
+      "accountCode": "20078"
+    },
+    "amountUnit": 1000,
+    "debit": {
+      "formatted": "0",
+      "amount": 0
+    },
+    "credit": {
+      "formatted": "42,420",
+      "amount": 42420000
+    }
+  },
+  {
+    "account": {
+      "accountCode": "20079"
+    },
+    "amountUnit": 1000,
+    "debit": {
+      "formatted": "0",
+      "amount": 0
+    },
+    "credit": {
+      "formatted": "1,484",
+      "amount": 1484000
+    }
+  },
+  {
+    "account": {
+      "accountCode": "20080"
+    },
+    "amountUnit": 1000,
+    "debit": {
+      "formatted": "0",
+      "amount": 0
+    },
+    "credit": {
+      "formatted": "0",
+      "amount": 0
+    }
+  },
+  {
+    "account": {
+      "accountCode": "20081"
+    },
+    "amountUnit": 1000,
+    "debit": {
+      "formatted": "0",
+      "amount": 0
+    },
+    "credit": {
+      "formatted": "0",
+      "amount": 0
+    }
+  },
+  {
+    "account": {
+      "accountCode": "20083"
+    },
+    "amountUnit": 1000,
+    "debit": {
+      "formatted": "0",
+      "amount": 0
+    },
+    "credit": {
+      "formatted": "0",
+      "amount": 0
+    }
+  },
+  {
+    "account": {
+      "accountCode": "20085"
+    },
+    "amountUnit": 1000,
+    "debit": {
+      "formatted": "12,166",
+      "amount": 12165550
+    },
+    "credit": {
+      "formatted": "0",
+      "amount": 0
+    }
+  },
+  {
+    "account": {
+      "accountCode": "20090"
+    },
+    "amountUnit": 1000,
+    "debit": {
+      "formatted": "1,816",
+      "amount": 1816460
+    },
+    "credit": {
+      "formatted": "0",
+      "amount": 0
+    }
+  },
+  {
+    "account": {
+      "accountCode": "20091"
+    },
+    "amountUnit": 1000,
+    "debit": {
+      "formatted": "90,487",
+      "amount": 90487070
+    },
+    "credit": {
+      "formatted": "0",
+      "amount": 0
+    }
+  },
+  {
+    "account": {
+      "accountCode": "20095"
+    },
+    "amountUnit": 1000,
+    "debit": {
+      "formatted": "0",
+      "amount": 0
+    },
+    "credit": {
+      "formatted": "0",
+      "amount": 0
+    }
+  },
+  {
+    "account": {
+      "accountCode": "20097"
+    },
+    "amountUnit": 1000,
+    "debit": {
+      "formatted": "0",
+      "amount": 0
+    },
+    "credit": {
+      "formatted": "0",
+      "amount": 0
+    }
+  },
+  {
+    "account": {
+      "accountCode": "20100"
+    },
+    "amountUnit": 1000,
+    "debit": {
+      "formatted": "0",
+      "amount": 0
+    },
+    "credit": {
+      "formatted": "556,720",
+      "amount": 556720380
+    }
+  },
+  {
+    "account": {
+      "accountCode": "20150"
+    },
+    "amountUnit": 1000,
+    "debit": {
+      "formatted": "0",
+      "amount": 0
+    },
+    "credit": {
+      "formatted": "5,216,141",
+      "amount": 5216141450
+    }
+  },
+  {
+    "account": {
+      "accountCode": "20209"
+    },
+    "amountUnit": 1000,
+    "debit": {
+      "formatted": "0",
+      "amount": 0
+    },
+    "credit": {
+      "formatted": "0",
+      "amount": 0
+    }
+  },
+  {
+    "account": {
+      "accountCode": "20210"
+    },
+    "amountUnit": 1000,
+    "debit": {
+      "formatted": "0",
+      "amount": 0
+    },
+    "credit": {
+      "formatted": "35,130,183",
+      "amount": 35130182890
+    }
+  },
+  {
+    "account": {
+      "accountCode": "20250"
+    },
+    "amountUnit": 1000,
+    "debit": {
+      "formatted": "0",
+      "amount": 0
+    },
+    "credit": {
+      "formatted": "10,820,256",
+      "amount": 10820255510
+    }
+  },
+  {
+    "account": {
+      "accountCode": "20260"
+    },
+    "amountUnit": 1000,
+    "debit": {
+      "formatted": "0",
+      "amount": 0
+    },
+    "credit": {
+      "formatted": "8,288,885",
+      "amount": 8288885040
+    }
+  },
+  {
+    "account": {
+      "accountCode": "20265"
+    },
+    "amountUnit": 1000,
+    "debit": {
+      "formatted": "0",
+      "amount": 0
+    },
+    "credit": {
+      "formatted": "2,254,742",
+      "amount": 2254742380
+    }
+  },
+  {
+    "account": {
+      "accountCode": "20270"
+    },
+    "amountUnit": 1000,
+    "debit": {
+      "formatted": "0",
+      "amount": 0
+    },
+    "credit": {
+      "formatted": "61,760,459",
+      "amount": 61760458610
+    }
+  },
+  {
+    "account": {
+      "accountCode": "20275"
+    },
+    "amountUnit": 1000,
+    "debit": {
+      "formatted": "0",
+      "amount": 0
+    },
+    "credit": {
+      "formatted": "13,600,701",
+      "amount": 13600700540
+    }
+  },
+  {
+    "account": {
+      "accountCode": "20305"
+    },
+    "amountUnit": 1000,
+    "debit": {
+      "formatted": "0",
+      "amount": 0
+    },
+    "credit": {
+      "formatted": "5,279,044",
+      "amount": 5279044160
+    }
+  },
+  {
+    "account": {
+      "accountCode": "20310"
+    },
+    "amountUnit": 1000,
+    "debit": {
+      "formatted": "0",
+      "amount": 0
+    },
+    "credit": {
+      "formatted": "1,573,955",
+      "amount": 1573955080
+    }
+  },
+  {
+    "account": {
+      "accountCode": "20350"
+    },
+    "amountUnit": 1000,
+    "debit": {
+      "formatted": "0",
+      "amount": 0
+    },
+    "credit": {
+      "formatted": "25,987,901",
+      "amount": 25987900990
+    }
+  },
+  {
+    "account": {
+      "accountCode": "20355"
+    },
+    "amountUnit": 1000,
+    "debit": {
+      "formatted": "0",
+      "amount": 0
+    },
+    "credit": {
+      "formatted": "1,200,205",
+      "amount": 1200204550
+    }
+  },
+  {
+    "account": {
+      "accountCode": "20410"
+    },
+    "amountUnit": 1000,
+    "debit": {
+      "formatted": "0",
+      "amount": 0
+    },
+    "credit": {
+      "formatted": "78,862,743",
+      "amount": 78862742980
+    }
+  },
+  {
+    "account": {
+      "accountCode": "20420"
+    },
+    "amountUnit": 1000,
+    "debit": {
+      "formatted": "0",
+      "amount": 0
+    },
+    "credit": {
+      "formatted": "170,208,727",
+      "amount": 170208727210
+    }
+  },
+  {
+    "account": {
+      "accountCode": "20430"
+    },
+    "amountUnit": 1000,
+    "debit": {
+      "formatted": "0",
+      "amount": 0
+    },
+    "credit": {
+      "formatted": "70,723",
+      "amount": 70722920
+    }
+  },
+  {
+    "account": {
+      "accountCode": "20440"
+    },
+    "amountUnit": 1000,
+    "debit": {
+      "formatted": "0",
+      "amount": 0
+    },
+    "credit": {
+      "formatted": "60,000,000",
+      "amount": 60000000000
+    }
+  },
+  {
+    "account": {
+      "accountCode": "20450"
+    },
+    "amountUnit": 1000,
+    "debit": {
+      "formatted": "0",
+      "amount": 0
+    },
+    "credit": {
+      "formatted": "9,981,000",
+      "amount": 9981000000
+    }
+  },
+  {
+    "account": {
+      "accountCode": "20455"
+    },
+    "amountUnit": 1000,
+    "debit": {
+      "formatted": "0",
+      "amount": 0
+    },
+    "credit": {
+      "formatted": "15,000,000",
+      "amount": 15000000000
+    }
+  },
+  {
+    "account": {
+      "accountCode": "20490"
+    },
+    "amountUnit": 1000,
+    "debit": {
+      "formatted": "0",
+      "amount": 0
+    },
+    "credit": {
+      "formatted": "0",
+      "amount": 0
+    }
+  },
+  {
+    "account": {
+      "accountCode": "20495"
+    },
+    "amountUnit": 1000,
+    "debit": {
+      "formatted": "0",
+      "amount": 0
+    },
+    "credit": {
+      "formatted": "0",
+      "amount": 0
+    }
+  },
+  {
+    "account": {
+      "accountCode": "20520"
+    },
+    "amountUnit": 1000,
+    "debit": {
+      "formatted": "0",
+      "amount": 0
+    },
+    "credit": {
+      "formatted": "1,357,345",
+      "amount": 1357344700
+    }
+  },
+  {
+    "account": {
+      "accountCode": "20540"
+    },
+    "amountUnit": 1000,
+    "debit": {
+      "formatted": "0",
+      "amount": 0
+    },
+    "credit": {
+      "formatted": "4,057,957",
+      "amount": 4057957070
+    }
+  },
+  {
+    "account": {
+      "accountCode": "20590"
+    },
+    "amountUnit": 1000,
+    "debit": {
+      "formatted": "0",
+      "amount": 0
+    },
+    "credit": {
+      "formatted": "0",
+      "amount": 0
+    }
+  },
+  {
+    "account": {
+      "accountCode": "20685"
+    },
+    "amountUnit": 1000,
+    "debit": {
+      "formatted": "0",
+      "amount": 0
+    },
+    "credit": {
+      "formatted": "0",
+      "amount": 0
+    }
+  },
+  {
+    "account": {
+      "accountCode": "20687"
+    },
+    "amountUnit": 1000,
+    "debit": {
+      "formatted": "0",
+      "amount": 0
+    },
+    "credit": {
+      "formatted": "0",
+      "amount": 0
+    }
+  },
+  {
+    "account": {
+      "accountCode": "21100"
+    },
+    "amountUnit": 1000,
+    "debit": {
+      "formatted": "0",
+      "amount": 0
+    },
+    "credit": {
+      "formatted": "0",
+      "amount": 0
+    }
+  },
+  {
+    "account": {
+      "accountCode": "21110"
+    },
+    "amountUnit": 1000,
+    "debit": {
+      "formatted": "0",
+      "amount": 0
+    },
+    "credit": {
+      "formatted": "0",
+      "amount": 0
+    }
+  },
+  {
+    "account": {
+      "accountCode": "21111"
+    },
+    "amountUnit": 1000,
+    "debit": {
+      "formatted": "0",
+      "amount": 0
+    },
+    "credit": {
+      "formatted": "0",
+      "amount": 0
+    }
+  },
+  {
+    "account": {
+      "accountCode": "21120"
+    },
+    "amountUnit": 1000,
+    "debit": {
+      "formatted": "0",
+      "amount": 0
+    },
+    "credit": {
+      "formatted": "0",
+      "amount": 0
+    }
+  },
+  {
+    "account": {
+      "accountCode": "21130"
+    },
+    "amountUnit": 1000,
+    "debit": {
+      "formatted": "0",
+      "amount": 0
+    },
+    "credit": {
+      "formatted": "0",
+      "amount": 0
+    }
+  },
+  {
+    "account": {
+      "accountCode": "21140"
+    },
+    "amountUnit": 1000,
+    "debit": {
+      "formatted": "0",
+      "amount": 0
+    },
+    "credit": {
+      "formatted": "0",
+      "amount": 0
+    }
+  },
+  {
+    "account": {
+      "accountCode": "21150"
+    },
+    "amountUnit": 1000,
+    "debit": {
+      "formatted": "0",
+      "amount": 0
+    },
+    "credit": {
+      "formatted": "0",
+      "amount": 0
+    }
+  },
+  {
+    "account": {
+      "accountCode": "21180"
+    },
+    "amountUnit": 1000,
+    "debit": {
+      "formatted": "0",
+      "amount": 0
+    },
+    "credit": {
+      "formatted": "0",
+      "amount": 0
+    }
+  },
+  {
+    "account": {
+      "accountCode": "21205"
+    },
+    "amountUnit": 1000,
+    "debit": {
+      "formatted": "0",
+      "amount": 0
+    },
+    "credit": {
+      "formatted": "0",
+      "amount": 0
+    }
+  },
+  {
+    "account": {
+      "accountCode": "21209"
+    },
+    "amountUnit": 1000,
+    "debit": {
+      "formatted": "0",
+      "amount": 0
+    },
+    "credit": {
+      "formatted": "0",
+      "amount": 0
+    }
+  },
+  {
+    "account": {
+      "accountCode": "21210"
+    },
+    "amountUnit": 1000,
+    "debit": {
+      "formatted": "0",
+      "amount": 0
+    },
+    "credit": {
+      "formatted": "0",
+      "amount": 10
+    }
+  },
+  {
+    "account": {
+      "accountCode": "21215"
+    },
+    "amountUnit": 1000,
+    "debit": {
+      "formatted": "0",
+      "amount": 0
+    },
+    "credit": {
+      "formatted": "0",
+      "amount": 0
+    }
+  },
+  {
+    "account": {
+      "accountCode": "21217"
+    },
+    "amountUnit": 1000,
+    "debit": {
+      "formatted": "0",
+      "amount": 0
+    },
+    "credit": {
+      "formatted": "0",
+      "amount": 0
+    }
+  },
+  {
+    "account": {
+      "accountCode": "21218"
+    },
+    "amountUnit": 1000,
+    "debit": {
+      "formatted": "0",
+      "amount": 0
+    },
+    "credit": {
+      "formatted": "0",
+      "amount": 0
+    }
+  },
+  {
+    "account": {
+      "accountCode": "21219"
+    },
+    "amountUnit": 1000,
+    "debit": {
+      "formatted": "0",
+      "amount": 0
+    },
+    "credit": {
+      "formatted": "0",
+      "amount": 0
+    }
+  },
+  {
+    "account": {
+      "accountCode": "21220"
+    },
+    "amountUnit": 1000,
+    "debit": {
+      "formatted": "0",
+      "amount": 0
+    },
+    "credit": {
+      "formatted": "0",
+      "amount": 0
+    }
+  },
+  {
+    "account": {
+      "accountCode": "21221"
+    },
+    "amountUnit": 1000,
+    "debit": {
+      "formatted": "0",
+      "amount": 0
+    },
+    "credit": {
+      "formatted": "30,848",
+      "amount": 30848220
+    }
+  },
+  {
+    "account": {
+      "accountCode": "21223"
+    },
+    "amountUnit": 1000,
+    "debit": {
+      "formatted": "0",
+      "amount": 0
+    },
+    "credit": {
+      "formatted": "392",
+      "amount": 392320
+    }
+  },
+  {
+    "account": {
+      "accountCode": "21224"
+    },
+    "amountUnit": 1000,
+    "debit": {
+      "formatted": "0",
+      "amount": 0
+    },
+    "credit": {
+      "formatted": "0",
+      "amount": 0
+    }
+  },
+  {
+    "account": {
+      "accountCode": "21225"
+    },
+    "amountUnit": 1000,
+    "debit": {
+      "formatted": "0",
+      "amount": 0
+    },
+    "credit": {
+      "formatted": "296,749",
+      "amount": 296748830
+    }
+  },
+  {
+    "account": {
+      "accountCode": "21230"
+    },
+    "amountUnit": 1000,
+    "debit": {
+      "formatted": "0",
+      "amount": 0
+    },
+    "credit": {
+      "formatted": "615,162",
+      "amount": 615161650
+    }
+  },
+  {
+    "account": {
+      "accountCode": "21232"
+    },
+    "amountUnit": 1000,
+    "debit": {
+      "formatted": "0",
+      "amount": 0
+    },
+    "credit": {
+      "formatted": "6,377",
+      "amount": 6377070
+    }
+  },
+  {
+    "account": {
+      "accountCode": "21233"
+    },
+    "amountUnit": 1000,
+    "debit": {
+      "formatted": "0",
+      "amount": 0
+    },
+    "credit": {
+      "formatted": "632",
+      "amount": 632080
+    }
+  },
+  {
+    "account": {
+      "accountCode": "21234"
+    },
+    "amountUnit": 1000,
+    "debit": {
+      "formatted": "0",
+      "amount": 0
+    },
+    "credit": {
+      "formatted": "822",
+      "amount": 821910
+    }
+  },
+  {
+    "account": {
+      "accountCode": "21235"
+    },
+    "amountUnit": 1000,
+    "debit": {
+      "formatted": "0",
+      "amount": 0
+    },
+    "credit": {
+      "formatted": "5,588",
+      "amount": 5588140
+    }
+  },
+  {
+    "account": {
+      "accountCode": "21240"
+    },
+    "amountUnit": 1000,
+    "debit": {
+      "formatted": "0",
+      "amount": 0
+    },
+    "credit": {
+      "formatted": "19,796",
+      "amount": 19796270
+    }
+  },
+  {
+    "account": {
+      "accountCode": "21290"
+    },
+    "amountUnit": 1000,
+    "debit": {
+      "formatted": "0",
+      "amount": 0
+    },
+    "credit": {
+      "formatted": "0",
+      "amount": 0
+    }
+  },
+  {
+    "account": {
+      "accountCode": "21310"
+    },
+    "amountUnit": 1000,
+    "debit": {
+      "formatted": "0",
+      "amount": 0
+    },
+    "credit": {
+      "formatted": "0",
+      "amount": 0
+    }
+  },
+  {
+    "account": {
+      "accountCode": "21320"
+    },
+    "amountUnit": 1000,
+    "debit": {
+      "formatted": "0",
+      "amount": 0
+    },
+    "credit": {
+      "formatted": "0",
+      "amount": 0
+    }
+  },
+  {
+    "account": {
+      "accountCode": "21330"
+    },
+    "amountUnit": 1000,
+    "debit": {
+      "formatted": "0",
+      "amount": 0
+    },
+    "credit": {
+      "formatted": "0",
+      "amount": 0
+    }
+  },
+  {
+    "account": {
+      "accountCode": "21340"
+    },
+    "amountUnit": 1000,
+    "debit": {
+      "formatted": "0",
+      "amount": 0
+    },
+    "credit": {
+      "formatted": "0",
+      "amount": 0
+    }
+  },
+  {
+    "account": {
+      "accountCode": "21345"
+    },
+    "amountUnit": 1000,
+    "debit": {
+      "formatted": "0",
+      "amount": 0
+    },
+    "credit": {
+      "formatted": "0",
+      "amount": 0
+    }
+  },
+  {
+    "account": {
+      "accountCode": "21350"
+    },
+    "amountUnit": 1000,
+    "debit": {
+      "formatted": "0",
+      "amount": 0
+    },
+    "credit": {
+      "formatted": "0",
+      "amount": 0
+    }
+  },
+  {
+    "account": {
+      "accountCode": "21380"
+    },
+    "amountUnit": 1000,
+    "debit": {
+      "formatted": "0",
+      "amount": 0
+    },
+    "credit": {
+      "formatted": "0",
+      "amount": 0
+    }
+  },
+  {
+    "account": {
+      "accountCode": "21410"
+    },
+    "amountUnit": 1000,
+    "debit": {
+      "formatted": "0",
+      "amount": 0
+    },
+    "credit": {
+      "formatted": "322",
+      "amount": 321910
+    }
+  },
+  {
+    "account": {
+      "accountCode": "22110"
+    },
+    "amountUnit": 1000,
+    "debit": {
+      "formatted": "0",
+      "amount": 0
+    },
+    "credit": {
+      "formatted": "0",
+      "amount": 0
+    }
+  },
+  {
+    "account": {
+      "accountCode": "22115"
+    },
+    "amountUnit": 1000,
+    "debit": {
+      "formatted": "0",
+      "amount": 0
+    },
+    "credit": {
+      "formatted": "205,330",
+      "amount": 205330150
+    }
+  },
+  {
+    "account": {
+      "accountCode": "22120"
+    },
+    "amountUnit": 1000,
+    "debit": {
+      "formatted": "0",
+      "amount": 0
+    },
+    "credit": {
+      "formatted": "189,623",
+      "amount": 189622770
+    }
+  },
+  {
+    "account": {
+      "accountCode": "22125"
+    },
+    "amountUnit": 1000,
+    "debit": {
+      "formatted": "0",
+      "amount": 0
+    },
+    "credit": {
+      "formatted": "378,869",
+      "amount": 378868870
+    }
+  },
+  {
+    "account": {
+      "accountCode": "22126"
+    },
+    "amountUnit": 1000,
+    "debit": {
+      "formatted": "0",
+      "amount": 0
+    },
+    "credit": {
+      "formatted": "761,325",
+      "amount": 761324930
+    }
+  },
+  {
+    "account": {
+      "accountCode": "22127"
+    },
+    "amountUnit": 1000,
+    "debit": {
+      "formatted": "0",
+      "amount": 0
+    },
+    "credit": {
+      "formatted": "0",
+      "amount": 0
+    }
+  },
+  {
+    "account": {
+      "accountCode": "22128"
+    },
+    "amountUnit": 1000,
+    "debit": {
+      "formatted": "0",
+      "amount": 0
+    },
+    "credit": {
+      "formatted": "81,345",
+      "amount": 81344580
+    }
+  },
+  {
+    "account": {
+      "accountCode": "22129"
+    },
+    "amountUnit": 1000,
+    "debit": {
+      "formatted": "0",
+      "amount": 0
+    },
+    "credit": {
+      "formatted": "23,668",
+      "amount": 23668450
+    }
+  },
+  {
+    "account": {
+      "accountCode": "22130"
+    },
+    "amountUnit": 1000,
+    "debit": {
+      "formatted": "0",
+      "amount": 0
+    },
+    "credit": {
+      "formatted": "17,134",
+      "amount": 17133810
+    }
+  },
+  {
+    "account": {
+      "accountCode": "22180"
+    },
+    "amountUnit": 1000,
+    "debit": {
+      "formatted": "0",
+      "amount": 0
+    },
+    "credit": {
+      "formatted": "72,538",
+      "amount": 72537780
+    }
+  },
+  {
+    "account": {
+      "accountCode": "22185"
+    },
+    "amountUnit": 1000,
+    "debit": {
+      "formatted": "0",
+      "amount": 0
+    },
+    "credit": {
+      "formatted": "29,754",
+      "amount": 29753740
+    }
+  },
+  {
+    "account": {
+      "accountCode": "22190"
+    },
+    "amountUnit": 1000,
+    "debit": {
+      "formatted": "0",
+      "amount": 0
+    },
+    "credit": {
+      "formatted": "177,694",
+      "amount": 177694420
+    }
+  },
+  {
+    "account": {
+      "accountCode": "22191"
+    },
+    "amountUnit": 1000,
+    "debit": {
+      "formatted": "0",
+      "amount": 0
+    },
+    "credit": {
+      "formatted": "144,313",
+      "amount": 144312690
+    }
+  },
+  {
+    "account": {
+      "accountCode": "22192"
+    },
+    "amountUnit": 1000,
+    "debit": {
+      "formatted": "0",
+      "amount": 0
+    },
+    "credit": {
+      "formatted": "37,011",
+      "amount": 37010880
+    }
+  },
+  {
+    "account": {
+      "accountCode": "22193"
+    },
+    "amountUnit": 1000,
+    "debit": {
+      "formatted": "0",
+      "amount": 0
+    },
+    "credit": {
+      "formatted": "65,957",
+      "amount": 65956520.00000001
+    }
+  },
+  {
+    "account": {
+      "accountCode": "22210"
+    },
+    "amountUnit": 1000,
+    "debit": {
+      "formatted": "0",
+      "amount": 0
+    },
+    "credit": {
+      "formatted": "25,186",
+      "amount": 25186250
+    }
+  },
+  {
+    "account": {
+      "accountCode": "22230"
+    },
+    "amountUnit": 1000,
+    "debit": {
+      "formatted": "0",
+      "amount": 0
+    },
+    "credit": {
+      "formatted": "0",
+      "amount": 0
+    }
+  },
+  {
+    "account": {
+      "accountCode": "22240"
+    },
+    "amountUnit": 1000,
+    "debit": {
+      "formatted": "0",
+      "amount": 0
+    },
+    "credit": {
+      "formatted": "2,043",
+      "amount": 2042900
+    }
+  },
+  {
+    "account": {
+      "accountCode": "22245"
+    },
+    "amountUnit": 1000,
+    "debit": {
+      "formatted": "0",
+      "amount": 0
+    },
+    "credit": {
+      "formatted": "0",
+      "amount": 0
+    }
+  },
+  {
+    "account": {
+      "accountCode": "22250"
+    },
+    "amountUnit": 1000,
+    "debit": {
+      "formatted": "0",
+      "amount": 0
+    },
+    "credit": {
+      "formatted": "0",
+      "amount": 0
+    }
+  },
+  {
+    "account": {
+      "accountCode": "22255"
+    },
+    "amountUnit": 1000,
+    "debit": {
+      "formatted": "0",
+      "amount": 0
+    },
+    "credit": {
+      "formatted": "138,167",
+      "amount": 138167240
+    }
+  },
+  {
+    "account": {
+      "accountCode": "22260"
+    },
+    "amountUnit": 1000,
+    "debit": {
+      "formatted": "0",
+      "amount": 0
+    },
+    "credit": {
+      "formatted": "0",
+      "amount": 0
+    }
+  },
+  {
+    "account": {
+      "accountCode": "22290"
+    },
+    "amountUnit": 1000,
+    "debit": {
+      "formatted": "0",
+      "amount": 0
+    },
+    "credit": {
+      "formatted": "19,142",
+      "amount": 19142230
+    }
+  },
+  {
+    "account": {
+      "accountCode": "22295"
+    },
+    "amountUnit": 1000,
+    "debit": {
+      "formatted": "0",
+      "amount": 0
+    },
+    "credit": {
+      "formatted": "0",
+      "amount": 0
+    }
+  },
+  {
+    "account": {
+      "accountCode": "22297"
+    },
+    "amountUnit": 1000,
+    "debit": {
+      "formatted": "0",
+      "amount": 0
+    },
+    "credit": {
+      "formatted": "0",
+      "amount": 0
+    }
+  },
+  {
+    "account": {
+      "accountCode": "22310"
+    },
+    "amountUnit": 1000,
+    "debit": {
+      "formatted": "0",
+      "amount": 0
+    },
+    "credit": {
+      "formatted": "0",
+      "amount": 0
+    }
+  },
+  {
+    "account": {
+      "accountCode": "22320"
+    },
+    "amountUnit": 1000,
+    "debit": {
+      "formatted": "0",
+      "amount": 0
+    },
+    "credit": {
+      "formatted": "0",
+      "amount": 0
+    }
+  },
+  {
+    "account": {
+      "accountCode": "22430"
+    },
+    "amountUnit": 1000,
+    "debit": {
+      "formatted": "0",
+      "amount": 0
+    },
+    "credit": {
+      "formatted": "1,401",
+      "amount": 1400800
+    }
+  },
+  {
+    "account": {
+      "accountCode": "22440"
+    },
+    "amountUnit": 1000,
+    "debit": {
+      "formatted": "0",
+      "amount": 0
+    },
+    "credit": {
+      "formatted": "0",
+      "amount": 0
+    }
+  },
+  {
+    "account": {
+      "accountCode": "22480"
+    },
+    "amountUnit": 1000,
+    "debit": {
+      "formatted": "0",
+      "amount": 0
+    },
+    "credit": {
+      "formatted": "0",
+      "amount": 0
+    }
+  },
+  {
+    "account": {
+      "accountCode": "22510"
+    },
+    "amountUnit": 1000,
+    "debit": {
+      "formatted": "0",
+      "amount": 0
+    },
+    "credit": {
+      "formatted": "0",
+      "amount": 0
+    }
+  },
+  {
+    "account": {
+      "accountCode": "22610"
+    },
+    "amountUnit": 1000,
+    "debit": {
+      "formatted": "0",
+      "amount": 0
+    },
+    "credit": {
+      "formatted": "51,291",
+      "amount": 51291210
+    }
+  },
+  {
+    "account": {
+      "accountCode": "22725"
+    },
+    "amountUnit": 1000,
+    "debit": {
+      "formatted": "0",
+      "amount": 0
+    },
+    "credit": {
+      "formatted": "0",
+      "amount": 0
+    }
+  },
+  {
+    "account": {
+      "accountCode": "28110"
+    },
+    "amountUnit": 1000,
+    "debit": {
+      "formatted": "0",
+      "amount": 0
+    },
+    "credit": {
+      "formatted": "31,138,497",
+      "amount": 31138496630
+    }
+  },
+  {
+    "account": {
+      "accountCode": "28120"
+    },
+    "amountUnit": 1000,
+    "debit": {
+      "formatted": "0",
+      "amount": 0
+    },
+    "credit": {
+      "formatted": "53,678,359",
+      "amount": 53678359300
+    }
+  },
+  {
+    "account": {
+      "accountCode": "28125"
+    },
+    "amountUnit": 1000,
+    "debit": {
+      "formatted": "0",
+      "amount": 0
+    },
+    "credit": {
+      "formatted": "0",
+      "amount": 0
+    }
+  },
+  {
+    "account": {
+      "accountCode": "28130"
+    },
+    "amountUnit": 1000,
+    "debit": {
+      "formatted": "0",
+      "amount": 0
+    },
+    "credit": {
+      "formatted": "2,384,534",
+      "amount": 2384534090
+    }
+  },
+  {
+    "account": {
+      "accountCode": "28140"
+    },
+    "amountUnit": 1000,
+    "debit": {
+      "formatted": "29,768,783",
+      "amount": 29768782880
+    },
+    "credit": {
+      "formatted": "0",
+      "amount": 0
+    }
+  },
+  {
+    "account": {
+      "accountCode": "28145"
+    },
+    "amountUnit": 1000,
+    "debit": {
+      "formatted": "0",
+      "amount": 0
+    },
+    "credit": {
+      "formatted": "0",
+      "amount": 0
+    }
+  },
+  {
+    "account": {
+      "accountCode": "28150"
+    },
+    "amountUnit": 1000,
+    "debit": {
+      "formatted": "0",
+      "amount": 0
+    },
+    "credit": {
+      "formatted": "21,537,595",
+      "amount": 21537594890
+    }
+  },
+  {
+    "account": {
+      "accountCode": "28160"
+    },
+    "amountUnit": 1000,
+    "debit": {
+      "formatted": "825,274",
+      "amount": 825274120
+    },
+    "credit": {
+      "formatted": "0",
+      "amount": 0
+    }
+  }
+]

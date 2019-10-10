@@ -56,7 +56,25 @@
       "captionSetList": [
         {
           "id": "captionSet1",
-          "title": "Caption Set for Individual FS"
+          "title": "Caption Set for Individual FS",
+          "captionList": [
+            {
+              "captionId": 1,
+              "captionTitle": "Caption 입니다 1"
+            },
+            {
+              "captionId": 2,
+              "captionTitle": "Caption 입니다 2"
+            },
+            {
+              "captionId": 3,
+              "captionTitle": "Caption 입니다 3"
+            },
+            {
+              "captionId": 4,
+              "captionTitle": "Caption 입니다 4"
+            }
+          ]
         },
         {
           "id": "captionSet1",
