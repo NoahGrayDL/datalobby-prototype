@@ -29,7 +29,7 @@ export default function TableForList(props) {
         minRows={data ? data.length : undefined}
         showPagination={false}
         className="-striped -highlight"
-      ></ReactTable>
+      />
     </StyledContainer>
   )
 }

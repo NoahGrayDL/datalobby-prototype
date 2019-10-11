@@ -99,8 +99,8 @@ const useStyles = makeStyles(theme => ({
   },
   container: {
     padding: theme.spacing(2, 3),
-    height: `calc(100vh - 64px)`
-    // overflow: "scroll" // temporary. have to update
+    height: `calc(100vh - 64px)`,
+    overflow: "scroll" // temporary. have to update
   },
   // this menuTitleBar for sub header which has menu title. origin=appBar
   menuTitleBar: {
