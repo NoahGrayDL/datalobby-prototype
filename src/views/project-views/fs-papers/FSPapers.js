@@ -1,9 +1,9 @@
 import React, { useReducer, useEffect, useState } from "react"
 import { PageContainer } from "../../../components"
-import InsertCoA from "./InsertCoA"
+import InsertPaper from "./InsertPaper"
 import axios from "axios"
 import { TableForList } from "../../../components/tables"
-import { coaReducer } from "../../../reducer"
+import { paperReducer } from "../../../reducer"
 import useAPI from "../../../utils/useAPI"
 import { Link } from "react-router-dom"
 import IconButton from "@material-ui/core/IconButton"
@@ -13,51 +13,45 @@ import MenuItem from "@material-ui/core/MenuItem"
 
 //-----*-----*-----*-----*-----*-----//
 
-export default function ChartOfAccount() {
-  const initialState = [{ coaList: [] }]
-  const [state, dispatch] = useReducer(coaReducer, initialState)
-  const existingCoA = useAPI("http://localhost:3000/chart-of-account")
+export default function FSPapers() {
+  const initialState = [{ papers: [] }]
+  const [state, dispatch] = useReducer(paperReducer, initialState)
+  const existingPapers = useAPI("http://localhost:3000/fs-papers")
 
   useEffect(() => {
     dispatch({
       type: "GET_DATA",
-      payload: existingCoA
+      payload: existingPapers
     })
-  }, [existingCoA])
+  }, [existingPapers])
 
   const onInsert = async value => {
-    const coa = {
-      id: `${value.name.replace(/(\s*)/g, "")}_${value.entity.replace(
+    const paper = {
+      id: `${value.type.replace(/(\s*)/g, "")}_${value.title.replace(
         /(\s*)/g,
         ""
       )}`,
       type: value.type,
-      name: value.name,
-      entity: value.entity,
-      entityId: value.entityId,
-      glaList: null
+      title: value.title
     }
-    const response = await axios.post(
-      "http://localhost:3000/chart-of-account",
-      coa
-    )
+    const response = await axios.post("http://localhost:3000/fs-papers", paper)
     dispatch({ type: "INSERT", payload: response.data })
   }
 
   const onRemove = async id => {
-    await axios.delete(`http://localhost:3000/chart-of-account/${id}`)
+    await axios.delete(`http://localhost:3000/fs-papers/${id}`)
     dispatch({ type: "REMOVE", id })
   }
 
-  if (!state.coaList) {
+  if (!state.papers) {
     return null
   }
 
   return (
-    <PageContainer menuTitle="Chart of Account">
-      <InsertCoA onInsert={onInsert} />
-      {state.coaList && (
-        <TableForList data={state.coaList} columns={columns(onRemove)} />
+    <PageContainer menuTitle="FS Papers">
+      <InsertPaper onInsert={onInsert} />
+      {state.papers && (
+        <TableForList data={state.papers} columns={columns(onRemove)} />
       )}
     </PageContainer>
   )
@@ -74,11 +68,12 @@ const columns = onRemove => {
       }
     },
     {
-      Header: "Name",
-      accessor: "name",
+      Header: "Title",
+      accessor: "title",
       minWidth: 180,
       Cell: row => {
         const id = row.original.id
+        console.log("paper ID:", id)
         return (
           <Link
             to={`/entity/chart-of-account/detail/${id}`}
@@ -95,44 +90,11 @@ const columns = onRemove => {
       }
     },
     {
-      Header: "GLA",
-      headerStyle: { textAlign: "center" },
-      accessor: "glaList",
-      minWidth: 40,
-      Cell: row => {
-        const gla = row.original.glaList
-        return (
-          <div style={{ width: "100%", textAlign: "center" }}>
-            {gla ? gla.length : "0"}
-          </div>
-        )
-      }
-    },
-    {
-      Header: "Entity",
-      accessor: "entity",
-      minWidth: 60,
-      Cell: row => {
-        const entity = row.original.entity
-        const entityId = row.original.entityId
-        console.log("entity: ", row, entity, entityId)
-        return (
-          <Link
-            to={`/entity/entity-detail/${entityId}`}
-            style={{ color: entityId ? "black" : "#e5e5e5" }}
-          >
-            {entity ? entity : ""}
-          </Link>
-        )
-      }
-    },
-    {
       Header: "action",
       accessor: "",
       minWidth: 50,
       Cell: row => {
         const id = row.value.id
-        console.log("delete id: ", id)
         const [anchorEl, setAnchorEl] = useState(null)
         const handleClick = event => {
           setAnchorEl(event.currentTarget)

@@ -173,9 +173,9 @@ const PROJECT_MENUS = [
         url: "/financial-statements/lead-sheet"
       },
       {
-        title: "Paper",
+        title: "FS Papers",
         icon: <PrintIcon />,
-        url: "/financial-statements/paper"
+        url: "/financial-statements/fs-papers"
       }
     ]
   },

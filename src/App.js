@@ -29,7 +29,7 @@ import { Ledgers } from "./views/project-views/ledgers"
 import { TrialBalance } from "./views/project-views/trial-balance"
 import { Adjustments } from "./views/project-views/adjustments"
 import { Leadsheet } from "./views/project-views/leadsheet"
-import { Paper } from "./views/project-views/paper"
+import { FSPapers } from "./views/project-views/fs-papers"
 import { Report } from "./views/project-views/report"
 import { SOX } from "./views/project-views/sox"
 import { Workpapers } from "./views/project-views/workpapers"
@@ -78,7 +78,7 @@ export default function App() {
         component={TrialBalance}
       />
       <Route path="/financial-statements/lead-sheet" component={Leadsheet} />
-      <Route path="/financial-statements/paper" component={Paper} />
+      <Route path="/financial-statements/fs-papers" component={FSPapers} />
       <Route path="/sox" component={SOX} />
       <Route path="/workpapers" component={Workpapers} />
       <Route path="/permanent-files" component={PermanentFiles} />
