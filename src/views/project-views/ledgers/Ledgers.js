@@ -1,9 +1,29 @@
-import React, { useEffect, useState } from "react"
+import React, { useEffect, useState, Suspense, lazy } from "react"
+
 import { PageContainer } from "../../../components"
-import ReactTable from "react-table"
+// import ReactTable from "react-table"
 import "react-table/react-table.css"
 import dataOrigin from "./captionList.json"
+import AmountEntry from "./AmountEntry"
+import entrySetData from "./entrySetCur.json"
 
+import _ from "lodash"
+
+import disablePaginationHOC from "./disablePaginationHOC"
+// BAD realization
+import slowVirtualizedTableHOC from "./slowVirtualizedTableHOC"
+// GOOD realization
+import virtualizedTableHOC from "./virtualizedTableHOC"
+import { flexbox } from "@material-ui/system"
+
+const ReactTable = lazy(() => import("react-table"))
+
+const SlowVirtualizedTable = slowVirtualizedTableHOC(
+  disablePaginationHOC(ReactTable)
+)
+const VirtualizedTable = virtualizedTableHOC(disablePaginationHOC(ReactTable))
+
+const entryMap = _.keyBy(entrySetData, entry => entry.account.accountCode)
 const accountCodeList = () => {
   const origins = dataOrigin.captionList
   // const captionTitle = dataOrigin.captionSetTitle
@@ -14,32 +34,28 @@ const accountCodeList = () => {
     return origin.accountCodeList.map((accountCode, i) => {
       return accountCodeList.push({
         accountCode: accountCode,
-        captionTitle: captionTitle
+        captionTitle: captionTitle,
+        debit: ((entryMap[accountCode] || {}).debit || {}).amount || 0,
+        credit: ((entryMap[accountCode] || {}).credit || {}).amount || 0
       })
     })
   })
   return accountCodeList
 }
 
-const makeExpandStructure = () => {
-  let x = new Object()
-  let i
-  for (i = 1; i === 1072; i++) {
-    const key = i.toString()
-    x.key = {}
-  }
-  return x
-}
+const makeExpandStructure = dataOrigin.captionList.map((e, i) => ({ [i]: {} }))
 
 export default function Ledgers() {
-  const [data, setData] = useState([])
-  const [isPivot, setIsPivot] = useState(false)
-  const [expand, setExpand] = useState(expandStructure)
+  const [data, setData] = useState(accountCodeList)
+  const [isPivot, setIsPivot] = useState(true)
+  const [state, setState] = useState({ expanded: {} })
+  const [expandedAll, setExpandedAll] = useState(makeExpandStructure)
 
   useEffect(() => {
-    setData(accountCodeList)
-  }, [])
-  console.log(data.length)
+    // setData(accountCodeList)
+    setState(isPivot ? { expanded: {} } : { expanded: expandedAll })
+  }, [isPivot])
+  // console.log(state.expanded)
 
   return (
     <PageContainer menuTitle="Ledgers">
@@ -49,16 +65,19 @@ export default function Ledgers() {
       >
         {isPivot ? "Expand" : "Collapse"}
       </div>
-      <ReactTable
-        data={data}
-        columns={columns2}
-        showPagination={false}
-        minRows={1072}
-        defaultPageSize={1072}
-        pivotBy={isPivot ? ["captionTitle"] : []}
-        expanded={expand}
-        onExpandedChange={expanded => setExpand({ expanded })}
-      />
+      <Suspense fallback={<div>Loading...</div>}>
+        <ReactTable
+          data={data}
+          columns={columns2}
+          showPagination={false}
+          minRows={1072}
+          defaultPageSize={1072}
+          // pivotBy={isPivot ? ["captionTitle"] : []}
+          pivotBy={["captionTitle"]}
+          expanded={state.expanded}
+          onExpandedChange={expanded => setState({ expanded })}
+        />
+      </Suspense>
       {/* <ReactTable
         data={data.captionList}
         columns={columns}
@@ -68,11 +87,38 @@ export default function Ledgers() {
     </PageContainer>
   )
 }
-
+const formatFcn = new Intl.NumberFormat("en-US", {
+  style: "decimal",
+  // currency: 'USD',
+  maximumFractionDigits: 0
+})
 // const columns = [{ Header: "Caption ID", accessor: "captionId" }]
 const columns2 = [
   { Header: "Caption Title", accessor: "captionTitle" },
-  { Heaader: "Code", accessor: "accountCode" }
-]
+  { Header: "Code", accessor: "accountCode" },
 
-const expandStructure = { "0": {}, "1": {} }
+  {
+    Header: "Balance",
+    accessor: "balance",
+    Cell: value => {
+      const { debit, credit } = value.original
+      return (
+        <div style={{ display: "flex", justifyContent: "row" }}>
+          <div style={{ width: 100, color: "coral" }}>{debit}</div>
+          <div style={{ width: 100, color: "blue" }}>{credit}</div>
+        </div>
+      )
+    }
+
+    // Cell: value => (
+    //   <AmountEntry
+    //     isMerged={false}
+    //     isFormatted={false}
+    //     formatFcn={formatFcn}
+    //     debit={value.original.debit}
+    //     credit={value.original.credit}
+    //     unit={1000}
+    //   />
+    // )
+  }
+]
