@@ -1,5 +1,5 @@
 {
-  "entities": [
+  "entity-list": [
     {
       "id": 1,
       "type": "Parent",
@@ -49,5 +49,14 @@
       "title": "asdfssdsfsddfa"
     }
   ],
-  "chart-of-account": []
+  "chart-of-account": [
+    {
+      "id": "1241231_31231232",
+      "type": "qwer123",
+      "name": "1241231",
+      "entity": "31231232",
+      "entityId": "13",
+      "glaList": null
+    }
+  ]
 }

@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react"
 import { PageContainer } from "../../../components"
 import Axios from "axios"
 
-export default function CompanyDetail({ match }) {
+export default function EntityDetail({ match }) {
   const [data, setData] = useState(null)
   const [loading, setLoading] = useState(false)
   const entityId = match.params.id
@@ -14,7 +14,7 @@ export default function CompanyDetail({ match }) {
       setLoading(true)
       try {
         const response = await Axios.get(
-          `http://localhost:3000/entities/${entityId}`
+          `http://localhost:3000/entity-list/${entityId}`
         )
         setData(response.data)
       } catch (e) {

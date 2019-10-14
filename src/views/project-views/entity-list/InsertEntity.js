@@ -1,7 +1,7 @@
 import React, { useState, useCallback } from "react"
 import styled from "styled-components"
 
-export default function InsertCompany(props) {
+export default function InsertEntity(props) {
   const { onInsert } = props
   const [value, setValue] = useState({
     name: "",

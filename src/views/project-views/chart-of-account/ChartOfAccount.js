@@ -81,7 +81,7 @@ const columns = onRemove => {
         const id = row.original.id
         return (
           <Link
-            to={`/entity/chart-of-account/detail/${id}`}
+            to={`/information/coa-list/${id}`}
             style={{
               width: "100%",
               height: "100%",
@@ -118,7 +118,7 @@ const columns = onRemove => {
         console.log("entity: ", row, entity, entityId)
         return (
           <Link
-            to={`/entity/entity-detail/${entityId}`}
+            to={`/information/entity-list/${entityId}`}
             style={{ color: entityId ? "black" : "#e5e5e5" }}
           >
             {entity ? entity : ""}

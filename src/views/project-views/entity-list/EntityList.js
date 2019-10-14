@@ -1,7 +1,7 @@
 import React, { useState, useEffect, useReducer } from "react"
 import { PageContainer } from "../../../components"
 import { Link } from "react-router-dom"
-import InsertCompany from "./InsertCompany"
+import InsertEntity from "./InsertEntity"
 import axios from "axios"
 import IconButton from "@material-ui/core/IconButton"
 import MoreVertIcon from "@material-ui/icons/MoreVert"
@@ -13,10 +13,10 @@ import useAPI from "../../../utils/useAPI"
 
 //-----*-----*-----*-----*-----*-----//
 
-export default function CompanyInformation() {
+export default function EntityList() {
   const initialState = [{ entities: [] }]
   const [state, dispatch] = useReducer(entityReducer, initialState)
-  const existingEntities = useAPI("http://localhost:3000/entities")
+  const existingEntities = useAPI("http://localhost:3000/entity-list")
 
   useEffect(() => {
     dispatch({
@@ -38,12 +38,15 @@ export default function CompanyInformation() {
       timeZone: value.timeZone,
       coaId: false
     }
-    const response = await axios.post("http://localhost:3000/entities", entity)
+    const response = await axios.post(
+      "http://localhost:3000/entity-list",
+      entity
+    )
     dispatch({ type: "INSERT", payload: response.data })
   }
 
   const onRemove = async id => {
-    await axios.delete(`http://localhost:3000/entities/${id}`)
+    await axios.delete(`http://localhost:3000/entity-list/${id}`)
     dispatch({ type: "REMOVE", id })
   }
 
@@ -52,11 +55,11 @@ export default function CompanyInformation() {
   }
 
   return (
-    <PageContainer menuTitle="Company Information">
+    <PageContainer menuTitle="Entity List">
       {state.entities && (
         <TableForList data={state.entities} columns={columns(onRemove)} />
       )}
-      <InsertCompany onInsert={onInsert} />
+      <InsertEntity onInsert={onInsert} />
     </PageContainer>
   )
 }
@@ -79,7 +82,7 @@ const columns = onRemove => {
         const id = row.original.id
         return (
           <Link
-            to={`/entity/entity-detail/${id}`}
+            to={`/information/entity-list/${id}`}
             style={{
               width: "100%",
               height: "100%",
@@ -114,7 +117,7 @@ const columns = onRemove => {
         const coaId = row.row.coaId
         return (
           <Link
-            to={`/entity/chart-of-account/detail/${coaId}`}
+            to={`/information/coa-list/${coaId}`}
             style={{ color: coaId ? "black" : "#e5e5e5" }}
           >
             CoA

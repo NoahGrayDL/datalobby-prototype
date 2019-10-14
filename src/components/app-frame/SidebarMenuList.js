@@ -118,25 +118,24 @@ const PROJECT_MENUS = [
     subMenus: false
   },
   {
-    title: "Project Information",
+    title: "Information",
     icon: <DescriptionOutlinedIcon />,
-    url: "/project-information",
-    subMenus: false
-  },
-  {
-    title: "Entity Information",
-    icon: <StarsIcon />,
-    url: "/entity",
+    url: "/information",
     subMenus: [
+      {
+        title: "Project Information",
+        icon: <StarsIcon />,
+        url: "/information/project-information"
+      },
       {
         title: "Entity List",
         icon: <StarsIcon />,
-        url: "/entity/entity-list"
+        url: "/information/entity-list"
       },
       {
-        title: "Chart of Account",
+        title: "CoA List",
         icon: <StarsIcon />,
-        url: "/entity/chart-of-account"
+        url: "/information/coa-list"
       }
     ]
   },

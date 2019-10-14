@@ -17,10 +17,7 @@ import { ProjectDashboard } from "./views/project-views/project-dashboard"
 import { ProjectInformation } from "./views/project-views/project-information"
 import { PreparedByClient } from "./views/project-views/prepared-by-client"
 import { TaskAndTime } from "./views/project-views/task-and-time"
-import {
-  CompanyInformation,
-  CompanyDetail
-} from "./views/project-views/company-information"
+import { EntityList, EntityDetail } from "./views/project-views/entity-list"
 import {
   ChartOfAccount,
   ChartOfAccountDetail
@@ -61,14 +58,18 @@ export default function App() {
       <Route path="/setup" component={Setup} />
       {/* ----------project views---------- */}
       <Route path="/project-dashboard" component={ProjectDashboard} />
-      <Route path="/project-information" component={ProjectInformation} />
-      <Route path="/entity/entity-list" component={CompanyInformation} />
-      <Route path="/entity/entity-detail/:id" component={CompanyDetail} />
-      <Route exact path="/entity/chart-of-account" component={ChartOfAccount} />
       <Route
-        path="/entity/chart-of-account/detail/:id"
+        path="/information/project-information"
+        component={ProjectInformation}
+      />
+      <Route exact path="/information/entity-list" component={EntityList} />
+      <Route path="/information/entity-list/:id" component={EntityDetail} />
+      <Route exact path="/information/coa-list" component={ChartOfAccount} />
+      <Route
+        path="/information/coa-list/:id"
         component={ChartOfAccountDetail}
       />
+
       <Route path="/prepared-by-client" component={PreparedByClient} />
       <Route path="/task-and-time" component={TaskAndTime} />
 
