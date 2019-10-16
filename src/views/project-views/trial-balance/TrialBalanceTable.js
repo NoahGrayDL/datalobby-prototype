@@ -16,40 +16,13 @@ import {
 const TrialBalanceTable = () => {
   return (
     <StyledTBContainer>
-      {dataSet.map(item => {
+      {/* {dataSet.map(item => {
         const { data, columnStructure } = item
         return <BasicTable data={data} columnStructure={columnStructure} />
-      })}
+      })} */}
     </StyledTBContainer>
   )
 }
-
-const dataSet = [
-  {
-    data: generalLedgerAccounts,
-    columnStructure: generalLedgerAccountsColumn
-  },
-  {
-    data: captions,
-    columnStructure: captionColumn
-  },
-  {
-    data: generalLedgerAccounts,
-    columnStructure: trialBalanceOpeningColumn
-  },
-  {
-    data: generalLedgerAccounts,
-    columnStructure: trialBalanceCurrentPeriodColumn
-  },
-  {
-    data: generalLedgerAccounts,
-    columnStructure: trialBalanceNetChangeColumn
-  },
-  {
-    data: generalLedgerAccounts,
-    columnStructure: trialBalanceEndingColumn
-  }
-]
 
 const StyledTBContainer = styled.div`
   display: flex;
