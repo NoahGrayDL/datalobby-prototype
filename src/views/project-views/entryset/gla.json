@@ -1,0 +1,6470 @@
+[
+  {
+    "accountCode": "1101001",
+    "accountTitle": "WELLS FARGO BANK",
+    "accountClass": "ASSETS",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "1101002",
+    "accountTitle": "BANK OF AMERICA",
+    "accountClass": "ASSETS",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "1101003",
+    "accountTitle": "THE CHASE MANHATTAN BANK",
+    "accountClass": "ASSETS",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "1101004",
+    "accountTitle": "FEDERAL RESERVE BANK OF S.F.",
+    "accountClass": "ASSETS",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "1101005",
+    "accountTitle": "FUNDS TRANSFER - FRB",
+    "accountClass": "ASSETS",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "1101008",
+    "accountTitle": "UNION BANK - SWEEP",
+    "accountClass": "ASSETS",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "1101009",
+    "accountTitle": "UNION BANK",
+    "accountClass": "ASSETS",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "1101010",
+    "accountTitle": "FEDERAL HOME LOAN BANK",
+    "accountClass": "ASSETS",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "1101030",
+    "accountTitle": "CITY NATIONAL BANK",
+    "accountClass": "ASSETS",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "1101040",
+    "accountTitle": "WELLS FARGO BANK - PAYROLL",
+    "accountClass": "ASSETS",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "1101042",
+    "accountTitle": "BANK OF THE WEST",
+    "accountClass": "ASSETS",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "1101043",
+    "accountTitle": "US BANK-SBA RESERVE ACCOUNT",
+    "accountClass": "ASSETS",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "1101070",
+    "accountTitle": "REC D FED ACH",
+    "accountClass": "ASSETS",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "1101073",
+    "accountTitle": "UA",
+    "accountClass": "ASSETS",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "1101080",
+    "accountTitle": "TEXAS CAPITAL BANK ",
+    "accountClass": "ASSETS",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "1101081",
+    "accountTitle": "CITI Bank ",
+    "accountClass": "ASSETS",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "1101082",
+    "accountTitle": "TEXAS INDEPENDENT BANK",
+    "accountClass": "ASSETS",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "1101083",
+    "accountTitle": "TEXAS INDEPENDENT BANK MMDA",
+    "accountClass": "ASSETS",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "1101084",
+    "accountTitle": "UCB - LLC Funds",
+    "accountClass": "ASSETS",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "1101086",
+    "accountTitle": "UA",
+    "accountClass": "ASSETS",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "1101088",
+    "accountTitle": "CLEARING",
+    "accountClass": "ASSETS",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "1101090",
+    "accountTitle": "UA",
+    "accountClass": "ASSETS",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "1102001",
+    "accountTitle": "STANDARD CHARTERED FIRST BANK",
+    "accountClass": "ASSETS",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "1102002",
+    "accountTitle": "KEB-WON ACCOUNT",
+    "accountClass": "ASSETS",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "1202001",
+    "accountTitle": "TELLER #1",
+    "accountClass": "ASSETS",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "1202002",
+    "accountTitle": "TELLER #2",
+    "accountClass": "ASSETS",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "1202003",
+    "accountTitle": "TELLER #3",
+    "accountClass": "ASSETS",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "1202004",
+    "accountTitle": "TELLER #4",
+    "accountClass": "ASSETS",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "1202005",
+    "accountTitle": "TELLER #5",
+    "accountClass": "ASSETS",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "1202006",
+    "accountTitle": "TELLER #6",
+    "accountClass": "ASSETS",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "1202007",
+    "accountTitle": "TELLER #7",
+    "accountClass": "ASSETS",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "1202008",
+    "accountTitle": "TELLER #8",
+    "accountClass": "ASSETS",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "1202009",
+    "accountTitle": "TELLER #9",
+    "accountClass": "ASSETS",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "1202010",
+    "accountTitle": "TELLER #10",
+    "accountClass": "ASSETS",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "1202011",
+    "accountTitle": "TELLER #11",
+    "accountClass": "ASSETS",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "1202012",
+    "accountTitle": "TELLER #12",
+    "accountClass": "ASSETS",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "1202013",
+    "accountTitle": "TELLER #13",
+    "accountClass": "ASSETS",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "1202014",
+    "accountTitle": "TELLER #14",
+    "accountClass": "ASSETS",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "1202020",
+    "accountTitle": "ATM CASH",
+    "accountClass": "ASSETS",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "1202030",
+    "accountTitle": "TELLER #30",
+    "accountClass": "ASSETS",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "1202040",
+    "accountTitle": "ATM 2 CASH",
+    "accountClass": "ASSETS",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "1202050",
+    "accountTitle": "VAULT CASH",
+    "accountClass": "ASSETS",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "1202052",
+    "accountTitle": "UA",
+    "accountClass": "ASSETS",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "1202054",
+    "accountTitle": "CASH-WON",
+    "accountClass": "ASSETS",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "1203000",
+    "accountTitle": "FOOD COPONS",
+    "accountClass": "ASSETS",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "1206000",
+    "accountTitle": "ATM TRANSACTION",
+    "accountClass": "ASSETS",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "1208000",
+    "accountTitle": "UA",
+    "accountClass": "ASSETS",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "1209000",
+    "accountTitle": "UA",
+    "accountClass": "ASSETS",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "1302000",
+    "accountTitle": "CASH ITEM COLLECTION",
+    "accountClass": "ASSETS",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "1302100",
+    "accountTitle": "CASH ITEM COLLECTION-FOREIGN",
+    "accountClass": "ASSETS",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "1303000",
+    "accountTitle": "CASH COLLECTION-FRB DEFERRED",
+    "accountClass": "ASSETS",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "1304000",
+    "accountTitle": "CASH COLLECTION-FRB RETRN ITEM",
+    "accountClass": "ASSETS",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "1304500",
+    "accountTitle": "CASH COLLECTION-ACH RETRN ITEM",
+    "accountClass": "ASSETS",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "1304600",
+    "accountTitle": "UA",
+    "accountClass": "ASSETS",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "1304700",
+    "accountTitle": "EIM HOLDOVER - FRB RETURN",
+    "accountClass": "ASSETS",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "1304750",
+    "accountTitle": "APPLICATION PIM TRANSFER (ACH)",
+    "accountClass": "ASSETS",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "1304755",
+    "accountTitle": "PIM IN PRECESS (ACH)",
+    "accountClass": "ASSETS",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "1305000",
+    "accountTitle": "CASH ITEMS-HOLDOVERS",
+    "accountClass": "ASSETS",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "1305100",
+    "accountTitle": "TELLERS EXCHANGE",
+    "accountClass": "ASSETS",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "1305200",
+    "accountTitle": "CASH SHIPMENT IN TRANSIT",
+    "accountClass": "ASSETS",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "1305300",
+    "accountTitle": "CASH VAULT SERVICE",
+    "accountClass": "ASSETS",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "1305500",
+    "accountTitle": "REMITTANCE IN PROCESS",
+    "accountClass": "ASSETS",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "1305900",
+    "accountTitle": "INTER BRANCH CLEARING ACCOUNT",
+    "accountClass": "ASSETS",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "1306000",
+    "accountTitle": "BRANCH SETTLEMENT",
+    "accountClass": "ASSETS",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "1306002",
+    "accountTitle": "UA",
+    "accountClass": "ASSETS",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "1307000",
+    "accountTitle": "UA",
+    "accountClass": "ASSETS",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "1309000",
+    "accountTitle": "OTHER PROOF ADJUSTMENT",
+    "accountClass": "ASSETS",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "2101000",
+    "accountTitle": "OVER-NIGHT FED FUNDS SOLD",
+    "accountClass": "ASSETS",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "2101010",
+    "accountTitle": "OVER-NIGHT REPO",
+    "accountClass": "ASSETS",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "2102000",
+    "accountTitle": "TERM FED FUNDS",
+    "accountClass": "ASSETS",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "2201000",
+    "accountTitle": "US TREASURY SECURTIES/HTM",
+    "accountClass": "ASSETS",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "2202000",
+    "accountTitle": "US TREASURY SECURTIES/AFS",
+    "accountClass": "ASSETS",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "2204000",
+    "accountTitle": "UA",
+    "accountClass": "ASSETS",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "2205000",
+    "accountTitle": "UA",
+    "accountClass": "ASSETS",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "2206000",
+    "accountTitle": "UA",
+    "accountClass": "ASSETS",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "2210000",
+    "accountTitle": "FEDERAL RESERVE BANK STOCK",
+    "accountClass": "ASSETS",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "2215000",
+    "accountTitle": "FEDERAL HOME LOAN BANK STOCK",
+    "accountClass": "ASSETS",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "2215002",
+    "accountTitle": "Texas Independent Bank Stock ",
+    "accountClass": "ASSETS",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "2215003",
+    "accountTitle": "North Texas MESBIC Stock ",
+    "accountClass": "ASSETS",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "2215005",
+    "accountTitle": "EQUITY INVESTMENT",
+    "accountClass": "ASSETS",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "2215020",
+    "accountTitle": "UA",
+    "accountClass": "ASSETS",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "2215030",
+    "accountTitle": "MONEY MARKET FUND",
+    "accountClass": "ASSETS",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "2216000",
+    "accountTitle": "INVESTMENT IN MUTUAL FUND",
+    "accountClass": "ASSETS",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "2216010",
+    "accountTitle": "FMV ADJ - ARM FUND",
+    "accountClass": "ASSETS",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "2217000",
+    "accountTitle": "BONDS IN PROGRESS",
+    "accountClass": "ASSETS",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "2217010",
+    "accountTitle": "UA",
+    "accountClass": "ASSETS",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "2251000",
+    "accountTitle": "US GOVT AGENCY SECURITIES/HTM",
+    "accountClass": "ASSETS",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "2251500",
+    "accountTitle": "US GOVT AGENCY SECURITIES/AFS",
+    "accountClass": "ASSETS",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "2252000",
+    "accountTitle": "DISCOUNT ON USGA SECURITIES",
+    "accountClass": "ASSETS",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "2252050",
+    "accountTitle": "UA",
+    "accountClass": "ASSETS",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "2253000",
+    "accountTitle": "PREMIUM ON USGA SECURITIES",
+    "accountClass": "ASSETS",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "2254000",
+    "accountTitle": "FMV ADJ-AFS USGA SECURITIES",
+    "accountClass": "ASSETS",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "2261000",
+    "accountTitle": "UA",
+    "accountClass": "ASSETS",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "2261500",
+    "accountTitle": "UA",
+    "accountClass": "ASSETS",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "2262000",
+    "accountTitle": "UA",
+    "accountClass": "ASSETS",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "2263000",
+    "accountTitle": "UA",
+    "accountClass": "ASSETS",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "2264000",
+    "accountTitle": "UA",
+    "accountClass": "ASSETS",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "2271000",
+    "accountTitle": "ASSET BACKED SECURITIES/HTM",
+    "accountClass": "ASSETS",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "2271500",
+    "accountTitle": "ASSET BACKED SECURITIES/AFS",
+    "accountClass": "ASSETS",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "2272000",
+    "accountTitle": "DISCOUNT ON ABS",
+    "accountClass": "ASSETS",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "2273000",
+    "accountTitle": "PREMIUM ON ABS",
+    "accountClass": "ASSETS",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "2274000",
+    "accountTitle": "FMV ADJ-ABS",
+    "accountClass": "ASSETS",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "2281000",
+    "accountTitle": "CORPORATE BOND/HTM",
+    "accountClass": "ASSETS",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "2281500",
+    "accountTitle": "CORPORATE BOND/AFS",
+    "accountClass": "ASSETS",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "2282000",
+    "accountTitle": "DISCOUNT ON CORPORATE BOND",
+    "accountClass": "ASSETS",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "2283000",
+    "accountTitle": "PREMIUM ON CORPORATE BOND",
+    "accountClass": "ASSETS",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "2284000",
+    "accountTitle": "FMS ADJ-AFS CORPORATE BOND",
+    "accountClass": "ASSETS",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "2291000",
+    "accountTitle": "MORTGAGE BACKED SECURITY/HTM",
+    "accountClass": "ASSETS",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "2291500",
+    "accountTitle": "MORTGAGE BACKED SECURITY/AFS",
+    "accountClass": "ASSETS",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "2292000",
+    "accountTitle": "DISCOUNT ON MBS",
+    "accountClass": "ASSETS",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "2293000",
+    "accountTitle": "PREMIUM ON MBS",
+    "accountClass": "ASSETS",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "2294000",
+    "accountTitle": "FMV ADJ-AFS MBS",
+    "accountClass": "ASSETS",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "2301000",
+    "accountTitle": "SBA LOAN POOLS SECURITY/AFS",
+    "accountClass": "ASSETS",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "2302000",
+    "accountTitle": "DISCOUNT ON SBA ",
+    "accountClass": "ASSETS",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "2303000",
+    "accountTitle": "PREMIUM ON SBA ",
+    "accountClass": "ASSETS",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "2304000",
+    "accountTitle": "FMV ADJ-AFS SBA",
+    "accountClass": "ASSETS",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "2401000",
+    "accountTitle": "STATE & MUNI SECURITIES/HTM",
+    "accountClass": "ASSETS",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "2401500",
+    "accountTitle": "STATE & MUNI SECURITIES/AFS",
+    "accountClass": "ASSETS",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "2402000",
+    "accountTitle": "DISCOUNT ON STATE & MUNI",
+    "accountClass": "ASSETS",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "2403000",
+    "accountTitle": "PREMIUM ON STATE & MUNI",
+    "accountClass": "ASSETS",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "2404000",
+    "accountTitle": "FMV ADJ-AFS MUNI",
+    "accountClass": "ASSETS",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "2404050",
+    "accountTitle": "CA REGISTERED WARRANTS",
+    "accountClass": "ASSETS",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "2405000",
+    "accountTitle": "STATE & MUNI SEC/HTM-TAX",
+    "accountClass": "ASSETS",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "2405005",
+    "accountTitle": "PREM ON ST & MUNI/HTM-TAX",
+    "accountClass": "ASSETS",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "2405010",
+    "accountTitle": "STATE & MUNI SEC/AFS-TAX",
+    "accountClass": "ASSETS",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "2405011",
+    "accountTitle": "DISC ON ST & MUNI/AFS-TAX",
+    "accountClass": "ASSETS",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "2405012",
+    "accountTitle": "PREM ON ST & MUNI/AFS-TAX",
+    "accountClass": "ASSETS",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "2405013",
+    "accountTitle": "FMV ADJ-ST & MUNI-TAX",
+    "accountClass": "ASSETS",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "2501000",
+    "accountTitle": "OTHER SECURITIES",
+    "accountClass": "ASSETS",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "2501020",
+    "accountTitle": "TAX CREDIT FUND-VAL ADJ",
+    "accountClass": "ASSETS",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "2502000",
+    "accountTitle": "DISCOUNT ON OTHER SECURITY",
+    "accountClass": "ASSETS",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "2503000",
+    "accountTitle": "AMORTIZATION OF LOW INCOME HOUSING TCF",
+    "accountClass": "ASSETS",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "2503010",
+    "accountTitle": "UA",
+    "accountClass": "ASSETS",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "2601000",
+    "accountTitle": "CD S PURCHASED",
+    "accountClass": "ASSETS",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "2602000",
+    "accountTitle": "UA",
+    "accountClass": "ASSETS",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "2602500",
+    "accountTitle": "UA",
+    "accountClass": "ASSETS",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "2701000",
+    "accountTitle": "UA",
+    "accountClass": "ASSETS",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "2701500",
+    "accountTitle": "COLLATERALIZED MORTG OBLG/AFS",
+    "accountClass": "ASSETS",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "2702000",
+    "accountTitle": "DISCOUNT ON CMO",
+    "accountClass": "ASSETS",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "2703000",
+    "accountTitle": "PREMIUM ON CMO",
+    "accountClass": "ASSETS",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "2704000",
+    "accountTitle": "FMV ADJ-AFS CMO",
+    "accountClass": "ASSETS",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "3111010",
+    "accountTitle": "COMMERCIAL PROPERTY LOAN",
+    "accountClass": "ASSETS",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "3111012",
+    "accountTitle": "COM L PROPERTY LINE OF CREDIT",
+    "accountClass": "ASSETS",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "3111015",
+    "accountTitle": "SINGLE FAMILY II",
+    "accountClass": "ASSETS",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "3111017",
+    "accountTitle": "FIX RATE SINGLE FAMILY 30/360",
+    "accountClass": "ASSETS",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "3111018",
+    "accountTitle": "VAR RATE SINGLE FAMILY 30/360",
+    "accountClass": "ASSETS",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "3111020",
+    "accountTitle": "REAL ESTATE-PART SOLD",
+    "accountClass": "ASSETS",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "3111025",
+    "accountTitle": "REAL ESTATE-PART PURCHASED",
+    "accountClass": "ASSETS",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "3111030",
+    "accountTitle": "AVAIL CREDIT ASSETS-R/E",
+    "accountClass": "ASSETS",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "3111035",
+    "accountTitle": "UA",
+    "accountClass": "ASSETS",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "3111040",
+    "accountTitle": "UA",
+    "accountClass": "ASSETS",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "3111045",
+    "accountTitle": "UA",
+    "accountClass": "ASSETS",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "3111065",
+    "accountTitle": "UA",
+    "accountClass": "ASSETS",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "3111080",
+    "accountTitle": "AVAIL CREDIT LIAB-OFFSET",
+    "accountClass": "ASSETS",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "3111082",
+    "accountTitle": "1-4 RESIDENTIAL MORTG. - FIXED",
+    "accountClass": "ASSETS",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "3111084",
+    "accountTitle": "1-4 RESIDENTIAL MORTG. - ARM",
+    "accountClass": "ASSETS",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "3111085",
+    "accountTitle": "MORTGAGE PURCHASED FHA-FIXED",
+    "accountClass": "ASSETS",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "3111086",
+    "accountTitle": "Multifamily Residential Loans",
+    "accountClass": "ASSETS",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "3111088",
+    "accountTitle": "PREMIUM ON LOAN PURCHASED",
+    "accountClass": "ASSETS",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "3111089",
+    "accountTitle": "MORTGAGE LOANS PURCHASED",
+    "accountClass": "ASSETS",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "3111090",
+    "accountTitle": "UA",
+    "accountClass": "ASSETS",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "3111092",
+    "accountTitle": "UA",
+    "accountClass": "ASSETS",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "3111094",
+    "accountTitle": "UA",
+    "accountClass": "ASSETS",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "3111096",
+    "accountTitle": "NAIP-MORTGAGE LN",
+    "accountClass": "ASSETS",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "3111097",
+    "accountTitle": "NAIP-Multifamily Residential Loans",
+    "accountClass": "ASSETS",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "3111098",
+    "accountTitle": "NAIP-REAL ESTATE LOANS",
+    "accountClass": "ASSETS",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "3111099",
+    "accountTitle": "UA",
+    "accountClass": "ASSETS",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "3111100",
+    "accountTitle": "PUB MERGER-FMV ADJ.(LOAN)",
+    "accountClass": "ASSETS",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "3111120",
+    "accountTitle": "ASC 310-30 Contra Comml RE Loans",
+    "accountClass": "ASSETS",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "3111121",
+    "accountTitle": "ASC 310-30 Comml RE Loans",
+    "accountClass": "ASSETS",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "3111130",
+    "accountTitle": "ASC 310-20 Comml RE Loans",
+    "accountClass": "ASSETS",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "3111150",
+    "accountTitle": "ASC 310-30 Contra Multifamily Residential Loans",
+    "accountClass": "ASSETS",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "3111151",
+    "accountTitle": "ASC 310-30 Multifamily Residential Loans",
+    "accountClass": "ASSETS",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "3111152",
+    "accountTitle": "ASC 310-30 Contra SFR Loans",
+    "accountClass": "ASSETS",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "3111153",
+    "accountTitle": "ASC 310-30 SFR Loans",
+    "accountClass": "ASSETS",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "3111160",
+    "accountTitle": "ASC 310-20 Multifamily Loans",
+    "accountClass": "ASSETS",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "3111161",
+    "accountTitle": "ASC 310-20 SFR Loans",
+    "accountClass": "ASSETS",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "3112010",
+    "accountTitle": "CONSTRUCTION LOAN - COMMERCIAL",
+    "accountClass": "ASSETS",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "3112013",
+    "accountTitle": "CONSTRUCTION - RESIDENTIAL",
+    "accountClass": "ASSETS",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "3112015",
+    "accountTitle": "CONSTRUCTION-PART PURCHASED",
+    "accountClass": "ASSETS",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "3112020",
+    "accountTitle": "CONSTRUCTION-PART SOLD",
+    "accountClass": "ASSETS",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "3112025",
+    "accountTitle": "AVAIL CREDIT ASSETS-CONSTR",
+    "accountClass": "ASSETS",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "3112030",
+    "accountTitle": "UA",
+    "accountClass": "ASSETS",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "3112035",
+    "accountTitle": "UA",
+    "accountClass": "ASSETS",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "3112040",
+    "accountTitle": "UA",
+    "accountClass": "ASSETS",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "3112050",
+    "accountTitle": "AVAIL CREDIT LIAB-OFFSET",
+    "accountClass": "ASSETS",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "3112098",
+    "accountTitle": "UA",
+    "accountClass": "ASSETS",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "3112099",
+    "accountTitle": "NAIP-CONSTRUCTION",
+    "accountClass": "ASSETS",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "3112120",
+    "accountTitle": "ASC 310-30 Contra Construction Loans",
+    "accountClass": "ASSETS",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "3112121",
+    "accountTitle": "ASC 310-30 Construction Loans",
+    "accountClass": "ASSETS",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "3112130",
+    "accountTitle": "ASC 310-20 Construction Loans",
+    "accountClass": "ASSETS",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "3211010",
+    "accountTitle": "COML TERM LOAN-UNSECURED",
+    "accountClass": "ASSETS",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "3211015",
+    "accountTitle": "COML TERM LN:T/D SECURED",
+    "accountClass": "ASSETS",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "3211018",
+    "accountTitle": "TERM LN-BUSI.RE PROPTY SECURED",
+    "accountClass": "ASSETS",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "3211020",
+    "accountTitle": "COML TERM LOAN-CASH SECURED",
+    "accountClass": "ASSETS",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "3211025",
+    "accountTitle": "COML TERM LOAN-OTHER SECURED",
+    "accountClass": "ASSETS",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "3211030",
+    "accountTitle": "COML TERM LOAN-PART SOLD",
+    "accountClass": "ASSETS",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "3211031",
+    "accountTitle": "UA",
+    "accountClass": "ASSETS",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "3211033",
+    "accountTitle": "COML TERM LN-PART PURCH TD SEC",
+    "accountClass": "ASSETS",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "3211035",
+    "accountTitle": "COML TERM LOAN-PART PURCHASED",
+    "accountClass": "ASSETS",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "3211037",
+    "accountTitle": "CRA LOANS",
+    "accountClass": "ASSETS",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "3211038",
+    "accountTitle": "UA",
+    "accountClass": "ASSETS",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "3211040",
+    "accountTitle": "AVAIL CR ASSETS-COML TERM LNS",
+    "accountClass": "ASSETS",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "3211045",
+    "accountTitle": "UA",
+    "accountClass": "ASSETS",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "3211050",
+    "accountTitle": "AVAIL CREDIT LIAB-OFFSET",
+    "accountClass": "ASSETS",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "3211098",
+    "accountTitle": "NAIP-COMMERCIAL PROPERTY TERM LN",
+    "accountClass": "ASSETS",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "3211099",
+    "accountTitle": "NAIP-COMMERCIAL TERM LN",
+    "accountClass": "ASSETS",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "3211120",
+    "accountTitle": "ASC 310-30 Contra C&I Loans",
+    "accountClass": "ASSETS",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "3211121",
+    "accountTitle": "ASC 310-30 C&I Loans",
+    "accountClass": "ASSETS",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "3211130",
+    "accountTitle": "ASC 310-20 C&I Loans",
+    "accountClass": "ASSETS",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "3212010",
+    "accountTitle": "COML LINE OF CREDIT-UNSECURED",
+    "accountClass": "ASSETS",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "3212015",
+    "accountTitle": "COML LINE OF CREDIT-T/D SECURE",
+    "accountClass": "ASSETS",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "3212020",
+    "accountTitle": "COML LINE OF CREDIT-CASH SECUR",
+    "accountClass": "ASSETS",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "3212025",
+    "accountTitle": "COML LINE OF CR-OTHER SECURED",
+    "accountClass": "ASSETS",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "3212030",
+    "accountTitle": "COML LINE OF CR-ASSET BASED",
+    "accountClass": "ASSETS",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "3212035",
+    "accountTitle": "UA",
+    "accountClass": "ASSETS",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "3212040",
+    "accountTitle": "COML LINE PART PURCHASED",
+    "accountClass": "ASSETS",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "3212080",
+    "accountTitle": "AVAIL CREDIT ASSETS-UNSECURED",
+    "accountClass": "ASSETS",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "3212082",
+    "accountTitle": "AVAIL CREDIT ASSETS-T/D SECURE",
+    "accountClass": "ASSETS",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "3212083",
+    "accountTitle": "AVAIL CREDIT ASSETS-CASH SECUR",
+    "accountClass": "ASSETS",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "3212084",
+    "accountTitle": "AVAIL CREDIT ASSETS-OTHER SECD",
+    "accountClass": "ASSETS",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "3212085",
+    "accountTitle": "AVAIL CR ASSETS - ASSET BASED",
+    "accountClass": "ASSETS",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "3212086",
+    "accountTitle": "UA",
+    "accountClass": "ASSETS",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "3212090",
+    "accountTitle": "UA",
+    "accountClass": "ASSETS",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "3212092",
+    "accountTitle": "AVAIL CREDIT LIAB-OFFSET",
+    "accountClass": "ASSETS",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "3212098",
+    "accountTitle": "NAIP-COML LOC TD SECURED",
+    "accountClass": "ASSETS",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "3212099",
+    "accountTitle": "NAIP-COML LINE OF CR",
+    "accountClass": "ASSETS",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "3214010",
+    "accountTitle": "SBA LOANS - BUSINESS PROPERTY",
+    "accountClass": "ASSETS",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "3214015",
+    "accountTitle": "SBA 504 1ST T/D LOAN",
+    "accountClass": "ASSETS",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "3214020",
+    "accountTitle": "SBA 504 OTHER LOAN",
+    "accountClass": "ASSETS",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "3214025",
+    "accountTitle": "SBA LOANS-OTHER LOANS",
+    "accountClass": "ASSETS",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "3214030",
+    "accountTitle": "SBA COML PROPERTY-PART SOLD",
+    "accountClass": "ASSETS",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "3214045",
+    "accountTitle": "SBA LOANS SOLD-OTHER LOANS",
+    "accountClass": "ASSETS",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "3214046",
+    "accountTitle": "UA",
+    "accountClass": "ASSETS",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "3214047",
+    "accountTitle": "UA",
+    "accountClass": "ASSETS",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "3214050",
+    "accountTitle": "SBA-DISCOUNT ON RETAINED PORTI",
+    "accountClass": "ASSETS",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "3214060",
+    "accountTitle": "AVAIL CREDIT ASSETS-SBA LOANS",
+    "accountClass": "ASSETS",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "3214065",
+    "accountTitle": "UA",
+    "accountClass": "ASSETS",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "3214075",
+    "accountTitle": "UA",
+    "accountClass": "ASSETS",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "3214080",
+    "accountTitle": "AVAIL CREDIT LIAB-OFFSET",
+    "accountClass": "ASSETS",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "3214098",
+    "accountTitle": "NAIP-SBA PROPERTY LOAN",
+    "accountClass": "ASSETS",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "3214099",
+    "accountTitle": "NAIP-SBA OTHER LOANS",
+    "accountClass": "ASSETS",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "3214120",
+    "accountTitle": "ASC 310-30 Contra SBA RE Loans",
+    "accountClass": "ASSETS",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "3214121",
+    "accountTitle": "ASC 310-30 Contra SBA C&I Loans",
+    "accountClass": "ASSETS",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "3214122",
+    "accountTitle": "ASC 310-30 SBA RE Loans",
+    "accountClass": "ASSETS",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "3214123",
+    "accountTitle": "ASC 310-30 SBA C&I Loans",
+    "accountClass": "ASSETS",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "3214130",
+    "accountTitle": "ASC 310-20 SBA RE Loans",
+    "accountClass": "ASSETS",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "3214131",
+    "accountTitle": "ASC 310-20 SBA C&I Loans",
+    "accountClass": "ASSETS",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "3216010",
+    "accountTitle": "ADVANCE AGAINST T/R",
+    "accountClass": "ASSETS",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "3216015",
+    "accountTitle": "UA",
+    "accountClass": "ASSETS",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "3216020",
+    "accountTitle": "CLEAN ADVANCE",
+    "accountClass": "ASSETS",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "3216025",
+    "accountTitle": "SIGHT BILL PURCHASED",
+    "accountClass": "ASSETS",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "3216030",
+    "accountTitle": "TIME BILL PURCHASED",
+    "accountClass": "ASSETS",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "3216035",
+    "accountTitle": "UA",
+    "accountClass": "ASSETS",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "3216040",
+    "accountTitle": "NAIP-INT L LOANS",
+    "accountClass": "ASSETS",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "3216060",
+    "accountTitle": "AVAIL CREDIT ASSETS-UNDISB COMMIT",
+    "accountClass": "ASSETS",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "3216065",
+    "accountTitle": "AVAIL CREDIT LIAB-OFFSET",
+    "accountClass": "ASSETS",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "3219010",
+    "accountTitle": "OVERDRAFT-INDIVIDUAL",
+    "accountClass": "ASSETS",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "3219015",
+    "accountTitle": "OVERDRAFT-BUSINESS",
+    "accountClass": "ASSETS",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "3219018",
+    "accountTitle": "UA",
+    "accountClass": "ASSETS",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "3219019",
+    "accountTitle": "UA",
+    "accountClass": "ASSETS",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "3219020",
+    "accountTitle": "EXTRA BALANCE-INDIVIDUAL",
+    "accountClass": "ASSETS",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "3219025",
+    "accountTitle": "EXTRA BALANCE-BUSINESS",
+    "accountClass": "ASSETS",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "3219028",
+    "accountTitle": "LHFS NON SBA VALUATION ALLOWANCE",
+    "accountClass": "ASSETS",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "3219029",
+    "accountTitle": "LHFS NON-SBA",
+    "accountClass": "ASSETS",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "3219030",
+    "accountTitle": "NAIP- LHFS NON SBA",
+    "accountClass": "ASSETS",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "3219036",
+    "accountTitle": "DDL IN PROCESS",
+    "accountClass": "ASSETS",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "3219037",
+    "accountTitle": "NONPOSTED DDL DEBITTS",
+    "accountClass": "ASSETS",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "3219039",
+    "accountTitle": "NONPOSTED DDL CREDITS",
+    "accountClass": "ASSETS",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "3219040",
+    "accountTitle": "NONPOSTED DEBITS-LOANS",
+    "accountClass": "ASSETS",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "3219045",
+    "accountTitle": "NONPOSTED CREDITS-LOANS",
+    "accountClass": "ASSETS",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "3219050",
+    "accountTitle": "IN-PROCESS LOANS",
+    "accountClass": "ASSETS",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "3219052",
+    "accountTitle": "UA",
+    "accountClass": "ASSETS",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "3219053",
+    "accountTitle": "TRANSACTION IN PROCESS - INT L",
+    "accountClass": "ASSETS",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "3219055",
+    "accountTitle": "LOAN SETTLEM. WORK IN PROCESS",
+    "accountClass": "ASSETS",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "3219060",
+    "accountTitle": "AVAIL CREDIT ASSETS-OVERDRAFT PROTECTION",
+    "accountClass": "ASSETS",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "3219065",
+    "accountTitle": "AVAIL CREDIT LIAB-OFFSET",
+    "accountClass": "ASSETS",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "3219120",
+    "accountTitle": "ASC 310-30 Cash Clearing ",
+    "accountClass": "ASSETS",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "3311010",
+    "accountTitle": "NEW AUTO LOANS",
+    "accountClass": "ASSETS",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "3311015",
+    "accountTitle": "USED AUTO LOANS",
+    "accountClass": "ASSETS",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "3311020",
+    "accountTitle": "PERSONAL LOANS",
+    "accountClass": "ASSETS",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "3311025",
+    "accountTitle": "CASH SECURED LOANS",
+    "accountClass": "ASSETS",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "3311030",
+    "accountTitle": "HOME EQUITY & IMPROVEMENT",
+    "accountClass": "ASSETS",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "3311032",
+    "accountTitle": "Unearned Discount - UCB",
+    "accountClass": "ASSETS",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "3311034",
+    "accountTitle": "UA",
+    "accountClass": "ASSETS",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "3311035",
+    "accountTitle": "UA",
+    "accountClass": "ASSETS",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "3311040",
+    "accountTitle": "UA",
+    "accountClass": "ASSETS",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "3311050",
+    "accountTitle": "UA",
+    "accountClass": "ASSETS",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "3311099",
+    "accountTitle": "NAIP-INSTALLMENT LOANS",
+    "accountClass": "ASSETS",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "3311120",
+    "accountTitle": "ASC 310-30 Contra Consumer Loans",
+    "accountClass": "ASSETS",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "3311121",
+    "accountTitle": "ASC 310-30 Consumer Loans",
+    "accountClass": "ASSETS",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "3311122",
+    "accountTitle": "ASC 310-30 UPB Contra ",
+    "accountClass": "ASSETS",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "3311130",
+    "accountTitle": "ASC 310-20 Consumer Loans",
+    "accountClass": "ASSETS",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "3312010",
+    "accountTitle": "CREDIT CARD LOANS-PERSONAL",
+    "accountClass": "ASSETS",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "3312015",
+    "accountTitle": "UA",
+    "accountClass": "ASSETS",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "3312020",
+    "accountTitle": "CREDIT CARD LOANS-BUSINESS",
+    "accountClass": "ASSETS",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "3312025",
+    "accountTitle": "UA",
+    "accountClass": "ASSETS",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "3312030",
+    "accountTitle": "CREDIT CARD HOLDOVER",
+    "accountClass": "ASSETS",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "3312060",
+    "accountTitle": "UA",
+    "accountClass": "ASSETS",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "3312065",
+    "accountTitle": "UA",
+    "accountClass": "ASSETS",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "3313020",
+    "accountTitle": "EQUITY LINE OF CREDIT",
+    "accountClass": "ASSETS",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "3313022",
+    "accountTitle": "PERSONAL LINE - CASH SECURED",
+    "accountClass": "ASSETS",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "3313023",
+    "accountTitle": "PERSONAL LINE - TD SECURED",
+    "accountClass": "ASSETS",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "3313024",
+    "accountTitle": "PERSONAL LINE - OTHER & UNSECU",
+    "accountClass": "ASSETS",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "3313030",
+    "accountTitle": "HYBRID HELOC",
+    "accountClass": "ASSETS",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "3313035",
+    "accountTitle": "AVAIL CR ASSETS-LINE OF CREDIT",
+    "accountClass": "ASSETS",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "3313037",
+    "accountTitle": "AVAIL CR ASSETS - PERSONAL",
+    "accountClass": "ASSETS",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "3313040",
+    "accountTitle": "UA",
+    "accountClass": "ASSETS",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "3313045",
+    "accountTitle": "AVAIL CREDIT LIAB-OFFSET",
+    "accountClass": "ASSETS",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "3313099",
+    "accountTitle": "NAIP-LINE OF CREDIT",
+    "accountClass": "ASSETS",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "3411000",
+    "accountTitle": "PREVIOUS YEAR END RESERVE BAL",
+    "accountClass": "ASSETS",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "3413010",
+    "accountTitle": "LOAN CHARGEOFFS-R/E & CONSTRUC",
+    "accountClass": "ASSETS",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "3413015",
+    "accountTitle": "LOAN CHARGEOFFS-COMMERCIAL LNS",
+    "accountClass": "ASSETS",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "3413020",
+    "accountTitle": "LOAN CHARGEOFFS-CONSUMER LOANS",
+    "accountClass": "ASSETS",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "3413021",
+    "accountTitle": "LOAN CHARGEOFFS-CREDIT CARD",
+    "accountClass": "ASSETS",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "3413025",
+    "accountTitle": "LOAN CHARGEOFFS - FEE & COST",
+    "accountClass": "ASSETS",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "3413030",
+    "accountTitle": "LOAN CHARGEOFFS-OD PRIVILEGE",
+    "accountClass": "ASSETS",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "3413031",
+    "accountTitle": "LOAN CHARGEOFFS-LHFS NON SBA",
+    "accountClass": "ASSETS",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "3413110",
+    "accountTitle": "Charge Offs - SBA Receivable Impairment Reserve ",
+    "accountClass": "ASSETS",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "3413120",
+    "accountTitle": "ASC 310-30 Contra Charge-offs",
+    "accountClass": "ASSETS",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "3413121",
+    "accountTitle": "ASC 310-30 Charge-offs",
+    "accountClass": "ASSETS",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "3414010",
+    "accountTitle": "LOAN RECOVERIES-R/E & CONSTRUC",
+    "accountClass": "ASSETS",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "3414015",
+    "accountTitle": "LOAN RECOVERIES-COMMERCIAL LNS",
+    "accountClass": "ASSETS",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "3414020",
+    "accountTitle": "LOAN RECOVERIES-CONSUMER LOANS",
+    "accountClass": "ASSETS",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "3414021",
+    "accountTitle": "LOAN RECOVERIES-CREDIT CARD",
+    "accountClass": "ASSETS",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "3414025",
+    "accountTitle": "LOAN RECOVERIES - OTHER LOANS",
+    "accountClass": "ASSETS",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "3414030",
+    "accountTitle": "LOAN RECOVERIES-OD PRIVILEGE",
+    "accountClass": "ASSETS",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "3414031",
+    "accountTitle": "UA",
+    "accountClass": "ASSETS",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "3414110",
+    "accountTitle": "Recoveries- SBA Receivable Impairment Reserve ",
+    "accountClass": "ASSETS",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "3414120",
+    "accountTitle": "ASC 310-30 Contra Recoveries",
+    "accountClass": "ASSETS",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "3414121",
+    "accountTitle": "ASC 310-30 Recovery ",
+    "accountClass": "ASSETS",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "3415000",
+    "accountTitle": "LOAN LOSS PROVISION-CURRENT YR",
+    "accountClass": "ASSETS",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "3415120",
+    "accountTitle": "ASC 310-30 Impairment Allowance - CRE",
+    "accountClass": "ASSETS",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "3415121",
+    "accountTitle": "ASC 310-30 Impairment Allowance - C&I",
+    "accountClass": "ASSETS",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "3415122",
+    "accountTitle": "ASC 310-30 Impairment Allowance - Construction",
+    "accountClass": "ASSETS",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "3415123",
+    "accountTitle": "ASC 310-30 Impairment Allowance-1-4 Family ",
+    "accountClass": "ASSETS",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "3415124",
+    "accountTitle": "ASC 310-30 Impairment Allowance - SFR",
+    "accountClass": "ASSETS",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "3415125",
+    "accountTitle": "ASC 310-30 Impairment Allowance - Consumer",
+    "accountClass": "ASSETS",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "3501000",
+    "accountTitle": "UNEARNED LOAN FEE-R/E & CONSTR",
+    "accountClass": "ASSETS",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "3502000",
+    "accountTitle": "UNEARNED LOAN FEE-COMMERCIAL",
+    "accountClass": "ASSETS",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "3503000",
+    "accountTitle": "UNEARNED LOAN FEE-CONSUMER LNS",
+    "accountClass": "ASSETS",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "3503130",
+    "accountTitle": "ASC 310-20 PREM (DISC)-CRE",
+    "accountClass": "ASSETS",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "3503131",
+    "accountTitle": "ASC 310-20 PREM (DISC)-C&I",
+    "accountClass": "ASSETS",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "3503132",
+    "accountTitle": "ASC 310-20 PREM (DISC)-CONSTRUCTION",
+    "accountClass": "ASSETS",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "3503133",
+    "accountTitle": "ASC 310-20 PREM (DISC)-CONSUMER",
+    "accountClass": "ASSETS",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "3503134",
+    "accountTitle": "ASC 310-20 PREM (DISC)-SFR",
+    "accountClass": "ASSETS",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "3503135",
+    "accountTitle": "ASC 310-20 PREM (DISC)-MF",
+    "accountClass": "ASSETS",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "3503136",
+    "accountTitle": "ASC 310-20 PREM (DISC)-SBA CRE",
+    "accountClass": "ASSETS",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "3503137",
+    "accountTitle": "ASC 310-20 PREM (DISC)-SBA C&I",
+    "accountClass": "ASSETS",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "4101000",
+    "accountTitle": "LAND",
+    "accountClass": "ASSETS",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "4101500",
+    "accountTitle": "LAND IMPROVEMENT",
+    "accountClass": "ASSETS",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "4101600",
+    "accountTitle": "ACCUMULATED DEPRECIATION",
+    "accountClass": "ASSETS",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "4102000",
+    "accountTitle": "BUILDING",
+    "accountClass": "ASSETS",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "4102500",
+    "accountTitle": "ACCUM DEPRECIATION",
+    "accountClass": "ASSETS",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "4102600",
+    "accountTitle": "UA",
+    "accountClass": "ASSETS",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "4201000",
+    "accountTitle": "LEASEHOLD IMPROVEMENT",
+    "accountClass": "ASSETS",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "4202000",
+    "accountTitle": "ACCUMULATED AMORTIZATION",
+    "accountClass": "ASSETS",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "4203000",
+    "accountTitle": "L/H IMPROVEMENT IN PROGRESS",
+    "accountClass": "ASSETS",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "4203200",
+    "accountTitle": "UA",
+    "accountClass": "ASSETS",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "4301000",
+    "accountTitle": "FURN",
+    "accountClass": "ASSETS",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "4301500",
+    "accountTitle": "INTERNALLY DEVPD SOFTWARE",
+    "accountClass": "ASSETS",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "4302000",
+    "accountTitle": "ACCUM DEPRECIATION",
+    "accountClass": "ASSETS",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "4302500",
+    "accountTitle": "AMORT INTNLLY DEVPD SOFTWARE",
+    "accountClass": "ASSETS",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "4303000",
+    "accountTitle": "FF & E IN PROGRESS",
+    "accountClass": "ASSETS",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "4303200",
+    "accountTitle": "FF & E HOLDOVER",
+    "accountClass": "ASSETS",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "4401000",
+    "accountTitle": "UA",
+    "accountClass": "ASSETS",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "4401050",
+    "accountTitle": "UA",
+    "accountClass": "ASSETS",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "4402000",
+    "accountTitle": "UA",
+    "accountClass": "ASSETS",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "5101311",
+    "accountTitle": "ACCRUED INT REC-REAL ESTATE",
+    "accountClass": "ASSETS",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "5101312",
+    "accountTitle": "ACCRUED INT REC-CONSTRUCTION",
+    "accountClass": "ASSETS",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "5101321",
+    "accountTitle": "ACCRUED INT REC-TERM LOANS",
+    "accountClass": "ASSETS",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "5101322",
+    "accountTitle": "ACCRUED INT REC-COML LINE-CR",
+    "accountClass": "ASSETS",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "5101324",
+    "accountTitle": "ACCRUED INT REC-SBA",
+    "accountClass": "ASSETS",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "5101326",
+    "accountTitle": "ACCRUED INT REC-INTERNATIONAL",
+    "accountClass": "ASSETS",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "5101327",
+    "accountTitle": "ACCRUED INT REC-INT L (2)",
+    "accountClass": "ASSETS",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "5101328",
+    "accountTitle": "ACCRUED INT REC-INSTALLMENT",
+    "accountClass": "ASSETS",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "5101330",
+    "accountTitle": "ACCRUED INT REC-PER LINE OF CR",
+    "accountClass": "ASSETS",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "5101331",
+    "accountTitle": "ACCRUED INT REC-LHFS NON SBA",
+    "accountClass": "ASSETS",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "5101334",
+    "accountTitle": "ACCRUED INT REC-EXTRA BALANCE",
+    "accountClass": "ASSETS",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "5101337",
+    "accountTitle": "ACCRUED INT REC-MULTIFAMILY",
+    "accountClass": "ASSETS",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "5101410",
+    "accountTitle": "ACCR INT PARTICIPATIONS UCB ",
+    "accountClass": "ASSETS",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "5101420",
+    "accountTitle": "ASC 310-30 ACCD INT REC CONTRA - CRE",
+    "accountClass": "ASSETS",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "5101420",
+    "accountTitle": "ASC 310-30 ACCD INT REC CONTRA - SFR",
+    "accountClass": "ASSETS",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "5101420",
+    "accountTitle": "ASC 310-30 ACCD INT REC CONTRA - CONSTRUCTION",
+    "accountClass": "ASSETS",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "5101420",
+    "accountTitle": "ASC 310-30 ACCD INT REC CONTRA - MULTIFAMILY",
+    "accountClass": "ASSETS",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "5101420",
+    "accountTitle": "ASC 310-30 ACCD INT REC CONTRA - C&I",
+    "accountClass": "ASSETS",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "5101420",
+    "accountTitle": "ASC 310-30 ACCD INT REC CONTRA - SBA",
+    "accountClass": "ASSETS",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "5101420",
+    "accountTitle": "ASC 310-30 ACCD INT REC CONTRA - Consumer",
+    "accountClass": "ASSETS",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "5102020",
+    "accountTitle": "UA",
+    "accountClass": "ASSETS",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "5102025",
+    "accountTitle": "INTEREST REC L-US TREASURY ",
+    "accountClass": "ASSETS",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "5102030",
+    "accountTitle": "INTEREST REC L-USGA SEC",
+    "accountClass": "ASSETS",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "5102035",
+    "accountTitle": "UA",
+    "accountClass": "ASSETS",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "5102036",
+    "accountTitle": "INTEREST REC L-CORPORATE BOND",
+    "accountClass": "ASSETS",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "5102037",
+    "accountTitle": "UA",
+    "accountClass": "ASSETS",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "5102038",
+    "accountTitle": "INTEREST REC L-ASSET BACKED",
+    "accountClass": "ASSETS",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "5102040",
+    "accountTitle": "UA",
+    "accountClass": "ASSETS",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "5102041",
+    "accountTitle": "INTEREST REC L-MBS",
+    "accountClass": "ASSETS",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "5102042",
+    "accountTitle": "INTEREST REC L-CMO",
+    "accountClass": "ASSETS",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "5102050",
+    "accountTitle": "INTEREST REC L-STATE & MUNI",
+    "accountClass": "ASSETS",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "5102060",
+    "accountTitle": "INTEREST REC L-OTHER SEC",
+    "accountClass": "ASSETS",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "5102070",
+    "accountTitle": "INTEREST REC L-CD PURCHASED",
+    "accountClass": "ASSETS",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "5102071",
+    "accountTitle": "UA",
+    "accountClass": "ASSETS",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "5102079",
+    "accountTitle": "INTEREST REC L-TERM FED FUND",
+    "accountClass": "ASSETS",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "5102080",
+    "accountTitle": "INTEREST REC L-FED FUND SOLD",
+    "accountClass": "ASSETS",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "5102081",
+    "accountTitle": "UA",
+    "accountClass": "ASSETS",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "5102311",
+    "accountTitle": "UA",
+    "accountClass": "ASSETS",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "5102312",
+    "accountTitle": "UA",
+    "accountClass": "ASSETS",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "5102321",
+    "accountTitle": "RESERVE NON-ACCR INT-T/L",
+    "accountClass": "ASSETS",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "5102322",
+    "accountTitle": "RESERVE NON-ACCR INT-COML L/C",
+    "accountClass": "ASSETS",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "5102324",
+    "accountTitle": "UA",
+    "accountClass": "ASSETS",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "5102326",
+    "accountTitle": "UA",
+    "accountClass": "ASSETS",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "5102328",
+    "accountTitle": "RESERVE NON-ACCR INT-INSTALL",
+    "accountClass": "ASSETS",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "5102333",
+    "accountTitle": "UA",
+    "accountClass": "ASSETS",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "5105324",
+    "accountTitle": "ACCRUED INT PAYABLE-SBA LN SLD",
+    "accountClass": "ASSETS",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "5105325",
+    "accountTitle": "UA",
+    "accountClass": "ASSETS",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "5105326",
+    "accountTitle": "UA",
+    "accountClass": "ASSETS",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "5301001",
+    "accountTitle": "PREPAID FDIC ASSESSMENTS",
+    "accountClass": "ASSETS",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "5301002",
+    "accountTitle": "REG AGENCIES ASSESSMENTS",
+    "accountClass": "ASSETS",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "5301003",
+    "accountTitle": "PREPAID INT.-ADVANCE PAY CD",
+    "accountClass": "ASSETS",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "5301005",
+    "accountTitle": "PREPAID RENT",
+    "accountClass": "ASSETS",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "5301015",
+    "accountTitle": "PREPAID PROPERTY TAXES",
+    "accountClass": "ASSETS",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "5301016",
+    "accountTitle": "PREPAID REAL ESTATE TAXES",
+    "accountClass": "ASSETS",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "5301017",
+    "accountTitle": "UA",
+    "accountClass": "ASSETS",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "5301018",
+    "accountTitle": "PREPAID INSURANCE",
+    "accountClass": "ASSETS",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "5301019",
+    "accountTitle": "PREPAID MAINTENANCE",
+    "accountClass": "ASSETS",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "5301020",
+    "accountTitle": "PREPAID ADVERTISING",
+    "accountClass": "ASSETS",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "5301021",
+    "accountTitle": "PREPAID SOFTWARE",
+    "accountClass": "ASSETS",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "5301022",
+    "accountTitle": "PREPAID OTHERS",
+    "accountClass": "ASSETS",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "5301023",
+    "accountTitle": "INVENTORY-SUPPLY",
+    "accountClass": "ASSETS",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "5301024",
+    "accountTitle": "UA",
+    "accountClass": "ASSETS",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "5401000",
+    "accountTitle": "UA",
+    "accountClass": "ASSETS",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "5402000",
+    "accountTitle": "UA",
+    "accountClass": "ASSETS",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "5403000",
+    "accountTitle": "UA",
+    "accountClass": "ASSETS",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "5405000",
+    "accountTitle": "UA",
+    "accountClass": "ASSETS",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "5501000",
+    "accountTitle": "REAL ESTATE OWNED",
+    "accountClass": "ASSETS",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "5502000",
+    "accountTitle": "VALUATION ALLOWANCE FOR REO",
+    "accountClass": "ASSETS",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "5505000",
+    "accountTitle": "REAL ESTATE OWNED - PART SOLD",
+    "accountClass": "ASSETS",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "5506000",
+    "accountTitle": "OTHER ASSET ACQUIRED",
+    "accountClass": "ASSETS",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "5506120",
+    "accountTitle": "OREO CLEARING",
+    "accountClass": "ASSETS",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "5701000",
+    "accountTitle": "CUST LIAB IMPORT L/C",
+    "accountClass": "ASSETS",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "5701200",
+    "accountTitle": "CUST LIAB BACK TO BACK L/C",
+    "accountClass": "ASSETS",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "5701300",
+    "accountTitle": "CUST LIAB ON ACCEPTANCES",
+    "accountClass": "ASSETS",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "5701500",
+    "accountTitle": "UA",
+    "accountClass": "ASSETS",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "5701600",
+    "accountTitle": "CUST LIAB STAND BY L/C",
+    "accountClass": "ASSETS",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "5702200",
+    "accountTitle": "BANK LIAB BACK TO BACK L/C",
+    "accountClass": "ASSETS",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "5702300",
+    "accountTitle": "BANK LIAB IMPORT L/C",
+    "accountClass": "ASSETS",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "5702500",
+    "accountTitle": "UA",
+    "accountClass": "ASSETS",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "5702600",
+    "accountTitle": "BANK LIAB STAND BY L/C",
+    "accountClass": "ASSETS",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "5705010",
+    "accountTitle": "UA",
+    "accountClass": "ASSETS",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "5705020",
+    "accountTitle": "UA",
+    "accountClass": "ASSETS",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "5706010",
+    "accountTitle": "UA",
+    "accountClass": "ASSETS",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "5706020",
+    "accountTitle": "UA",
+    "accountClass": "ASSETS",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "5706030",
+    "accountTitle": "UA",
+    "accountClass": "ASSETS",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "5706040",
+    "accountTitle": "EQUITY SWAP (ASSETS)",
+    "accountClass": "ASSETS",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "5706050",
+    "accountTitle": "EQUITY SWAP (LIABILITY)",
+    "accountClass": "ASSETS",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "5706060",
+    "accountTitle": "DERIVATIVE INSTRUMENT",
+    "accountClass": "ASSETS",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "5706070",
+    "accountTitle": "UA",
+    "accountClass": "ASSETS",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "5706080",
+    "accountTitle": "UA",
+    "accountClass": "ASSETS",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "5801000",
+    "accountTitle": "SECURITY DEPOSIT",
+    "accountClass": "ASSETS",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "5803000",
+    "accountTitle": "ACCOUNT RECEIVABLE",
+    "accountClass": "ASSETS",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "5803050",
+    "accountTitle": "ACCOUNT RECEIVABLE - SBA",
+    "accountClass": "ASSETS",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "5803060",
+    "accountTitle": "UA",
+    "accountClass": "ASSETS",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "5803070",
+    "accountTitle": "ACCOUNTS RCV L - MORTGAGE",
+    "accountClass": "ASSETS",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "5803072",
+    "accountTitle": "ACCT RCV L-MORTGAGE PURCHASED",
+    "accountClass": "ASSETS",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "5803080",
+    "accountTitle": "UA",
+    "accountClass": "ASSETS",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "5803082",
+    "accountTitle": "ADVANCES FOR TAXES & INSURANCE",
+    "accountClass": "ASSETS",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "5804000",
+    "accountTitle": "RECEIVABLE FROM BHC & SUB",
+    "accountClass": "ASSETS",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "5804040",
+    "accountTitle": "RECEIVABLE FROM UCB",
+    "accountClass": "ASSETS",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "5804050",
+    "accountTitle": "CORE DEPOSIT INTANGIBLE",
+    "accountClass": "ASSETS",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "5804055",
+    "accountTitle": "ACCUMULATED AMORT-CDI",
+    "accountClass": "ASSETS",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "5804060",
+    "accountTitle": "GOODWILL",
+    "accountClass": "ASSETS",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "5805000",
+    "accountTitle": "OTHER DEPOSITS",
+    "accountClass": "ASSETS",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "5805001",
+    "accountTitle": "UA",
+    "accountClass": "ASSETS",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "5805002",
+    "accountTitle": "UA",
+    "accountClass": "ASSETS",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "5805003",
+    "accountTitle": "OUTGOING RBP-CDARS",
+    "accountClass": "ASSETS",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "5805005",
+    "accountTitle": "BANK-OWNED LIFE INS. ASSETS",
+    "accountClass": "ASSETS",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "5805010",
+    "accountTitle": "COUNTRY CLUB MEMBERSHIP",
+    "accountClass": "ASSETS",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "5805020",
+    "accountTitle": "OTHER MISC ASSETS(LEASE PREM.)",
+    "accountClass": "ASSETS",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "5806000",
+    "accountTitle": "SERVICING ASSET - MORTGAGE",
+    "accountClass": "ASSETS",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "5806010",
+    "accountTitle": "SERV ASSETS(MORTG)-FMV ADJ",
+    "accountClass": "ASSETS",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "5806050",
+    "accountTitle": "SERVICEING ASSET - OTHER",
+    "accountClass": "ASSETS",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "5806060",
+    "accountTitle": "SERV ASSETS(OTHER)-FMV ADJ",
+    "accountClass": "ASSETS",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "5806500",
+    "accountTitle": "INTEREST-ONLY STRIP RECEIVABLE",
+    "accountClass": "ASSETS",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "5806502",
+    "accountTitle": "IO STRIP -FMV ADJ",
+    "accountClass": "ASSETS",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "5806505",
+    "accountTitle": "BILL PMT RELATED SETTLEMENT",
+    "accountClass": "ASSETS",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "5806506",
+    "accountTitle": "UA",
+    "accountClass": "ASSETS",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "5806507",
+    "accountTitle": "INTEREST RECEIVABLE - SWAP",
+    "accountClass": "ASSETS",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "5806510",
+    "accountTitle": "UA",
+    "accountClass": "ASSETS",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "5807000",
+    "accountTitle": "UA",
+    "accountClass": "ASSETS",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "5808000",
+    "accountTitle": "FDIC Loss Share Receivable - UCBN ",
+    "accountClass": "ASSETS",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "5808001",
+    "accountTitle": "FDIC Loss Share Receivable - Reserve",
+    "accountClass": "ASSETS",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "5808010",
+    "accountTitle": "OREO Indemnification Asset ",
+    "accountClass": "ASSETS",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "5808011",
+    "accountTitle": "FDIC Indemnification Asset ",
+    "accountClass": "ASSETS",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "5808015",
+    "accountTitle": "Discount on Indemnification Asset ",
+    "accountClass": "ASSETS",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "5808050",
+    "accountTitle": "A/R Loss Share Expenses ",
+    "accountClass": "ASSETS",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "5808051",
+    "accountTitle": "Reserve for A/R Loss Share Exp ",
+    "accountClass": "ASSETS",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "5808080",
+    "accountTitle": "SBA IMPAIRMENT RESERVE",
+    "accountClass": "ASSETS",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "5808090",
+    "accountTitle": "F/P INSURANCE PENDING REIMBURSE",
+    "accountClass": "ASSETS",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "5808091",
+    "accountTitle": "RESERVE FOR F/P INSURANCE",
+    "accountClass": "ASSETS",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "5808100",
+    "accountTitle": "INV IN SUB - LLC",
+    "accountClass": "ASSETS",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "5901000",
+    "accountTitle": "DEFERRED TAX BENEFIT-FED",
+    "accountClass": "ASSETS",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "5901020",
+    "accountTitle": "DEFERRED TAX BENEFIT-STATE",
+    "accountClass": "ASSETS",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "5901040",
+    "accountTitle": "PREPAID FEDERAL INCOME TAX",
+    "accountClass": "ASSETS",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "5901050",
+    "accountTitle": "PREPAID FRANCHISE TAX",
+    "accountClass": "ASSETS",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "5901060",
+    "accountTitle": "INCOME TAX REFUND REC L",
+    "accountClass": "ASSETS",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "5981011",
+    "accountTitle": "ASSET SUSPENSE/OPERATION",
+    "accountClass": "ASSETS",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "5981012",
+    "accountTitle": "DUE FROM RECONCILE-DEBIT",
+    "accountClass": "ASSETS",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "5981013",
+    "accountTitle": "ASSET SUSPENSE - DUE FROM BANK",
+    "accountClass": "ASSETS",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "5981014",
+    "accountTitle": "ASSET SUSPENSE-GENERAL",
+    "accountClass": "ASSETS",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "5981015",
+    "accountTitle": "ASSET SUSPENSE-NOTE DEPT",
+    "accountClass": "ASSETS",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "5981016",
+    "accountTitle": "UA",
+    "accountClass": "ASSETS",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "7101000",
+    "accountTitle": "D D A",
+    "accountClass": "LIABLITIES",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "7101100",
+    "accountTitle": "UA",
+    "accountClass": "LIABLITIES",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "7101300",
+    "accountTitle": "MATURED TCD",
+    "accountClass": "LIABLITIES",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "7101310",
+    "accountTitle": "UA",
+    "accountClass": "LIABLITIES",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "7101400",
+    "accountTitle": "AMEX TRAVELLER S CHECK",
+    "accountClass": "LIABLITIES",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "7101500",
+    "accountTitle": "MSB CHECKING",
+    "accountClass": "LIABLITIES",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "7103505",
+    "accountTitle": "TREASURY TAX & LOANS ACCOUNT",
+    "accountClass": "LIABLITIES",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "7104000",
+    "accountTitle": "CUSTOMER PREPAID L/C",
+    "accountClass": "LIABLITIES",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "7104100",
+    "accountTitle": "CASH DEPOSIT - CREDIT CARD",
+    "accountClass": "LIABLITIES",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "7104200",
+    "accountTitle": "UA",
+    "accountClass": "LIABLITIES",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "7104300",
+    "accountTitle": "UA",
+    "accountClass": "LIABLITIES",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "7105520",
+    "accountTitle": "CASHIERS CHECK",
+    "accountClass": "LIABLITIES",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "7105521",
+    "accountTitle": "OFFICIAL CHECK",
+    "accountClass": "LIABLITIES",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "7105522",
+    "accountTitle": "UA",
+    "accountClass": "LIABLITIES",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "7105525",
+    "accountTitle": "DORMANT OFFICIAL CHECK",
+    "accountClass": "LIABLITIES",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "7105527",
+    "accountTitle": "AMEX INT L MONEY ORDER",
+    "accountClass": "LIABLITIES",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "7105530",
+    "accountTitle": "MONEY ORDERS",
+    "accountClass": "LIABLITIES",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "7105535",
+    "accountTitle": "UA",
+    "accountClass": "LIABLITIES",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "7105540",
+    "accountTitle": "UA",
+    "accountClass": "LIABLITIES",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "7105550",
+    "accountTitle": "INCOME TAX DEPOSIT HOLDOVER",
+    "accountClass": "LIABLITIES",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "7105555",
+    "accountTitle": "INTEREST PAYOUT",
+    "accountClass": "LIABLITIES",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "7105560",
+    "accountTitle": "PAYROLL CHECK",
+    "accountClass": "LIABLITIES",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "7105565",
+    "accountTitle": "A/P SETTLEMENT HOLDOVER ACCT",
+    "accountClass": "LIABLITIES",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "7105570",
+    "accountTitle": "EXPENSE CHECKS",
+    "accountClass": "LIABLITIES",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "7106100",
+    "accountTitle": "SAFE DEP BOX FEE HOLDOVER",
+    "accountClass": "LIABLITIES",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "7106105",
+    "accountTitle": "DDA IN-PROCESS",
+    "accountClass": "LIABLITIES",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "7106106",
+    "accountTitle": "BPM IN-PROCESS",
+    "accountClass": "LIABLITIES",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "7107110",
+    "accountTitle": "NON-POST DDA DEBITS",
+    "accountClass": "LIABLITIES",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "7107115",
+    "accountTitle": "NON-POST DDA CREDITS",
+    "accountClass": "LIABLITIES",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "7109205",
+    "accountTitle": "SAFE DEPOSIT KEY ACCOUNT",
+    "accountClass": "LIABLITIES",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "7109215",
+    "accountTitle": "UNIDENTIFIED DDA DEPOSITS",
+    "accountClass": "LIABLITIES",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "7109224",
+    "accountTitle": "DORMANT ESCHEATMENT",
+    "accountClass": "LIABLITIES",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "7109225",
+    "accountTitle": "ATTACHMENTS",
+    "accountClass": "LIABLITIES",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "7109231",
+    "accountTitle": "FEES IN TRANSIT-APPRAISAL UCC",
+    "accountClass": "LIABLITIES",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "7109240",
+    "accountTitle": "ESCROW RESERVE BY BORROWERS",
+    "accountClass": "LIABLITIES",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "7109242",
+    "accountTitle": "UA",
+    "accountClass": "LIABLITIES",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "7109250",
+    "accountTitle": "GIFT CARD SALES HOLDOVER",
+    "accountClass": "LIABLITIES",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "7109253",
+    "accountTitle": "UA",
+    "accountClass": "LIABLITIES",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "7109254",
+    "accountTitle": "DDA TEST ACCOUNT",
+    "accountClass": "LIABLITIES",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "7109255",
+    "accountTitle": "CASH ADVANCE SETTLEMENT ACCT",
+    "accountClass": "LIABLITIES",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "7109256",
+    "accountTitle": "SBA LOAN PAYMENT HOLDOVER",
+    "accountClass": "LIABLITIES",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "7109257",
+    "accountTitle": "UA",
+    "accountClass": "LIABLITIES",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "7109258",
+    "accountTitle": "CLEARING ACCT FOR ESCROW RESER",
+    "accountClass": "LIABLITIES",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "7109259",
+    "accountTitle": "FDIC ASSESSMENT FEE HOLDOVER",
+    "accountClass": "LIABLITIES",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "7109260",
+    "accountTitle": "SAME DAY SETTLEMENT - CABCH",
+    "accountClass": "LIABLITIES",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "7109261",
+    "accountTitle": "WON SETTLEMENT ACCT.",
+    "accountClass": "LIABLITIES",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "7109262",
+    "accountTitle": "ONE DAY SETTLEMENT ACCT.",
+    "accountClass": "LIABLITIES",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "7109265",
+    "accountTitle": "SBA PMT HOLDOVER-UNGUARANTEED",
+    "accountClass": "LIABLITIES",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "7109270",
+    "accountTitle": "REMITTANCE HOLDOVER",
+    "accountClass": "LIABLITIES",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "7109271",
+    "accountTitle": "REMITTANCE IN PROCESS-TO KOREA",
+    "accountClass": "LIABLITIES",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "7109272",
+    "accountTitle": "UA",
+    "accountClass": "LIABLITIES",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "7109284",
+    "accountTitle": "UA",
+    "accountClass": "LIABLITIES",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "7109400",
+    "accountTitle": "REC D NON-FED ACH DR(OFFSET)",
+    "accountClass": "LIABLITIES",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "7109600",
+    "accountTitle": "UA",
+    "accountClass": "LIABLITIES",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "7109700",
+    "accountTitle": "HOLDOVER LIABILITIES",
+    "accountClass": "LIABLITIES",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "7200400",
+    "accountTitle": "TRANSFER IN PROCESS ACCOUNTS",
+    "accountClass": "LIABLITIES",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "7201000",
+    "accountTitle": "INDIVIDUAL SAVINGS-REGULAR",
+    "accountClass": "LIABLITIES",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "7201100",
+    "accountTitle": "ON-LINE SAVINGS",
+    "accountClass": "LIABLITIES",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "7201300",
+    "accountTitle": "INDIVIDUAL SAVINGS-INSTALLMENT",
+    "accountClass": "LIABLITIES",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "7201400",
+    "accountTitle": "INDIVIDUAL SAVINGS-IRA",
+    "accountClass": "LIABLITIES",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "7201500",
+    "accountTitle": "BUSINESS SAVINGS",
+    "accountClass": "LIABLITIES",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "7201600",
+    "accountTitle": "PLEDGED TCD",
+    "accountClass": "LIABLITIES",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "7201700",
+    "accountTitle": "INSTALLMENT CD UNDER 100M",
+    "accountClass": "LIABLITIES",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "7201730",
+    "accountTitle": "VARIABLE CD UNDER 100M",
+    "accountClass": "LIABLITIES",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "7201750",
+    "accountTitle": "CDARS-NON PUBLIC",
+    "accountClass": "LIABLITIES",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "7201760",
+    "accountTitle": "CDARS-PUBLIC",
+    "accountClass": "LIABLITIES",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "7201770",
+    "accountTitle": "CDARS-IRA",
+    "accountClass": "LIABLITIES",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "7201800",
+    "accountTitle": "FREEDOM TCD",
+    "accountClass": "LIABLITIES",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "7201810",
+    "accountTitle": "RAINBOW CD S $50M+",
+    "accountClass": "LIABLITIES",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "7201820",
+    "accountTitle": "ON-LINE CD UNDER 100M",
+    "accountClass": "LIABLITIES",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "7202810",
+    "accountTitle": "COD AUTO RENEW UNDER 100M",
+    "accountClass": "LIABLITIES",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "7202820",
+    "accountTitle": "COD SINGLE MAT UNDER 100M",
+    "accountClass": "LIABLITIES",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "7202825",
+    "accountTitle": "ONE PLUS CD S",
+    "accountClass": "LIABLITIES",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "7202828",
+    "accountTitle": "GLOBAL CD S",
+    "accountClass": "LIABLITIES",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "7202829",
+    "accountTitle": "ADVANTAGE CD UNDER 100M",
+    "accountClass": "LIABLITIES",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "7202830",
+    "accountTitle": "PUBLIC & BROKER COD UNDER 100M",
+    "accountClass": "LIABLITIES",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "7202831",
+    "accountTitle": "DISCOUNT ON CD",
+    "accountClass": "LIABLITIES",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "7202832",
+    "accountTitle": "DISCOUNT / PREMIUM ON CD UNDER 100M",
+    "accountClass": "LIABLITIES",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "7203010",
+    "accountTitle": "COD AUTO RENEW 100M+OVER",
+    "accountClass": "LIABLITIES",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "7203020",
+    "accountTitle": "COD SINGLE MAT 100M+OVER",
+    "accountClass": "LIABLITIES",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "7203021",
+    "accountTitle": "ON-LINE CD OVER 100M",
+    "accountClass": "LIABLITIES",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "7203023",
+    "accountTitle": "INSTALLMENT CD OVER 100M",
+    "accountClass": "LIABLITIES",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "7203024",
+    "accountTitle": "CDARS OVER 100M",
+    "accountClass": "LIABLITIES",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "7203025",
+    "accountTitle": "FREEDOM TCD OVER 100M",
+    "accountClass": "LIABLITIES",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "7203029",
+    "accountTitle": "ADVANTAGE CD OVER 100M",
+    "accountClass": "LIABLITIES",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "7203030",
+    "accountTitle": "COD PUBLIC FUNDS 100M+OVER",
+    "accountClass": "LIABLITIES",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "7203032",
+    "accountTitle": "UA",
+    "accountClass": "LIABLITIES",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "7203040",
+    "accountTitle": "COD BROKER DEPOSIT 100M+OVER",
+    "accountClass": "LIABLITIES",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "7203041",
+    "accountTitle": "DISCOUNT / PREMIUM ON CD OVER 100M",
+    "accountClass": "LIABLITIES",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "7203045",
+    "accountTitle": "SAVINGS IN-PROCESS",
+    "accountClass": "LIABLITIES",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "7203050",
+    "accountTitle": "TCD S IN-PROCESS",
+    "accountClass": "LIABLITIES",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "7203060",
+    "accountTitle": "CDARS IN-PROCESS",
+    "accountClass": "LIABLITIES",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "7203829",
+    "accountTitle": "UA",
+    "accountClass": "LIABLITIES",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "7207000",
+    "accountTitle": "UA",
+    "accountClass": "LIABLITIES",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "7207500",
+    "accountTitle": "DORMANT SAVINGS",
+    "accountClass": "LIABLITIES",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "7207610",
+    "accountTitle": "NON-POST TCD DEBITS",
+    "accountClass": "LIABLITIES",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "7207620",
+    "accountTitle": "NON-POST TCD CREDITS",
+    "accountClass": "LIABLITIES",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "7207630",
+    "accountTitle": "NON-POST SAVINGS DEBITS",
+    "accountClass": "LIABLITIES",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "7207640",
+    "accountTitle": "NON-POST SAVINGS CREDITS",
+    "accountClass": "LIABLITIES",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "7351300",
+    "accountTitle": "SUPER PLUS",
+    "accountClass": "LIABLITIES",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "7351350",
+    "accountTitle": "MEGA SUPERPLUS",
+    "accountClass": "LIABLITIES",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "7351400",
+    "accountTitle": "ATS-NOW",
+    "accountClass": "LIABLITIES",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "7351500",
+    "accountTitle": "BONUS CHECKING",
+    "accountClass": "LIABLITIES",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "7351600",
+    "accountTitle": "MMDA - MEGA",
+    "accountClass": "LIABLITIES",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "7351700",
+    "accountTitle": "MMDA - PERSONAL",
+    "accountClass": "LIABLITIES",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "7351750",
+    "accountTitle": "MMDA - VIP",
+    "accountClass": "LIABLITIES",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "7351759",
+    "accountTitle": "MMDA - PREMIUM - PERSONAL",
+    "accountClass": "LIABLITIES",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "7351760",
+    "accountTitle": "MMDA - PREMIUM - BUSINESS",
+    "accountClass": "LIABLITIES",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "7351800",
+    "accountTitle": "MMDA - BUSINESS",
+    "accountClass": "LIABLITIES",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "8055500",
+    "accountTitle": "PREPAID INTEREST-CL",
+    "accountClass": "LIABLITIES",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "8055600",
+    "accountTitle": "DEFERRED FEES IN-PROCESS",
+    "accountClass": "LIABLITIES",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "8101000",
+    "accountTitle": "INTEREST PAYABLE - SWAP",
+    "accountClass": "LIABLITIES",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "8102000",
+    "accountTitle": "RES FOR VAC & SICKDAY ACCR",
+    "accountClass": "LIABLITIES",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "8102500",
+    "accountTitle": "RES FOR DIRECTORS RETIREMENT",
+    "accountClass": "LIABLITIES",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "8103000",
+    "accountTitle": "ACCOUNTS PAYABLE",
+    "accountClass": "LIABLITIES",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "8103005",
+    "accountTitle": "UA",
+    "accountClass": "LIABLITIES",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "8103010",
+    "accountTitle": "ACCOUNTS PAYABLE-MORTGAGE",
+    "accountClass": "LIABLITIES",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "8103050",
+    "accountTitle": "SECURITY DEPOSIT - BANK PROPTY",
+    "accountClass": "LIABLITIES",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "8103500",
+    "accountTitle": "SBA PAYABLE - REO",
+    "accountClass": "LIABLITIES",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "8104000",
+    "accountTitle": "INT PAYABLE - OTHER BORROWING",
+    "accountClass": "LIABLITIES",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "8105000",
+    "accountTitle": "INT PAYABLE -TPS",
+    "accountClass": "LIABLITIES",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "8151000",
+    "accountTitle": "FED FUNDS PURCHASED",
+    "accountClass": "LIABLITIES",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "8151005",
+    "accountTitle": "REPO PURCHASED",
+    "accountClass": "LIABLITIES",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "8151020",
+    "accountTitle": "OTHER BORROWING",
+    "accountClass": "LIABLITIES",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "8151030",
+    "accountTitle": "OTHER BORROWING-SBA SALE",
+    "accountClass": "LIABLITIES",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "8151050",
+    "accountTitle": "NOTES ISSUED TO US TREASURY",
+    "accountClass": "LIABLITIES",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "8152000",
+    "accountTitle": "DISCOUNTING BORROWING FROM FRB",
+    "accountClass": "LIABLITIES",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "8153000",
+    "accountTitle": "TPS",
+    "accountClass": "LIABLITIES",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "8251000",
+    "accountTitle": "DEFERRED FEDERAL TAX LIABILITY",
+    "accountClass": "LIABLITIES",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "8252000",
+    "accountTitle": "UA",
+    "accountClass": "LIABLITIES",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "8653001",
+    "accountTitle": "RES FOR BONUS",
+    "accountClass": "LIABLITIES",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "8653002",
+    "accountTitle": "UA",
+    "accountClass": "LIABLITIES",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "8653003",
+    "accountTitle": "RESERVE FOR PROFESSIONAL FEE",
+    "accountClass": "LIABLITIES",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "8653004",
+    "accountTitle": "RESERVE FOR OTHER EXPENSE",
+    "accountClass": "LIABLITIES",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "8654006",
+    "accountTitle": "RES FOR FEDERAL INCOME TAXES",
+    "accountClass": "LIABLITIES",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "8654007",
+    "accountTitle": "RES FOR FRANCHISE TAXES",
+    "accountClass": "LIABLITIES",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "8654008",
+    "accountTitle": "FIN 48 RESERVE",
+    "accountClass": "LIABLITIES",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "8654500",
+    "accountTitle": "IRS WITHHOLDING",
+    "accountClass": "LIABLITIES",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "8654600",
+    "accountTitle": "STATE WITHHOLDING",
+    "accountClass": "LIABLITIES",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "8655100",
+    "accountTitle": "RESALE SALES TAXES",
+    "accountClass": "LIABLITIES",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "8656010",
+    "accountTitle": "RES FOR INT-TCD OVER 100M",
+    "accountClass": "LIABLITIES",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "8656011",
+    "accountTitle": "UA",
+    "accountClass": "LIABLITIES",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "8656013",
+    "accountTitle": "RES FOR INT-SUPER NOW",
+    "accountClass": "LIABLITIES",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "8656020",
+    "accountTitle": "RES FOR INT-REGULAR SAVINGS",
+    "accountClass": "LIABLITIES",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "8656026",
+    "accountTitle": "RES FOR INT-INSTALLMENT SAVING",
+    "accountClass": "LIABLITIES",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "8656028",
+    "accountTitle": "RES FOR INT-MKT INT ACCT",
+    "accountClass": "LIABLITIES",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "8656030",
+    "accountTitle": "ATS-SAVINGS",
+    "accountClass": "LIABLITIES",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "8656035",
+    "accountTitle": "RES FOR INT-IRA SAVINGS",
+    "accountClass": "LIABLITIES",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "8656040",
+    "accountTitle": "RES FOR INT-TCD UNDER 100M",
+    "accountClass": "LIABLITIES",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "8656041",
+    "accountTitle": "RES FOR INT-CDARS",
+    "accountClass": "LIABLITIES",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "8656042",
+    "accountTitle": "UA",
+    "accountClass": "LIABLITIES",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "8701300",
+    "accountTitle": "BANK LIAB ON ACCEPTANCES",
+    "accountClass": "LIABLITIES",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "8981011",
+    "accountTitle": "SUSPENSE LIABILITY/OPERATION",
+    "accountClass": "LIABLITIES",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "8981012",
+    "accountTitle": "OFFICIAL CHECK-STOP PAYMENT",
+    "accountClass": "LIABLITIES",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "8981013",
+    "accountTitle": "DEFERRED STANDBY LC FEE",
+    "accountClass": "LIABLITIES",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "8981014",
+    "accountTitle": "SUSPENSE LIABILITY - FRB",
+    "accountClass": "LIABLITIES",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "8981015",
+    "accountTitle": "SUSPENSE LIABILITY",
+    "accountClass": "LIABLITIES",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "8981016",
+    "accountTitle": "POSTRETIREMENT BENEFITS LIAB.",
+    "accountClass": "LIABLITIES",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "8981017",
+    "accountTitle": "ACCRUED LIABILITY",
+    "accountClass": "LIABLITIES",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "8981018",
+    "accountTitle": "ALLOWANCE FOR OFF-BAL ITEMS",
+    "accountClass": "LIABLITIES",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "8981019",
+    "accountTitle": "UA",
+    "accountClass": "LIABLITIES",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "8981020",
+    "accountTitle": "OTHER PAYABLE",
+    "accountClass": "LIABLITIES",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "8981021",
+    "accountTitle": "BOLI-ACCUM POSTRETIRE BNF LIAB",
+    "accountClass": "LIABLITIES",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "8981025",
+    "accountTitle": "DIVIDEND PAYABLE",
+    "accountClass": "LIABLITIES",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "8981030",
+    "accountTitle": "PAYABLE TO UCB",
+    "accountClass": "LIABLITIES",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "8981031",
+    "accountTitle": "INCOMING RBP-CDARS",
+    "accountClass": "LIABLITIES",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "8981035",
+    "accountTitle": "DEFERRED COMPENSATION",
+    "accountClass": "LIABLITIES",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "8981036",
+    "accountTitle": "SERVICING LIABILITY-MORTG",
+    "accountClass": "LIABLITIES",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "8981037",
+    "accountTitle": "SVC LIAB (MORTG) - FMV ADJ",
+    "accountClass": "LIABLITIES",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "8981038",
+    "accountTitle": "SERVICING LIABILITY-OTHER",
+    "accountClass": "LIABLITIES",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "8981039",
+    "accountTitle": "SVC LIAB (OTHER) - FMV ADJ",
+    "accountClass": "LIABLITIES",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "8981040",
+    "accountTitle": "PRODUCT TESTING GL",
+    "accountClass": "LIABLITIES",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "8981080",
+    "accountTitle": "OTHER LIABILITES-DEFERRED RENT",
+    "accountClass": "LIABLITIES",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "9101311",
+    "accountTitle": "INTEREST-REAL ESTATE LOANS",
+    "accountClass": "INCOME",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "9101312",
+    "accountTitle": "INTEREST - FIXED",
+    "accountClass": "INCOME",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "9101313",
+    "accountTitle": "INTERST - ARM",
+    "accountClass": "INCOME",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "9101314",
+    "accountTitle": "INT EXP-PART SOLD-REAL ESTATE",
+    "accountClass": "INCOME",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "9101315",
+    "accountTitle": "INTEREST INCOME-SWAP",
+    "accountClass": "INCOME",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "9101316",
+    "accountTitle": "INTEREST-CONSTRUCTION",
+    "accountClass": "INCOME",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "9101318",
+    "accountTitle": "INT EXP-PART SOLD-CONSTRUCTION",
+    "accountClass": "INCOME",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "9101319",
+    "accountTitle": "INTEREST - CONSTRUCTION MORTG.",
+    "accountClass": "INCOME",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "9101320",
+    "accountTitle": "INT ON MORTG.CONSTUCTION SOLD",
+    "accountClass": "INCOME",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "9101321",
+    "accountTitle": "INTEREST-TERM LOANS",
+    "accountClass": "INCOME",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "9101322",
+    "accountTitle": "INTEREST-BUSINESS PROPERTY LOANS",
+    "accountClass": "INCOME",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "9101324",
+    "accountTitle": "INT EXP-PART SOLD-TERM LOANS",
+    "accountClass": "INCOME",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "9101325",
+    "accountTitle": "INT EXP-PART SOLD-BPL",
+    "accountClass": "INCOME",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "9101326",
+    "accountTitle": "INTEREST-COMM L LINE OF CREDIT",
+    "accountClass": "INCOME",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "9101327",
+    "accountTitle": "INTEREST-COML LOC TD",
+    "accountClass": "INCOME",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "9101330",
+    "accountTitle": "INTEREST-SBA",
+    "accountClass": "INCOME",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "9101331",
+    "accountTitle": "INTEREST-LHFS NON SBA",
+    "accountClass": "INCOME",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "9101332",
+    "accountTitle": "INT EXP-PART SOLD-SBA",
+    "accountClass": "INCOME",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "9101333",
+    "accountTitle": "INT EXP - SBA 50BASIS FEES",
+    "accountClass": "INCOME",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "9101334",
+    "accountTitle": "INTEREST-T/R",
+    "accountClass": "INCOME",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "9101336",
+    "accountTitle": "INTEREST-CLEAN ADVANCE",
+    "accountClass": "INCOME",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "9101338",
+    "accountTitle": "INTEREST-BILL PURCHASED",
+    "accountClass": "INCOME",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "9101339",
+    "accountTitle": "INTEREST - B/A FINANCE",
+    "accountClass": "INCOME",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "9101340",
+    "accountTitle": "INTEREST-INSTALLMENT",
+    "accountClass": "INCOME",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "9101342",
+    "accountTitle": "INTEREST-PERSONAL LINE OF CRED",
+    "accountClass": "INCOME",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "9101343",
+    "accountTitle": "INTEREST-CREDIT CARD LOANS",
+    "accountClass": "INCOME",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "9101344",
+    "accountTitle": "INTEREST-EXTRA BALANCE",
+    "accountClass": "INCOME",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "9101345",
+    "accountTitle": "INTEREST-CRA LOANS",
+    "accountClass": "INCOME",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "9101346",
+    "accountTitle": "INTEREST-OD CUST ACCOUNTS",
+    "accountClass": "INCOME",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "9101348",
+    "accountTitle": "INTEREST WAIVED-OD CUST ACCTS",
+    "accountClass": "INCOME",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "9101349",
+    "accountTitle": "NON-ACCRUAL PAID - PRINCIPAL",
+    "accountClass": "INCOME",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "9101350",
+    "accountTitle": "INT ON MORTGAGE LOANS SOLD",
+    "accountClass": "INCOME",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "9101351",
+    "accountTitle": "Interest MultiFamily Loans",
+    "accountClass": "INCOME",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "9101360",
+    "accountTitle": "ASC 310-20 Amort - CRE",
+    "accountClass": "INCOME",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "9101361",
+    "accountTitle": "ASC 310-20 Amort - C&I",
+    "accountClass": "INCOME",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "9101362",
+    "accountTitle": "ASC 310-20 Amort - Construction",
+    "accountClass": "INCOME",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "9101363",
+    "accountTitle": "ASC 310-20 Amort - SFR",
+    "accountClass": "INCOME",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "9101364",
+    "accountTitle": "ASC 310-20 Amort - Multifamily",
+    "accountClass": "INCOME",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "9101365",
+    "accountTitle": "ASC 310-20 Amort - SBA RE",
+    "accountClass": "INCOME",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "9101366",
+    "accountTitle": "ASC 310-20 Amort - SBA C&I",
+    "accountClass": "INCOME",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "9101367",
+    "accountTitle": "ASC 310-20 Amort - Consumer",
+    "accountClass": "INCOME",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "9101370",
+    "accountTitle": "ASC 310-30 Int Inc Contra - Comml RE",
+    "accountClass": "INCOME",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "9101371",
+    "accountTitle": "ASC 310-30 Int Inc Contra - SFR",
+    "accountClass": "INCOME",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "9101372",
+    "accountTitle": "ASC 310-30 Int Inc Contra - Multifamily",
+    "accountClass": "INCOME",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "9101373",
+    "accountTitle": "ASC 310-30 Int Inc Contra - Construction",
+    "accountClass": "INCOME",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "9101374",
+    "accountTitle": "ASC 310-30 Int Inc Contra - C&I",
+    "accountClass": "INCOME",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "9101375",
+    "accountTitle": "ASC 310-30 Int Inc Contra - SBA",
+    "accountClass": "INCOME",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "9101376",
+    "accountTitle": "ASC 310-30 Int Inc Contra - Consumer",
+    "accountClass": "INCOME",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "9101377",
+    "accountTitle": "ASC 310-30 Accretion - CRE",
+    "accountClass": "INCOME",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "9101378",
+    "accountTitle": "ASC 310-30 Accretion - SFR",
+    "accountClass": "INCOME",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "9101379",
+    "accountTitle": "ASC 310-30 Accretion - Multifamily",
+    "accountClass": "INCOME",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "9101380",
+    "accountTitle": "ASC 310-30 Accretion - Construction",
+    "accountClass": "INCOME",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "9101381",
+    "accountTitle": "ASC 310-30 Accretion - C&I",
+    "accountClass": "INCOME",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "9101382",
+    "accountTitle": "ASC 310-30 Accretion - SBA",
+    "accountClass": "INCOME",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "9101383",
+    "accountTitle": "ASC 310-30 Accretion - Consumer",
+    "accountClass": "INCOME",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "9101411",
+    "accountTitle": "FEES-REAL ESTATE LOANS",
+    "accountClass": "INCOME",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "9101412",
+    "accountTitle": "FEES - MORTGAGE",
+    "accountClass": "INCOME",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "9101416",
+    "accountTitle": "FEES-CONSTRUCTION",
+    "accountClass": "INCOME",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "9101418",
+    "accountTitle": "FEES - MORTGAGE CONSTRUCITON",
+    "accountClass": "INCOME",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "9101421",
+    "accountTitle": "FEES-TERM LOANS",
+    "accountClass": "INCOME",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "9101422",
+    "accountTitle": "FEES-BUSINESS PROPERTY LOANS",
+    "accountClass": "INCOME",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "9101423",
+    "accountTitle": "FEES - EXPRESS BUSINESS LOANS",
+    "accountClass": "INCOME",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "9101426",
+    "accountTitle": "FEES-COMM L LINE OF CREDITS",
+    "accountClass": "INCOME",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "9101427",
+    "accountTitle": "FEES-COML LOC TD SECURED",
+    "accountClass": "INCOME",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "9101430",
+    "accountTitle": "FEE-SBA",
+    "accountClass": "INCOME",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "9101431",
+    "accountTitle": "FEE-INTERNATIONAL LOAN",
+    "accountClass": "INCOME",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "9101432",
+    "accountTitle": "FEES-INSTALLMENT",
+    "accountClass": "INCOME",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "9101434",
+    "accountTitle": "FEES-PERSONAL LINE OF CREDITS",
+    "accountClass": "INCOME",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "9101435",
+    "accountTitle": "WAIVED LATE CHARGES-ALL LOANS",
+    "accountClass": "INCOME",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "9101436",
+    "accountTitle": "LATE CHARGES-COMMERCIAL LOANS",
+    "accountClass": "INCOME",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "9101438",
+    "accountTitle": "LATE CHARGES-REAL ESTATE&CONST",
+    "accountClass": "INCOME",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "9101439",
+    "accountTitle": "LATE CHARGES - MORTGAGE",
+    "accountClass": "INCOME",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "9101440",
+    "accountTitle": "LATE CHARGE - CONSUMER LINE",
+    "accountClass": "INCOME",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "9101441",
+    "accountTitle": "ANNUAL FEE-EQUITY LINE",
+    "accountClass": "INCOME",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "9101442",
+    "accountTitle": "MINIUM CHARGES-EQUITY LINE",
+    "accountClass": "INCOME",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "9101443",
+    "accountTitle": "FEE-OTHER COMMITMENT",
+    "accountClass": "INCOME",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "9101445",
+    "accountTitle": "ANNUAL FEES-CREDIT CARD LOANS",
+    "accountClass": "INCOME",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "9101446",
+    "accountTitle": "LATE CHARGE-CREDIT CARD",
+    "accountClass": "INCOME",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "9101460",
+    "accountTitle": "LOAN RELATED SVC FEE INCOME",
+    "accountClass": "INCOME",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "9101462",
+    "accountTitle": "PREPAYMENT PENALTY",
+    "accountClass": "INCOME",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "9101463",
+    "accountTitle": "PREPAYMENT CHARGES ON MORTG LN",
+    "accountClass": "INCOME",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "9101464",
+    "accountTitle": "WAIVE FEES",
+    "accountClass": "INCOME",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "9101480",
+    "accountTitle": "ASC 310-20 Amortization",
+    "accountClass": "INCOME",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "9102004",
+    "accountTitle": "INTEREST-TERM FED FUNDS SOLD",
+    "accountClass": "INCOME",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "9102005",
+    "accountTitle": "INT-OVER-NIGHT FED FUNDS SOLD",
+    "accountClass": "INCOME",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "9102006",
+    "accountTitle": "INTEREST-US TREASURY SEC",
+    "accountClass": "INCOME",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "9102007",
+    "accountTitle": "PREMIUM AMORT-US TREASURY SEC",
+    "accountClass": "INCOME",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "9102008",
+    "accountTitle": "DISCOUNT ACCR-US TREASURY SEC",
+    "accountClass": "INCOME",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "9102009",
+    "accountTitle": "INTEREST-AGENCY SEC",
+    "accountClass": "INCOME",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "9102010",
+    "accountTitle": "PREMIUM AMORT-AGENCY",
+    "accountClass": "INCOME",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "9102011",
+    "accountTitle": "DISCOUNT ACCRETION-AGENCY",
+    "accountClass": "INCOME",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "9102012",
+    "accountTitle": "INTEREST-MUNI SEC",
+    "accountClass": "INCOME",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "9102013",
+    "accountTitle": "PREMIUM AMORT-MUNI",
+    "accountClass": "INCOME",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "9102014",
+    "accountTitle": "DISCOUNT ACCRETION-MUNI",
+    "accountClass": "INCOME",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "9102015",
+    "accountTitle": "INTEREST-FRN",
+    "accountClass": "INCOME",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "9102016",
+    "accountTitle": "PREMIUM AMORT-FRN",
+    "accountClass": "INCOME",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "9102017",
+    "accountTitle": "DISCOUNT ACCRETION-FRN",
+    "accountClass": "INCOME",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "9102018",
+    "accountTitle": "INTEREST - ASSET BACKED SECURI",
+    "accountClass": "INCOME",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "9102019",
+    "accountTitle": "DISCOUNT ACCRETION- ASSET BACK",
+    "accountClass": "INCOME",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "9102020",
+    "accountTitle": "FMV VALUATION AMORTIZATION(GNM",
+    "accountClass": "INCOME",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "9102021",
+    "accountTitle": "INTEREST-MBS",
+    "accountClass": "INCOME",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "9102022",
+    "accountTitle": "DISCOUNT ACCRETION-MBS",
+    "accountClass": "INCOME",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "9102023",
+    "accountTitle": "PREMIUM AMORT-MBS",
+    "accountClass": "INCOME",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "9102024",
+    "accountTitle": "PREMIUM AMORT-ASSET BACKED SEC",
+    "accountClass": "INCOME",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "9102026",
+    "accountTitle": "INTEREST-FIXED ANNUITY",
+    "accountClass": "INCOME",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "9102027",
+    "accountTitle": "INTEREST IN MUTUAL FUND",
+    "accountClass": "INCOME",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "9102028",
+    "accountTitle": "UA",
+    "accountClass": "INCOME",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "9102029",
+    "accountTitle": "FHLB STOCK DIVIDENDS",
+    "accountClass": "INCOME",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "9102030",
+    "accountTitle": "FED RES BANK DIVIDENDS",
+    "accountClass": "INCOME",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "9102031",
+    "accountTitle": "INTEREST-OTHER SECURITIES",
+    "accountClass": "INCOME",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "9102032",
+    "accountTitle": "INTEREST-CORPORATE BOND",
+    "accountClass": "INCOME",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "9102033",
+    "accountTitle": "PREMIUM AMORT-CORPORATE BOND",
+    "accountClass": "INCOME",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "9102034",
+    "accountTitle": "DISCOUNT ACCR-CORPORATE BOND",
+    "accountClass": "INCOME",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "9102036",
+    "accountTitle": "INTEREST-SBA CERTIFICATES",
+    "accountClass": "INCOME",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "9102037",
+    "accountTitle": "PREMIUM AMORT-SBA CERT",
+    "accountClass": "INCOME",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "9102038",
+    "accountTitle": "DISCOUNT ACCRETION-SBA CERT",
+    "accountClass": "INCOME",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "9102039",
+    "accountTitle": "DISCOUNT ACCRETION-BA S",
+    "accountClass": "INCOME",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "9102040",
+    "accountTitle": "INTEREST-CD S PURCHASED",
+    "accountClass": "INCOME",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "9102041",
+    "accountTitle": "INTEREST-COM L PAPER",
+    "accountClass": "INCOME",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "9102042",
+    "accountTitle": "INTEREST-CMO",
+    "accountClass": "INCOME",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "9102043",
+    "accountTitle": "DISCOUNT ACCRETION-CMO",
+    "accountClass": "INCOME",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "9102044",
+    "accountTitle": "PREMIUM AMORT-CMO",
+    "accountClass": "INCOME",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "9102045",
+    "accountTitle": "INTEREST FROM OTHER BANK",
+    "accountClass": "INCOME",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "9102046",
+    "accountTitle": "INTEREST - SWAP",
+    "accountClass": "INCOME",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "9102047",
+    "accountTitle": "NON-INT INCOME - SWAP&CALL OPT",
+    "accountClass": "INCOME",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "9102048",
+    "accountTitle": "INT-ST & MUNI/TAXABLE",
+    "accountClass": "INCOME",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "9102049",
+    "accountTitle": "PREM AMORT-ST & MUNI/TAXABLE",
+    "accountClass": "INCOME",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "9102050",
+    "accountTitle": "DISC ACCR-ST & MUNI/TAXABLE",
+    "accountClass": "INCOME",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "9103008",
+    "accountTitle": "SBA SERVICING FEE INCOME",
+    "accountClass": "INCOME",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "9103009",
+    "accountTitle": "AMORT OF IO STRIP",
+    "accountClass": "INCOME",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "9103010",
+    "accountTitle": "AMORT OF SBA SVC ASSET",
+    "accountClass": "INCOME",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "9103011",
+    "accountTitle": "SBA LOAN ADMIN FEES",
+    "accountClass": "INCOME",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "9103012",
+    "accountTitle": "SBA-REFERRAL FEE INCOME",
+    "accountClass": "INCOME",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "9103013",
+    "accountTitle": "FEES-SBA LOAN PACKAGING",
+    "accountClass": "INCOME",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "9103014",
+    "accountTitle": "AMORT OF SBA SVC LIAB",
+    "accountClass": "INCOME",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "9103015",
+    "accountTitle": "UA",
+    "accountClass": "INCOME",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "9103016",
+    "accountTitle": "FEES-L/C OPEN & AMEND",
+    "accountClass": "INCOME",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "9103017",
+    "accountTitle": "FEES-L/C ADVICE & NEGO",
+    "accountClass": "INCOME",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "9103018",
+    "accountTitle": "FEES-WIRE & MAIL",
+    "accountClass": "INCOME",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "9103020",
+    "accountTitle": "REMITTANCE FEES",
+    "accountClass": "INCOME",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "9103022",
+    "accountTitle": "WAIVE REMITTANCE FEES",
+    "accountClass": "INCOME",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "9103026",
+    "accountTitle": "FEE-OTHER HANDLING DOCUMENTS",
+    "accountClass": "INCOME",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "9103027",
+    "accountTitle": "L/C REIMBURSEMENT COMMISSIONS",
+    "accountClass": "INCOME",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "9103030",
+    "accountTitle": "SAVINGS SERVICE CHARGES",
+    "accountClass": "INCOME",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "9103032",
+    "accountTitle": "CHECK PRINTING UPCHARGE",
+    "accountClass": "INCOME",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "9103034",
+    "accountTitle": "SERVICE CHARGES-METERED",
+    "accountClass": "INCOME",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "9103036",
+    "accountTitle": "UA",
+    "accountClass": "INCOME",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "9103038",
+    "accountTitle": "NSF CHARGES",
+    "accountClass": "INCOME",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "9103040",
+    "accountTitle": "WAIVE NSF CHARGES",
+    "accountClass": "INCOME",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "9103042",
+    "accountTitle": "RETURN ITEM CHARGE",
+    "accountClass": "INCOME",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "9103044",
+    "accountTitle": "ACCOUNT ANALYSIS FEES",
+    "accountClass": "INCOME",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "9103045",
+    "accountTitle": "MSB ANALYSIS FEE CHARGE",
+    "accountClass": "INCOME",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "9103046",
+    "accountTitle": "EFT CUSTOMER TRANSACTIONS FEES",
+    "accountClass": "INCOME",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "9103047",
+    "accountTitle": "Change Order Service Fees",
+    "accountClass": "INCOME",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "9103050",
+    "accountTitle": "COLLECTION FEES",
+    "accountClass": "INCOME",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "9103052",
+    "accountTitle": "SAFE DEPOSIT RENT",
+    "accountClass": "INCOME",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "9103054",
+    "accountTitle": "FEES-CC/MO/TC",
+    "accountClass": "INCOME",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "9103056",
+    "accountTitle": "STOP PAYMENT FEE INCOME",
+    "accountClass": "INCOME",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "9103058",
+    "accountTitle": "LEASE PROGRAM REFERRAL FEE",
+    "accountClass": "INCOME",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "9103059",
+    "accountTitle": "MONEY SERVICE BUSINESS APP FEE",
+    "accountClass": "INCOME",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "9103060",
+    "accountTitle": "MISC CHARGE & FEES",
+    "accountClass": "INCOME",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "9103062",
+    "accountTitle": "LEGAL RELATED INCOME",
+    "accountClass": "INCOME",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "9103064",
+    "accountTitle": "CREDIT CARD INTERCHANGE FEES",
+    "accountClass": "INCOME",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "9103065",
+    "accountTitle": "CREDIT CARD RELATED FEE-OTHERS",
+    "accountClass": "INCOME",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "9103066",
+    "accountTitle": "CREDIT CARD MERCHANT DISC",
+    "accountClass": "INCOME",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "9103068",
+    "accountTitle": "MERCHANT C/C DEP PROCSSING CHG",
+    "accountClass": "INCOME",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "9103070",
+    "accountTitle": "GAIN ON SALES FOREIGN EXCHANGE",
+    "accountClass": "INCOME",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "9103072",
+    "accountTitle": "INCOME FROM SALES OF ANNUITIES",
+    "accountClass": "INCOME",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "9103073",
+    "accountTitle": "INCOME FROM P & C INSURANCE",
+    "accountClass": "INCOME",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "9103074",
+    "accountTitle": "RENT INCOME",
+    "accountClass": "INCOME",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "9103075",
+    "accountTitle": "INCOME FROM LIFE INSURANCE",
+    "accountClass": "INCOME",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "9103076",
+    "accountTitle": "INCOME ON SALES OF MUTUAL FUND",
+    "accountClass": "INCOME",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "9103077",
+    "accountTitle": "INCOME FROM HEALTH INSURANCE",
+    "accountClass": "INCOME",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "9103078",
+    "accountTitle": "SUNDRY RECOVERIES-OPERATIONS",
+    "accountClass": "INCOME",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "9103079",
+    "accountTitle": "BROKERAGE FEE ADJUSTMENT",
+    "accountClass": "INCOME",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "9103080",
+    "accountTitle": "TELLER OVERS",
+    "accountClass": "INCOME",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "9103081",
+    "accountTitle": "INTEREST - BOLI",
+    "accountClass": "INCOME",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "9103082",
+    "accountTitle": "MORTALITY COST - BOLI",
+    "accountClass": "INCOME",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "9103090",
+    "accountTitle": "Indem Asset Amort - Commercial",
+    "accountClass": "INCOME",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "9103091",
+    "accountTitle": "Indem Asset Amort - SFR",
+    "accountClass": "INCOME",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "9103094",
+    "accountTitle": "UNREALZD GAIN FV OF DERIVATIVE",
+    "accountClass": "INCOME",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "9103095",
+    "accountTitle": "ASC 310-30 (Gains) Losses",
+    "accountClass": "INCOME",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "9103096",
+    "accountTitle": "FEE INCOME FROM BHC & SUB",
+    "accountClass": "INCOME",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "9103098",
+    "accountTitle": "MISC INCOME",
+    "accountClass": "INCOME",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "9104005",
+    "accountTitle": "INTER OFFICE INTEREST",
+    "accountClass": "INCOME",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "9104006",
+    "accountTitle": "EXTRA INTER-OFFICE SETTLEMENT",
+    "accountClass": "INCOME",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "9201000",
+    "accountTitle": "GAIN ON AVALIABLE FOR SALE SEC ",
+    "accountClass": "INCOME",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "9201500",
+    "accountTitle": "GAIN ON HELD TO MATURITY SEC",
+    "accountClass": "INCOME",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "9201550",
+    "accountTitle": "GAIN ON SALE OF SBA-UNGUARANT",
+    "accountClass": "INCOME",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "9201600",
+    "accountTitle": "GAIN ON SALE OF SBA-GUARANTEED",
+    "accountClass": "INCOME",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "9201601",
+    "accountTitle": "GAIN ON SALE OF MORTGAGE LOANS",
+    "accountClass": "INCOME",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "9201602",
+    "accountTitle": "GAIN ON SALE OF LOANS",
+    "accountClass": "INCOME",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "9201700",
+    "accountTitle": "GAIN OF SALE OF FIXED ASSETS",
+    "accountClass": "INCOME",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "9201750",
+    "accountTitle": "GAIN ON SALE OF OREO",
+    "accountClass": "INCOME",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "9201800",
+    "accountTitle": "CUMULATIVE EFCT FM CHG ACT MTD",
+    "accountClass": "INCOME",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "9201850",
+    "accountTitle": "Valuation Adj on Indem Asset ",
+    "accountClass": "INCOME",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "9501010",
+    "accountTitle": "INTEREST PAID-TCD OVER 100M",
+    "accountClass": "EXPENSE",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "9501012",
+    "accountTitle": "INTEREST PAID-MEGA SUPERPLUS",
+    "accountClass": "EXPENSE",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "9501013",
+    "accountTitle": "INTEREST PAID-SUPER NOW",
+    "accountClass": "EXPENSE",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "9501014",
+    "accountTitle": "INTEREST PAID-ATS",
+    "accountClass": "EXPENSE",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "9501015",
+    "accountTitle": "INTEREST PAID-MMDA MEGA",
+    "accountClass": "EXPENSE",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "9501016",
+    "accountTitle": "INT PD-MMDA-PREFERRED",
+    "accountClass": "EXPENSE",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "9501017",
+    "accountTitle": "INT PD-DDA MKT INT-REG",
+    "accountClass": "EXPENSE",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "9501018",
+    "accountTitle": "INT PD-DDA MKT INT-BUS",
+    "accountClass": "EXPENSE",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "9501019",
+    "accountTitle": "INT PD-DDA MKT INT-VIP",
+    "accountClass": "EXPENSE",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "9501020",
+    "accountTitle": "INTEREST PAID-REGULAR SAVINS",
+    "accountClass": "EXPENSE",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "9501021",
+    "accountTitle": "INT. PAID-ONLINE SAVINGS",
+    "accountClass": "EXPENSE",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "9501025",
+    "accountTitle": "INTEREST PAID-BONUS CHK",
+    "accountClass": "EXPENSE",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "9501030",
+    "accountTitle": "INT PAID-INSTALLMENT SAVINGS",
+    "accountClass": "EXPENSE",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "9501035",
+    "accountTitle": "INTEREST PAID-IRA",
+    "accountClass": "EXPENSE",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "9501040",
+    "accountTitle": "INT PAID-TCD UNDER 100M",
+    "accountClass": "EXPENSE",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "9501041",
+    "accountTitle": "INT.PAID-ONLINE CD UNDER 100K",
+    "accountClass": "EXPENSE",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "9501042",
+    "accountTitle": "DISCOUNT ACCRETION ON CD",
+    "accountClass": "EXPENSE",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "9501043",
+    "accountTitle": "INT.PAID-ONLINE CD OVER 100K",
+    "accountClass": "EXPENSE",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "9501045",
+    "accountTitle": "INTEREST - SWAP",
+    "accountClass": "EXPENSE",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "9501060",
+    "accountTitle": "INTEREST PAID-CDARS",
+    "accountClass": "EXPENSE",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "9501061",
+    "accountTitle": "INTEREST PAID-CDARS OVER 100K",
+    "accountClass": "EXPENSE",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "9501075",
+    "accountTitle": "AMORT OF DIS / PREMIUM - CD UNDER 100M",
+    "accountClass": "EXPENSE",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "9501076",
+    "accountTitle": "AMORT OF DIS / PREMIUM - CD OVER 100M",
+    "accountClass": "EXPENSE",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "9501080",
+    "accountTitle": "INTEREST PAID-OTHER ACCTS",
+    "accountClass": "EXPENSE",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "9501501",
+    "accountTitle": "INTEREST EXPENSES - ESCROW",
+    "accountClass": "EXPENSE",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "9501502",
+    "accountTitle": "INTEREST EXP-FED FUND PURCHASE",
+    "accountClass": "EXPENSE",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "9501503",
+    "accountTitle": "INT EXPENSES - OTHER BORROWING",
+    "accountClass": "EXPENSE",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "9501504",
+    "accountTitle": "INT EXP-NOTE ISSUED T/US TRESY",
+    "accountClass": "EXPENSE",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "9501505",
+    "accountTitle": "INT EXP-TPS",
+    "accountClass": "EXPENSE",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "9502005",
+    "accountTitle": "SALARIES AND WAGES",
+    "accountClass": "EXPENSE",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "9502006",
+    "accountTitle": "BONUS PROVISION",
+    "accountClass": "EXPENSE",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "9502007",
+    "accountTitle": "401K-MATCHING FUND CONTRIBUTIO",
+    "accountClass": "EXPENSE",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "9502008",
+    "accountTitle": "COMMISSION",
+    "accountClass": "EXPENSE",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "9502009",
+    "accountTitle": "INCENTIVES AND OTHER PAYROLLS",
+    "accountClass": "EXPENSE",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "9502010",
+    "accountTitle": "OVERTIME EMPLOYEES",
+    "accountClass": "EXPENSE",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "9502011",
+    "accountTitle": "EMPLOYER TAXES",
+    "accountClass": "EXPENSE",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "9502012",
+    "accountTitle": "CAMPAIGN AWARD",
+    "accountClass": "EXPENSE",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "9502013",
+    "accountTitle": "STOCK COMPENSATION EXPENSE",
+    "accountClass": "EXPENSE",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "9502014",
+    "accountTitle": "DEFERRED COMPENSATION EXPENSE",
+    "accountClass": "EXPENSE",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "9502019",
+    "accountTitle": "PAYROLL FEES",
+    "accountClass": "EXPENSE",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "9502020",
+    "accountTitle": "DIRECT LOAN EXP-PAYROLL",
+    "accountClass": "EXPENSE",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "9502501",
+    "accountTitle": "GROUP INSURANCES",
+    "accountClass": "EXPENSE",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "9502502",
+    "accountTitle": "WORKMEN S COMP",
+    "accountClass": "EXPENSE",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "9502511",
+    "accountTitle": "EDUCATION EXPENSE",
+    "accountClass": "EXPENSE",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "9502516",
+    "accountTitle": "EMPLOYEE WELFARE",
+    "accountClass": "EXPENSE",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "9502521",
+    "accountTitle": "STAFF LOUNGE EXPENSES",
+    "accountClass": "EXPENSE",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "9502541",
+    "accountTitle": "TEMPORARY PERSONNEL",
+    "accountClass": "EXPENSE",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "9502555",
+    "accountTitle": "OTHER EMPLOYEE EXPENSES",
+    "accountClass": "EXPENSE",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "9502556",
+    "accountTitle": "POSTRETIREMENT BENEFITS EXP.",
+    "accountClass": "EXPENSE",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "9502560",
+    "accountTitle": "PROFIT SHARING PLAN EXPENSES",
+    "accountClass": "EXPENSE",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "9502601",
+    "accountTitle": "STAFF MEETING",
+    "accountClass": "EXPENSE",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "9503001",
+    "accountTitle": "DEPRECIATION BANK PREMISES",
+    "accountClass": "EXPENSE",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "9503002",
+    "accountTitle": "INSURANCE-BANK PREMISES",
+    "accountClass": "EXPENSE",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "9503003",
+    "accountTitle": "REAL ESTATE TAXES",
+    "accountClass": "EXPENSE",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "9503004",
+    "accountTitle": "MORTGAGE INTEREST",
+    "accountClass": "EXPENSE",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "9503005",
+    "accountTitle": "MAINTENANCE & REPAIR",
+    "accountClass": "EXPENSE",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "9503006",
+    "accountTitle": "RENT/LEASE EXPENSE",
+    "accountClass": "EXPENSE",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "9503007",
+    "accountTitle": "PARKING EXPENSES",
+    "accountClass": "EXPENSE",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "9503008",
+    "accountTitle": "LESS RENTAL INCOME",
+    "accountClass": "EXPENSE",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "9503009",
+    "accountTitle": "JANITORIAL & LANDSCAPING",
+    "accountClass": "EXPENSE",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "9503012",
+    "accountTitle": "UTILITIES",
+    "accountClass": "EXPENSE",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "9503019",
+    "accountTitle": "DEPRECIATION - L/H IMPROV",
+    "accountClass": "EXPENSE",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "9503020",
+    "accountTitle": "OTHER PREMISES EXPENSES",
+    "accountClass": "EXPENSE",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "9504001",
+    "accountTitle": "PERSONAL PROPERTY TAXES",
+    "accountClass": "EXPENSE",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "9504002",
+    "accountTitle": "DEPRECIATION-FF&E",
+    "accountClass": "EXPENSE",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "9504003",
+    "accountTitle": "AMORT INTNLLY DEVPD SOFTWARE",
+    "accountClass": "EXPENSE",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "9504006",
+    "accountTitle": "MAINTENANCE REPAIR-FF&E",
+    "accountClass": "EXPENSE",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "9504008",
+    "accountTitle": "EQUIPMENT RENTAL & INSURANCE",
+    "accountClass": "EXPENSE",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "9505005",
+    "accountTitle": "PUBLIC RELATIONS",
+    "accountClass": "EXPENSE",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "9505007",
+    "accountTitle": "CUSTOMER SERVICES EXPENSES",
+    "accountClass": "EXPENSE",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "9505009",
+    "accountTitle": "ATM FEE REFUND (BONUS CHK)",
+    "accountClass": "EXPENSE",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "9505020",
+    "accountTitle": "DUES & MEMBERSHIP FEES",
+    "accountClass": "EXPENSE",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "9505022",
+    "accountTitle": "UNALLOCATED H.Q. EXPENSE",
+    "accountClass": "EXPENSE",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "9505025",
+    "accountTitle": "DONATIONS",
+    "accountClass": "EXPENSE",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "9505026",
+    "accountTitle": "PROMOTIONS",
+    "accountClass": "EXPENSE",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "9505027",
+    "accountTitle": "ADVERTISING",
+    "accountClass": "EXPENSE",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "9505028",
+    "accountTitle": "ENTERTAINMENT",
+    "accountClass": "EXPENSE",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "9505033",
+    "accountTitle": "CONFERENCES & MEETINGS",
+    "accountClass": "EXPENSE",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "9506004",
+    "accountTitle": "ITEM PROCESSING FEE",
+    "accountClass": "EXPENSE",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "9506005",
+    "accountTitle": "DATA PROCESSING FEE",
+    "accountClass": "EXPENSE",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "9506006",
+    "accountTitle": "DATA PROCESSING FEE-OTHER",
+    "accountClass": "EXPENSE",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "9506007",
+    "accountTitle": "LEGAL FEES-OTHER",
+    "accountClass": "EXPENSE",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "9506008",
+    "accountTitle": "LEGAL FEES-COLLECTION",
+    "accountClass": "EXPENSE",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "9506009",
+    "accountTitle": "REO EXPENSES",
+    "accountClass": "EXPENSE",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "9506010",
+    "accountTitle": "ACCOUNTING & AUDITS",
+    "accountClass": "EXPENSE",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "9506011",
+    "accountTitle": "SECURITY GUARD EXP",
+    "accountClass": "EXPENSE",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "9506012",
+    "accountTitle": "PROFESSIONAL CONSULTING FEE",
+    "accountClass": "EXPENSE",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "9506013",
+    "accountTitle": "OUTSIDE SERVICES-COLLECTION",
+    "accountClass": "EXPENSE",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "9506014",
+    "accountTitle": "COLLECTION AGENCY EXP",
+    "accountClass": "EXPENSE",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "9506015",
+    "accountTitle": "RETURN-ITEM NOTIFICATION FEE",
+    "accountClass": "EXPENSE",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "9506016",
+    "accountTitle": "MICROFILM PROCESSING",
+    "accountClass": "EXPENSE",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "9506017",
+    "accountTitle": "ARMORED/MESSENGER",
+    "accountClass": "EXPENSE",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "9506018",
+    "accountTitle": "ALARM & PATROL",
+    "accountClass": "EXPENSE",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "9506019",
+    "accountTitle": "BROKER S FEES FOR INVESTMENT",
+    "accountClass": "EXPENSE",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "9506020",
+    "accountTitle": "OUTSIDE SERVICES-OTHER",
+    "accountClass": "EXPENSE",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "9506025",
+    "accountTitle": "FEE EXPENSE-CDARS",
+    "accountClass": "EXPENSE",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "9506045",
+    "accountTitle": "REO-TAXES",
+    "accountClass": "EXPENSE",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "9506046",
+    "accountTitle": "REO-INSURANCE",
+    "accountClass": "EXPENSE",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "9506047",
+    "accountTitle": "REO-LEGAL",
+    "accountClass": "EXPENSE",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "9506048",
+    "accountTitle": "REO-APPRAISAL",
+    "accountClass": "EXPENSE",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "9506502",
+    "accountTitle": "FDIC ASSESSMENT",
+    "accountClass": "EXPENSE",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "9506503",
+    "accountTitle": "STATE BANKING ASSESSMENT",
+    "accountClass": "EXPENSE",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "9506504",
+    "accountTitle": "GOODWILL AMORTIZATION EXP",
+    "accountClass": "EXPENSE",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "9506505",
+    "accountTitle": "CORRES BANK CHARGES",
+    "accountClass": "EXPENSE",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "9506506",
+    "accountTitle": "DUE FROM RECONCIL CHARGE OFF",
+    "accountClass": "EXPENSE",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "9506507",
+    "accountTitle": "DUE FROM RECONCILE RECOVERY",
+    "accountClass": "EXPENSE",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "9506508",
+    "accountTitle": "CORPORATE ADMIN EXPENSES",
+    "accountClass": "EXPENSE",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "9506509",
+    "accountTitle": "KEY PERSON INSURANCE",
+    "accountClass": "EXPENSE",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "9506510",
+    "accountTitle": "CORE DEPOSIT PREMIUM EXPENSES",
+    "accountClass": "EXPENSE",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "9506511",
+    "accountTitle": "BANKERS BLANKET BOND",
+    "accountClass": "EXPENSE",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "9506512",
+    "accountTitle": "D & O LIAB INSURANCE",
+    "accountClass": "EXPENSE",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "9506513",
+    "accountTitle": "OCI AMORTIZATION (SWAP)",
+    "accountClass": "EXPENSE",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "9506515",
+    "accountTitle": "BUSINESS RELATED TAXES/LICENSE",
+    "accountClass": "EXPENSE",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "9507004",
+    "accountTitle": "TELEPHONE",
+    "accountClass": "EXPENSE",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "9507005",
+    "accountTitle": "TELEX",
+    "accountClass": "EXPENSE",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "9507006",
+    "accountTitle": "STATIONERY & SUPPLIES",
+    "accountClass": "EXPENSE",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "9507007",
+    "accountTitle": "S.W.I.F.T.",
+    "accountClass": "EXPENSE",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "9507008",
+    "accountTitle": "POSTAGE",
+    "accountClass": "EXPENSE",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "9507009",
+    "accountTitle": "PRINTING-FORMS",
+    "accountClass": "EXPENSE",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "9507010",
+    "accountTitle": "DURABLE SUPPLIES",
+    "accountClass": "EXPENSE",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "9507501",
+    "accountTitle": "TRANSPORTATION EXPENSE",
+    "accountClass": "EXPENSE",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "9507502",
+    "accountTitle": "AUTO MILEAGE",
+    "accountClass": "EXPENSE",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "9507503",
+    "accountTitle": "TRAVEL & MEALS",
+    "accountClass": "EXPENSE",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "9507504",
+    "accountTitle": "RECRUITMENT EXPENSES",
+    "accountClass": "EXPENSE",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "9507511",
+    "accountTitle": "CHECK PRINTING",
+    "accountClass": "EXPENSE",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "9507512",
+    "accountTitle": "SUBSCRIPTION",
+    "accountClass": "EXPENSE",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "9507513",
+    "accountTitle": "DIRECTOR S FEES",
+    "accountClass": "EXPENSE",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "9507514",
+    "accountTitle": "CALIF RUBBER STAMP",
+    "accountClass": "EXPENSE",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "9507515",
+    "accountTitle": "OTHER RELATED EXPENSES",
+    "accountClass": "EXPENSE",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "9507520",
+    "accountTitle": "NOTARY PUBLIC",
+    "accountClass": "EXPENSE",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "9507525",
+    "accountTitle": "EMPLOYEE TRAINING & SEMINAR",
+    "accountClass": "EXPENSE",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "9507530",
+    "accountTitle": "UNREALZD LOSS FV OF DERIVATIVE",
+    "accountClass": "EXPENSE",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "9507540",
+    "accountTitle": "AUTO LOAN REFERRAL FEE",
+    "accountClass": "EXPENSE",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "9507541",
+    "accountTitle": "SBA REFERRAL FEE",
+    "accountClass": "EXPENSE",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "9507542",
+    "accountTitle": "OTHER LOAN REFERRAL FEE",
+    "accountClass": "EXPENSE",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "9507544",
+    "accountTitle": "PROVISION FOR LITIGATION EXP",
+    "accountClass": "EXPENSE",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "9507550",
+    "accountTitle": "MISC EXPENSES",
+    "accountClass": "EXPENSE",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "9507560",
+    "accountTitle": "PROVISION FOR LHFS VALUATION",
+    "accountClass": "EXPENSE",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "9507596",
+    "accountTitle": "PENALTY EXPENSE",
+    "accountClass": "EXPENSE",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "9507598",
+    "accountTitle": "AMORT LEASE PREMIUM",
+    "accountClass": "EXPENSE",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "9507601",
+    "accountTitle": "M&A RELATED EXPENSE-CONSULTING",
+    "accountClass": "EXPENSE",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "9507602",
+    "accountTitle": "M&A RELATED EXPENSE-LEGAL",
+    "accountClass": "EXPENSE",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "9507603",
+    "accountTitle": "M&A RELATED EXPENSE-SEVERANCE PAY & OTHERS",
+    "accountClass": "EXPENSE",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "9507604",
+    "accountTitle": "M&A RELATED EXPENSE-IT",
+    "accountClass": "EXPENSE",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "9507605",
+    "accountTitle": "M&A RELATED EXP-CONTRACT TERM FEE",
+    "accountClass": "EXPENSE",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "9508005",
+    "accountTitle": "DOCUMENTATION",
+    "accountClass": "EXPENSE",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "9508006",
+    "accountTitle": "CREDIT REPORTS",
+    "accountClass": "EXPENSE",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "9508008",
+    "accountTitle": "APPRAISAL",
+    "accountClass": "EXPENSE",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "9508009",
+    "accountTitle": "COUPON PRINTING",
+    "accountClass": "EXPENSE",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "9508010",
+    "accountTitle": "OTHER LOAN EXPENSES",
+    "accountClass": "EXPENSE",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "9508012",
+    "accountTitle": "PROV. LOSS ON OFF-BAL ITEMS",
+    "accountClass": "EXPENSE",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "9508015",
+    "accountTitle": "AUTO REPO & RELATED EXPENSES",
+    "accountClass": "EXPENSE",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "9508017",
+    "accountTitle": "AUTO REPO & RELATED INCOME",
+    "accountClass": "EXPENSE",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "9508040",
+    "accountTitle": "CREDIT CARD RELATED EXPENSES",
+    "accountClass": "EXPENSE",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "9508050",
+    "accountTitle": "LOSS ON SALE OF REO",
+    "accountClass": "EXPENSE",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "9508055",
+    "accountTitle": "PROVISION FOR REO VALUATION",
+    "accountClass": "EXPENSE",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "9508060",
+    "accountTitle": "LOSS ON SALE OF LOANS",
+    "accountClass": "EXPENSE",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "9508070",
+    "accountTitle": "ASC 310-30 Provision for impairment",
+    "accountClass": "EXPENSE",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "9508084",
+    "accountTitle": "EFT ISSUER TRANSACTION CHARGE",
+    "accountClass": "EXPENSE",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "9508090",
+    "accountTitle": "FP INSURANCE EXPENSE",
+    "accountClass": "EXPENSE",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "9508098",
+    "accountTitle": "PROVISION FOR LOAN LOSS",
+    "accountClass": "EXPENSE",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "9508510",
+    "accountTitle": "ALLOCATED OVERHEAD EXPENSES",
+    "accountClass": "EXPENSE",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "9509001",
+    "accountTitle": "SUNDRY LOSSES",
+    "accountClass": "EXPENSE",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "9509002",
+    "accountTitle": "OVERDRAFT-CLOSED",
+    "accountClass": "EXPENSE",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "9509003",
+    "accountTitle": "LOAN RELATED LOSSES",
+    "accountClass": "EXPENSE",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "9509004",
+    "accountTitle": "TELLER SHORTS",
+    "accountClass": "EXPENSE",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "9509005",
+    "accountTitle": "OPERATING LOSS OVER $1",
+    "accountClass": "EXPENSE",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "9509006",
+    "accountTitle": "OPERATING LOSS UNDER $1",
+    "accountClass": "EXPENSE",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "9509007",
+    "accountTitle": "CUSTOMER DEPOSIT ERROR",
+    "accountClass": "EXPENSE",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "9509008",
+    "accountTitle": "OPERATING LOSS - EFT",
+    "accountClass": "EXPENSE",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "9509009",
+    "accountTitle": "LOSS RELATED TO COURT SETTLEME",
+    "accountClass": "EXPENSE",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "9509010",
+    "accountTitle": "FRB CASH ADJUSTMENT - DR",
+    "accountClass": "EXPENSE",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "9509012",
+    "accountTitle": "FRB CASH ADJUSTMENT - CR",
+    "accountClass": "EXPENSE",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "9509015",
+    "accountTitle": "RECOVERIES - OPERATING LOSS",
+    "accountClass": "EXPENSE",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "9509016",
+    "accountTitle": "OPERATING LOSS-BULK FILING",
+    "accountClass": "EXPENSE",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "9509017",
+    "accountTitle": "OPR LOSS-COUNTERFEIT CURRENCY",
+    "accountClass": "EXPENSE",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "9551000",
+    "accountTitle": "FED INC TAX-OPERATING EARNINGS",
+    "accountClass": "EXPENSE",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "9551020",
+    "accountTitle": "FED INCOME TAX-DEFERRED",
+    "accountClass": "EXPENSE",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "9552000",
+    "accountTitle": "FRANCHISE TAX-OPERATING EARNIN",
+    "accountClass": "EXPENSE",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "9552020",
+    "accountTitle": "FRANCHISE INCOME TAX-DEFERRED",
+    "accountClass": "EXPENSE",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "9552050",
+    "accountTitle": "TAX CREDIT",
+    "accountClass": "EXPENSE",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "9601000",
+    "accountTitle": "LOSS ON SALE OF SECURITIES",
+    "accountClass": "EXPENSE",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "9601010",
+    "accountTitle": "OTTI WRITEDOWN",
+    "accountClass": "EXPENSE",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "9601012",
+    "accountTitle": "IMPAIRMENT LOSS OF CRA FUNDS",
+    "accountClass": "EXPENSE",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "9601020",
+    "accountTitle": "LOSS ON TAX CREDIT FUND",
+    "accountClass": "EXPENSE",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "9602000",
+    "accountTitle": "LOSS ON FMV-SVC ASSETS & LIAB",
+    "accountClass": "EXPENSE",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "9603000",
+    "accountTitle": "LOSS ON BANKERS LIABILITY",
+    "accountClass": "EXPENSE",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "9604000",
+    "accountTitle": "LOSS ON SALE/DISPOSAL OF F/A",
+    "accountClass": "EXPENSE",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "9605000",
+    "accountTitle": "THEFT",
+    "accountClass": "EXPENSE",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "9606000",
+    "accountTitle": "GOODWILL IMPAIRMENT EXPENSE",
+    "accountClass": "EXPENSE",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "9900000",
+    "accountTitle": "CAPITAL STOCK",
+    "accountClass": "EQUITY",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "9910000",
+    "accountTitle": "SURPLUS",
+    "accountClass": "EQUITY",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "9911000",
+    "accountTitle": "CUMULATIVE EFFECTS OF A/C",
+    "accountClass": "EQUITY",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "9912000",
+    "accountTitle": "BOLI-ACCUM POSTRETIRE BENEFIT",
+    "accountClass": "EQUITY",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "9915000",
+    "accountTitle": "OTHER COMPREHENSIVE INC(SWAP)",
+    "accountClass": "EQUITY",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "9920000",
+    "accountTitle": "UNDIVIDED PROFITS THRU PREV YR",
+    "accountClass": "EQUITY",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "9925000",
+    "accountTitle": "UNREALZD GAIN/LOSS-AFS SEC&IOS",
+    "accountClass": "EQUITY",
+    "entity": "HANMI-BANK"
+  },
+  {
+    "accountCode": "9982000",
+    "accountTitle": "FMS NON-POST ITEMS",
+    "accountClass": "ASSETS",
+    "entity": "HANMI-BANK"
+  }
+]

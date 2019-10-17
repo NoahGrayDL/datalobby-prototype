@@ -22,6 +22,7 @@ import {
   ChartOfAccount,
   ChartOfAccountDetail
 } from "./views/project-views/chart-of-account"
+import { EntrySets } from "./views/project-views/entryset"
 import { Ledgers } from "./views/project-views/ledgers"
 import { TrialBalance } from "./views/project-views/trial-balance"
 import { Adjustments } from "./views/project-views/adjustments"
@@ -73,6 +74,7 @@ export default function App() {
       <Route path="/prepared-by-client" component={PreparedByClient} />
       <Route path="/task-and-time" component={TaskAndTime} />
 
+      <Route path="/financial-statements/entryset-test" component={EntrySets} />
       <Route path="/financial-statements/ledgers" component={Ledgers} />
       <Route
         path="/financial-statements/closing/trial-balance"

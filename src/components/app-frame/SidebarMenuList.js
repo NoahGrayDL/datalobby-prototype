@@ -157,6 +157,11 @@ const PROJECT_MENUS = [
     url: "/financial-statements",
     subMenus: [
       {
+        title: "Entry Set Test",
+        icon: <DescriptionOutlinedIcon />,
+        url: "/financial-statements/entryset-test"
+      },
+      {
         title: "Ledgers",
         icon: <DescriptionOutlinedIcon />,
         url: "/financial-statements/ledgers"
