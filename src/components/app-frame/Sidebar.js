@@ -69,7 +69,6 @@ const StyledDrawer = styled.div`
     background-color: var(--primary-light);
     border-right: 1px solid var(--primary-light-deep);
     box-shadow: var(--shadow-rg-right-deep);
-
     .view-changer {
       border-bottom: 1px solid var(--primary-light-deep);
     }
@@ -78,7 +77,6 @@ const StyledDrawer = styled.div`
     background-color: var(--secondary-main);
     border-right: 1px solid var(--secondary-main-deep);
     box-shadow: var(--shadow-rg-right-light);
-
     .view-changer {
       border-bottom: 1px solid var(--secondary-main-deep);
     }
@@ -96,6 +94,13 @@ const StyledDrawer = styled.div`
     height: var(--base-unit);
     color: var(--primary-dark);
     font-weight: var(--regular);
+    & svg {
+      fill: var(--shade20);
+      transition: 0.4s;
+      &:hover {
+        fill: var(--primary-dark);
+      }
+    }
   }
   /* below are shared in sub components */
   .link {
@@ -104,6 +109,7 @@ const StyledDrawer = styled.div`
   }
   .active-menu {
     color: var(--primary-dark);
+    background-color: var(--shade10);
     .menu-icon svg {
       fill: var(--primary-dark);
     }

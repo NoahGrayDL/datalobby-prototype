@@ -1,7 +1,6 @@
 import React from "react"
 import List from "@material-ui/core/List"
 
-import DescriptionOutlinedIcon from "@material-ui/icons/DescriptionOutlined"
 import AccountBalanceWalletIcon from "@material-ui/icons/AccountBalanceWallet"
 import SidebarMenu from "./SidebarMenu"
 import SidebarMenuWithSubMenus from "./SidebarMenuWithSubMenus"
@@ -11,23 +10,25 @@ import Icon from "@mdi/react"
 import {
   mdiAccount,
   mdiViewDashboardOutline,
-  mdiInformationVariant,
   mdiFolderInformationOutline,
   mdiClipboardCheckOutline,
   mdiCalendarClock,
-  mdiCurrencyUsd,
-  mdiEye,
   mdiCalculatorVariant,
   mdiSitemap,
   mdiFileOutline,
   mdiFile,
-  mdiFileChartOutline,
   mdiFileChart,
-  mdiLockOutline,
-  mdiShieldOutline,
-  mdiShieldLockOutline,
   mdiShieldLock,
-  mdiSettingsOutline
+  mdiSettingsOutline,
+  mdiSettings,
+  mdiClipboardAccount,
+  mdiBullhorn,
+  mdiViewDashboard,
+  mdiFolderSearch,
+  mdiFileTree,
+  mdiBookOutline,
+  mdiToggleSwitchOff,
+  mdiToggleSwitch
 } from "@mdi/js"
 
 import ViewWeekIcon from "@material-ui/icons/ViewWeek"
@@ -54,11 +55,11 @@ const SidebarMenuList = props => {
         >
           {isOrg ? (
             <div className="view-changer FR JSB AC">
-              Organization Menu <ArrowDownwardIcon fontSize="small" />
+              Organization Menu <Icon path={mdiToggleSwitchOff} size={1.2} />
             </div>
           ) : (
             <div className="view-changer FR JSB AC">
-              Project Menu <ArrowUpwardIcon fontSize="small" />
+              Project Menu <Icon path={mdiToggleSwitch} size={1.2} />
             </div>
           )}
         </ListSubheader>
@@ -260,55 +261,55 @@ const PROJECT_MENUS = [
 const ORG_MENUS = [
   {
     title: "My Page",
-    icon: <Icon path={mdiAccount} size={1} />,
+    icon: <Icon path={mdiClipboardAccount} size={1} />,
     url: "/my-page",
     subMenus: false
   },
   {
     title: "Notification",
-    icon: <Icon path={mdiAccount} size={1} />,
+    icon: <Icon path={mdiBullhorn} size={1} />,
     url: "/notification",
     subMenus: false
   },
   {
     title: "Home Dashboard",
-    icon: <Icon path={mdiAccount} size={1} />,
+    icon: <Icon path={mdiViewDashboard} size={1} />,
     url: "/home-dashboard",
     subMenus: false
   },
   {
     title: "Schedule and Budget",
-    icon: <Icon path={mdiAccount} size={1} />,
+    icon: <Icon path={mdiCalendarClock} size={1} />,
     url: "/schedule-and-budget",
     subMenus: false
   },
   {
     title: "Archive Management",
-    icon: <Icon path={mdiAccount} size={1} />,
+    icon: <Icon path={mdiShieldLock} size={1} />,
     url: "/archive-management",
     subMenus: false
   },
   {
     title: "Groups",
-    icon: <Icon path={mdiAccount} size={1} />,
+    icon: <Icon path={mdiFileTree} size={1} />,
     url: "/groups",
     subMenus: false
   },
   {
     title: "Projects",
-    icon: <Icon path={mdiAccount} size={1} />,
+    icon: <Icon path={mdiFolderSearch} size={1} />,
     url: "/projects",
     subMenus: false
   },
   {
     title: "Library",
-    icon: <Icon path={mdiAccount} size={1} />,
+    icon: <Icon path={mdiBookOutline} size={1} />,
     url: "/library",
     subMenus: false
   },
   {
     title: "Setup",
-    icon: <Icon path={mdiAccount} size={1} />,
+    icon: <Icon path={mdiSettings} size={1} />,
     url: "/setup",
     subMenus: false
   }
