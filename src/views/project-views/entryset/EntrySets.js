@@ -34,33 +34,50 @@ export default function EntrySets() {
   return (
     <PageContainer menuTitle="EntrySet Test">
       <StyledContainer>
-        <div className="button-container">
-          <Button
+        <div className="filter-bar FR AC">
+          <OnOffButton
             targetState={state.captionOn}
             handle={handleCaptionOn}
             title="Caption"
           />
-          <Button
+          <OnOffButton
             targetState={state.expandAll}
             handle={handleExpandAll}
             title="Expand All"
           />
-          <Button
+          <OnOffButton
             targetState={state.titleOn}
             handle={handleTitleOn}
             title="Title"
           />
-          <Button
+          <OnOffButton
             targetState={state.valueOn}
             handle={handleValueOn}
             title="Value"
           />
+          {state.valueOn && (
+            <div className="format-control-container FR AC">
+              <div className="label FR AC">Format:</div>
+              <div className="format-control FR AC">Currency</div>
+              <div className="format-control FR AC">Unit</div>
+              <div className="format-control FR AC">Debit</div>
+              <div className="format-control FR AC">Credit</div>
+              <div className="format-control FR AC">Balance</div>
+            </div>
+          )}
         </div>
-        <EntrySet
-          globalState={state}
-          dataForEntrySet={dataForEntrySet}
-          state={state}
-        />
+        <div className="entryset-container FR">
+          <EntrySet
+            globalState={state}
+            dataForEntrySet={dataForEntrySet}
+            state={state}
+          />
+          <EntrySet
+            globalState={state}
+            dataForEntrySet={dataForEntrySet}
+            state={state}
+          />
+        </div>
       </StyledContainer>
     </PageContainer>
   )
@@ -120,13 +137,13 @@ console.log("dataForEntrySet", dataForEntrySet)
  * ]
  */
 
-const Button = ({ targetState, title, handle }) => {
+const OnOffButton = ({ targetState, title, handle }) => {
   return (
     <div
-      className={targetState ? "button button-on" : "button button-off"}
+      className={targetState ? "button FR button-on" : "button FR button-off"}
       onClick={handle}
     >
-      {title}
+      <div className="FR AC">{title}</div>
     </div>
   )
 }
@@ -134,19 +151,33 @@ const Button = ({ targetState, title, handle }) => {
 const StyledContainer = styled.div`
   display: flex;
   flex-direction: column;
-  & .button-container {
+  & .filter-bar {
     width: 100%;
+    height: var(--base-unit);
+    background-color: var(--secondary-main);
     display: flex;
     & .button {
       border: 1px solid #ccc;
       border-radius: 4px;
       padding: 4px 16px;
       margin-right: 8px;
+      height: calc(var(--base-unit) / 1.5);
       &.button-on {
         background-color: #758fff;
       }
       &.button-off {
         background-color: #ffffff;
+      }
+    }
+    .format-control-container {
+      .label {
+        font-size: 14px;
+        font-weight: 400;
+        margin-right: 1rem;
+      }
+      .format-control {
+        margin-right: 1rem;
+        font-size: 14px;
       }
     }
   }

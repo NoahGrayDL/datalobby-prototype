@@ -14,7 +14,7 @@ import MailIcon from "@material-ui/icons/Mail"
 import NotificationsIcon from "@material-ui/icons/Notifications"
 import MoreIcon from "@material-ui/icons/MoreVert"
 import clsx from "clsx"
-
+import styled from "styled-components"
 //! Mobile 처리 손 봐야 함. 기본 Appbar를 수정하면서 모바일 부분이 헝클어졌을 듯
 
 const Header = props => {
@@ -107,19 +107,7 @@ const Header = props => {
         className={clsx(classes.appBar, { [classes.appBarShift]: open })}
       >
         <Toolbar className={classes.toolbar}>
-          {/* <IconButton
-            edge="start"
-            className={clsx(classes.menuButton, {
-              [classes.hide]: open
-            })}
-            color="inherit"
-            aria-label="open drawer"
-          >
-            <MenuIcon />
-          </IconButton> */}
-          <Typography className={classes.title} variant="h6" noWrap>
-            FourStar 2019 Consolidated Closing
-          </Typography>
+          <h1 className="medium">FourStar 2019 Consolidated Closing</h1>
           <div className={classes.search}>
             <div className={classes.searchIcon}>
               <SearchIcon />
@@ -188,10 +176,11 @@ const useStyles = makeStyles(theme => ({
     height: 48,
     minHeight: 48,
     backgroundColor: "#ffffff",
-    color: "#000000"
+    color: "#000000",
+    paddingLeft: 16
   },
   menuButton: {
-    marginRight: theme.spacing(2)
+    marginRight: 16
   },
   title: {
     display: "none",

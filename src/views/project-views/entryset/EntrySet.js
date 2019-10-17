@@ -1,51 +1,6 @@
 import React, { useState } from "react"
 import styled from "styled-components"
-
-const AccountsInCaption = props => {
-  const { caption, state } = props
-  return (
-    <div
-      className={
-        state.expandAll ? "accounts-container" : "accounts-container off"
-      }
-    >
-      {caption.accountList.map(account => {
-        const { accountCode, accountTitle } = account.accountData
-        const credit = account.accountData.credit
-          ? account.accountData.credit.amount
-          : "undefined"
-        const debit = account.accountData.debit
-          ? account.accountData.debit.amount
-          : "undefined"
-        return (
-          <div className="account-container">
-            <div className="account-item account-code">{accountCode}</div>
-            <div
-              className={
-                state.titleOn
-                  ? "account-item account-title"
-                  : "account-item account-title off"
-              }
-            >
-              {accountTitle}
-            </div>
-            <div
-              className={
-                state.valueOn
-                  ? "account-item account-value"
-                  : "account-item account-value off"
-              }
-            >
-              <div className="credit account-credit">{credit}</div>
-              <div className="debit account-debit">{debit}</div>
-              <div className="account-amount">{credit + debit}</div>
-            </div>
-          </div>
-        )
-      })}
-    </div>
-  )
-}
+import AccountsInCaption from "./AccountsInCaption"
 
 const Caption = props => {
   const { state, caption } = props
@@ -61,7 +16,9 @@ const Caption = props => {
         className={state.captionOn ? "caption-header" : "caption-header off"}
         onClick={handleCollapse}
       >
-        <div className="caption-title">{caption.captionTitle}</div>
+        <div className="caption-title">
+          {caption.captionTitle} ({caption.accountList.length})
+        </div>
         <div className="caption-total"></div>
       </div>
       <div className={isCollapsed ? "collpased" : "expanded"}>
@@ -89,6 +46,9 @@ const StyledEntrySet = styled.div`
     margin-bottom: 1rem;
     .caption-header {
       display: flex;
+      &:hover {
+        background-color: #ccc;
+      }
     }
     .caption-header.off {
       display: none;

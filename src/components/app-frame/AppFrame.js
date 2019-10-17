@@ -14,7 +14,7 @@ import { Header, Sidebar } from "../app-frame"
 //-----*-----*-----*-----*-----*-----//
 
 export default function AppFrame(props) {
-  const { children, menuTitle, menuButton, buttons, filters, searchBar } = props
+  const { children, menuTitle, menuButton, buttons, searchBar } = props
   const classes = useStyles()
   const theme = useTheme()
   const [open, setOpen] = useState(true)
@@ -46,40 +46,7 @@ export default function AppFrame(props) {
         }
       >
         <Header open={open} />
-        <main className={classes.container}>
-          <AppBar
-            position="relative"
-            className={clsx(classes.menuTitleBar, {
-              [classes.menuTitleBarShift]: open
-            })}
-          >
-            <Typography variant="h6" className={classes.menuTitle}>
-              {menuTitle}
-            </Typography>
-            {buttons}
-            {searchBar && (
-              <div className={classes.search}>
-                <div className={classes.searchIcon}>
-                  <SearchIcon />
-                </div>
-                <InputBase
-                  placeholder="Search…"
-                  classes={{
-                    root: classes.inputRoot,
-                    input: classes.inputInput
-                  }}
-                  inputProps={{ "aria-label": "search" }}
-                />
-              </div>
-            )}
-            <Button size="small" className={classes.secondaryButtons}>
-              {menuButton}
-            </Button>
-          </AppBar>
-          {filters && <ToolBar filters={filters} />}
-
-          <div className={classes.content}>{children}</div>
-        </main>
+        {children}
       </div>
     </div>
   )
@@ -97,11 +64,7 @@ const useStyles = makeStyles(theme => ({
     width: `calc(100vw - ${collapsedDrawerWidth}px)`,
     overflow: "hidden"
   },
-  container: {
-    padding: theme.spacing(2, 3),
-    height: `calc(100vh - 64px)`,
-    overflow: "scroll" // temporary. have to update
-  },
+
   // this menuTitleBar for sub header which has menu title. origin=appBar
   menuTitleBar: {
     display: "flex",
@@ -162,8 +125,5 @@ const useStyles = makeStyles(theme => ({
   },
   secondaryButtons: {
     justifyContent: "flex-end"
-  },
-  content: {
-    flexGrow: 1
   }
 }))

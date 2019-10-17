@@ -1,10 +1,8 @@
 * {
   box-sizing: border-box;
 }
+
 html {
-  font-weight: 300;
-  font-family: "Roboto", "Noto Sans", sans-serif;
-  letter-spacing: 0.4px;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   -ms-text-size-adjust: 100%;
@@ -13,12 +11,108 @@ html {
   overflow: hidden;
   height: 100%;
   margin: 0;
+  color: var(--default-text-color);
 }
+
+:root {
+  --font-primary: "Roboto";
+  --font-secondary: sans-serif;
+  --default-text-color: #1d2440;
+
+  /* ---------- primary and secondary ---------- */
+  --primary-main: #758fff;
+  --primary-light: #abbfff;
+  --primary-light-deep: #a1b4f2;
+  --primary-dark: #3b62cb;
+  --secondary-main: #f5f7f9;
+  --secondary-main-deep: #e8edf2;
+  --secondary-light: #ffffff;
+  --secondary-dark: #c2c4c6;
+
+  /* ---------- shade ---------- */
+  --shade10: rgba(0, 0, 0, 0.1);
+  --shade20: rgba(0, 0, 0, 0.2);
+  --shade40: rgba(0, 0, 0, 0.4);
+  --shade60: rgba(0, 0, 0, 0.6);
+
+  /* ---------- financial ---------- */
+  --fs-equity: #463aa0;
+  --fs-liabilities: #3da1d6;
+  --fs-income: #76e5d9;
+  --fs-expenses: #f5be40;
+  --fs-assets: #da5d4d;
+
+  /* ---------- font-size ---------- */
+  /* based on standard 16px */
+  /* 20px / 18px / 16px / 14px / 12px / 11px / 9px / 8px */
+  --text-xxxl: 1.25rem;
+  --text-xxl: 1.125rem;
+  --text-xl: 1rem;
+  --text-lg: 0.875rem;
+  --text-md: 0.75rem;
+  --text-rg: 0.7rem;
+  --text-sm: 0.6rem;
+  --text-xs: 0.5rem;
+
+  /* ---------- font-weight ---------- */
+  --light: 300;
+  --regular: 400;
+  --medium: 500;
+  --bold: 600;
+  --black: 900;
+
+  /* ---------- spacing ---------- */
+  --spacing-xl: 2rem;
+  --spacing-lg: 1.5rem;
+  --spacing-md: 1rem;
+  --spacing-rg: 0.5rem;
+  --spacing-sm: 0.25rem;
+
+  /* ---------- component standard ---------- */
+  --base-unit: 48px;
+}
+
 body {
   padding: 0;
   margin: 0;
   height: 100%;
   overflow: hidden;
+  font-weight: 400;
+  font-family: var(--font-primary);
+  font-size: var(--text-rg);
+  letter-spacing: 0.4px;
+}
+
+h1 {
+  font-size: var(--text-xxxl);
+  margin: 0;
+}
+h2 {
+  font-size: var(--text-xxl);
+  margin: 0;
+}
+h3 {
+  font-size: var(--text-xl);
+  margin: 0;
+}
+h4 {
+  font-size: var(--text-lg);
+  margin: 0;
+}
+.sub-title {
+  font-size: var(--text-md);
+}
+.black {
+  font-weight: var(--black);
+}
+.bold {
+  font-weight: var(--bold);
+}
+.medium {
+  font-weight: var(--medium);
+}
+.light {
+  font-weight: var(--light);
 }
 
 a {
@@ -32,4 +126,31 @@ a {
 a:active,
 a:hover {
   outline-width: 0;
+}
+
+.FR {
+  display: flex;
+  flex-direction: row;
+}
+.FC {
+  display: flex;
+  flex-direction: column;
+}
+.AC {
+  align-items: center;
+}
+.AL {
+  align-items: flex-start;
+}
+.AR {
+  align-items: flex-end;
+}
+.JC {
+  justify-content: center;
+}
+.JL {
+  justify-content: flex-start;
+}
+.JR {
+  justify-content: flex-end;
 }
