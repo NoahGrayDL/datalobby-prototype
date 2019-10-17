@@ -13,7 +13,7 @@ const SidebarMenu = props => {
     <NavLink to={url} className="link FR" activeClassName="active-menu">
       <ListItem button key={title}>
         <ListItemIcon className="menu-icon">{icon}</ListItemIcon>
-        <ListItemText primary={title} />
+        <ListItemText className="menu-text" primary={title} />
       </ListItem>
     </NavLink>
   )

@@ -55,7 +55,6 @@ const StyledDrawer = styled.div`
     width: ${drawerWidth}px;
     flex-shrink: 0;
     white-space: nowrap;
-    box-shadow: var(--shadow-rg-right);
   }
   .drawer-open {
     width: ${drawerWidth}px;
@@ -69,6 +68,8 @@ const StyledDrawer = styled.div`
   .org-drawer {
     background-color: var(--primary-light);
     border-right: 1px solid var(--primary-light-deep);
+    box-shadow: var(--shadow-rg-right-deep);
+
     .view-changer {
       border-bottom: 1px solid var(--primary-light-deep);
     }
@@ -76,6 +77,7 @@ const StyledDrawer = styled.div`
   .proj-drawer {
     background-color: var(--secondary-main);
     border-right: 1px solid var(--secondary-main-deep);
+    box-shadow: var(--shadow-rg-right-light);
 
     .view-changer {
       border-bottom: 1px solid var(--secondary-main-deep);
@@ -99,21 +101,34 @@ const StyledDrawer = styled.div`
   .link {
     text-decoration: none;
     padding: nont;
-    font-size: var(--text-xl);
   }
   .active-menu {
     color: var(--primary-dark);
-    & svg {
+    .menu-icon svg {
       fill: var(--primary-dark);
+    }
+    .menu-text span {
+      font-weight: var(--bold);
     }
   }
   .menu-icon {
     min-width: 40px;
     margin-right: 2px;
+    & svg {
+      fill: var(--shade60);
+    }
+  }
+  .menu-text span {
+    font-size: var(--text-xl);
+    font-weight: var(--light);
   }
   .nested-menu {
     padding-left: calc(var(--base-unit) / 2);
     background-color: var(--secondary-main-deep);
+  }
+  .with-sub-menu {
+    padding-top: 0;
+    padding-bottom: 0;
   }
 `
 

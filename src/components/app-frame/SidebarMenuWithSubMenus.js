@@ -15,10 +15,6 @@ const useStyles = makeStyles(theme => ({
   root: {
     paddingTop: 0,
     paddingBottom: 0
-  },
-  nested: {
-    paddingLeft: theme.spacing(4),
-    backgroundColor: sidebarSubMenuBackgroundColor
   }
 }))
 
@@ -30,10 +26,10 @@ const SidebarMenuWithSubMenus = props => {
     setSubMenuOpen(!subMenuOpen)
   }
   return (
-    <List className={classes.root}>
+    <List className="with-sub-menu">
       <ListItem button onClick={subMenuClick}>
         <ListItemIcon className="menu-icon">{icon}</ListItemIcon>
-        <ListItemText primary={title} />
+        <ListItemText className="menu-text" primary={title} />
         {subMenuOpen ? <ExpandLess /> : <ExpandMore />}
       </ListItem>
       <Collapse in={subMenuOpen} timeout="auto" unmountOnExit>
@@ -49,7 +45,7 @@ const SidebarMenuWithSubMenus = props => {
               >
                 <ListItem button className="nested-menu">
                   <ListItemIcon className="menu-icon">{icon}</ListItemIcon>
-                  <ListItemText primary={title} />
+                  <ListItemText className="menu-text" primary={title} />
                 </ListItem>
               </NavLink>
             )

@@ -1,15 +1,35 @@
-import React, { useState } from "react"
+import React from "react"
 import List from "@material-ui/core/List"
-import { makeStyles } from "@material-ui/core/styles"
-import InfoOutlinedIcon from "@material-ui/icons/InfoOutlined"
-import AccountTreeOutlinedIcon from "@material-ui/icons/AccountTreeOutlined"
+
 import DescriptionOutlinedIcon from "@material-ui/icons/DescriptionOutlined"
 import AccountBalanceWalletIcon from "@material-ui/icons/AccountBalanceWallet"
 import SidebarMenu from "./SidebarMenu"
 import SidebarMenuWithSubMenus from "./SidebarMenuWithSubMenus"
 import ListSubheader from "@material-ui/core/ListSubheader"
 
-import EditIcon from "@material-ui/icons/Edit"
+import Icon from "@mdi/react"
+import {
+  mdiAccount,
+  mdiViewDashboardOutline,
+  mdiInformationVariant,
+  mdiFolderInformationOutline,
+  mdiClipboardCheckOutline,
+  mdiCalendarClock,
+  mdiCurrencyUsd,
+  mdiEye,
+  mdiCalculatorVariant,
+  mdiSitemap,
+  mdiFileOutline,
+  mdiFile,
+  mdiFileChartOutline,
+  mdiFileChart,
+  mdiLockOutline,
+  mdiShieldOutline,
+  mdiShieldLockOutline,
+  mdiShieldLock,
+  mdiSettingsOutline
+} from "@mdi/js"
+
 import ViewWeekIcon from "@material-ui/icons/ViewWeek"
 import AttachMoneyIcon from "@material-ui/icons/AttachMoney"
 import PrintIcon from "@material-ui/icons/Print"
@@ -102,13 +122,13 @@ const SidebarMenuList = props => {
 const PROJECT_MENUS = [
   {
     title: "Project Dashboard",
-    icon: <DescriptionOutlinedIcon />,
+    icon: <Icon path={mdiViewDashboardOutline} size={1} />,
     url: "/project-dashboard",
     subMenus: false
   },
   {
     title: "Information",
-    icon: <DescriptionOutlinedIcon />,
+    icon: <Icon path={mdiFolderInformationOutline} size={1} />,
     url: "/information",
     subMenus: [
       {
@@ -130,29 +150,29 @@ const PROJECT_MENUS = [
   },
   {
     title: "PBC",
-    icon: <DescriptionOutlinedIcon />,
+    icon: <Icon path={mdiClipboardCheckOutline} size={1} />,
     url: "/prepared-by-client",
     subMenus: false
   },
   {
     title: "Task & Time",
-    icon: <DescriptionOutlinedIcon />,
+    icon: <Icon path={mdiCalendarClock} size={1} />,
     url: "/task-and-time",
     subMenus: false
   },
   {
     title: "Financial Statements",
-    icon: <StarsIcon />,
+    icon: <Icon path={mdiCalculatorVariant} size={1} />,
     url: "/financial-statements",
     subMenus: [
       {
         title: "Entry Set Test",
-        icon: <DescriptionOutlinedIcon />,
+        icon: <Icon path={mdiAccount} size={1} />,
         url: "/financial-statements/entryset-test"
       },
       {
         title: "Ledgers",
-        icon: <DescriptionOutlinedIcon />,
+        icon: <Icon path={mdiAccount} size={1} />,
         url: "/financial-statements/ledgers"
       },
       {
@@ -174,31 +194,31 @@ const PROJECT_MENUS = [
   },
   {
     title: "SOX",
-    icon: <StarsIcon />,
+    icon: <Icon path={mdiSitemap} size={1} />,
     url: "/sox",
     subMenus: false
   },
   {
     title: "Workpapers",
-    icon: <DescriptionOutlinedIcon />,
+    icon: <Icon path={mdiFileOutline} size={1} />,
     url: "/workpapers",
     subMenus: false
   },
   {
     title: "Permanent Files",
-    icon: <DescriptionOutlinedIcon />,
+    icon: <Icon path={mdiFile} size={1} />,
     url: "/permanent-files",
     subMenus: false
   },
   {
     title: "Report",
-    icon: <StarsIcon />,
+    icon: <Icon path={mdiFileChart} size={1} />,
     url: "/report",
     subMenus: false
   },
   {
     title: "Archive",
-    icon: <DescriptionOutlinedIcon />,
+    icon: <Icon path={mdiShieldLock} size={1} />,
     url: "/archive",
     subMenus: [
       {
@@ -220,7 +240,7 @@ const PROJECT_MENUS = [
   },
   {
     title: "Project Setup",
-    icon: <DescriptionOutlinedIcon />,
+    icon: <Icon path={mdiSettingsOutline} size={1} />,
     url: "/project-setup",
     subMenus: [
       {
@@ -240,55 +260,55 @@ const PROJECT_MENUS = [
 const ORG_MENUS = [
   {
     title: "My Page",
-    icon: <DescriptionOutlinedIcon />,
+    icon: <Icon path={mdiAccount} size={1} />,
     url: "/my-page",
     subMenus: false
   },
   {
     title: "Notification",
-    icon: <DescriptionOutlinedIcon />,
+    icon: <Icon path={mdiAccount} size={1} />,
     url: "/notification",
     subMenus: false
   },
   {
     title: "Home Dashboard",
-    icon: <DescriptionOutlinedIcon />,
+    icon: <Icon path={mdiAccount} size={1} />,
     url: "/home-dashboard",
     subMenus: false
   },
   {
     title: "Schedule and Budget",
-    icon: <DescriptionOutlinedIcon />,
+    icon: <Icon path={mdiAccount} size={1} />,
     url: "/schedule-and-budget",
     subMenus: false
   },
   {
     title: "Archive Management",
-    icon: <DescriptionOutlinedIcon />,
+    icon: <Icon path={mdiAccount} size={1} />,
     url: "/archive-management",
     subMenus: false
   },
   {
     title: "Groups",
-    icon: <DescriptionOutlinedIcon />,
+    icon: <Icon path={mdiAccount} size={1} />,
     url: "/groups",
     subMenus: false
   },
   {
     title: "Projects",
-    icon: <DescriptionOutlinedIcon />,
+    icon: <Icon path={mdiAccount} size={1} />,
     url: "/projects",
     subMenus: false
   },
   {
     title: "Library",
-    icon: <DescriptionOutlinedIcon />,
+    icon: <Icon path={mdiAccount} size={1} />,
     url: "/library",
     subMenus: false
   },
   {
     title: "Setup",
-    icon: <DescriptionOutlinedIcon />,
+    icon: <Icon path={mdiAccount} size={1} />,
     url: "/setup",
     subMenus: false
   }

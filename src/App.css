@@ -72,8 +72,10 @@ html {
   --base-unit: 48px;
 
   /* ---------- shadow standard ---------- */
-  --shadow-color: rgba(192, 203, 220, 0.6);
-  --shadow-rg-right: 2px 0px 10px 1px var(--shadow-color);
+  --shadow-color-light: rgba(192, 203, 220, 0.6);
+  --shadow-color-deep: rgba(192, 203, 220, 0.8);
+  --shadow-rg-right-light: 2px 0px 10px 1px var(--shadow-color-light);
+  --shadow-rg-right-deep: 2px 0px 10px 1px var(--shadow-color-deep);
 }
 
 body {
