@@ -16,22 +16,6 @@ const useStyles = makeStyles(theme => ({
     paddingTop: 0,
     paddingBottom: 0
   },
-  link: {
-    textDecoration: "none",
-    color: "inherit",
-    padding: "none",
-    display: "flex"
-  },
-  activeMenu: {
-    color: primaryColor,
-    "& svg": {
-      fill: primaryColor
-    }
-  },
-  menuIcon: {
-    minWidth: 40,
-    marginRight: 2
-  },
   nested: {
     paddingLeft: theme.spacing(4),
     backgroundColor: sidebarSubMenuBackgroundColor
@@ -44,12 +28,11 @@ const SidebarMenuWithSubMenus = props => {
   const classes = useStyles()
   const subMenuClick = () => {
     setSubMenuOpen(!subMenuOpen)
-    console.log("click sub menu")
   }
   return (
     <List className={classes.root}>
       <ListItem button onClick={subMenuClick}>
-        <ListItemIcon className={classes.menuIcon}>{icon}</ListItemIcon>
+        <ListItemIcon className="menu-icon">{icon}</ListItemIcon>
         <ListItemText primary={title} />
         {subMenuOpen ? <ExpandLess /> : <ExpandMore />}
       </ListItem>
@@ -60,14 +43,12 @@ const SidebarMenuWithSubMenus = props => {
             return (
               <NavLink
                 to={url}
-                className={classes.link}
-                activeClassName={classes.activeMenu}
+                className="link FR"
+                activeClassName="active-menu"
                 key={url}
               >
-                <ListItem button className={classes.nested}>
-                  <ListItemIcon className={classes.menuIcon}>
-                    {icon}
-                  </ListItemIcon>
+                <ListItem button className="nested-menu">
+                  <ListItemIcon className="menu-icon">{icon}</ListItemIcon>
                   <ListItemText primary={title} />
                 </ListItem>
               </NavLink>

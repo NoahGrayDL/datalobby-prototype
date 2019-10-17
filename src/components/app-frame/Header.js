@@ -108,7 +108,7 @@ const Header = props => {
       >
         <Toolbar className={classes.toolbar}>
           <h1 className="medium">FourStar 2019 Consolidated Closing</h1>
-          <div className={classes.search}>
+          {/* <div className={classes.search}>
             <div className={classes.searchIcon}>
               <SearchIcon />
             </div>
@@ -120,7 +120,7 @@ const Header = props => {
               }}
               inputProps={{ "aria-label": "search" }}
             />
-          </div>
+          </div> */}
           <div className={classes.grow} />
           <div className={classes.sectionDesktop}>
             <IconButton aria-label="show 4 new mails" color="inherit">

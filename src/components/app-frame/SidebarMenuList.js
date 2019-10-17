@@ -18,18 +18,7 @@ import StarsIcon from "@material-ui/icons/Stars"
 import ArrowUpwardIcon from "@material-ui/icons/ArrowUpward"
 import ArrowDownwardIcon from "@material-ui/icons/ArrowDownward"
 
-import styled from "styled-components"
 //-----*-----*-----*-----*-----*-----//
-
-const StyledViewToggle = styled.div`
-  padding: 0 16px;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  background-color: ${props => props.sidebarBackgroundColor || "#F5F7F9"};
-  border-bottom: 1px solid
-    ${props => props.sidebarSubMenuBackgroundColor || "#E8EDF2"};
-`
 
 const SidebarMenuList = props => {
   const { isOrg, handleViewChange } = props
@@ -41,16 +30,16 @@ const SidebarMenuList = props => {
           component="div"
           id="nested-list-subheader"
           onClick={handleViewChange}
-          style={{ padding: 0 }}
+          style={{ padding: 0, height: `var(--base-unit)` }}
         >
           {isOrg ? (
-            <StyledViewToggle>
+            <div className="view-changer FR JSB AC">
               Organization Menu <ArrowDownwardIcon fontSize="small" />
-            </StyledViewToggle>
+            </div>
           ) : (
-            <StyledViewToggle>
+            <div className="view-changer FR JSB AC">
               Project Menu <ArrowUpwardIcon fontSize="small" />
-            </StyledViewToggle>
+            </div>
           )}
         </ListSubheader>
       }
