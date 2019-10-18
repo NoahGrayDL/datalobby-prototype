@@ -9,13 +9,9 @@ const AccountsInCaption = props => {
       }
     >
       {caption.accountList.map(account => {
-        const { accountCode, accountTitle } = account.accountData
-        const credit = account.accountData.credit
-          ? account.accountData.credit.amount
-          : "undefined"
-        const debit = account.accountData.debit
-          ? account.accountData.debit.amount
-          : "undefined"
+        const { accountCode, accountTitle } = account
+        const credit = account.credit ? account.credit.amount : "undefined"
+        const debit = account.debit ? account.debit.amount : "undefined"
         const amount = credit + debit
         return (
           <div className="account-container">

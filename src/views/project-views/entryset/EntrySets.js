@@ -72,11 +72,6 @@ export default function EntrySets() {
             dataForEntrySet={dataForEntrySet}
             state={state}
           />
-          <EntrySet
-            globalState={state}
-            dataForEntrySet={dataForEntrySet}
-            state={state}
-          />
         </div>
       </StyledContainer>
     </PageContainer>
@@ -87,55 +82,51 @@ const glaMap = _.keyBy(glaData, "accountCode")
 const entryMap = _.keyBy(entrySetData, entry => entry.account.accountCode)
 const mergedGlaEntry = _.merge(glaMap, entryMap)
 
-const mapCaption = () => {
-  const finalData = []
-  captionList.map(caption => {
-    const captionTitle = caption.captionTitle
-    const captionId = caption.captionId
-    return caption.accountCodeList.map(account => {
-      const accountsData = mergedGlaEntry[account]
-      return finalData.push({
-        captionId: captionId,
-        captionTitle: captionTitle,
-        accountData: accountsData
-      })
-    })
-  })
-  return finalData
-}
+// const mapCaptiond = () => {
+//   const finalData = []
+//   captionList.forEach(caption => {
+//     const captionTitle = caption.captionTitle
+//     const captionId = caption.captionId
+//     caption.accountCodeList.forEach(account => {
+//       const accountsData = mergedGlaEntry[account]
+//       finalData.push({
+//         captionId: captionId,
+//         captionTitle: captionTitle,
+//         accountData: accountsData
+//       })
+//     })
+//   })
+//   return finalData
+// }
 
-const data = _.groupBy(mapCaption(), "captionId")
-const mapData = () => {
-  const result = []
-  captionList.map(caption => {
-    result.push({
-      captionTitle: caption.captionTitle,
-      captionId: caption.captionId,
-      accountList: data[caption.captionId]
-    })
-  })
-  return result
-}
-const dataForEntrySet = mapData()
-console.log("dataForEntrySet", dataForEntrySet)
+// const mapCaption = captionList.flatMap(caption =>
+//   caption.accountCodeList.map(accountCode => ({
+//     captionId: caption.captionId,
+//     captionTitle: caption.captionTitle,
+//     accountData: mergedGlaEntry[accountCode] || {}
+//   }))
 
-/**
- * Required data structure:
- * [
- *  {
- *    captionTitle: "",
- *    accountList: [
- *      {
- *        accountCode: "",
- *        accountTitle: "",
- *        debit: "",
- *        credit: "",
- *        balance: ""
- *       }
- *    ]
- *  }
- * ]
- */
+// console.log("mapCaption:", mapCaption)
+
+// const data = _.groupBy(mapCaption, "captionId")
+
+const dataForEntrySet = captionList.map(caption => ({
+  captionTitle: caption.captionTitle,
+  captionId: caption.captionId,
+  accountList: caption.accountCodeList.map(
+    accountCode =>
+      mergedGlaEntry[accountCode] || {
+        account: { accountCode: "" },
+        accountClass: "",
+        accountCode: "",
+        accountTitle: "",
+        amountUnit: { unit: 1000 },
+        credit: { amount: 0 },
+        debit: { amount: 0 },
+        entity: ""
+      }
+  )
+}))
 
 const OnOffButton = ({ targetState, title, handle }) => {
   return (
