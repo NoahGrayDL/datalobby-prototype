@@ -17,9 +17,9 @@ const Sidebar = props => {
         variant="permanent"
         className={
           open && isOrg
-            ? "drawer drawer-open org-drawer"
+            ? "drawer drawer-open org-drawer indent"
             : open
-            ? "drawer drawer-open proj-drawer"
+            ? "drawer drawer-open proj-drawer indent"
             : isOrg
             ? "drawer drawer-close org-drawer"
             : "drawer drawer-close proj-drawer"
@@ -27,9 +27,9 @@ const Sidebar = props => {
         classes={{
           paper:
             open && isOrg
-              ? "drawer drawer-open org-drawer"
+              ? "drawer drawer-open org-drawer indent"
               : open
-              ? "drawer drawer-open proj-drawer"
+              ? "drawer drawer-open proj-drawer indent"
               : isOrg
               ? "drawer drawer-close org-drawer"
               : "drawer drawer-close proj-drawer"
@@ -71,6 +71,7 @@ const StyledDrawer = styled.div`
     box-shadow: var(--shadow-rg-right-deep);
     .view-changer {
       border-bottom: 1px solid var(--primary-light-deep);
+      background-color: var(--primary-light);
     }
   }
   .proj-drawer {
@@ -79,6 +80,7 @@ const StyledDrawer = styled.div`
     box-shadow: var(--shadow-rg-right-light);
     .view-changer {
       border-bottom: 1px solid var(--secondary-main-deep);
+      background-color: var(--secondary-main);
     }
   }
   .company-title {
@@ -107,19 +109,10 @@ const StyledDrawer = styled.div`
     text-decoration: none;
     padding: nont;
   }
-  .active-menu {
-    color: var(--primary-dark);
-    background-color: var(--shade10);
-    .menu-icon svg {
-      fill: var(--primary-dark);
-    }
-    .menu-text span {
-      font-weight: var(--bold);
-    }
-  }
   .menu-icon {
-    min-width: 40px;
-    margin-right: 2px;
+    min-width: 1.5rem;
+    width: 1.5rem;
+    margin-right: 1rem;
     & svg {
       fill: var(--shade60);
     }
@@ -129,12 +122,38 @@ const StyledDrawer = styled.div`
     font-weight: var(--light);
   }
   .nested-menu {
-    padding-left: calc(var(--base-unit) / 2);
     background-color: var(--secondary-main-deep);
+    height: calc(var(--base-unit) * 0.85);
+    .menu-text span {
+      font-size: var(--text-lg);
+    }
+    .menu-icon {
+      & svg {
+        fill: var(--shade40);
+      }
+    }
   }
   .with-sub-menu {
     padding-top: 0;
     padding-bottom: 0;
+  }
+  .indent {
+    & .nested-menu {
+      padding-left: 2rem;
+    }
+  }
+  .active-menu {
+    color: var(--primary-dark);
+    background-color: var(--shade10);
+    .menu-icon svg {
+      fill: var(--primary-dark);
+    }
+    .menu-text span {
+      font-weight: var(--bold);
+    }
+    .nested-menu {
+      background-color: var(--shade10);
+    }
   }
 `
 

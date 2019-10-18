@@ -28,7 +28,21 @@ import {
   mdiFileTree,
   mdiBookOutline,
   mdiToggleSwitchOff,
-  mdiToggleSwitch
+  mdiToggleSwitch,
+  mdiInformationOutline,
+  mdiDomain,
+  mdiFormatListBulleted,
+  mdiBlockHelper,
+  mdiAlignHorizontalLeft,
+  mdiViewColumn,
+  mdiFileDocumentEditOutline,
+  mdiTableEdit,
+  mdiCheckboxMarked,
+  mdiCheckboxMarkedOutline,
+  mdiHistory,
+  mdiFileDocumentBoxCheckOutline,
+  mdiAccountMultiple,
+  mdiTrashCanOutline
 } from "@mdi/js"
 
 import ViewWeekIcon from "@material-ui/icons/ViewWeek"
@@ -134,17 +148,17 @@ const PROJECT_MENUS = [
     subMenus: [
       {
         title: "Project Information",
-        icon: <StarsIcon />,
+        icon: <Icon path={mdiInformationOutline} size={0.8} />,
         url: "/information/project-information"
       },
       {
         title: "Entity List",
-        icon: <StarsIcon />,
+        icon: <Icon path={mdiDomain} size={0.8} />,
         url: "/information/entity-list"
       },
       {
         title: "CoA List",
-        icon: <StarsIcon />,
+        icon: <Icon path={mdiFormatListBulleted} size={0.8} />,
         url: "/information/coa-list"
       }
     ]
@@ -168,27 +182,27 @@ const PROJECT_MENUS = [
     subMenus: [
       {
         title: "Entry Set Test",
-        icon: <Icon path={mdiAccount} size={1} />,
+        icon: <Icon path={mdiBlockHelper} size={0.8} />,
         url: "/financial-statements/entryset-test"
       },
       {
         title: "Ledgers",
-        icon: <Icon path={mdiAccount} size={1} />,
+        icon: <Icon path={mdiBlockHelper} size={0.8} />,
         url: "/financial-statements/ledgers"
       },
       {
         title: "Closing",
-        icon: <AccountBalanceWalletIcon />,
+        icon: <Icon path={mdiTableEdit} size={0.8} />,
         url: "/financial-statements/closing/trial-balance"
       },
       {
         title: "Lead Sheet",
-        icon: <ViewWeekIcon />,
+        icon: <Icon path={mdiViewColumn} size={0.8} />,
         url: "/financial-statements/lead-sheet"
       },
       {
         title: "FS Papers",
-        icon: <PrintIcon />,
+        icon: <Icon path={mdiFileDocumentEditOutline} size={0.8} />,
         url: "/financial-statements/fs-papers"
       }
     ]
@@ -224,17 +238,17 @@ const PROJECT_MENUS = [
     subMenus: [
       {
         title: "Archive Diagnosis",
-        icon: <ViewWeekIcon />,
+        icon: <Icon path={mdiCheckboxMarkedOutline} size={0.8} />,
         url: "/archive/archive-diagnosis"
       },
       {
         title: "Sign Off History",
-        icon: <AttachMoneyIcon />,
+        icon: <Icon path={mdiFileDocumentBoxCheckOutline} size={0.8} />,
         url: "/archive/sign-off-history"
       },
       {
         title: "Archive History",
-        icon: <PrintIcon />,
+        icon: <Icon path={mdiHistory} size={0.8} />,
         url: "/archive/archive-history"
       }
     ]
@@ -246,12 +260,12 @@ const PROJECT_MENUS = [
     subMenus: [
       {
         title: "Users",
-        icon: <AttachMoneyIcon />,
+        icon: <Icon path={mdiAccountMultiple} size={0.8} />,
         url: "/project-setup/users"
       },
       {
         title: "Trash",
-        icon: <PrintIcon />,
+        icon: <Icon path={mdiTrashCanOutline} size={0.8} />,
         url: "/project-setup/trash"
       }
     ]

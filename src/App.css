@@ -30,6 +30,7 @@ html {
   --secondary-dark: #c2c4c6;
 
   /* ---------- shade ---------- */
+  --shade05: rgba(0, 0, 0, 0.05);
   --shade10: rgba(0, 0, 0, 0.1);
   --shade20: rgba(0, 0, 0, 0.2);
   --shade40: rgba(0, 0, 0, 0.4);
