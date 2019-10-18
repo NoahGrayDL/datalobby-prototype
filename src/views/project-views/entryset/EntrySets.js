@@ -1,5 +1,5 @@
 import React, { useState } from "react"
-import { PageContainer } from "../../../components"
+import { PageContainer } from "../../../components/page-container"
 import EntrySet from "./EntrySet"
 import entrySetData from "./entryset.json"
 import glaData from "./gla.json"

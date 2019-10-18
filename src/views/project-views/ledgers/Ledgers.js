@@ -1,6 +1,6 @@
 import React, { useEffect, useState, Suspense, lazy } from "react"
 
-import { PageContainer } from "../../../components"
+import { PageContainer } from "../../../components/page-container"
 // import ReactTable from "react-table"
 import "react-table/react-table.css"
 import dataOrigin from "./captionList.json"

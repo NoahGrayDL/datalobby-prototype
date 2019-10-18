@@ -1,5 +1,5 @@
 import React, { useState, useEffect, useReducer } from "react"
-import { PageContainer } from "../../../components"
+import { PageContainer } from "../../../components/page-container"
 import { Link } from "react-router-dom"
 import InsertEntity from "./InsertEntity"
 import axios from "axios"

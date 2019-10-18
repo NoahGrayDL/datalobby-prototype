@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react"
-import { PageContainer } from "../../../components"
+import { PageContainer } from "../../../components/page-container"
 import Axios from "axios"
 
 export default function EntityDetail({ match }) {

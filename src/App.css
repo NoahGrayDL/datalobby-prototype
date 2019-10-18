@@ -21,6 +21,7 @@ html {
 
   /* ---------- primary and secondary ---------- */
   --primary-main: #758fff;
+  --primary-main-deep: #5d72cc;
   --primary-light: #abbfff;
   --primary-light-deep: #a1b4f2;
   --primary-dark: #3b62cb;

@@ -1,5 +1,5 @@
 import React, { useReducer, useEffect, useState } from "react"
-import { PageContainer } from "../../../components"
+import { PageContainer } from "../../../components/page-container"
 import InsertCoA from "./InsertCoA"
 import axios from "axios"
 import { TableForList } from "../../../components/tables"

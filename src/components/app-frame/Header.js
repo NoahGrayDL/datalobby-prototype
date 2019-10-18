@@ -15,6 +15,9 @@ import NotificationsIcon from "@material-ui/icons/Notifications"
 import MoreIcon from "@material-ui/icons/MoreVert"
 import clsx from "clsx"
 import styled from "styled-components"
+import Icon from "@mdi/react"
+import { mdiBellOutline } from "@mdi/js"
+
 //! Mobile 처리 손 봐야 함. 기본 Appbar를 수정하면서 모바일 부분이 헝클어졌을 듯
 
 const Header = props => {
@@ -123,14 +126,9 @@ const Header = props => {
           </div> */}
           <div className={classes.grow} />
           <div className={classes.sectionDesktop}>
-            <IconButton aria-label="show 4 new mails" color="inherit">
-              <Badge badgeContent={4} color="secondary">
-                <MailIcon />
-              </Badge>
-            </IconButton>
             <IconButton aria-label="show 17 new notifications" color="inherit">
               <Badge badgeContent={17} color="secondary">
-                <NotificationsIcon />
+                <Icon path={mdiBellOutline} size={0.8} />
               </Badge>
             </IconButton>
             <IconButton

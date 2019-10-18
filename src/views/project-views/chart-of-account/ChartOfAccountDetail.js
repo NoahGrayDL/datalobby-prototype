@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react"
-import { PageContainer } from "../../../components"
+import { PageContainer } from "../../../components/page-container"
 import CloudUploadIcon from "@material-ui/icons/CloudUpload"
 import useAPI from "../../../utils/useAPI"
 import styled from "styled-components"

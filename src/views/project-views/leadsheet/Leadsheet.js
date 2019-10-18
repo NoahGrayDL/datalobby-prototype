@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react"
-import { PageContainer } from "../../../components"
+import { PageContainer } from "../../../components/page-container"
 
 import { ViewControl, TableContainer } from "."
 import _ from "lodash"
