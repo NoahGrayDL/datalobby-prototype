@@ -30,6 +30,9 @@ html {
   --secondary-light: #ffffff;
   --secondary-dark: #c2c4c6;
 
+  /* ---------- primary and secondary ---------- */
+  --warning: #f17651;
+
   /* ---------- shade ---------- */
   --shade05: rgba(0, 0, 0, 0.05);
   --shade10: rgba(0, 0, 0, 0.1);

@@ -124,6 +124,7 @@ const StyledDrawer = styled.div`
   .nested-menu {
     background-color: var(--secondary-main-deep);
     height: calc(var(--base-unit) * 0.85);
+
     .menu-text span {
       font-size: var(--text-lg);
     }
